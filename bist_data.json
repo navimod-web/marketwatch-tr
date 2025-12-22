@@ -1,0 +1,2870 @@
+{
+  "generated_at": "2025-12-22T17:11:28.955568",
+  "update_time": "2025-12-22 17:11",
+  "stock_count": 44,
+  "ratio_count": 4,
+  "regime": {
+    "overall": "RISK-ON",
+    "riskScore": 1,
+    "volatility": 13.183606293954464,
+    "signals": {
+      "BREADTH": {
+        "value": "4/8 POSITIVE",
+        "score": 0,
+        "positive": 4,
+        "total": 8
+      },
+      "VOLATILITY": {
+        "value": "LOW 13.2%",
+        "score": 1,
+        "level": 13.183606293954464,
+        "change": 0
+      }
+    },
+    "breadth": {
+      "positive": 4,
+      "total": 8
+    },
+    "note": "Low volatility + moderate participation"
+  },
+  "ratios": [
+    {
+      "id": "XU100_LEVEL",
+      "name": "BIST 100 Level",
+      "category": "Market",
+      "values": {
+        "1W": 11341.9004,
+        "2W": 11341.9004,
+        "1M": 11341.9004,
+        "3M": 11341.9004,
+        "6M": 11341.9004,
+        "12M": 11341.9004
+      },
+      "changes": {
+        "1W": -1.0,
+        "2W": 1.36,
+        "1M": 3.84,
+        "3M": -0.22,
+        "6M": 21.94,
+        "12M": 16.63
+      }
+    },
+    {
+      "id": "BANK_XU100",
+      "name": "Banking / BIST 100",
+      "category": "Sector",
+      "values": {
+        "1W": 0.0125,
+        "2W": 0.0125,
+        "1M": 0.0125,
+        "3M": 0.0125,
+        "6M": 0.0125,
+        "12M": 0.0125
+      },
+      "changes": {
+        "1W": 1.44,
+        "2W": -0.78,
+        "1M": 2.67,
+        "3M": -2.53,
+        "6M": -1.98,
+        "12M": 0.68
+      }
+    },
+    {
+      "id": "INDUSTRY_XU100",
+      "name": "Industry / BIST 100",
+      "category": "Sector",
+      "values": {
+        "1W": 0.0022,
+        "2W": 0.0022,
+        "1M": 0.0022,
+        "3M": 0.0022,
+        "6M": 0.0022,
+        "12M": 0.0022
+      },
+      "changes": {
+        "1W": -0.21,
+        "2W": 0.29,
+        "1M": -1.94,
+        "3M": -21.71,
+        "6M": -20.33,
+        "12M": -15.31
+      }
+    },
+    {
+      "id": "TRANSPORT_XU100",
+      "name": "Transport / BIST 100",
+      "category": "Sector",
+      "values": {
+        "1W": 0.0244,
+        "2W": 0.0244,
+        "1M": 0.0244,
+        "3M": 0.0244,
+        "6M": 0.0244,
+        "12M": 0.0244
+      },
+      "changes": {
+        "1W": 2.11,
+        "2W": 0.47,
+        "1M": -2.2,
+        "3M": -14.24,
+        "6M": -13.4,
+        "12M": -16.02
+      }
+    }
+  ],
+  "stocks": [
+    {
+      "Symbol": "XU030.IS",
+      "Name": "BIST 30",
+      "Category": "Index",
+      "SubCategory": "Main",
+      "1W": {
+        "RETURN": 0.12,
+        "TREND": -28.34,
+        "ACCELERATION": 21.22,
+        "QUALITY": 0.145,
+        "SHARPE": 0.43,
+        "SORTINO": 0.99,
+        "STABILITY": 3.94
+      },
+      "2W": {
+        "RETURN": 3.3,
+        "TREND": 89.58,
+        "ACCELERATION": -152.85,
+        "QUALITY": 0.517,
+        "SHARPE": 5.57,
+        "SORTINO": 10,
+        "STABILITY": 10
+      },
+      "1M": {
+        "RETURN": 3.04,
+        "TREND": 70.66,
+        "ACCELERATION": 30.52,
+        "QUALITY": 0.714,
+        "SHARPE": 2.44,
+        "SORTINO": 4.81,
+        "STABILITY": 10
+      },
+      "3M": {
+        "RETURN": -3.15,
+        "TREND": 3.32,
+        "ACCELERATION": 107.84,
+        "QUALITY": 0.006,
+        "SHARPE": -0.53,
+        "SORTINO": -0.97,
+        "STABILITY": -0.89
+      },
+      "6M": {
+        "RETURN": 17.0,
+        "TREND": 9.01,
+        "ACCELERATION": -39.38,
+        "QUALITY": 0.103,
+        "SHARPE": 1.44,
+        "SORTINO": 2.8,
+        "STABILITY": 2.59
+      },
+      "12M": {
+        "RETURN": 12.25,
+        "TREND": 15.45,
+        "ACCELERATION": 26.63,
+        "QUALITY": 0.382,
+        "SHARPE": 0.57,
+        "SORTINO": 0.8,
+        "STABILITY": 0.82
+      },
+      "QuantScore": null
+    },
+    {
+      "Symbol": "XU100.IS",
+      "Name": "BIST 100",
+      "Category": "Index",
+      "SubCategory": "Main",
+      "1W": {
+        "RETURN": 0.27,
+        "TREND": -15.79,
+        "ACCELERATION": 19.66,
+        "QUALITY": 0.062,
+        "SHARPE": 1.05,
+        "SORTINO": 3.27,
+        "STABILITY": 9.71
+      },
+      "2W": {
+        "RETURN": 3.04,
+        "TREND": 82.0,
+        "ACCELERATION": -120.75,
+        "QUALITY": 0.577,
+        "SHARPE": 6.0,
+        "SORTINO": 10,
+        "STABILITY": 10
+      },
+      "1M": {
+        "RETURN": 3.3,
+        "TREND": 78.55,
+        "ACCELERATION": 31.59,
+        "QUALITY": 0.8,
+        "SHARPE": 3.04,
+        "SORTINO": 8.95,
+        "STABILITY": 10
+      },
+      "3M": {
+        "RETURN": -1.1,
+        "TREND": 10.78,
+        "ACCELERATION": 88.14,
+        "QUALITY": 0.078,
+        "SHARPE": -0.15,
+        "SORTINO": -0.29,
+        "STABILITY": -0.27
+      },
+      "6M": {
+        "RETURN": 20.03,
+        "TREND": 16.49,
+        "ACCELERATION": -40.01,
+        "QUALITY": 0.286,
+        "SHARPE": 1.78,
+        "SORTINO": 3.39,
+        "STABILITY": 3.39
+      },
+      "12M": {
+        "RETURN": 13.29,
+        "TREND": 17.19,
+        "ACCELERATION": 32.54,
+        "QUALITY": 0.462,
+        "SHARPE": 0.63,
+        "SORTINO": 0.86,
+        "STABILITY": 0.91
+      },
+      "QuantScore": null
+    },
+    {
+      "Symbol": "AKBNK.IS",
+      "Name": "Akbank",
+      "Category": "Banking & Finance",
+      "SubCategory": "Bank",
+      "1W": {
+        "RETURN": 3.24,
+        "TREND": 209.85,
+        "ACCELERATION": -118.58,
+        "QUALITY": 0.605,
+        "SHARPE": 9.73,
+        "SORTINO": 0,
+        "STABILITY": 10
+      },
+      "2W": {
+        "RETURN": 7.16,
+        "TREND": 368.15,
+        "ACCELERATION": -48.03,
+        "QUALITY": 0.88,
+        "SHARPE": 10.93,
+        "SORTINO": 10,
+        "STABILITY": 10
+      },
+      "1M": {
+        "RETURN": 15.99,
+        "TREND": 547.04,
+        "ACCELERATION": -19.11,
+        "QUALITY": 0.952,
+        "SHARPE": 7.67,
+        "SORTINO": 8.56,
+        "STABILITY": 10
+      },
+      "3M": {
+        "RETURN": 8.79,
+        "TREND": 89.72,
+        "ACCELERATION": 228.81,
+        "QUALITY": 0.409,
+        "SHARPE": 1.19,
+        "SORTINO": 1.78,
+        "STABILITY": 2.12
+      },
+      "6M": {
+        "RETURN": 17.8,
+        "TREND": -14.45,
+        "ACCELERATION": 76.91,
+        "QUALITY": 0.106,
+        "SHARPE": 1.08,
+        "SORTINO": 1.57,
+        "STABILITY": 1.63
+      },
+      "12M": {
+        "RETURN": 20.04,
+        "TREND": 5.43,
+        "ACCELERATION": 33.91,
+        "QUALITY": 0.02,
+        "SHARPE": 0.66,
+        "SORTINO": 0.88,
+        "STABILITY": 0.77
+      },
+      "QuantScore": null
+    },
+    {
+      "Symbol": "GARAN.IS",
+      "Name": "Garanti BBVA",
+      "Category": "Banking & Finance",
+      "SubCategory": "Bank",
+      "1W": {
+        "RETURN": 1.14,
+        "TREND": 115.36,
+        "ACCELERATION": 223.72,
+        "QUALITY": 0.315,
+        "SHARPE": 2.51,
+        "SORTINO": 10,
+        "STABILITY": 10
+      },
+      "2W": {
+        "RETURN": 0.35,
+        "TREND": 23.52,
+        "ACCELERATION": 186.22,
+        "QUALITY": 0.098,
+        "SHARPE": 0.59,
+        "SORTINO": 1.56,
+        "STABILITY": 7.22
+      },
+      "1M": {
+        "RETURN": 4.8,
+        "TREND": 68.58,
+        "ACCELERATION": -108.22,
+        "QUALITY": 0.487,
+        "SHARPE": 2.5,
+        "SORTINO": 4.1,
+        "STABILITY": 10
+      },
+      "3M": {
+        "RETURN": -3.07,
+        "TREND": 23.86,
+        "ACCELERATION": 164.18,
+        "QUALITY": 0.092,
+        "SHARPE": -0.22,
+        "SORTINO": -0.35,
+        "STABILITY": -0.38
+      },
+      "6M": {
+        "RETURN": 18.73,
+        "TREND": -8.03,
+        "ACCELERATION": -14.27,
+        "QUALITY": 0.047,
+        "SHARPE": 1.12,
+        "SORTINO": 2.1,
+        "STABILITY": 1.84
+      },
+      "12M": {
+        "RETURN": 18.08,
+        "TREND": 19.47,
+        "ACCELERATION": 26.88,
+        "QUALITY": 0.236,
+        "SHARPE": 0.62,
+        "SORTINO": 0.99,
+        "STABILITY": 0.86
+      },
+      "QuantScore": null
+    },
+    {
+      "Symbol": "ISCTR.IS",
+      "Name": "Is Bank",
+      "Category": "Banking & Finance",
+      "SubCategory": "Bank",
+      "1W": {
+        "RETURN": 0.79,
+        "TREND": 28.79,
+        "ACCELERATION": 99.31,
+        "QUALITY": 0.149,
+        "SHARPE": 3.05,
+        "SORTINO": 0,
+        "STABILITY": 10
+      },
+      "2W": {
+        "RETURN": -0.36,
+        "TREND": -32.72,
+        "ACCELERATION": 120.5,
+        "QUALITY": 0.279,
+        "SHARPE": -0.47,
+        "SORTINO": -1.08,
+        "STABILITY": -2.46
+      },
+      "1M": {
+        "RETURN": 9.36,
+        "TREND": 207.34,
+        "ACCELERATION": -284.79,
+        "QUALITY": 0.648,
+        "SHARPE": 5.03,
+        "SORTINO": 10,
+        "STABILITY": 10
+      },
+      "3M": {
+        "RETURN": -5.59,
+        "TREND": 24.05,
+        "ACCELERATION": 247.59,
+        "QUALITY": 0.054,
+        "SHARPE": -0.44,
+        "SORTINO": -0.71,
+        "STABILITY": -0.7
+      },
+      "6M": {
+        "RETURN": 19.93,
+        "TREND": -19.8,
+        "ACCELERATION": -6.22,
+        "QUALITY": 0.166,
+        "SHARPE": 1.12,
+        "SORTINO": 1.86,
+        "STABILITY": 1.67
+      },
+      "12M": {
+        "RETURN": 8.27,
+        "TREND": 0.5,
+        "ACCELERATION": 44.12,
+        "QUALITY": 0.0,
+        "SHARPE": 0.4,
+        "SORTINO": 0.55,
+        "STABILITY": 0.42
+      },
+      "QuantScore": null
+    },
+    {
+      "Symbol": "YKBNK.IS",
+      "Name": "Yapi Kredi",
+      "Category": "Banking & Finance",
+      "SubCategory": "Bank",
+      "1W": {
+        "RETURN": 1.21,
+        "TREND": 57.03,
+        "ACCELERATION": 47.92,
+        "QUALITY": 0.171,
+        "SHARPE": 2.8,
+        "SORTINO": 10,
+        "STABILITY": 10
+      },
+      "2W": {
+        "RETURN": 2.73,
+        "TREND": 78.5,
+        "ACCELERATION": 105.03,
+        "QUALITY": 0.375,
+        "SHARPE": 3.13,
+        "SORTINO": 9.76,
+        "STABILITY": 10
+      },
+      "1M": {
+        "RETURN": 7.41,
+        "TREND": 151.97,
+        "ACCELERATION": -125.13,
+        "QUALITY": 0.659,
+        "SHARPE": 2.82,
+        "SORTINO": 3.95,
+        "STABILITY": 10
+      },
+      "3M": {
+        "RETURN": 5.32,
+        "TREND": 81.6,
+        "ACCELERATION": 168.92,
+        "QUALITY": 0.363,
+        "SHARPE": 0.74,
+        "SORTINO": 1.22,
+        "STABILITY": 1.35
+      },
+      "6M": {
+        "RETURN": 31.57,
+        "TREND": 17.66,
+        "ACCELERATION": 45.93,
+        "QUALITY": 0.141,
+        "SHARPE": 1.59,
+        "SORTINO": 2.62,
+        "STABILITY": 2.99
+      },
+      "12M": {
+        "RETURN": 27.03,
+        "TREND": 24.35,
+        "ACCELERATION": 66.58,
+        "QUALITY": 0.244,
+        "SHARPE": 0.78,
+        "SORTINO": 1.13,
+        "STABILITY": 0.94
+      },
+      "QuantScore": 34.9
+    },
+    {
+      "Symbol": "HALKB.IS",
+      "Name": "Halkbank",
+      "Category": "Banking & Finance",
+      "SubCategory": "Bank",
+      "1W": {
+        "RETURN": -1.76,
+        "TREND": -60.62,
+        "ACCELERATION": 694.93,
+        "QUALITY": 0.157,
+        "SHARPE": -2.16,
+        "SORTINO": -1.67,
+        "STABILITY": -10
+      },
+      "2W": {
+        "RETURN": -6.05,
+        "TREND": -82.88,
+        "ACCELERATION": 185.47,
+        "QUALITY": 0.747,
+        "SHARPE": -5.14,
+        "SORTINO": -6.04,
+        "STABILITY": -10
+      },
+      "1M": {
+        "RETURN": 21.26,
+        "TREND": 427.42,
+        "ACCELERATION": -1099.91,
+        "QUALITY": 0.214,
+        "SHARPE": 4.03,
+        "SORTINO": 8.0,
+        "STABILITY": 10
+      },
+      "3M": {
+        "RETURN": 25.62,
+        "TREND": 361.56,
+        "ACCELERATION": 361.36,
+        "QUALITY": 0.607,
+        "SHARPE": 1.84,
+        "SORTINO": 2.8,
+        "STABILITY": 6.83
+      },
+      "6M": {
+        "RETURN": 51.4,
+        "TREND": 74.43,
+        "ACCELERATION": 147.03,
+        "QUALITY": 0.427,
+        "SHARPE": 1.88,
+        "SORTINO": 3.03,
+        "STABILITY": 5.19
+      },
+      "12M": {
+        "RETURN": 115.58,
+        "TREND": 93.37,
+        "ACCELERATION": 13.53,
+        "QUALITY": 0.843,
+        "SHARPE": 1.85,
+        "SORTINO": 2.81,
+        "STABILITY": 4.77
+      },
+      "QuantScore": 23.3
+    },
+    {
+      "Symbol": "VAKBN.IS",
+      "Name": "Vakifbank",
+      "Category": "Banking & Finance",
+      "SubCategory": "Bank",
+      "1W": {
+        "RETURN": 5.0,
+        "TREND": 1628.16,
+        "ACCELERATION": 332.2,
+        "QUALITY": 0.826,
+        "SHARPE": 9.91,
+        "SORTINO": 10,
+        "STABILITY": 10
+      },
+      "2W": {
+        "RETURN": -0.84,
+        "TREND": -41.27,
+        "ACCELERATION": 583.22,
+        "QUALITY": 0.085,
+        "SHARPE": -0.61,
+        "SORTINO": -0.98,
+        "STABILITY": -2.96
+      },
+      "1M": {
+        "RETURN": 16.22,
+        "TREND": 298.2,
+        "ACCELERATION": -558.34,
+        "QUALITY": 0.413,
+        "SHARPE": 5.82,
+        "SORTINO": 10,
+        "STABILITY": 10
+      },
+      "3M": {
+        "RETURN": 11.98,
+        "TREND": 159.58,
+        "ACCELERATION": 268.0,
+        "QUALITY": 0.496,
+        "SHARPE": 1.43,
+        "SORTINO": 2.38,
+        "STABILITY": 2.66
+      },
+      "6M": {
+        "RETURN": 21.28,
+        "TREND": -2.94,
+        "ACCELERATION": 84.6,
+        "QUALITY": 0.003,
+        "SHARPE": 1.22,
+        "SORTINO": 1.99,
+        "STABILITY": 1.75
+      },
+      "12M": {
+        "RETURN": 36.88,
+        "TREND": 15.35,
+        "ACCELERATION": 18.36,
+        "QUALITY": 0.175,
+        "SHARPE": 1.02,
+        "SORTINO": 1.51,
+        "STABILITY": 1.32
+      },
+      "QuantScore": 18.9
+    },
+    {
+      "Symbol": "TSKB.IS",
+      "Name": "TSKB",
+      "Category": "Banking & Finance",
+      "SubCategory": "Development",
+      "1W": {
+        "RETURN": 0.62,
+        "TREND": 49.74,
+        "ACCELERATION": 29.37,
+        "QUALITY": 0.364,
+        "SHARPE": 2.62,
+        "SORTINO": 5.23,
+        "STABILITY": 10
+      },
+      "2W": {
+        "RETURN": 0.23,
+        "TREND": 10.99,
+        "ACCELERATION": 273.77,
+        "QUALITY": 0.012,
+        "SHARPE": 0.35,
+        "SORTINO": 0.51,
+        "STABILITY": 2.09
+      },
+      "1M": {
+        "RETURN": 4.82,
+        "TREND": 40.88,
+        "ACCELERATION": -118.51,
+        "QUALITY": 0.242,
+        "SHARPE": 2.41,
+        "SORTINO": 3.36,
+        "STABILITY": 10
+      },
+      "3M": {
+        "RETURN": -5.71,
+        "TREND": -7.88,
+        "ACCELERATION": 129.91,
+        "QUALITY": 0.021,
+        "SHARPE": -0.52,
+        "SORTINO": -0.83,
+        "STABILITY": -1.12
+      },
+      "6M": {
+        "RETURN": 15.69,
+        "TREND": -12.86,
+        "ACCELERATION": -45.54,
+        "QUALITY": 0.131,
+        "SHARPE": 0.98,
+        "SORTINO": 1.65,
+        "STABILITY": 1.78
+      },
+      "12M": {
+        "RETURN": 6.1,
+        "TREND": 8.43,
+        "ACCELERATION": 30.94,
+        "QUALITY": 0.066,
+        "SHARPE": 0.35,
+        "SORTINO": 0.48,
+        "STABILITY": 0.5
+      },
+      "QuantScore": null
+    },
+    {
+      "Symbol": "KCHOL.IS",
+      "Name": "Koc Holding",
+      "Category": "Holding & Investment",
+      "SubCategory": "Holding",
+      "1W": {
+        "RETURN": -1.2,
+        "TREND": -53.02,
+        "ACCELERATION": -137.29,
+        "QUALITY": 0.396,
+        "SHARPE": -2.93,
+        "SORTINO": -8.09,
+        "STABILITY": -10
+      },
+      "2W": {
+        "RETURN": 1.76,
+        "TREND": 82.85,
+        "ACCELERATION": -130.0,
+        "QUALITY": 0.395,
+        "SHARPE": 2.5,
+        "SORTINO": 4.99,
+        "STABILITY": 10
+      },
+      "1M": {
+        "RETURN": 1.29,
+        "TREND": 64.35,
+        "ACCELERATION": 19.55,
+        "QUALITY": 0.578,
+        "SHARPE": 0.88,
+        "SORTINO": 1.61,
+        "STABILITY": 6.35
+      },
+      "3M": {
+        "RETURN": -3.18,
+        "TREND": 12.88,
+        "ACCELERATION": 78.26,
+        "QUALITY": 0.063,
+        "SHARPE": -0.34,
+        "SORTINO": -0.57,
+        "STABILITY": -0.63
+      },
+      "6M": {
+        "RETURN": 20.26,
+        "TREND": 3.65,
+        "ACCELERATION": -47.35,
+        "QUALITY": 0.009,
+        "SHARPE": 1.29,
+        "SORTINO": 2.31,
+        "STABILITY": 2.13
+      },
+      "12M": {
+        "RETURN": -1.79,
+        "TREND": 10.25,
+        "ACCELERATION": 42.2,
+        "QUALITY": 0.121,
+        "SHARPE": 0.13,
+        "SORTINO": 0.21,
+        "STABILITY": 0.2
+      },
+      "QuantScore": 0
+    },
+    {
+      "Symbol": "SAHOL.IS",
+      "Name": "Sabanci Holding",
+      "Category": "Holding & Investment",
+      "SubCategory": "Holding",
+      "1W": {
+        "RETURN": -0.99,
+        "TREND": -37.65,
+        "ACCELERATION": -102.68,
+        "QUALITY": 0.191,
+        "SHARPE": -2.18,
+        "SORTINO": -9.57,
+        "STABILITY": -10
+      },
+      "2W": {
+        "RETURN": 1.01,
+        "TREND": 35.53,
+        "ACCELERATION": -38.42,
+        "QUALITY": 0.152,
+        "SHARPE": 1.25,
+        "SORTINO": 4.43,
+        "STABILITY": 10
+      },
+      "1M": {
+        "RETURN": 7.5,
+        "TREND": 173.66,
+        "ACCELERATION": -146.92,
+        "QUALITY": 0.757,
+        "SHARPE": 3.56,
+        "SORTINO": 5.19,
+        "STABILITY": 10
+      },
+      "3M": {
+        "RETURN": -5.85,
+        "TREND": -1.41,
+        "ACCELERATION": 213.62,
+        "QUALITY": 0.0,
+        "SHARPE": -0.65,
+        "SORTINO": -0.93,
+        "STABILITY": -1.12
+      },
+      "6M": {
+        "RETURN": 4.53,
+        "TREND": -28.53,
+        "ACCELERATION": -12.16,
+        "QUALITY": 0.416,
+        "SHARPE": 0.43,
+        "SORTINO": 0.69,
+        "STABILITY": 0.6
+      },
+      "12M": {
+        "RETURN": -6.49,
+        "TREND": -11.23,
+        "ACCELERATION": 26.04,
+        "QUALITY": 0.131,
+        "SHARPE": 0.01,
+        "SORTINO": 0.01,
+        "STABILITY": 0.01
+      },
+      "QuantScore": null
+    },
+    {
+      "Symbol": "DOHOL.IS",
+      "Name": "Dogan Holding",
+      "Category": "Holding & Investment",
+      "SubCategory": "Holding",
+      "1W": {
+        "RETURN": -0.72,
+        "TREND": -49.95,
+        "ACCELERATION": 313.12,
+        "QUALITY": 0.273,
+        "SHARPE": -1.76,
+        "SORTINO": -2.12,
+        "STABILITY": -10
+      },
+      "2W": {
+        "RETURN": 0.62,
+        "TREND": -21.19,
+        "ACCELERATION": -9.66,
+        "QUALITY": 0.102,
+        "SHARPE": 0.82,
+        "SORTINO": 1.03,
+        "STABILITY": 5.43
+      },
+      "1M": {
+        "RETURN": 1.08,
+        "TREND": 58.66,
+        "ACCELERATION": -72.94,
+        "QUALITY": 0.472,
+        "SHARPE": 0.72,
+        "SORTINO": 0.95,
+        "STABILITY": 4.58
+      },
+      "3M": {
+        "RETURN": 0.28,
+        "TREND": 2.82,
+        "ACCELERATION": 71.15,
+        "QUALITY": 0.008,
+        "SHARPE": 0.17,
+        "SORTINO": 0.27,
+        "STABILITY": 0.41
+      },
+      "6M": {
+        "RETURN": 21.28,
+        "TREND": 24.3,
+        "ACCELERATION": -81.63,
+        "QUALITY": 0.251,
+        "SHARPE": 1.51,
+        "SORTINO": 2.62,
+        "STABILITY": 2.74
+      },
+      "12M": {
+        "RETURN": 21.77,
+        "TREND": 33.93,
+        "ACCELERATION": 6.12,
+        "QUALITY": 0.67,
+        "SHARPE": 0.79,
+        "SORTINO": 1.16,
+        "STABILITY": 1.44
+      },
+      "QuantScore": 0
+    },
+    {
+      "Symbol": "ALARK.IS",
+      "Name": "Alarko Holding",
+      "Category": "Construction & REIT",
+      "SubCategory": "Contractor",
+      "1W": {
+        "RETURN": 2.93,
+        "TREND": 211.61,
+        "ACCELERATION": -148.43,
+        "QUALITY": 0.579,
+        "SHARPE": 6.73,
+        "SORTINO": 10,
+        "STABILITY": 10
+      },
+      "2W": {
+        "RETURN": 1.62,
+        "TREND": 141.78,
+        "ACCELERATION": 347.52,
+        "QUALITY": 0.371,
+        "SHARPE": 1.86,
+        "SORTINO": 2.97,
+        "STABILITY": 10
+      },
+      "1M": {
+        "RETURN": 6.77,
+        "TREND": 128.94,
+        "ACCELERATION": 72.58,
+        "QUALITY": 0.713,
+        "SHARPE": 3.76,
+        "SORTINO": 6.35,
+        "STABILITY": 10
+      },
+      "3M": {
+        "RETURN": 19.78,
+        "TREND": 176.56,
+        "ACCELERATION": 145.22,
+        "QUALITY": 0.767,
+        "SHARPE": 3.18,
+        "SORTINO": 6.8,
+        "STABILITY": 7.2
+      },
+      "6M": {
+        "RETURN": 26.68,
+        "TREND": 9.08,
+        "ACCELERATION": 113.66,
+        "QUALITY": 0.029,
+        "SHARPE": 1.73,
+        "SORTINO": 3.02,
+        "STABILITY": 2.37
+      },
+      "12M": {
+        "RETURN": 9.52,
+        "TREND": 2.06,
+        "ACCELERATION": 14.81,
+        "QUALITY": 0.006,
+        "SHARPE": 0.43,
+        "SORTINO": 0.76,
+        "STABILITY": 0.58
+      },
+      "QuantScore": 44.4
+    },
+    {
+      "Symbol": "ENKAI.IS",
+      "Name": "Enka Insaat",
+      "Category": "Construction & REIT",
+      "SubCategory": "Contractor",
+      "1W": {
+        "RETURN": -2.37,
+        "TREND": -80.84,
+        "ACCELERATION": -411.97,
+        "QUALITY": 0.644,
+        "SHARPE": -5.93,
+        "SORTINO": -8.89,
+        "STABILITY": -10
+      },
+      "2W": {
+        "RETURN": -1.88,
+        "TREND": -44.86,
+        "ACCELERATION": -174.8,
+        "QUALITY": 0.346,
+        "SHARPE": -2.52,
+        "SORTINO": -4.46,
+        "STABILITY": -10
+      },
+      "1M": {
+        "RETURN": 2.89,
+        "TREND": 63.22,
+        "ACCELERATION": -197.57,
+        "QUALITY": 0.392,
+        "SHARPE": 1.86,
+        "SORTINO": 3.92,
+        "STABILITY": 8.9
+      },
+      "3M": {
+        "RETURN": 5.67,
+        "TREND": 85.99,
+        "ACCELERATION": -6.44,
+        "QUALITY": 0.75,
+        "SHARPE": 0.92,
+        "SORTINO": 1.49,
+        "STABILITY": 2.73
+      },
+      "6M": {
+        "RETURN": 25.71,
+        "TREND": 51.49,
+        "ACCELERATION": 11.23,
+        "QUALITY": 0.754,
+        "SHARPE": 1.58,
+        "SORTINO": 2.78,
+        "STABILITY": 4.93
+      },
+      "12M": {
+        "RETURN": 56.5,
+        "TREND": 75.54,
+        "ACCELERATION": -35.98,
+        "QUALITY": 0.895,
+        "SHARPE": 1.37,
+        "SORTINO": 2.29,
+        "STABILITY": 2.67
+      },
+      "QuantScore": 24.5
+    },
+    {
+      "Symbol": "TKFEN.IS",
+      "Name": "Tekfen Holding",
+      "Category": "Construction & REIT",
+      "SubCategory": "Contractor",
+      "1W": {
+        "RETURN": 1.21,
+        "TREND": 91.52,
+        "ACCELERATION": -673.36,
+        "QUALITY": 0.074,
+        "SHARPE": 1.56,
+        "SORTINO": 0,
+        "STABILITY": 10
+      },
+      "2W": {
+        "RETURN": 3.41,
+        "TREND": 286.2,
+        "ACCELERATION": 234.57,
+        "QUALITY": 0.458,
+        "SHARPE": 2.34,
+        "SORTINO": 2.83,
+        "STABILITY": 10
+      },
+      "1M": {
+        "RETURN": -4.1,
+        "TREND": 5.03,
+        "ACCELERATION": 263.83,
+        "QUALITY": 0.002,
+        "SHARPE": -1.23,
+        "SORTINO": -1.86,
+        "STABILITY": -6.7
+      },
+      "3M": {
+        "RETURN": -23.76,
+        "TREND": -66.23,
+        "ACCELERATION": -10.82,
+        "QUALITY": 0.795,
+        "SHARPE": -2.47,
+        "SORTINO": -3.18,
+        "STABILITY": -3.49
+      },
+      "6M": {
+        "RETURN": -40.53,
+        "TREND": -67.48,
+        "ACCELERATION": -21.97,
+        "QUALITY": 0.919,
+        "SHARPE": -2.24,
+        "SORTINO": -2.99,
+        "STABILITY": -2.19
+      },
+      "12M": {
+        "RETURN": -4.1,
+        "TREND": 0.92,
+        "ACCELERATION": -296.96,
+        "QUALITY": 0.0,
+        "SHARPE": 0.19,
+        "SORTINO": 0.28,
+        "STABILITY": 0.18
+      },
+      "QuantScore": null
+    },
+    {
+      "Symbol": "EKGYO.IS",
+      "Name": "Emlak Konut REIT",
+      "Category": "Construction & REIT",
+      "SubCategory": "REIT",
+      "1W": {
+        "RETURN": -2.69,
+        "TREND": -73.71,
+        "ACCELERATION": 170.01,
+        "QUALITY": 0.671,
+        "SHARPE": -6.82,
+        "SORTINO": -10,
+        "STABILITY": -10
+      },
+      "2W": {
+        "RETURN": -3.25,
+        "TREND": -50.31,
+        "ACCELERATION": 46.48,
+        "QUALITY": 0.547,
+        "SHARPE": -4.22,
+        "SORTINO": -8.3,
+        "STABILITY": -10
+      },
+      "1M": {
+        "RETURN": 1.66,
+        "TREND": 4.16,
+        "ACCELERATION": -293.18,
+        "QUALITY": 0.002,
+        "SHARPE": 0.91,
+        "SORTINO": 1.1,
+        "STABILITY": 3.17
+      },
+      "3M": {
+        "RETURN": 2.58,
+        "TREND": 33.64,
+        "ACCELERATION": 80.88,
+        "QUALITY": 0.218,
+        "SHARPE": 0.46,
+        "SORTINO": 0.59,
+        "STABILITY": 1.27
+      },
+      "6M": {
+        "RETURN": 20.31,
+        "TREND": 18.17,
+        "ACCELERATION": -26.77,
+        "QUALITY": 0.209,
+        "SHARPE": 1.12,
+        "SORTINO": 1.55,
+        "STABILITY": 2.79
+      },
+      "12M": {
+        "RETURN": 57.64,
+        "TREND": 78.58,
+        "ACCELERATION": 17.87,
+        "QUALITY": 0.697,
+        "SHARPE": 1.24,
+        "SORTINO": 1.73,
+        "STABILITY": 1.81
+      },
+      "QuantScore": 0
+    },
+    {
+      "Symbol": "EREGL.IS",
+      "Name": "Eregli Steel",
+      "Category": "Heavy Industry",
+      "SubCategory": "Steel",
+      "1W": {
+        "RETURN": 0.0,
+        "TREND": -15.51,
+        "ACCELERATION": -40.8,
+        "QUALITY": 0.056,
+        "SHARPE": 0.07,
+        "SORTINO": 0.1,
+        "STABILITY": 0.77
+      },
+      "2W": {
+        "RETURN": 3.19,
+        "TREND": 115.36,
+        "ACCELERATION": -136.12,
+        "QUALITY": 0.661,
+        "SHARPE": 5.53,
+        "SORTINO": 8.83,
+        "STABILITY": 10
+      },
+      "1M": {
+        "RETURN": 0.49,
+        "TREND": 42.72,
+        "ACCELERATION": 116.47,
+        "QUALITY": 0.456,
+        "SHARPE": 0.54,
+        "SORTINO": 0.93,
+        "STABILITY": 4.55
+      },
+      "3M": {
+        "RETURN": -22.43,
+        "TREND": -64.87,
+        "ACCELERATION": 83.92,
+        "QUALITY": 0.783,
+        "SHARPE": -2.69,
+        "SORTINO": -3.37,
+        "STABILITY": -3.57
+      },
+      "6M": {
+        "RETURN": -3.91,
+        "TREND": -21.05,
+        "ACCELERATION": -131.98,
+        "QUALITY": 0.227,
+        "SHARPE": -0.07,
+        "SORTINO": -0.1,
+        "STABILITY": -0.08
+      },
+      "12M": {
+        "RETURN": -2.01,
+        "TREND": 21.56,
+        "ACCELERATION": -27.97,
+        "QUALITY": 0.333,
+        "SHARPE": 0.12,
+        "SORTINO": 0.16,
+        "STABILITY": 0.16
+      },
+      "QuantScore": null
+    },
+    {
+      "Symbol": "KRDMD.IS",
+      "Name": "Kardemir",
+      "Category": "Heavy Industry",
+      "SubCategory": "Steel",
+      "1W": {
+        "RETURN": 3.04,
+        "TREND": 433.89,
+        "ACCELERATION": -863.23,
+        "QUALITY": 0.362,
+        "SHARPE": 4.54,
+        "SORTINO": 10,
+        "STABILITY": 10
+      },
+      "2W": {
+        "RETURN": 8.52,
+        "TREND": 1408.63,
+        "ACCELERATION": 25.46,
+        "QUALITY": 0.857,
+        "SHARPE": 8.19,
+        "SORTINO": 10,
+        "STABILITY": 10
+      },
+      "1M": {
+        "RETURN": 9.12,
+        "TREND": 315.33,
+        "ACCELERATION": 232.12,
+        "QUALITY": 0.779,
+        "SHARPE": 4.6,
+        "SORTINO": 10,
+        "STABILITY": 10
+      },
+      "3M": {
+        "RETURN": -6.85,
+        "TREND": -26.33,
+        "ACCELERATION": 130.93,
+        "QUALITY": 0.136,
+        "SHARPE": -0.53,
+        "SORTINO": -0.72,
+        "STABILITY": -0.98
+      },
+      "6M": {
+        "RETURN": 21.43,
+        "TREND": -2.42,
+        "ACCELERATION": -90.87,
+        "QUALITY": 0.003,
+        "SHARPE": 1.17,
+        "SORTINO": 1.91,
+        "STABILITY": 1.98
+      },
+      "12M": {
+        "RETURN": -1.07,
+        "TREND": -3.34,
+        "ACCELERATION": 44.75,
+        "QUALITY": 0.012,
+        "SHARPE": 0.18,
+        "SORTINO": 0.27,
+        "STABILITY": 0.21
+      },
+      "QuantScore": 0
+    },
+    {
+      "Symbol": "FROTO.IS",
+      "Name": "Ford Otosan",
+      "Category": "Heavy Industry",
+      "SubCategory": "Automotive",
+      "1W": {
+        "RETURN": -1.6,
+        "TREND": -73.03,
+        "ACCELERATION": -313.45,
+        "QUALITY": 0.491,
+        "SHARPE": -2.92,
+        "SORTINO": -6.59,
+        "STABILITY": -10
+      },
+      "2W": {
+        "RETURN": 5.01,
+        "TREND": 524.0,
+        "ACCELERATION": -238.54,
+        "QUALITY": 0.556,
+        "SHARPE": 3.94,
+        "SORTINO": 10,
+        "STABILITY": 10
+      },
+      "1M": {
+        "RETURN": 6.45,
+        "TREND": 247.63,
+        "ACCELERATION": 115.03,
+        "QUALITY": 0.764,
+        "SHARPE": 3.02,
+        "SORTINO": 7.81,
+        "STABILITY": 10
+      },
+      "3M": {
+        "RETURN": -0.09,
+        "TREND": 5.25,
+        "ACCELERATION": 85.07,
+        "QUALITY": 0.013,
+        "SHARPE": 0.11,
+        "SORTINO": 0.25,
+        "STABILITY": 0.21
+      },
+      "6M": {
+        "RETURN": 17.06,
+        "TREND": 1.56,
+        "ACCELERATION": -83.39,
+        "QUALITY": 0.001,
+        "SHARPE": 1.2,
+        "SORTINO": 2.3,
+        "STABILITY": 1.53
+      },
+      "12M": {
+        "RETURN": 8.46,
+        "TREND": 10.24,
+        "ACCELERATION": 11.45,
+        "QUALITY": 0.151,
+        "SHARPE": 0.41,
+        "SORTINO": 0.68,
+        "STABILITY": 0.52
+      },
+      "QuantScore": null
+    },
+    {
+      "Symbol": "TOASO.IS",
+      "Name": "Tofas",
+      "Category": "Heavy Industry",
+      "SubCategory": "Automotive",
+      "1W": {
+        "RETURN": 1.62,
+        "TREND": 111.2,
+        "ACCELERATION": -485.53,
+        "QUALITY": 0.284,
+        "SHARPE": 5.0,
+        "SORTINO": 10,
+        "STABILITY": 10
+      },
+      "2W": {
+        "RETURN": 4.45,
+        "TREND": 234.95,
+        "ACCELERATION": 159.96,
+        "QUALITY": 0.516,
+        "SHARPE": 3.57,
+        "SORTINO": 6.79,
+        "STABILITY": 10
+      },
+      "1M": {
+        "RETURN": 5.58,
+        "TREND": 151.85,
+        "ACCELERATION": 90.19,
+        "QUALITY": 0.754,
+        "SHARPE": 2.76,
+        "SORTINO": 5.04,
+        "STABILITY": 10
+      },
+      "3M": {
+        "RETURN": -6.73,
+        "TREND": -46.84,
+        "ACCELERATION": 62.94,
+        "QUALITY": 0.522,
+        "SHARPE": -0.57,
+        "SORTINO": -0.72,
+        "STABILITY": -1.05
+      },
+      "6M": {
+        "RETURN": 32.05,
+        "TREND": 36.1,
+        "ACCELERATION": -172.36,
+        "QUALITY": 0.257,
+        "SHARPE": 1.65,
+        "SORTINO": 2.57,
+        "STABILITY": 3.14
+      },
+      "12M": {
+        "RETURN": 41.93,
+        "TREND": 45.85,
+        "ACCELERATION": 38.46,
+        "QUALITY": 0.582,
+        "SHARPE": 1.03,
+        "SORTINO": 1.68,
+        "STABILITY": 1.49
+      },
+      "QuantScore": 18.1
+    },
+    {
+      "Symbol": "ARCLK.IS",
+      "Name": "Arcelik",
+      "Category": "Heavy Industry",
+      "SubCategory": "Appliances",
+      "1W": {
+        "RETURN": -1.46,
+        "TREND": -55.44,
+        "ACCELERATION": 174.14,
+        "QUALITY": 0.549,
+        "SHARPE": -4.97,
+        "SORTINO": -6.55,
+        "STABILITY": -10
+      },
+      "2W": {
+        "RETURN": 1.89,
+        "TREND": 39.91,
+        "ACCELERATION": -172.82,
+        "QUALITY": 0.177,
+        "SHARPE": 2.48,
+        "SORTINO": 4.98,
+        "STABILITY": 10
+      },
+      "1M": {
+        "RETURN": 0.75,
+        "TREND": 26.29,
+        "ACCELERATION": 39.39,
+        "QUALITY": 0.216,
+        "SHARPE": 0.52,
+        "SORTINO": 1.06,
+        "STABILITY": 2.58
+      },
+      "3M": {
+        "RETURN": -20.34,
+        "TREND": -44.98,
+        "ACCELERATION": 174.98,
+        "QUALITY": 0.476,
+        "SHARPE": -3.45,
+        "SORTINO": -5.95,
+        "STABILITY": -3.89
+      },
+      "6M": {
+        "RETURN": -8.11,
+        "TREND": -41.1,
+        "ACCELERATION": -96.25,
+        "QUALITY": 0.553,
+        "SHARPE": -0.39,
+        "SORTINO": -0.73,
+        "STABILITY": -0.42
+      },
+      "12M": {
+        "RETURN": -24.53,
+        "TREND": -18.65,
+        "ACCELERATION": -4.12,
+        "QUALITY": 0.339,
+        "SHARPE": -0.68,
+        "SORTINO": -1.16,
+        "STABILITY": -0.73
+      },
+      "QuantScore": null
+    },
+    {
+      "Symbol": "VESTL.IS",
+      "Name": "Vestel",
+      "Category": "Heavy Industry",
+      "SubCategory": "Electronics",
+      "1W": {
+        "RETURN": -5.02,
+        "TREND": -85.82,
+        "ACCELERATION": 829.02,
+        "QUALITY": 0.404,
+        "SHARPE": -6.96,
+        "SORTINO": -5.22,
+        "STABILITY": -10
+      },
+      "2W": {
+        "RETURN": -4.5,
+        "TREND": -87.24,
+        "ACCELERATION": -164.77,
+        "QUALITY": 0.736,
+        "SHARPE": -3.59,
+        "SORTINO": -3.22,
+        "STABILITY": -10
+      },
+      "1M": {
+        "RETURN": 0.98,
+        "TREND": -45.85,
+        "ACCELERATION": -230.76,
+        "QUALITY": 0.185,
+        "SHARPE": 0.47,
+        "SORTINO": 0.75,
+        "STABILITY": 1.87
+      },
+      "3M": {
+        "RETURN": -21.04,
+        "TREND": -43.31,
+        "ACCELERATION": 128.38,
+        "QUALITY": 0.423,
+        "SHARPE": -2.4,
+        "SORTINO": -3.69,
+        "STABILITY": -3.59
+      },
+      "6M": {
+        "RETURN": -5.78,
+        "TREND": -34.72,
+        "ACCELERATION": -106.53,
+        "QUALITY": 0.458,
+        "SHARPE": -0.15,
+        "SORTINO": -0.25,
+        "STABILITY": -0.18
+      },
+      "12M": {
+        "RETURN": -53.87,
+        "TREND": -54.76,
+        "ACCELERATION": 119.44,
+        "QUALITY": 0.806,
+        "SHARPE": -1.79,
+        "SORTINO": -2.5,
+        "STABILITY": -1.19
+      },
+      "QuantScore": null
+    },
+    {
+      "Symbol": "ASELS.IS",
+      "Name": "Aselsan",
+      "Category": "Heavy Industry",
+      "SubCategory": "Defense",
+      "1W": {
+        "RETURN": 3.48,
+        "TREND": 14.04,
+        "ACCELERATION": 294.57,
+        "QUALITY": 0.002,
+        "SHARPE": 3.47,
+        "SORTINO": 6.32,
+        "STABILITY": 10
+      },
+      "2W": {
+        "RETURN": 12.17,
+        "TREND": 589.89,
+        "ACCELERATION": -568.05,
+        "QUALITY": 0.504,
+        "SHARPE": 7.06,
+        "SORTINO": 10,
+        "STABILITY": 10
+      },
+      "1M": {
+        "RETURN": 14.38,
+        "TREND": 595.61,
+        "ACCELERATION": 152.81,
+        "QUALITY": 0.813,
+        "SHARPE": 5.03,
+        "SORTINO": 8.73,
+        "STABILITY": 10
+      },
+      "3M": {
+        "RETURN": 0.08,
+        "TREND": -39.39,
+        "ACCELERATION": 185.93,
+        "QUALITY": 0.322,
+        "SHARPE": 0.18,
+        "SORTINO": 0.33,
+        "STABILITY": 0.32
+      },
+      "6M": {
+        "RETURN": 42.43,
+        "TREND": 63.19,
+        "ACCELERATION": -146.47,
+        "QUALITY": 0.445,
+        "SHARPE": 2.04,
+        "SORTINO": 4.1,
+        "STABILITY": 3.96
+      },
+      "12M": {
+        "RETURN": 202.39,
+        "TREND": 200.04,
+        "ACCELERATION": -111.31,
+        "QUALITY": 0.891,
+        "SHARPE": 2.83,
+        "SORTINO": 5.01,
+        "STABILITY": 6.08
+      },
+      "QuantScore": 42.8
+    },
+    {
+      "Symbol": "TUPRS.IS",
+      "Name": "Tupras",
+      "Category": "Energy & Chemicals",
+      "SubCategory": "Refinery",
+      "1W": {
+        "RETURN": -6.58,
+        "TREND": -95.31,
+        "ACCELERATION": 398.16,
+        "QUALITY": 0.759,
+        "SHARPE": -10.06,
+        "SORTINO": -10,
+        "STABILITY": -10
+      },
+      "2W": {
+        "RETURN": -6.58,
+        "TREND": -84.43,
+        "ACCELERATION": -286.91,
+        "QUALITY": 0.779,
+        "SHARPE": -6.54,
+        "SORTINO": -7.01,
+        "STABILITY": -10
+      },
+      "1M": {
+        "RETURN": -9.95,
+        "TREND": -41.52,
+        "ACCELERATION": -152.58,
+        "QUALITY": 0.301,
+        "SHARPE": -4.82,
+        "SORTINO": -5.92,
+        "STABILITY": -10
+      },
+      "3M": {
+        "RETURN": -1.86,
+        "TREND": 37.84,
+        "ACCELERATION": -63.44,
+        "QUALITY": 0.291,
+        "SHARPE": -0.09,
+        "SORTINO": -0.12,
+        "STABILITY": -0.27
+      },
+      "6M": {
+        "RETURN": 42.84,
+        "TREND": 112.09,
+        "ACCELERATION": -70.88,
+        "QUALITY": 0.845,
+        "SHARPE": 2.51,
+        "SORTINO": 3.88,
+        "STABILITY": 7.16
+      },
+      "12M": {
+        "RETURN": 40.64,
+        "TREND": 75.77,
+        "ACCELERATION": 82.6,
+        "QUALITY": 0.79,
+        "SHARPE": 1.23,
+        "SORTINO": 1.96,
+        "STABILITY": 2.21
+      },
+      "QuantScore": null
+    },
+    {
+      "Symbol": "PETKM.IS",
+      "Name": "Petkim",
+      "Category": "Energy & Chemicals",
+      "SubCategory": "Petrochemical",
+      "1W": {
+        "RETURN": -2.99,
+        "TREND": -80.4,
+        "ACCELERATION": 181.76,
+        "QUALITY": 0.813,
+        "SHARPE": -9.3,
+        "SORTINO": -8.32,
+        "STABILITY": -10
+      },
+      "2W": {
+        "RETURN": -1.81,
+        "TREND": -53.36,
+        "ACCELERATION": -159.08,
+        "QUALITY": 0.532,
+        "SHARPE": -2.08,
+        "SORTINO": -3.4,
+        "STABILITY": -10
+      },
+      "1M": {
+        "RETURN": -1.75,
+        "TREND": 5.79,
+        "ACCELERATION": -128.72,
+        "QUALITY": 0.011,
+        "SHARPE": -0.95,
+        "SORTINO": -1.59,
+        "STABILITY": -4.05
+      },
+      "3M": {
+        "RETURN": -8.96,
+        "TREND": -36.84,
+        "ACCELERATION": 118.01,
+        "QUALITY": 0.396,
+        "SHARPE": -0.8,
+        "SORTINO": -0.84,
+        "STABILITY": -1.39
+      },
+      "6M": {
+        "RETURN": 1.87,
+        "TREND": -7.53,
+        "ACCELERATION": -86.98,
+        "QUALITY": 0.036,
+        "SHARPE": 0.28,
+        "SORTINO": 0.34,
+        "STABILITY": 0.41
+      },
+      "12M": {
+        "RETURN": -8.77,
+        "TREND": 2.55,
+        "ACCELERATION": 11.62,
+        "QUALITY": 0.016,
+        "SHARPE": -0.11,
+        "SORTINO": -0.14,
+        "STABILITY": -0.15
+      },
+      "QuantScore": null
+    },
+    {
+      "Symbol": "SASA.IS",
+      "Name": "Sasa Polyester",
+      "Category": "Energy & Chemicals",
+      "SubCategory": "Chemical",
+      "1W": {
+        "RETURN": -0.7,
+        "TREND": -63.33,
+        "ACCELERATION": -43.83,
+        "QUALITY": 0.465,
+        "SHARPE": -1.61,
+        "SORTINO": -6.31,
+        "STABILITY": -10
+      },
+      "2W": {
+        "RETURN": -1.04,
+        "TREND": -45.8,
+        "ACCELERATION": -65.84,
+        "QUALITY": 0.482,
+        "SHARPE": -1.23,
+        "SORTINO": -4.64,
+        "STABILITY": -6.57
+      },
+      "1M": {
+        "RETURN": -5.63,
+        "TREND": -54.74,
+        "ACCELERATION": 67.51,
+        "QUALITY": 0.646,
+        "SHARPE": -2.42,
+        "SORTINO": -3.47,
+        "STABILITY": -7.09
+      },
+      "3M": {
+        "RETURN": -28.93,
+        "TREND": -60.99,
+        "ACCELERATION": 188.94,
+        "QUALITY": 0.607,
+        "SHARPE": -4.1,
+        "SORTINO": -6.0,
+        "STABILITY": -4.3
+      },
+      "6M": {
+        "RETURN": -1.04,
+        "TREND": -30.29,
+        "ACCELERATION": -276.52,
+        "QUALITY": 0.116,
+        "SHARPE": 0.22,
+        "SORTINO": 0.4,
+        "STABILITY": 0.25
+      },
+      "12M": {
+        "RETURN": -30.83,
+        "TREND": -21.05,
+        "ACCELERATION": -2.88,
+        "QUALITY": 0.249,
+        "SHARPE": -0.56,
+        "SORTINO": -0.92,
+        "STABILITY": -0.57
+      },
+      "QuantScore": null
+    },
+    {
+      "Symbol": "HEKTS.IS",
+      "Name": "Hektas",
+      "Category": "Energy & Chemicals",
+      "SubCategory": "Agro Chemical",
+      "1W": {
+        "RETURN": -2.19,
+        "TREND": -74.54,
+        "ACCELERATION": 119.05,
+        "QUALITY": 0.812,
+        "SHARPE": -8.84,
+        "SORTINO": -10,
+        "STABILITY": -10
+      },
+      "2W": {
+        "RETURN": -2.5,
+        "TREND": -62.98,
+        "ACCELERATION": -50.69,
+        "QUALITY": 0.755,
+        "SHARPE": -3.64,
+        "SORTINO": -9.99,
+        "STABILITY": -10
+      },
+      "1M": {
+        "RETURN": -5.17,
+        "TREND": -33.49,
+        "ACCELERATION": -35.66,
+        "QUALITY": 0.432,
+        "SHARPE": -3.06,
+        "SORTINO": -6.84,
+        "STABILITY": -10
+      },
+      "3M": {
+        "RETURN": -23.15,
+        "TREND": -48.63,
+        "ACCELERATION": 8.19,
+        "QUALITY": 0.538,
+        "SHARPE": -2.7,
+        "SORTINO": -5.83,
+        "STABILITY": -4.33
+      },
+      "6M": {
+        "RETURN": 5.41,
+        "TREND": -30.74,
+        "ACCELERATION": -190.56,
+        "QUALITY": 0.174,
+        "SHARPE": 0.45,
+        "SORTINO": 0.96,
+        "STABILITY": 0.56
+      },
+      "12M": {
+        "RETURN": -21.01,
+        "TREND": -1.6,
+        "ACCELERATION": 23.58,
+        "QUALITY": 0.002,
+        "SHARPE": -0.35,
+        "SORTINO": -0.6,
+        "STABILITY": -0.4
+      },
+      "QuantScore": null
+    },
+    {
+      "Symbol": "GUBRF.IS",
+      "Name": "Gubre Fabrikalari",
+      "Category": "Energy & Chemicals",
+      "SubCategory": "Fertilizer",
+      "1W": {
+        "RETURN": -3.61,
+        "TREND": -91.56,
+        "ACCELERATION": 355.07,
+        "QUALITY": 0.594,
+        "SHARPE": -4.43,
+        "SORTINO": -4.96,
+        "STABILITY": -10
+      },
+      "2W": {
+        "RETURN": 3.65,
+        "TREND": 74.99,
+        "ACCELERATION": -492.55,
+        "QUALITY": 0.101,
+        "SHARPE": 2.65,
+        "SORTINO": 3.02,
+        "STABILITY": 10
+      },
+      "1M": {
+        "RETURN": -3.11,
+        "TREND": 30.77,
+        "ACCELERATION": 336.32,
+        "QUALITY": 0.038,
+        "SHARPE": -0.88,
+        "SORTINO": -1.49,
+        "STABILITY": -3.62
+      },
+      "3M": {
+        "RETURN": 8.37,
+        "TREND": 90.11,
+        "ACCELERATION": 13.84,
+        "QUALITY": 0.561,
+        "SHARPE": 1.0,
+        "SORTINO": 1.63,
+        "STABILITY": 2.84
+      },
+      "6M": {
+        "RETURN": 42.92,
+        "TREND": 94.99,
+        "ACCELERATION": -33.48,
+        "QUALITY": 0.836,
+        "SHARPE": 2.05,
+        "SORTINO": 3.66,
+        "STABILITY": 5.57
+      },
+      "12M": {
+        "RETURN": 15.85,
+        "TREND": 12.27,
+        "ACCELERATION": 91.18,
+        "QUALITY": 0.127,
+        "SHARPE": 0.56,
+        "SORTINO": 0.75,
+        "STABILITY": 0.77
+      },
+      "QuantScore": null
+    },
+    {
+      "Symbol": "SISE.IS",
+      "Name": "Sisecam",
+      "Category": "Energy & Chemicals",
+      "SubCategory": "Glass",
+      "1W": {
+        "RETURN": -3.1,
+        "TREND": -81.46,
+        "ACCELERATION": -79.64,
+        "QUALITY": 0.819,
+        "SHARPE": -8.49,
+        "SORTINO": -10,
+        "STABILITY": -10
+      },
+      "2W": {
+        "RETURN": 2.81,
+        "TREND": -46.35,
+        "ACCELERATION": -360.76,
+        "QUALITY": 0.082,
+        "SHARPE": 1.46,
+        "SORTINO": 6.86,
+        "STABILITY": 10
+      },
+      "1M": {
+        "RETURN": 7.42,
+        "TREND": 303.83,
+        "ACCELERATION": -141.36,
+        "QUALITY": 0.6,
+        "SHARPE": 2.25,
+        "SORTINO": 6.79,
+        "STABILITY": 10
+      },
+      "3M": {
+        "RETURN": -4.62,
+        "TREND": 39.6,
+        "ACCELERATION": 164.06,
+        "QUALITY": 0.193,
+        "SHARPE": -0.4,
+        "SORTINO": -0.67,
+        "STABILITY": -0.76
+      },
+      "6M": {
+        "RETURN": 13.91,
+        "TREND": -0.6,
+        "ACCELERATION": -13.77,
+        "QUALITY": 0.0,
+        "SHARPE": 0.94,
+        "SORTINO": 1.64,
+        "STABILITY": 1.28
+      },
+      "12M": {
+        "RETURN": -6.35,
+        "TREND": -1.58,
+        "ACCELERATION": 42.27,
+        "QUALITY": 0.005,
+        "SHARPE": -0.02,
+        "SORTINO": -0.04,
+        "STABILITY": -0.03
+      },
+      "QuantScore": null
+    },
+    {
+      "Symbol": "OYAKC.IS",
+      "Name": "Oyak Cement",
+      "Category": "Energy & Chemicals",
+      "SubCategory": "Cement",
+      "1W": {
+        "RETURN": -4.82,
+        "TREND": -93.57,
+        "ACCELERATION": -274.7,
+        "QUALITY": 0.911,
+        "SHARPE": -18.12,
+        "SORTINO": -10,
+        "STABILITY": -10
+      },
+      "2W": {
+        "RETURN": -4.52,
+        "TREND": -76.74,
+        "ACCELERATION": -255.21,
+        "QUALITY": 0.695,
+        "SHARPE": -4.42,
+        "SORTINO": -9.92,
+        "STABILITY": -10
+      },
+      "1M": {
+        "RETURN": 7.54,
+        "TREND": 310.55,
+        "ACCELERATION": -487.65,
+        "QUALITY": 0.529,
+        "SHARPE": 2.97,
+        "SORTINO": 8.88,
+        "STABILITY": 10
+      },
+      "3M": {
+        "RETURN": 12.61,
+        "TREND": 159.43,
+        "ACCELERATION": 103.55,
+        "QUALITY": 0.814,
+        "SHARPE": 1.95,
+        "SORTINO": 3.69,
+        "STABILITY": 6.59
+      },
+      "6M": {
+        "RETURN": 16.3,
+        "TREND": 4.22,
+        "ACCELERATION": 121.93,
+        "QUALITY": 0.007,
+        "SHARPE": 1.14,
+        "SORTINO": 2.0,
+        "STABILITY": 1.59
+      },
+      "12M": {
+        "RETURN": 15.43,
+        "TREND": -13.92,
+        "ACCELERATION": 25.52,
+        "QUALITY": 0.168,
+        "SHARPE": 0.57,
+        "SORTINO": 0.99,
+        "STABILITY": 0.57
+      },
+      "QuantScore": null
+    },
+    {
+      "Symbol": "TRALT.IS",
+      "Name": "Turk Altin",
+      "Category": "Energy & Chemicals",
+      "SubCategory": "Gold",
+      "1W": {
+        "RETURN": 12.59,
+        "TREND": 105457.11,
+        "ACCELERATION": 948.18,
+        "QUALITY": 0.813,
+        "SHARPE": 10.31,
+        "SORTINO": 0,
+        "STABILITY": 10
+      },
+      "2W": {
+        "RETURN": 4.25,
+        "TREND": -42.65,
+        "ACCELERATION": 705.42,
+        "QUALITY": 0.021,
+        "SHARPE": 1.64,
+        "SORTINO": 2.56,
+        "STABILITY": 10
+      },
+      "1M": {
+        "RETURN": 5.87,
+        "TREND": 96.78,
+        "ACCELERATION": 187.11,
+        "QUALITY": 0.086,
+        "SHARPE": 1.26,
+        "SORTINO": 1.85,
+        "STABILITY": 6.92
+      },
+      "QuantScore": null
+    },
+    {
+      "Symbol": "TRMET.IS",
+      "Name": "Turk Metal",
+      "Category": "Energy & Chemicals",
+      "SubCategory": "Gold",
+      "1W": {
+        "RETURN": 4.85,
+        "TREND": 688.07,
+        "ACCELERATION": 231.27,
+        "QUALITY": 0.827,
+        "SHARPE": 12.0,
+        "SORTINO": 10,
+        "STABILITY": 10
+      },
+      "2W": {
+        "RETURN": 4.59,
+        "TREND": 64.32,
+        "ACCELERATION": -59.59,
+        "QUALITY": 0.16,
+        "SHARPE": 3.6,
+        "SORTINO": 2.91,
+        "STABILITY": 10
+      },
+      "1M": {
+        "RETURN": 1.17,
+        "TREND": 44.61,
+        "ACCELERATION": 223.19,
+        "QUALITY": 0.1,
+        "SHARPE": 0.53,
+        "SORTINO": 0.55,
+        "STABILITY": 2.79
+      },
+      "QuantScore": null
+    },
+    {
+      "Symbol": "BIMAS.IS",
+      "Name": "BIM",
+      "Category": "Retail & Food",
+      "SubCategory": "Retail",
+      "1W": {
+        "RETURN": -0.38,
+        "TREND": -69.73,
+        "ACCELERATION": -247.41,
+        "QUALITY": 0.323,
+        "SHARPE": -0.47,
+        "SORTINO": -3.05,
+        "STABILITY": -3.57
+      },
+      "2W": {
+        "RETURN": 7.85,
+        "TREND": 626.13,
+        "ACCELERATION": -518.43,
+        "QUALITY": 0.581,
+        "SHARPE": 6.33,
+        "SORTINO": 10,
+        "STABILITY": 10
+      },
+      "1M": {
+        "RETURN": 0.62,
+        "TREND": 41.9,
+        "ACCELERATION": 256.33,
+        "QUALITY": 0.118,
+        "SHARPE": 0.39,
+        "SORTINO": 0.67,
+        "STABILITY": 1.85
+      },
+      "3M": {
+        "RETURN": 3.14,
+        "TREND": -0.86,
+        "ACCELERATION": -0.13,
+        "QUALITY": 0.001,
+        "SHARPE": 0.54,
+        "SORTINO": 0.9,
+        "STABILITY": 1.56
+      },
+      "6M": {
+        "RETURN": 17.35,
+        "TREND": 27.49,
+        "ACCELERATION": -25.44,
+        "QUALITY": 0.552,
+        "SHARPE": 1.17,
+        "SORTINO": 1.92,
+        "STABILITY": 3.3
+      },
+      "12M": {
+        "RETURN": 12.28,
+        "TREND": 10.92,
+        "ACCELERATION": 49.09,
+        "QUALITY": 0.189,
+        "SHARPE": 0.5,
+        "SORTINO": 0.71,
+        "STABILITY": 0.63
+      },
+      "QuantScore": null
+    },
+    {
+      "Symbol": "MGROS.IS",
+      "Name": "Migros",
+      "Category": "Retail & Food",
+      "SubCategory": "Retail",
+      "1W": {
+        "RETURN": 0.94,
+        "TREND": 14.05,
+        "ACCELERATION": -465.24,
+        "QUALITY": 0.007,
+        "SHARPE": 1.82,
+        "SORTINO": 5.0,
+        "STABILITY": 10
+      },
+      "2W": {
+        "RETURN": 5.8,
+        "TREND": 526.02,
+        "ACCELERATION": -208.46,
+        "QUALITY": 0.774,
+        "SHARPE": 6.73,
+        "SORTINO": 10,
+        "STABILITY": 10
+      },
+      "1M": {
+        "RETURN": 1.7,
+        "TREND": 49.26,
+        "ACCELERATION": 229.26,
+        "QUALITY": 0.232,
+        "SHARPE": 1.05,
+        "SORTINO": 1.58,
+        "STABILITY": 5.78
+      },
+      "3M": {
+        "RETURN": 20.7,
+        "TREND": 160.16,
+        "ACCELERATION": 69.58,
+        "QUALITY": 0.796,
+        "SHARPE": 2.78,
+        "SORTINO": 6.21,
+        "STABILITY": 8.65
+      },
+      "6M": {
+        "RETURN": 14.88,
+        "TREND": 3.74,
+        "ACCELERATION": 144.22,
+        "QUALITY": 0.005,
+        "SHARPE": 1.07,
+        "SORTINO": 1.78,
+        "STABILITY": 1.43
+      },
+      "12M": {
+        "RETURN": 8.49,
+        "TREND": -10.35,
+        "ACCELERATION": 33.61,
+        "QUALITY": 0.171,
+        "SHARPE": 0.41,
+        "SORTINO": 0.58,
+        "STABILITY": 0.48
+      },
+      "QuantScore": null
+    },
+    {
+      "Symbol": "SOKM.IS",
+      "Name": "Sok Marketler",
+      "Category": "Retail & Food",
+      "SubCategory": "Retail",
+      "1W": {
+        "RETURN": 1.98,
+        "TREND": 43.38,
+        "ACCELERATION": 73.72,
+        "QUALITY": 0.084,
+        "SHARPE": 4.52,
+        "SORTINO": 8.37,
+        "STABILITY": 10
+      },
+      "2W": {
+        "RETURN": 6.64,
+        "TREND": 257.75,
+        "ACCELERATION": -191.44,
+        "QUALITY": 0.746,
+        "SHARPE": 8.53,
+        "SORTINO": 10,
+        "STABILITY": 10
+      },
+      "1M": {
+        "RETURN": 13.25,
+        "TREND": 495.31,
+        "ACCELERATION": -24.59,
+        "QUALITY": 0.945,
+        "SHARPE": 7.83,
+        "SORTINO": 10,
+        "STABILITY": 10
+      },
+      "3M": {
+        "RETURN": 39.93,
+        "TREND": 325.83,
+        "ACCELERATION": -129.59,
+        "QUALITY": 0.882,
+        "SHARPE": 4.61,
+        "SORTINO": 9.48,
+        "STABILITY": 10
+      },
+      "6M": {
+        "RETURN": 57.16,
+        "TREND": 103.25,
+        "ACCELERATION": 106.76,
+        "QUALITY": 0.752,
+        "SHARPE": 3.15,
+        "SORTINO": 5.61,
+        "STABILITY": 6.33
+      },
+      "12M": {
+        "RETURN": 30.05,
+        "TREND": 15.34,
+        "ACCELERATION": 105.55,
+        "QUALITY": 0.165,
+        "SHARPE": 0.91,
+        "SORTINO": 1.34,
+        "STABILITY": 1.29
+      },
+      "QuantScore": 79.9
+    },
+    {
+      "Symbol": "CCOLA.IS",
+      "Name": "Coca-Cola Icecek",
+      "Category": "Retail & Food",
+      "SubCategory": "Beverage",
+      "1W": {
+        "RETURN": 0.59,
+        "TREND": 3.43,
+        "ACCELERATION": -432.34,
+        "QUALITY": 0.0,
+        "SHARPE": 1.08,
+        "SORTINO": 10,
+        "STABILITY": 10
+      },
+      "2W": {
+        "RETURN": 16.18,
+        "TREND": 6243.35,
+        "ACCELERATION": -603.26,
+        "QUALITY": 0.814,
+        "SHARPE": 10.62,
+        "SORTINO": 10,
+        "STABILITY": 10
+      },
+      "1M": {
+        "RETURN": 5.8,
+        "TREND": 323.17,
+        "ACCELERATION": 625.27,
+        "QUALITY": 0.404,
+        "SHARPE": 2.03,
+        "SORTINO": 4.46,
+        "STABILITY": 9.73
+      },
+      "3M": {
+        "RETURN": 25.26,
+        "TREND": 157.14,
+        "ACCELERATION": -70.69,
+        "QUALITY": 0.764,
+        "SHARPE": 3.19,
+        "SORTINO": 7.46,
+        "STABILITY": 10
+      },
+      "6M": {
+        "RETURN": 23.18,
+        "TREND": 24.15,
+        "ACCELERATION": 118.76,
+        "QUALITY": 0.238,
+        "SHARPE": 1.59,
+        "SORTINO": 3.16,
+        "STABILITY": 3.36
+      },
+      "12M": {
+        "RETURN": 2.03,
+        "TREND": -8.48,
+        "ACCELERATION": 57.59,
+        "QUALITY": 0.144,
+        "SHARPE": 0.23,
+        "SORTINO": 0.37,
+        "STABILITY": 0.33
+      },
+      "QuantScore": 56.7
+    },
+    {
+      "Symbol": "AEFES.IS",
+      "Name": "Anadolu Efes",
+      "Category": "Retail & Food",
+      "SubCategory": "Beverage",
+      "1W": {
+        "RETURN": 1.23,
+        "TREND": 81.74,
+        "ACCELERATION": -546.88,
+        "QUALITY": 0.142,
+        "SHARPE": 2.74,
+        "SORTINO": 3.81,
+        "STABILITY": 10
+      },
+      "2W": {
+        "RETURN": 5.29,
+        "TREND": 568.07,
+        "ACCELERATION": -51.51,
+        "QUALITY": 0.818,
+        "SHARPE": 7.17,
+        "SORTINO": 10,
+        "STABILITY": 10
+      },
+      "1M": {
+        "RETURN": 9.91,
+        "TREND": 156.27,
+        "ACCELERATION": 83.07,
+        "QUALITY": 0.586,
+        "SHARPE": 4.09,
+        "SORTINO": 8.34,
+        "STABILITY": 10
+      },
+      "3M": {
+        "RETURN": 9.26,
+        "TREND": 109.68,
+        "ACCELERATION": 107.09,
+        "QUALITY": 0.735,
+        "SHARPE": 1.29,
+        "SORTINO": 2.51,
+        "STABILITY": 4.16
+      },
+      "6M": {
+        "RETURN": 18.59,
+        "TREND": -6.78,
+        "ACCELERATION": 53.81,
+        "QUALITY": 0.02,
+        "SHARPE": 1.13,
+        "SORTINO": 1.93,
+        "STABILITY": 1.6
+      },
+      "12M": {
+        "RETURN": -25.66,
+        "TREND": -17.06,
+        "ACCELERATION": 49.2,
+        "QUALITY": 0.286,
+        "SHARPE": -0.48,
+        "SORTINO": -0.63,
+        "STABILITY": -0.47
+      },
+      "QuantScore": null
+    },
+    {
+      "Symbol": "ULKER.IS",
+      "Name": "Ulker",
+      "Category": "Retail & Food",
+      "SubCategory": "Food",
+      "1W": {
+        "RETURN": -3.89,
+        "TREND": -87.83,
+        "ACCELERATION": 341.9,
+        "QUALITY": 0.824,
+        "SHARPE": -12.54,
+        "SORTINO": -10,
+        "STABILITY": -10
+      },
+      "2W": {
+        "RETURN": -1.15,
+        "TREND": -51.2,
+        "ACCELERATION": -297.17,
+        "QUALITY": 0.275,
+        "SHARPE": -0.83,
+        "SORTINO": -2.06,
+        "STABILITY": -4.49
+      },
+      "1M": {
+        "RETURN": -2.11,
+        "TREND": 18.36,
+        "ACCELERATION": -65.27,
+        "QUALITY": 0.075,
+        "SHARPE": -1.0,
+        "SORTINO": -2.26,
+        "STABILITY": -4.12
+      },
+      "3M": {
+        "RETURN": 1.46,
+        "TREND": 50.49,
+        "ACCELERATION": 2.57,
+        "QUALITY": 0.518,
+        "SHARPE": 0.35,
+        "SORTINO": 0.74,
+        "STABILITY": 1.0
+      },
+      "6M": {
+        "RETURN": 9.87,
+        "TREND": 2.65,
+        "ACCELERATION": 33.29,
+        "QUALITY": 0.007,
+        "SHARPE": 0.78,
+        "SORTINO": 1.38,
+        "STABILITY": 1.28
+      },
+      "12M": {
+        "RETURN": 10.53,
+        "TREND": 3.09,
+        "ACCELERATION": 16.43,
+        "QUALITY": 0.026,
+        "SHARPE": 0.46,
+        "SORTINO": 0.69,
+        "STABILITY": 0.64
+      },
+      "QuantScore": null
+    },
+    {
+      "Symbol": "THYAO.IS",
+      "Name": "Turkish Airlines",
+      "Category": "Transportation",
+      "SubCategory": "Aviation",
+      "1W": {
+        "RETURN": 1.84,
+        "TREND": 100.29,
+        "ACCELERATION": 102.38,
+        "QUALITY": 0.711,
+        "SHARPE": 10.99,
+        "SORTINO": 0,
+        "STABILITY": 10
+      },
+      "2W": {
+        "RETURN": 2.59,
+        "TREND": 67.82,
+        "ACCELERATION": 99.71,
+        "QUALITY": 0.676,
+        "SHARPE": 7.01,
+        "SORTINO": 10,
+        "STABILITY": 10
+      },
+      "1M": {
+        "RETURN": 0.36,
+        "TREND": -0.4,
+        "ACCELERATION": 43.57,
+        "QUALITY": 0.0,
+        "SHARPE": 0.37,
+        "SORTINO": 0.58,
+        "STABILITY": 1.56
+      },
+      "3M": {
+        "RETURN": -14.63,
+        "TREND": -52.92,
+        "ACCELERATION": 89.95,
+        "QUALITY": 0.835,
+        "SHARPE": -2.68,
+        "SORTINO": -4.73,
+        "STABILITY": -3.28
+      },
+      "6M": {
+        "RETURN": 3.17,
+        "TREND": -15.34,
+        "ACCELERATION": -157.93,
+        "QUALITY": 0.115,
+        "SHARPE": 0.37,
+        "SORTINO": 0.75,
+        "STABILITY": 0.45
+      },
+      "12M": {
+        "RETURN": -1.97,
+        "TREND": -2.58,
+        "ACCELERATION": -0.68,
+        "QUALITY": 0.013,
+        "SHARPE": 0.09,
+        "SORTINO": 0.14,
+        "STABILITY": 0.12
+      },
+      "QuantScore": null
+    },
+    {
+      "Symbol": "PGSUS.IS",
+      "Name": "Pegasus",
+      "Category": "Transportation",
+      "SubCategory": "Aviation",
+      "1W": {
+        "RETURN": 4.44,
+        "TREND": 683.64,
+        "ACCELERATION": 150.97,
+        "QUALITY": 0.96,
+        "SHARPE": 34.44,
+        "SORTINO": 10,
+        "STABILITY": 10
+      },
+      "2W": {
+        "RETURN": 9.4,
+        "TREND": 476.27,
+        "ACCELERATION": 37.53,
+        "QUALITY": 0.891,
+        "SHARPE": 12.3,
+        "SORTINO": 10,
+        "STABILITY": 10
+      },
+      "1M": {
+        "RETURN": 3.53,
+        "TREND": 34.54,
+        "ACCELERATION": 248.61,
+        "QUALITY": 0.148,
+        "SHARPE": 2.11,
+        "SORTINO": 3.93,
+        "STABILITY": 9.16
+      },
+      "3M": {
+        "RETURN": -5.8,
+        "TREND": -28.18,
+        "ACCELERATION": 68.53,
+        "QUALITY": 0.517,
+        "SHARPE": -0.97,
+        "SORTINO": -1.64,
+        "STABILITY": -1.67
+      },
+      "6M": {
+        "RETURN": -10.71,
+        "TREND": -46.27,
+        "ACCELERATION": 13.03,
+        "QUALITY": 0.827,
+        "SHARPE": -0.69,
+        "SORTINO": -1.19,
+        "STABILITY": -0.66
+      },
+      "12M": {
+        "RETURN": -3.6,
+        "TREND": -12.23,
+        "ACCELERATION": -84.21,
+        "QUALITY": 0.173,
+        "SHARPE": 0.07,
+        "SORTINO": 0.11,
+        "STABILITY": 0.08
+      },
+      "QuantScore": null
+    },
+    {
+      "Symbol": "TAVHL.IS",
+      "Name": "TAV Airports",
+      "Category": "Transportation",
+      "SubCategory": "Airport",
+      "1W": {
+        "RETURN": -0.74,
+        "TREND": -60.9,
+        "ACCELERATION": -10.29,
+        "QUALITY": 0.296,
+        "SHARPE": -0.95,
+        "SORTINO": -1.41,
+        "STABILITY": -9.69
+      },
+      "2W": {
+        "RETURN": 6.17,
+        "TREND": 427.37,
+        "ACCELERATION": -440.67,
+        "QUALITY": 0.604,
+        "SHARPE": 5.8,
+        "SORTINO": 6.67,
+        "STABILITY": 10
+      },
+      "1M": {
+        "RETURN": 12.21,
+        "TREND": 401.96,
+        "ACCELERATION": 23.89,
+        "QUALITY": 0.89,
+        "SHARPE": 5.42,
+        "SORTINO": 8.87,
+        "STABILITY": 10
+      },
+      "3M": {
+        "RETURN": 24.64,
+        "TREND": 206.84,
+        "ACCELERATION": 30.08,
+        "QUALITY": 0.84,
+        "SHARPE": 3.02,
+        "SORTINO": 4.57,
+        "STABILITY": 10
+      },
+      "6M": {
+        "RETURN": 22.26,
+        "TREND": 17.9,
+        "ACCELERATION": 151.61,
+        "QUALITY": 0.112,
+        "SHARPE": 1.44,
+        "SORTINO": 2.25,
+        "STABILITY": 2.28
+      },
+      "12M": {
+        "RETURN": 5.61,
+        "TREND": -0.33,
+        "ACCELERATION": 67.29,
+        "QUALITY": 0.0,
+        "SHARPE": 0.33,
+        "SORTINO": 0.51,
+        "STABILITY": 0.44
+      },
+      "QuantScore": 39.1
+    },
+    {
+      "Symbol": "TCELL.IS",
+      "Name": "Turkcell",
+      "Category": "Technology & Telecom",
+      "SubCategory": "GSM",
+      "1W": {
+        "RETURN": -3.07,
+        "TREND": -83.98,
+        "ACCELERATION": 157.12,
+        "QUALITY": 0.692,
+        "SHARPE": -5.58,
+        "SORTINO": -5.71,
+        "STABILITY": -10
+      },
+      "2W": {
+        "RETURN": 3.06,
+        "TREND": 83.67,
+        "ACCELERATION": -320.05,
+        "QUALITY": 0.18,
+        "SHARPE": 2.54,
+        "SORTINO": 3.91,
+        "STABILITY": 10
+      },
+      "1M": {
+        "RETURN": 4.45,
+        "TREND": 245.93,
+        "ACCELERATION": -1.6,
+        "QUALITY": 0.766,
+        "SHARPE": 2.17,
+        "SORTINO": 3.5,
+        "STABILITY": 10
+      },
+      "3M": {
+        "RETURN": 1.97,
+        "TREND": 4.39,
+        "ACCELERATION": 68.2,
+        "QUALITY": 0.011,
+        "SHARPE": 0.4,
+        "SORTINO": 0.52,
+        "STABILITY": 1.27
+      },
+      "6M": {
+        "RETURN": 8.66,
+        "TREND": 11.78,
+        "ACCELERATION": 8.28,
+        "QUALITY": 0.203,
+        "SHARPE": 0.69,
+        "SORTINO": 1.01,
+        "STABILITY": 1.91
+      },
+      "12M": {
+        "RETURN": 10.17,
+        "TREND": 0.1,
+        "ACCELERATION": 29.89,
+        "QUALITY": 0.0,
+        "SHARPE": 0.46,
+        "SORTINO": 0.6,
+        "STABILITY": 0.75
+      },
+      "QuantScore": null
+    },
+    {
+      "Symbol": "TTKOM.IS",
+      "Name": "Turk Telekom",
+      "Category": "Technology & Telecom",
+      "SubCategory": "Telecom",
+      "1W": {
+        "RETURN": -2.07,
+        "TREND": -63.5,
+        "ACCELERATION": 454.64,
+        "QUALITY": 0.258,
+        "SHARPE": -2.92,
+        "SORTINO": -3.46,
+        "STABILITY": -10
+      },
+      "2W": {
+        "RETURN": 1.89,
+        "TREND": 28.8,
+        "ACCELERATION": -206.03,
+        "QUALITY": 0.071,
+        "SHARPE": 1.87,
+        "SORTINO": 1.74,
+        "STABILITY": 10
+      },
+      "1M": {
+        "RETURN": -0.79,
+        "TREND": 13.88,
+        "ACCELERATION": 3.97,
+        "QUALITY": 0.069,
+        "SHARPE": -0.28,
+        "SORTINO": -0.36,
+        "STABILITY": -1.74
+      },
+      "3M": {
+        "RETURN": 6.07,
+        "TREND": 76.02,
+        "ACCELERATION": 21.32,
+        "QUALITY": 0.642,
+        "SHARPE": 0.85,
+        "SORTINO": 1.58,
+        "STABILITY": 3.24
+      },
+      "6M": {
+        "RETURN": 1.61,
+        "TREND": -8.87,
+        "ACCELERATION": 102.76,
+        "QUALITY": 0.059,
+        "SHARPE": 0.26,
+        "SORTINO": 0.48,
+        "STABILITY": 0.4
+      },
+      "12M": {
+        "RETURN": 24.89,
+        "TREND": 16.3,
+        "ACCELERATION": -63.95,
+        "QUALITY": 0.283,
+        "SHARPE": 0.76,
+        "SORTINO": 1.11,
+        "STABILITY": 1.3
+      },
+      "QuantScore": null
+    },
+    {
+      "Symbol": "KONTR.IS",
+      "Name": "Kontrolmatik",
+      "Category": "Technology & Telecom",
+      "SubCategory": "Technology",
+      "1W": {
+        "RETURN": -4.25,
+        "TREND": -84.05,
+        "ACCELERATION": -471.53,
+        "QUALITY": 0.632,
+        "SHARPE": -9.26,
+        "SORTINO": -10,
+        "STABILITY": -10
+      },
+      "2W": {
+        "RETURN": -19.86,
+        "TREND": -99.38,
+        "ACCELERATION": 668.05,
+        "QUALITY": 0.859,
+        "SHARPE": -12.53,
+        "SORTINO": -10,
+        "STABILITY": -10
+      },
+      "1M": {
+        "RETURN": -53.51,
+        "TREND": -100.0,
+        "ACCELERATION": 1521.74,
+        "QUALITY": 0.778,
+        "SHARPE": -3.7,
+        "SORTINO": -3.46,
+        "STABILITY": -10
+      },
+      "3M": {
+        "RETURN": -64.99,
+        "TREND": -97.37,
+        "ACCELERATION": -682.3,
+        "QUALITY": 0.64,
+        "SHARPE": -2.86,
+        "SORTINO": -2.74,
+        "STABILITY": -4.97
+      },
+      "6M": {
+        "RETURN": -37.39,
+        "TREND": -14.41,
+        "ACCELERATION": -509.51,
+        "QUALITY": 0.008,
+        "SHARPE": -0.41,
+        "SORTINO": -0.42,
+        "STABILITY": -0.58
+      },
+      "12M": {
+        "RETURN": -69.45,
+        "TREND": -35.86,
+        "ACCELERATION": 100.93,
+        "QUALITY": 0.293,
+        "SHARPE": -1.16,
+        "SORTINO": -1.25,
+        "STABILITY": -1.26
+      },
+      "QuantScore": null
+    }
+  ],
+  "quant_rankings": {
+    "top10_stocks": [
+      {
+        "Symbol": "SOKM.IS",
+        "Name": "Sok Marketler",
+        "Category": "Retail & Food",
+        "QuantScore": 79.9
+      },
+      {
+        "Symbol": "CCOLA.IS",
+        "Name": "Coca-Cola Icecek",
+        "Category": "Retail & Food",
+        "QuantScore": 56.7
+      },
+      {
+        "Symbol": "ALARK.IS",
+        "Name": "Alarko Holding",
+        "Category": "Construction & REIT",
+        "QuantScore": 44.4
+      },
+      {
+        "Symbol": "ASELS.IS",
+        "Name": "Aselsan",
+        "Category": "Heavy Industry",
+        "QuantScore": 42.8
+      },
+      {
+        "Symbol": "TAVHL.IS",
+        "Name": "TAV Airports",
+        "Category": "Transportation",
+        "QuantScore": 39.1
+      },
+      {
+        "Symbol": "YKBNK.IS",
+        "Name": "Yapi Kredi",
+        "Category": "Banking & Finance",
+        "QuantScore": 34.9
+      },
+      {
+        "Symbol": "ENKAI.IS",
+        "Name": "Enka Insaat",
+        "Category": "Construction & REIT",
+        "QuantScore": 24.5
+      },
+      {
+        "Symbol": "HALKB.IS",
+        "Name": "Halkbank",
+        "Category": "Banking & Finance",
+        "QuantScore": 23.3
+      },
+      {
+        "Symbol": "VAKBN.IS",
+        "Name": "Vakifbank",
+        "Category": "Banking & Finance",
+        "QuantScore": 18.9
+      },
+      {
+        "Symbol": "TOASO.IS",
+        "Name": "Tofas",
+        "Category": "Heavy Industry",
+        "QuantScore": 18.1
+      }
+    ],
+    "all_sectors": [
+      {
+        "Sector": "Retail & Food",
+        "QuantScore": 66.9,
+        "StockCount": 6,
+        "Disqualified": false,
+        "Reason": null
+      },
+      {
+        "Sector": "Banking & Finance",
+        "QuantScore": 38.6,
+        "StockCount": 7,
+        "Disqualified": false,
+        "Reason": null
+      },
+      {
+        "Sector": "Transportation",
+        "QuantScore": 37.9,
+        "StockCount": 3,
+        "Disqualified": false,
+        "Reason": null
+      },
+      {
+        "Sector": "Heavy Industry",
+        "QuantScore": 26.1,
+        "StockCount": 7,
+        "Disqualified": false,
+        "Reason": null
+      },
+      {
+        "Sector": "Holding & Investment",
+        "QuantScore": 9.8,
+        "StockCount": 3,
+        "Disqualified": false,
+        "Reason": null
+      },
+      {
+        "Sector": "Construction & REIT",
+        "QuantScore": null,
+        "StockCount": 4,
+        "Disqualified": true,
+        "Reason": "2W Ret -0.0%"
+      },
+      {
+        "Sector": "Energy & Chemicals",
+        "QuantScore": null,
+        "StockCount": 9,
+        "Disqualified": true,
+        "Reason": "2W Ret -0.1%"
+      },
+      {
+        "Sector": "Technology & Telecom",
+        "QuantScore": null,
+        "StockCount": 3,
+        "Disqualified": true,
+        "Reason": "2W Ret -5.0%"
+      }
+    ]
+  }
+}
