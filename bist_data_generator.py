@@ -396,8 +396,13 @@ def calc_max_drawdown_penalty(prices, period_days):
     
     return abs(max_dd) * 100
 
-def calc_quant_score(item, sector_1m_return=None, sector_2w_return=None, overbought_penalty=0, benchmark_6m_return=None, dd_1m=0, dd_3m=0, dd_6m=0):
+def calc_quant_score(item, sector_1m_return=None, sector_2w_return=None, overbought_penalty=0, benchmark_3m_return=None, dd_1m=0, dd_3m=0, dd_6m=0):
     """Calculate Quant Score - with XU100 benchmark"""
+    
+    # Filter: 2W return < 0 → Excluded
+    ret_2w = item.get('2W', {}).get('RETURN', 0) or 0
+    if ret_2w < 0:
+        return None
     
     ret_1m = item.get('1M', {}).get('RETURN', 0) or 0
     if ret_1m < 1:
@@ -469,8 +474,8 @@ def calc_quant_score(item, sector_1m_return=None, sector_2w_return=None, overbou
     if ret_3m < 5:
         final_score -= 10
     
-    # XU100 BENCHMARK FILTER
-    if benchmark_6m_return is not None and ret_6m < benchmark_6m_return:
+    # XU100 BENCHMARK FILTER - 3M return must beat XU100
+    if benchmark_3m_return is not None and ret_3m < benchmark_3m_return:
         return None
     
     if dd_1m > 5:
@@ -612,12 +617,12 @@ def generate_data():
     # === QUANT RANKINGS ===
     print("🏆 Calculating Quant Rankings...")
     
-    # Get XU100 6M return (benchmark)
-    xu100_6m_return = None
+    # Get XU100 3M return (benchmark)
+    xu100_3m_return = None
     xu100_stock = next((s for s in stocks if s['Symbol'] == 'XU100.IS'), None)
-    if xu100_stock and '6M' in xu100_stock:
-        xu100_6m_return = xu100_stock['6M'].get('RETURN', 0)
-        print(f"📊 XU100 6M Return (benchmark): {xu100_6m_return:.2f}%")
+    if xu100_stock and '3M' in xu100_stock:
+        xu100_3m_return = xu100_stock['3M'].get('RETURN', 0)
+        print(f"📊 XU100 3M Return (benchmark): {xu100_3m_return:.2f}%")
     
     # Stock Quant Scores (Indices excluded)
     sector_avg = calc_sector_returns(stocks)
@@ -642,7 +647,7 @@ def generate_data():
             sector_1m_return=sect_data['1M'],
             sector_2w_return=sect_data['2W'],
             overbought_penalty=ob_penalty,
-            benchmark_6m_return=xu100_6m_return,
+            benchmark_3m_return=xu100_3m_return,
             dd_1m=dd_1m,
             dd_3m=dd_3m,
             dd_6m=dd_6m
