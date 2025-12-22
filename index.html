@@ -1,0 +1,1274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BIST 50 Market Barometer | Navimod</title>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+<style>
+:root{--bg:#06080d;--bg2:#0c1018;--bg3:#111827;--card:rgba(14,19,30,0.85);--cyan:#00d4ff;--purple:#7c3aed;--green:#10b981;--amber:#f59e0b;--rose:#f43f5e;--text:#f0f4f8;--text2:#cbd5e1;--muted:#64748b;--border:rgba(255,255,255,0.08)}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Plus Jakarta Sans',sans-serif;background:var(--bg);color:var(--text);min-height:100vh}
+.container{max-width:1800px;margin:0 auto;padding:20px}
+.header{display:flex;justify-content:space-between;align-items:center;margin-bottom:20px;flex-wrap:wrap;gap:16px}
+.logo{display:flex;align-items:center;gap:12px}
+.logo-icon{width:44px;height:44px;background:linear-gradient(135deg,var(--cyan),var(--purple));border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:1.2rem;color:white}
+.logo-text h1{font-size:1.4rem;background:linear-gradient(135deg,#fff,var(--cyan));-webkit-background-clip:text;-webkit-text-fill-color:transparent;display:flex;align-items:center;gap:10px}
+.logo-text span{font-size:0.75rem;color:var(--muted)}
+.live-badge{display:inline-flex;align-items:center;gap:6px;background:rgba(16,185,129,0.15);border:1px solid rgba(16,185,129,0.3);padding:4px 10px;border-radius:20px;font-size:0.65rem;font-weight:600;color:var(--green);text-transform:uppercase;letter-spacing:0.5px}
+.live-dot{width:8px;height:8px;background:var(--green);border-radius:50%;animation:pulse 1.5s ease-in-out infinite}
+@keyframes pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:0.5;transform:scale(1.2)}}
+.update-badge{font-family:'JetBrains Mono',monospace;font-size:0.7rem;color:var(--muted);background:var(--bg2);padding:6px 12px;border-radius:6px;border:1px solid var(--border)}
+.regime-bar{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:16px 20px;margin-bottom:16px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:16px}
+.regime-main{display:flex;align-items:center;gap:16px}
+.regime-icon{width:50px;height:50px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:1.4rem}
+.regime-icon.on{background:rgba(16,185,129,0.2);color:var(--green);box-shadow:0 0 20px rgba(16,185,129,0.3)}
+.regime-icon.off{background:rgba(244,63,94,0.2);color:var(--rose);box-shadow:0 0 20px rgba(244,63,94,0.3)}
+.regime-icon.neutral{background:rgba(245,158,11,0.2);color:var(--amber)}
+.regime-icon.rotation{background:rgba(59,130,246,0.2);color:var(--blue);box-shadow:0 0 20px rgba(59,130,246,0.3)}
+.regime-icon.caution{background:rgba(251,191,36,0.2);color:#fbbf24;box-shadow:0 0 20px rgba(251,191,36,0.3)}
+.regime-text h2{font-size:1.2rem;margin-bottom:2px}
+.regime-text>span{font-size:0.8rem;color:var(--muted)}
+.scores{display:flex;gap:20px}
+.score{text-align:center}
+.score-val{font-family:'JetBrains Mono',monospace;font-size:1.4rem;font-weight:700}
+.score-val.pos{color:var(--green)}.score-val.neg{color:var(--rose)}
+.score-lbl{font-size:0.65rem;color:var(--muted);text-transform:uppercase;display:flex;align-items:center;justify-content:center;gap:4px}
+.signals{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin-bottom:20px}
+.signal{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:12px;transition:all 0.2s}
+.signal:hover{border-color:rgba(0,212,255,0.3)}
+.signal-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:4px}
+.signal-name{font-size:0.65rem;color:var(--muted);text-transform:uppercase}
+.signal-val{font-family:'JetBrains Mono',monospace;font-size:0.9rem;font-weight:600;margin-bottom:4px}
+.signal-tag{font-size:0.7rem;padding:2px 6px;border-radius:4px;display:inline-block}
+.signal-tag.bull{background:rgba(16,185,129,0.15);color:var(--green)}
+.signal-tag.bear{background:rgba(244,63,94,0.15);color:var(--rose)}
+.signal-tag.neutral{background:rgba(251,191,36,0.15);color:var(--amber)}
+.signal-footer{display:flex;align-items:center;justify-content:space-between;margin-top:6px}
+.signal-cat{font-size:0.55rem;padding:2px 6px;border-radius:4px;font-weight:600;text-transform:uppercase;letter-spacing:0.5px}
+.total-score{border-left:2px solid var(--cyan);padding-left:12px;margin-left:8px}
+.info-btn{width:18px;height:18px;background:rgba(0,212,255,0.2);border:1px solid rgba(0,212,255,0.3);border-radius:50%;color:var(--cyan);font-size:0.55rem;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;transition:all 0.2s;flex-shrink:0}
+.regime-info-btn{margin-left:12px;margin-right:8px;vertical-align:middle}
+.info-btn:hover{background:var(--cyan);color:var(--bg);border-color:var(--cyan)}
+.modal-overlay{position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,0.6);z-index:9998;display:none;align-items:center;justify-content:center}
+.modal-overlay.active{display:flex}
+.modal-content{background:var(--bg);border:1px solid var(--cyan);border-radius:16px;padding:20px 24px;width:380px;max-width:90vw;box-shadow:0 20px 60px rgba(0,0,0,0.6);animation:modalIn 0.2s ease}
+.chart-modal-content{background:var(--bg);border:1px solid var(--cyan);border-radius:16px;padding:20px 24px;width:800px;max-width:95vw;box-shadow:0 20px 60px rgba(0,0,0,0.6);animation:modalIn 0.2s ease}
+.how-modal-content{background:var(--bg);border:1px solid var(--cyan);border-radius:16px;padding:24px 28px;width:700px;max-width:95vw;max-height:85vh;overflow-y:auto;box-shadow:0 20px 60px rgba(0,0,0,0.6);animation:modalIn 0.2s ease}
+.how-body{color:var(--text)}
+.how-section{margin-bottom:24px}
+.how-section h3{font-size:1rem;color:var(--cyan);margin-bottom:12px;display:flex;align-items:center;gap:8px}
+.how-card{background:var(--bg2);border:1px solid var(--border);border-radius:10px;padding:14px 16px;margin-bottom:12px}
+.how-card h4{font-size:0.9rem;color:var(--text);margin-bottom:8px;display:flex;align-items:center;gap:10px}
+.how-card p{font-size:0.8rem;color:var(--muted);margin-bottom:8px;line-height:1.5}
+.how-card ul{font-size:0.8rem;color:var(--muted);margin:0;padding-left:18px;line-height:1.7}
+.how-card li{margin-bottom:4px}
+.how-card strong{color:var(--text)}
+.how-note{font-size:0.75rem;color:var(--amber);font-style:italic;margin-top:8px;margin-bottom:0}
+.score-range{font-size:0.7rem;padding:2px 8px;border-radius:4px;background:var(--bg);color:var(--muted)}
+.score-range.pos{color:var(--green)}
+.score-range.neg{color:var(--rose)}
+.regime-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:10px}
+.regime-card{background:var(--bg2);border-radius:10px;padding:12px 14px;border-left:3px solid var(--muted)}
+.regime-card.on{border-left-color:var(--green)}
+.regime-card.off{border-left-color:var(--rose)}
+.regime-card.rotation{border-left-color:var(--blue)}
+.regime-card.caution{border-left-color:#fbbf24}
+.regime-card.neutral{border-left-color:var(--amber)}
+.regime-label{font-size:0.85rem;font-weight:700;margin-bottom:6px;display:flex;align-items:center;gap:6px}
+.regime-card.on .regime-label{color:var(--green)}
+.regime-card.off .regime-label{color:var(--rose)}
+.regime-card.rotation .regime-label{color:var(--blue)}
+.regime-card.caution .regime-label{color:#fbbf24}
+.regime-card.neutral .regime-label{color:var(--amber)}
+.regime-card p{font-size:0.75rem;color:var(--muted);margin:0;line-height:1.5}
+.disclaimer{font-size:0.8rem;color:var(--muted);background:rgba(244,63,94,0.1);border:1px solid rgba(244,63,94,0.3);border-radius:8px;padding:12px 14px;line-height:1.6}
+.header-actions{display:flex;align-items:center;gap:12px}
+.how-btn{padding:8px 14px;background:rgba(0,212,255,0.1);border:1px solid rgba(0,212,255,0.3);border-radius:8px;color:var(--cyan);font-size:0.8rem;font-weight:600;cursor:pointer;display:flex;align-items:center;gap:6px;transition:all 0.2s}
+.how-btn:hover{background:var(--cyan);color:var(--bg)}
+#tradingview-widget{height:450px;border-radius:8px;overflow:hidden}
+@keyframes modalIn{from{opacity:0;transform:scale(0.9)}to{opacity:1;transform:scale(1)}}
+.modal-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px}
+.modal-title{font-size:1rem;font-weight:700;color:var(--cyan)}
+.modal-close{width:28px;height:28px;background:rgba(255,255,255,0.1);border:none;border-radius:50%;color:var(--muted);cursor:pointer;display:flex;align-items:center;justify-content:center;font-size:0.8rem}
+.modal-close:hover{background:var(--rose);color:white}
+.modal-desc{font-size:0.85rem;color:var(--text);line-height:1.6;margin-bottom:12px}
+.modal-formula{font-size:0.8rem;color:var(--cyan);background:var(--bg2);padding:10px 12px;border-radius:8px;margin-bottom:12px;font-family:'JetBrains Mono',monospace;border-left:3px solid var(--purple)}
+.modal-example{font-size:0.8rem;color:var(--muted);background:var(--bg2);padding:10px 12px;border-radius:8px;border-left:3px solid var(--green)}
+.tabs{display:flex;gap:6px;margin-bottom:16px;background:var(--card);padding:6px;border-radius:12px;border:1px solid var(--border);flex-wrap:wrap}
+.tab{padding:8px 14px;background:transparent;border:none;color:var(--muted);font-family:inherit;font-size:0.8rem;font-weight:600;cursor:pointer;border-radius:8px;transition:all 0.15s;display:flex;align-items:center;gap:6px}
+.tab:hover{color:var(--text);background:var(--bg2)}
+.tab.active{background:linear-gradient(135deg,var(--cyan),var(--purple));color:white}
+.panel{background:var(--card);border:1px solid var(--border);border-radius:14px;overflow:hidden;display:none}
+.panel.active{display:block}
+.controls{padding:14px 18px;background:var(--bg2);border-bottom:1px solid var(--border);display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.search{flex:2;min-width:180px;position:relative}
+.search i{position:absolute;left:10px;top:50%;transform:translateY(-50%);color:var(--muted);font-size:0.8rem}
+.search input{width:100%;padding:8px 12px 8px 32px;background:var(--bg);border:1px solid var(--border);border-radius:8px;color:var(--text);font-family:inherit;font-size:0.8rem}
+.search input:focus{outline:none;border-color:var(--cyan)}
+select{min-width:120px;padding:8px 10px;background:var(--bg);border:1px solid var(--border);border-radius:8px;color:var(--text);font-family:inherit;font-size:0.8rem;cursor:pointer}
+select:focus{outline:none;border-color:var(--cyan)}
+.periods{display:flex;gap:4px;background:var(--bg);padding:3px;border-radius:6px}
+.periods button{padding:5px 10px;background:transparent;border:none;color:var(--muted);font-family:'JetBrains Mono',monospace;font-size:0.7rem;cursor:pointer;border-radius:4px;transition:all 0.15s}
+.periods button:hover{color:var(--text)}
+.periods button.active{background:rgba(0,212,255,0.15);color:var(--cyan)}
+.table-wrap{overflow-x:auto;max-height:calc(100vh - 400px);min-height:350px}
+table{width:100%;border-collapse:collapse;font-size:0.75rem}
+thead{background:rgba(6,8,13,0.95);position:sticky;top:0;z-index:5}
+th{padding:10px 12px;text-align:left;font-weight:600;color:var(--cyan);text-transform:uppercase;font-size:0.6rem;letter-spacing:0.7px;border-bottom:1px solid var(--border);white-space:nowrap;cursor:pointer;user-select:none;transition:all 0.15s}
+th:hover{color:var(--purple);background:rgba(124,58,237,0.1)}
+th.sortable{position:relative;padding-right:20px}
+th .sort-icon{position:absolute;right:6px;top:50%;transform:translateY(-50%);font-size:0.5rem;opacity:0.3}
+th.asc .sort-icon,th.desc .sort-icon{opacity:1;color:var(--cyan)}
+th .info-btn{margin-left:4px;vertical-align:middle}
+tbody tr{border-bottom:1px solid var(--border);transition:background 0.15s}
+tbody tr:hover{background:rgba(0,212,255,0.05)}
+td{padding:8px 12px;font-family:'JetBrains Mono',monospace;font-size:0.72rem}
+.sym{font-weight:700;color:var(--cyan)}
+.sym.clickable{cursor:pointer;transition:all 0.2s}
+.sym.clickable:hover{color:#fff;text-decoration:underline}
+.name{font-family:'Plus Jakarta Sans',sans-serif;color:var(--muted);max-width:160px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.pos{color:var(--green)}.neg{color:var(--rose)}
+.cat{font-size:0.6rem;padding:2px 6px;border-radius:4px;font-family:'Plus Jakarta Sans',sans-serif;font-weight:600}
+.cat.macro{background:rgba(124,58,237,0.2);color:#a78bfa}
+.cat.bonds{background:rgba(59,130,246,0.2);color:#60a5fa}
+.cat.equity{background:rgba(16,185,129,0.2);color:#34d399}
+.cat.sector{background:rgba(245,158,11,0.2);color:#fbbf24}
+.cat.industry{background:rgba(236,72,153,0.2);color:#f472b6}
+.cat.thematic{background:rgba(139,92,246,0.2);color:#a78bfa}
+.cat.comm{background:rgba(251,146,60,0.2);color:#fb923c}
+.cat.crypto{background:rgba(34,211,238,0.2);color:#22d3ee}
+.cat.technology{background:rgba(59,130,246,0.2);color:#60a5fa}
+.cat.healthcare{background:rgba(16,185,129,0.2);color:#34d399}
+.cat.financials{background:rgba(245,158,11,0.2);color:#fbbf24}
+.cat.consumerdisc{background:rgba(236,72,153,0.2);color:#f472b6}
+.cat.consumerstpl{background:rgba(139,92,246,0.2);color:#a78bfa}
+.cat.energy{background:rgba(251,146,60,0.2);color:#fb923c}
+.cat.industrials{background:rgba(124,58,237,0.2);color:#a78bfa}
+.cat.communication{background:rgba(34,211,238,0.2);color:#22d3ee}
+.cat.utilities{background:rgba(100,116,139,0.2);color:#94a3b8}
+.cat.materials{background:rgba(217,119,6,0.2);color:#fbbf24}
+.cat.realestate{background:rgba(168,85,247,0.2);color:#c084fc}
+.cat.bankingfinance{background:rgba(239,68,68,0.2);color:#f87171}
+.cat.holdinginvestment{background:rgba(168,85,247,0.2);color:#c084fc}
+.cat.constructionreit{background:rgba(251,146,60,0.2);color:#fb923c}
+.cat.heavyindustry{background:rgba(96,165,250,0.2);color:#60a5fa}
+.cat.energychemicals{background:rgba(250,204,21,0.2);color:#facc15}
+.cat.retailfood{background:rgba(236,72,153,0.2);color:#f472b6}
+.cat.transportation{background:rgba(34,211,238,0.2);color:#22d3ee}
+.cat.technologytelecom{background:rgba(59,130,246,0.2);color:#60a5fa}
+.cat.index{background:rgba(100,116,139,0.2);color:#94a3b8}
+.top-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px;padding:16px}
+.quant-methodology{background:var(--bg2);border:1px solid var(--border);border-radius:12px;padding:16px;margin:0 16px 16px 16px;max-width:854px}
+.quant-methodology h4{font-size:0.8rem;color:var(--cyan);margin-bottom:12px;display:flex;align-items:center;gap:8px}
+.methodology-grid{display:grid;grid-template-columns:1fr 2fr;gap:20px}
+.methodology-col h5{font-size:0.7rem;color:var(--muted);margin-bottom:8px;text-transform:uppercase;letter-spacing:1px}
+.weight-item{display:flex;justify-content:space-between;padding:3px 0;font-size:0.75rem;color:var(--text);border-bottom:1px solid var(--border)}
+.weight-item:last-child{border-bottom:none}
+.weight-item span:last-child{color:var(--cyan);font-weight:600}
+.quant-disclaimer{margin-top:12px;padding:10px 12px;background:rgba(244,63,94,0.1);border:1px solid rgba(244,63,94,0.2);border-radius:8px;font-size:0.7rem;color:var(--muted);line-height:1.4;display:flex;align-items:flex-start;gap:8px}
+.quant-disclaimer i{color:var(--rose);margin-top:2px}
+@media(max-width:768px){.methodology-grid{grid-template-columns:1fr}}
+.top-card{background:var(--bg2);border:1px solid var(--border);border-radius:12px;padding:14px}
+.top-card h3{font-size:0.9rem;margin-bottom:12px;padding-bottom:10px;border-bottom:1px solid var(--border);display:flex;justify-content:space-between;align-items:center}
+.top-card h3 .tw{display:flex;align-items:center;gap:8px}
+.top-card h3 .metric-icon{width:28px;height:28px;border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:0.85rem}
+.top-card h3 .metric-icon.trend{background:linear-gradient(135deg,#f97316,#ea580c);color:white}
+.top-card h3 .metric-icon.return{background:linear-gradient(135deg,#22c55e,#16a34a);color:white}
+.top-card h3 .metric-icon.sharpe{background:linear-gradient(135deg,#eab308,#ca8a04);color:white}
+.top-card h3 .metric-icon.sortino{background:linear-gradient(135deg,#06b6d4,#0891b2);color:white}
+.top-card h3 .metric-icon.quality{background:linear-gradient(135deg,#8b5cf6,#7c3aed);color:white}
+.top-card h3 .metric-icon.stability{background:linear-gradient(135deg,#64748b,#475569);color:white}
+.top-card h3 span.p{font-size:0.65rem;color:var(--muted);background:var(--bg);padding:3px 8px;border-radius:4px}
+.top-list{list-style:none}
+.top-list li{display:flex;align-items:center;padding:6px 0;border-bottom:1px solid var(--border)}
+.top-list li:last-child{border:none}
+.rank{width:20px;height:20px;background:rgba(0,212,255,0.15);color:var(--cyan);border-radius:4px;display:flex;align-items:center;justify-content:center;font-size:0.65rem;font-weight:700;margin-right:8px}
+.rank.g{background:rgba(251,191,36,0.2);color:#fbbf24}
+.rank.s{background:rgba(156,163,175,0.2);color:#9ca3af}
+.rank.b{background:rgba(180,83,9,0.2);color:#d97706}
+.top-sym{font-family:'JetBrains Mono',monospace;font-weight:600;min-width:45px;font-size:0.8rem}
+.top-sym.clickable{cursor:pointer;color:var(--cyan);transition:all 0.2s}
+.top-sym.clickable:hover{color:#fff;text-decoration:underline}
+.top-name{flex:1;font-size:0.65rem;color:var(--muted);margin-left:6px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.top-val{font-family:'JetBrains Mono',monospace;font-weight:600;font-size:0.8rem}
+.ratios-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:12px;padding:16px}
+.ratio-card{background:var(--bg2);border:1px solid var(--border);border-radius:10px;padding:14px;transition:all 0.2s}
+.ratio-card:hover{border-color:rgba(0,212,255,0.3)}
+.ratio-head{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:10px;gap:8px}
+.ratio-title{display:flex;align-items:center;gap:6px}
+.ratio-name{font-size:0.8rem;font-weight:600}
+.ratio-cat{font-size:0.55rem;color:var(--cyan);background:rgba(0,212,255,0.1);padding:2px 6px;border-radius:3px;white-space:nowrap}
+.ratio-vals{display:flex;gap:16px;margin-bottom:8px}
+.ratio-v{text-align:center}
+.ratio-v .v{font-family:'JetBrains Mono',monospace;font-size:1rem;font-weight:600}
+.ratio-v .l{font-size:0.6rem;color:var(--muted);text-transform:uppercase}
+.ratio-interp{font-size:0.68rem;color:var(--muted);padding:8px;background:var(--bg);border-radius:6px;line-height:1.4}
+
+/* Daily Brief Styles */
+.brief-wrapper{padding:20px;background:var(--bg2)}
+.brief-container{max-width:900px;margin:0 auto}
+.brief-hero{background:linear-gradient(135deg,rgba(0,212,255,0.1),rgba(124,58,237,0.1));border:1px solid rgba(0,212,255,0.2);border-radius:16px;padding:28px 32px;margin-bottom:24px;text-align:center}
+.brief-hero h1{font-size:1.6rem;font-weight:700;color:var(--text);margin-bottom:8px;display:flex;align-items:center;justify-content:center;gap:12px}
+.brief-hero h1 i{color:var(--cyan)}
+.brief-meta{display:flex;align-items:center;justify-content:center;gap:20px;font-size:0.85rem;color:var(--muted);flex-wrap:wrap}
+.brief-meta span{display:flex;align-items:center;gap:6px}
+.brief-meta i{color:var(--cyan);font-size:0.75rem}
+.brief-section{background:var(--bg3);border:1px solid var(--border);border-radius:12px;padding:24px;margin-bottom:16px}
+.brief-section-header{display:flex;align-items:center;gap:10px;margin-bottom:20px;padding-bottom:12px;border-bottom:1px solid var(--border)}
+.brief-section-header i{font-size:1.2rem}
+.brief-section-header.atmosphere i{color:#f97316}
+.brief-section-header.equities i{color:#22c55e}
+.brief-section-header.economy i{color:#eab308}
+.brief-section-header.strategy i{color:#8b5cf6}
+.brief-section-header.outlook i{color:#06b6d4}
+.brief-section-header.outlook i{color:#06b6d4}
+.brief-section-header h3{font-size:1rem;font-weight:600;color:var(--text)}
+.brief-qa{margin-bottom:20px}
+.brief-qa:last-child{margin-bottom:0}
+.brief-q{display:flex;align-items:flex-start;gap:10px;margin-bottom:10px}
+.brief-q-num{min-width:26px;height:26px;background:linear-gradient(135deg,var(--cyan),var(--purple));border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.75rem;font-weight:700;color:white}
+.brief-q-text{font-size:0.95rem;font-weight:600;color:var(--text);line-height:1.5}
+.brief-a{margin-left:36px;font-size:0.9rem;line-height:1.7;color:var(--text2)}
+.brief-a .tag{font-weight:600;font-size:0.9rem}
+.brief-a .tag-green{color:#34d399}
+.brief-a .tag-amber{color:#fbbf24}
+.brief-a .tag-rose{color:#fb7185}
+.brief-a .etf{font-family:'JetBrains Mono',monospace;color:var(--cyan);font-weight:500}
+.brief-a .etf.clickable{cursor:pointer;transition:all 0.2s}
+.brief-a .etf.clickable:hover{color:#fff;text-decoration:underline}
+.brief-a .etf.clickable{cursor:pointer;transition:all 0.2s}
+.brief-a .etf.clickable:hover{color:#fff;text-decoration:underline}
+.brief-summary{background:linear-gradient(135deg,rgba(124,58,237,0.15),rgba(0,212,255,0.1));border:1px solid rgba(124,58,237,0.3);border-radius:12px;padding:24px 28px}
+.brief-summary-header{display:flex;align-items:center;gap:10px;margin-bottom:16px}
+.brief-summary-header i{color:var(--purple);font-size:1.1rem}
+.brief-summary-header h3{font-size:1rem;font-weight:600;color:var(--text)}
+.brief-summary p{font-size:0.95rem;line-height:1.9;color:var(--text)}
+.brief-loading{text-align:center;padding:60px;color:var(--muted)}
+.brief-loading i{font-size:2rem;margin-bottom:16px}
+
+.footer{text-align:center;padding:20px;color:var(--muted);font-size:0.75rem}
+.footer-main{margin-bottom:12px;font-size:0.8rem}
+.footer-main a{color:var(--cyan)}
+.disclaimer{background:rgba(100,116,139,0.15);border:1px solid rgba(100,116,139,0.3);border-radius:8px;padding:14px 24px;font-size:0.7rem;color:var(--muted);line-height:1.7;text-align:left;font-style:italic}
+.disclaimer-advice{margin-top:6px}
+.footer a{color:var(--cyan);text-decoration:none;transition:all 0.2s}
+.footer a:hover{color:#fff;text-decoration:underline}
+.loading{text-align:center;padding:40px;color:var(--muted)}
+@media(max-width:768px){.container{padding:12px}.regime-bar{flex-direction:column;text-align:center}.controls{flex-direction:column}.search{min-width:100%}.brief-hero{padding:20px}.brief-section{padding:16px}.brief-a{margin-left:0;margin-top:8px}}
+</style>
+</head>
+<body>
+<div class="container">
+<header class="header">
+<div class="logo">
+<div class="logo-icon"><i class="fas fa-chart-line"></i></div>
+<div class="logo-text">
+<h1>BIST 50 Barometer <span class="live-badge"><span class="live-dot"></span>Live</span></h1>
+<span>BIST 50 Market Dashboard</span>
+</div>
+</div>
+<div class="header-actions">
+<button class="how-btn" onclick="showHowItWorks()"><i class="fas fa-question-circle"></i> How it works</button>
+<div class="update-badge" id="updateTime"><i class="fas fa-clock"></i> Loading...</div>
+</div>
+</header>
+<div class="regime-bar">
+<div class="regime-main"><div class="regime-icon neutral" id="regimeIcon"><i class="fas fa-spinner fa-spin"></i></div>
+<div class="regime-text"><h2 id="regimeLbl">Loading...</h2><button class="info-btn regime-info-btn" id="regimeInfoBtn"><i class="fas fa-info"></i></button><span id="regimeDesc">Fetching data...</span></div></div>
+<div class="scores">
+<div class="score"><div class="score-val" id="breadthDisplay">-</div><div class="score-lbl">Breadth <button class="info-btn" data-key="BREADTH"><i class="fas fa-info"></i></button></div></div>
+<div class="score"><div class="score-val" id="volatilityScore">-</div><div class="score-lbl">Risk <button class="info-btn" data-key="VOLATILITY_SCORE"><i class="fas fa-info"></i></button></div></div>
+</div>
+</div>
+<div class="signals" id="signalsGrid"></div>
+<div class="tabs">
+<button class="tab active" onclick="showTab('stocks')"><i class="fas fa-chart-bar"></i> Stock Metrics</button>
+<button class="tab" onclick="showTab('top10stocks')"><i class="fas fa-medal"></i> Top 10 Stocks</button>
+<button class="tab" onclick="showTab('top10sectors')"><i class="fas fa-industry"></i> Sectors</button>
+<button class="tab" onclick="showTab('briefstocks')"><i class="fas fa-file-alt"></i> Daily Brief</button>
+<button class="tab" onclick="showTab('quantrankings')"><i class="fas fa-crown"></i> Quant Rankings</button>
+</div>
+<div class="panel active" id="panel-stocks">
+<div class="controls">
+<div class="search"><i class="fas fa-search"></i><input type="text" id="stockSearchInput" placeholder="Search stocks..." oninput="renderStockTable()"></div>
+<select id="stockCatFilter" onchange="renderStockTable()"><option value="all">All Sectors</option><option value="Index">Index</option><option value="Banking & Finance">Banking</option><option value="Holding & Investment">Holding</option><option value="Construction & REIT">Construction</option><option value="Heavy Industry">Industry</option><option value="Energy & Chemicals">Energy</option><option value="Retail & Food">Retail</option><option value="Transportation">Transport</option><option value="Technology & Telecom">Technology</option></select>
+<select id="stockPeriodFilter" onchange="renderStockTable()">
+<option value="1W">1 Week</option><option value="2W">2 Weeks</option><option value="1M" selected>1 Month</option><option value="3M">3 Months</option><option value="6M">6 Months</option><option value="12M">12 Months</option>
+</select>
+</div>
+<div class="table-wrap">
+<table><thead><tr>
+<th class="sortable" data-sort="Symbol" onclick="sortByStock('Symbol', event)">Symbol <i class="fas fa-sort sort-icon"></i></th>
+<th>Name</th><th>Sector</th>
+<th class="sortable desc" data-sort="RETURN" onclick="sortByStock('RETURN', event)">Return% <i class="fas fa-sort-down sort-icon"></i></th>
+<th class="sortable" data-sort="TREND" onclick="sortByStock('TREND', event)">Trend <i class="fas fa-sort sort-icon"></i></th>
+<th class="sortable" data-sort="ACCELERATION" onclick="sortByStock('ACCELERATION', event)">Accel <i class="fas fa-sort sort-icon"></i></th>
+<th class="sortable" data-sort="QUALITY" onclick="sortByStock('QUALITY', event)">R² <i class="fas fa-sort sort-icon"></i></th>
+<th class="sortable" data-sort="SHARPE" onclick="sortByStock('SHARPE', event)">Sharpe <i class="fas fa-sort sort-icon"></i></th>
+<th class="sortable" data-sort="SORTINO" onclick="sortByStock('SORTINO', event)">Sortino <i class="fas fa-sort sort-icon"></i></th>
+<th class="sortable" data-sort="STABILITY" onclick="sortByStock('STABILITY', event)">Stability <i class="fas fa-sort sort-icon"></i></th>
+</tr></thead><tbody id="stockTableBody"><tr><td colspan="10" class="loading">Loading data...</td></tr></tbody></table>
+</div>
+</div>
+<div class="panel" id="panel-top10stocks">
+<div class="controls"><div class="periods" id="top10StockPeriods">
+<button onclick="setTop10StockP('1W')">1W</button><button onclick="setTop10StockP('2W')">2W</button><button class="active" onclick="setTop10StockP('1M')">1M</button><button onclick="setTop10StockP('3M')">3M</button><button onclick="setTop10StockP('6M')">6M</button><button onclick="setTop10StockP('12M')">12M</button>
+</div></div>
+<div class="top-grid" id="top10StockGrid"></div>
+</div>
+<div class="panel" id="panel-top10sectors">
+<div class="controls"><div class="periods" id="top10SectorPeriods">
+<button onclick="setTop10SectorP('1W')">1W</button><button onclick="setTop10SectorP('2W')">2W</button><button class="active" onclick="setTop10SectorP('1M')">1M</button><button onclick="setTop10SectorP('3M')">3M</button><button onclick="setTop10SectorP('6M')">6M</button><button onclick="setTop10SectorP('12M')">12M</button>
+</div></div>
+<div class="top-grid" id="top10SectorGrid"></div>
+</div>
+
+<div class="panel" id="panel-briefstocks">
+<div class="brief-wrapper">
+<div class="brief-container" id="briefStockContainer">
+<div class="brief-loading"><i class="fas fa-spinner fa-spin"></i><br>Loading Stock Brief...</div>
+</div>
+</div>
+</div>
+
+<div class="panel" id="panel-quantrankings">
+<div class="top-grid" style="grid-template-columns: repeat(auto-fit, minmax(280px, 420px)); justify-content: start;">
+<div class="top-card">
+<h3><span class="tw"><span class="metric-icon" style="background:linear-gradient(135deg,#10b981,#059669);color:white"><i class="fas fa-industry"></i></span>All Sectors</span><span class="p">SCORE</span></h3>
+<ul class="top-list" id="quantSectorList"></ul>
+</div>
+<div class="top-card">
+<h3><span class="tw"><span class="metric-icon" style="background:linear-gradient(135deg,#8b5cf6,#7c3aed);color:white"><i class="fas fa-building"></i></span>Top 10 Stocks</span><span class="p">SCORE</span></h3>
+<ul class="top-list" id="quantStockList"></ul>
+</div>
+</div>
+<div class="quant-methodology">
+<h4><i class="fas fa-info-circle"></i> SCORING METHODOLOGY</h4>
+<div class="methodology-grid">
+<div class="methodology-col">
+<h5>Period Weights</h5>
+<div class="weight-item"><span>6M</span><span>20%</span></div>
+<div class="weight-item"><span>3M</span><span>20%</span></div>
+<div class="weight-item"><span>1M</span><span>20%</span></div>
+<div class="weight-item"><span>2W</span><span>20%</span></div>
+<div class="weight-item"><span>1W</span><span>20%</span></div>
+</div>
+<div class="methodology-col">
+<h5>Metric Weights</h5>
+<div class="weight-item"><span>Return</span><span>40%</span></div>
+<div class="weight-item"><span>Sortino</span><span>20%</span></div>
+<div class="weight-item"><span>Calmar</span><span>20%</span></div>
+<div class="weight-item"><span>Trend</span><span>10%</span></div>
+<div class="weight-item"><span>Acceleration</span><span>10%</span></div>
+</div>
+</div>
+<p style="font-size:0.7rem;color:#f59e0b;margin-top:10px;"><i class="fas fa-minus-circle"></i> Penalty: -10 pts for each period with negative return</p>
+<p style="font-size:0.7rem;color:#ef4444;margin-top:4px;"><i class="fas fa-exclamation-circle"></i> Overbought: -5 pts (&gt;2σ) or -10 pts (&gt;3σ) based on 14-day</p>
+<p style="font-size:0.7rem;color:#ef4444;margin-top:4px;"><i class="fas fa-snail"></i> Low Return: -10 pts if 1M &lt; 2%, -10 pts if 3M &lt; 5%</p>
+<p style="font-size:0.7rem;color:#6b7280;margin-top:4px;"><i class="fas fa-ban"></i> Filter: Excluded if 6M return &lt; XU100 6M return</p>
+<p style="font-size:0.7rem;color:#ef4444;margin-top:4px;"><i class="fas fa-arrow-trend-down"></i> Max Drawdown: -10 pts if 1M DD &gt;5%, 3M DD &gt;10%, 6M DD &gt;15%</p>
+<p style="font-size:0.7rem;color:#ef4444;margin-top:4px;"><i class="fas fa-wave-square"></i> Choppy: -20 pts each if 1M R²&lt;0.2, 3M R²&lt;0.3, 6M R²&lt;0.4</p>
+<p style="font-size:0.7rem;color:#6b7280;margin-top:4px;"><i class="fas fa-ban"></i> Filter: Excluded if 1M return &lt; 1%</p>
+<p style="font-size:0.7rem;color:#22c55e;margin-top:4px;"><i class="fas fa-plus-circle"></i> Sector Bonus: +5 pts if sector 1M & 2W returns are positive</p>
+<div class="quant-disclaimer">
+<i class="fas fa-exclamation-triangle"></i>
+This is a statistical ranking based on quantitative metrics only. Not financial advice. Past performance does not guarantee future results. Always do your own research.
+</div>
+</div>
+</div>
+
+<footer class="footer">
+<div class="disclaimer">
+<div>⚠️ AI-Generated Content. This report is for informational purposes only and does not constitute investment advice.</div>
+<div class="disclaimer-advice">Past performance is not indicative of future results. Always consult a qualified financial advisor before making investment decisions.</div>
+</div>
+<div class="footer-main" style="margin-top:24px;"><a href="https://navimod.com/" target="_blank">Navimod Financial Analytics</a></div>
+</footer>
+</div>
+
+<div class="modal-overlay" id="modalOverlay">
+<div class="modal-content">
+<div class="modal-header">
+<div class="modal-title" id="modalTitle">Title</div>
+<button class="modal-close" onclick="closeModal()"><i class="fas fa-times"></i></button>
+</div>
+<div class="modal-desc" id="modalDesc">Description</div>
+<div class="modal-formula" id="modalFormula" style="display:none;"></div>
+<div class="modal-example" id="modalExample">Example</div>
+</div>
+</div>
+
+<div class="modal-overlay" id="chartModalOverlay">
+<div class="chart-modal-content">
+<div class="modal-header">
+<div class="modal-title" id="chartModalTitle">ETF vs SPY</div>
+<button class="modal-close" onclick="closeChartModal()"><i class="fas fa-times"></i></button>
+</div>
+<div id="tradingview-widget"></div>
+</div>
+</div>
+
+<div class="modal-overlay" id="howModalOverlay">
+<div class="how-modal-content">
+<div class="modal-header">
+<div class="modal-title"><i class="fas fa-chart-line"></i> How the Market Barometer Works</div>
+<button class="modal-close" onclick="closeHowModal()"><i class="fas fa-times"></i></button>
+</div>
+<div class="how-body">
+
+<div class="how-section">
+<h3><i class="fas fa-calculator"></i> Scoring System</h3>
+
+<div class="how-card">
+<h4>VOLATILITY SCORE <span class="score-range">-1 to +1</span></h4>
+<p>Measures market risk based on 20-day annualized volatility of XU100:</p>
+<ul>
+<li><strong>Low Volatility (&lt;25%):</strong> Score +1 - Calm market, favorable for risk-taking</li>
+<li><strong>Normal Volatility (25-40%):</strong> Score 0 - Typical BIST conditions</li>
+<li><strong>High Volatility (&gt;40%):</strong> Score -1 - Elevated risk, defensive stance recommended</li>
+</ul>
+<p class="how-note">Formula: Daily StdDev × √252 × 100 = Annualized Volatility %</p>
+</div>
+
+<div class="how-card">
+<h4>BREADTH <span class="score-range">-1 to +1</span></h4>
+<p>Market participation width - counts sectors with positive 1W returns:</p>
+<ul>
+<li><strong>≥5/8 positive (Strong):</strong> Score +1 - Broad participation, healthy rally</li>
+<li><strong>3-4/8 positive (Mixed):</strong> Score 0 - Moderate participation</li>
+<li><strong>≤2/8 positive (Weak):</strong> Score -1 - Narrow leadership, fragile market</li>
+</ul>
+<p class="how-note">Breadth has VETO power: Weak breadth blocks RISK-ON, Strong breadth blocks RISK-OFF.</p>
+</div>
+</div>
+
+<div class="how-section">
+<h3><i class="fas fa-flag"></i> Regime Logic</h3>
+<div class="regime-grid">
+<div class="regime-card on"><div class="regime-label"><i class="fas fa-rocket"></i> RISK-ON</div><p>Low/Normal volatility + Strong/Mixed breadth (≥3/8). Favor equities.</p></div>
+<div class="regime-card off"><div class="regime-label"><i class="fas fa-shield-alt"></i> RISK-OFF</div><p>High volatility + Weak/Mixed breadth (≤4/8). Favor cash and defensives.</p></div>
+<div class="regime-card caution"><div class="regime-label"><i class="fas fa-exclamation-triangle"></i> CAUTION</div><p>Conflicting signals: Low volatility + weak breadth, OR high volatility + strong breadth.</p></div>
+<div class="regime-card neutral"><div class="regime-label"><i class="fas fa-balance-scale"></i> NEUTRAL</div><p>Normal volatility + mixed breadth. No clear direction. Balanced allocation recommended.</p></div>
+</div>
+</div>
+
+<div class="how-section">
+<h3><i class="fas fa-exclamation-circle"></i> Important</h3>
+<p class="disclaimer">This dashboard provides market analysis and signals for informational purposes only. It is NOT investment advice. Always do your own research and consult a qualified financial advisor before making investment decisions.</p>
+</div>
+
+</div>
+</div>
+</div>
+
+<script>
+// ========== GLOBAL STATE ==========
+var DATA = null;
+var BRIEF = null;
+var BRIEF_STOCKS = null;
+var REGIME, RATIOS, ETFS, STOCKS;
+var top10P = '1M', top10StockP = '1M', top10SectorP = '1M', ratioP = '1M';
+var currentSort = {col: 'RETURN', dir: 'desc'};
+var currentStockSort = {col: 'RETURN', dir: 'desc'};
+
+var GLOSS = {
+  "TREND": {"title": "Trend", "desc": "Direction of price movement. Annualized %.", "example": "+25% = Rising at 25% annual rate"},
+  "RETURN": {"title": "Return", "desc": "Total price change over the period.", "example": "+5% = 5% gain"},
+  "ACCELERATION": {"title": "Acceleration", "desc": "Trend speeding up or slowing down.", "example": "Positive = Gaining momentum"},
+  "QUALITY": {"title": "Quality (R²)", "desc": "How consistent is the trend.", "example": "0.85 = 85% consistent"},
+  "SHARPE": {"title": "Sharpe Ratio", "desc": "Risk-adjusted return.", "example": "2.0 = Good risk/reward"},
+  "SORTINO": {"title": "Sortino Ratio", "desc": "Downside risk-adjusted return.", "example": "Higher = Better"},
+  "STABILITY": {"title": "Stability (Calmar)", "desc": "Return vs max drawdown.", "example": "3.0 = 3x return vs drawdown"},
+  "VOLATILITY_SCORE": {"title": "Volatility Score", "desc": "Market risk indicator based on 20-day annualized XU100 volatility. Range: -1 to +1.", "formula": "Daily StdDev × √252 × 100 = Annualized Vol%. <25% = +1 (Low), 25-40% = 0 (Normal), >40% = -1 (High)", "example": "Vol 22% = +1 (Low risk), Vol 35% = 0 (Normal), Vol 50% = -1 (High risk)"},
+  "REGIME": {"title": "Market Regime", "desc": "Overall market condition based on Volatility Score and Breadth combination.", "example": "RISK-ON = Favor equities, RISK-OFF = Favor defensives, NEUTRAL = Balanced"},
+  "REGIME_RISK_ON": {"title": "RISK-ON Regime", "desc": "Low/normal volatility with broad participation. Favor equities.", "formula": "Volatility ≤0 (Low/Normal) + Breadth ≥3/8 (Mixed/Strong)", "example": "Vol 25%, Breadth 5/8 = RISK-ON"},
+  "REGIME_RISK_OFF": {"title": "RISK-OFF Regime", "desc": "High volatility with weak/mixed participation. Defensive stance.", "formula": "Volatility = -1 (High >40%) + Breadth ≤4/8 (Weak/Mixed)", "example": "Vol 50%, Breadth 2/8 = RISK-OFF"},
+  "REGIME_CAUTION": {"title": "CAUTION Regime", "desc": "Conflicting signals requiring caution.", "formula": "Either: (1) Low volatility + weak breadth, OR (2) High volatility + strong breadth", "example": "Vol 20%, Breadth 2/8 = CAUTION (narrow rally)"},
+  "REGIME_NEUTRAL": {"title": "NEUTRAL Regime", "desc": "No clear direction. Normal volatility with mixed breadth.", "formula": "Volatility = 0 (Normal) + Breadth = 3-4/8 (Mixed)", "example": "Vol 30%, Breadth 4/8 = NEUTRAL"},
+  "BREADTH": {"title": "Sector Breadth", "desc": "Market participation indicator. Counts sectors with positive 1W returns.", "formula": "≥5/8 positive = +1 (Strong) | 3-4/8 = 0 (Mixed) | ≤2/8 = -1 (Weak)", "example": "6/8 = +1, 4/8 = 0, 2/8 = -1"},
+  "VOLATILITY": {"title": "XU100 Volatility", "desc": "20-day annualized volatility of XU100 index.", "formula": "Daily StdDev × √252 × 100", "example": "35% = Normal BIST volatility"}
+};
+
+// ========== DATA LOADING ==========
+async function loadData() {
+  try {
+    const [dataRes, briefStockRes] = await Promise.all([
+      fetch('bist_data.json'),
+      fetch('brief_stocks_bist.json').catch(() => null)
+    ]);
+    
+    DATA = await dataRes.json();
+    REGIME = DATA.regime;
+    RATIOS = DATA.ratios;
+    STOCKS = DATA.stocks || [];
+    
+    if (briefStockRes && briefStockRes.ok) {
+      BRIEF_STOCKS = await briefStockRes.json();
+    }
+    
+    renderAll();
+  } catch (err) {
+    console.error('Error loading data:', err);
+    console.error('Error stack:', err.stack);
+    document.getElementById('stockTableBody').innerHTML = '<tr><td colspan="10">Error: ' + err.message + '</td></tr>';
+  }
+}
+
+function renderAll() {
+  document.getElementById('updateTime').innerHTML = '<i class="fas fa-clock"></i> ' + DATA.update_time;
+  renderRegime();
+  renderSignals();
+  renderStockTable();
+  renderQuantRankings();
+  renderTop10Stocks();
+  renderTop10Sectors();
+  renderBriefStocks();
+}
+
+// ========== MODAL ==========
+function showModal(key, level, change) {
+  var d = GLOSS[key]; if (!d) return;
+  document.getElementById('modalTitle').textContent = d.title;
+  document.getElementById('modalDesc').textContent = d.desc;
+  var f = document.getElementById('modalFormula');
+  if (d.formula) { f.innerHTML = '<i class="fas fa-calculator"></i> ' + d.formula; f.style.display = 'block'; } else { f.style.display = 'none'; }
+  
+  // Current values + Example scenario
+  var exampleHtml = '';
+  
+  // Don't show Current for regime explanations (REGIME_, BREADTH, VOLATILITY_SCORE)
+  var isRegimeKey = key.startsWith('REGIME_') || key === 'BREADTH' || key === 'VOLATILITY_SCORE';
+  
+  // Show current values if available (signal boxes only)
+  var levelNum = parseFloat(level);
+  var changeNum = parseFloat(change);
+  if (!isRegimeKey && level && !isNaN(levelNum) && isFinite(levelNum)) {
+    var changeStr = (change && !isNaN(changeNum) && isFinite(changeNum)) ? 
+      ' | 1W: ' + (changeNum >= 0 ? '+' : '') + changeNum.toFixed(2) + '%' : '';
+    exampleHtml = '<div style="margin-bottom:8px;padding:8px;background:rgba(16,185,129,0.1);border-radius:6px;border-left:3px solid var(--green);"><i class="fas fa-chart-bar"></i> <strong>Current:</strong> ' + levelNum.toFixed(4) + changeStr + '</div>';
+  }
+  
+  // Also show example scenario
+  if (d.example) {
+    exampleHtml += '<div><i class="fas fa-lightbulb"></i> ' + d.example + '</div>';
+  }
+  
+  document.getElementById('modalExample').innerHTML = exampleHtml;
+  document.getElementById('modalOverlay').classList.add('active');
+}
+function closeModal() { document.getElementById('modalOverlay').classList.remove('active'); }
+document.getElementById('modalOverlay').addEventListener('click', function(e) { if (e.target === this) closeModal(); });
+document.addEventListener('keydown', function(e) { if (e.key === 'Escape') { closeModal(); closeChartModal(); } });
+document.addEventListener('click', function(e) { var btn = e.target.closest('.info-btn'); if (btn) { e.preventDefault(); e.stopPropagation(); var key = btn.getAttribute('data-key'); var level = btn.getAttribute('data-level'); var change = btn.getAttribute('data-change'); if (key) showModal(key, level, change); } });
+
+// ========== CHART MODAL ==========
+function showChart(symbol, name) {
+  // BIST symbol format
+  var tvSymbol = 'BIST:' + symbol.replace('.IS', '');
+  document.getElementById('chartModalTitle').innerHTML = '<i class="fas fa-chart-line"></i> ' + symbol.replace('.IS', '') + ' vs XU100 - ' + name;
+  document.getElementById('chartModalOverlay').classList.add('active');
+  
+  // TradingView Widget
+  var container = document.getElementById('tradingview-widget');
+  container.innerHTML = '';
+  
+  new TradingView.widget({
+    "autosize": true,
+    "symbol": tvSymbol,
+    "interval": "D",
+    "range": "3M",
+    "timezone": "Europe/Istanbul",
+    "theme": "dark",
+    "style": "2",
+    "locale": "en",
+    "toolbar_bg": "#0a0a0f",
+    "enable_publishing": false,
+    "hide_top_toolbar": false,
+    "hide_legend": false,
+    "save_image": false,
+    "container_id": "tradingview-widget",
+    "studies": [
+      {
+        "id": "Compare@tv-basicstudies",
+        "inputs": {
+          "symbol": "BIST:XU100"
+        }
+      }
+    ]
+  });
+}
+
+function closeChartModal() { 
+  document.getElementById('chartModalOverlay').classList.remove('active');
+  document.getElementById('tradingview-widget').innerHTML = '';
+}
+document.getElementById('chartModalOverlay').addEventListener('click', function(e) { if (e.target === this) closeChartModal(); });
+
+// ========== HOW IT WORKS MODAL ==========
+function showHowItWorks() {
+  document.getElementById('howModalOverlay').classList.add('active');
+}
+function closeHowModal() {
+  document.getElementById('howModalOverlay').classList.remove('active');
+}
+document.getElementById('howModalOverlay').addEventListener('click', function(e) { if (e.target === this) closeHowModal(); });
+
+// ========== REGIME ==========
+function renderRegime() {
+  var i = document.getElementById('regimeIcon'), l = document.getElementById('regimeLbl'), d = document.getElementById('regimeDesc');
+  var infoBtn = document.getElementById('regimeInfoBtn');
+  var regime = REGIME.overall;
+  var note = REGIME.note || '';
+  var breadth = REGIME.breadth || {positive: 0, total: 0};
+  var volatility = REGIME.volatility;
+  
+  l.textContent = regime;
+  
+  // Set info button to show correct regime explanation
+  var regimeKey = 'REGIME_' + regime.replace('-', '_');
+  infoBtn.setAttribute('data-key', regimeKey);
+  infoBtn.onclick = function() { showModal(regimeKey); };
+  
+  if (regime === 'RISK-ON') { 
+    i.className = 'regime-icon on'; 
+    i.innerHTML = '<i class="fas fa-rocket"></i>'; 
+    d.textContent = note || 'Low volatility + broad participation - favor equities'; 
+  }
+  else if (regime === 'RISK-OFF') { 
+    i.className = 'regime-icon off'; 
+    i.innerHTML = '<i class="fas fa-shield-alt"></i>'; 
+    d.textContent = note || 'High volatility - defensive stance recommended'; 
+  }
+  else if (regime === 'CAUTION') { 
+    i.className = 'regime-icon caution'; 
+    i.innerHTML = '<i class="fas fa-exclamation-triangle"></i>'; 
+    d.textContent = note || 'Mixed signals - proceed with caution'; 
+  }
+  else { 
+    i.className = 'regime-icon neutral'; 
+    i.innerHTML = '<i class="fas fa-balance-scale"></i>'; 
+    d.textContent = note || 'Normal conditions - balanced allocation'; 
+  }
+  
+  // Add volatility info to description
+  if (volatility) {
+    d.textContent += ' | Vol: ' + volatility.toFixed(1) + '%';
+  }
+  
+  // Update Volatility score display
+  var volEl = document.getElementById('volatilityScore');
+  if (volEl) {
+    var riskScore = REGIME.riskScore || 0;
+    volEl.textContent = (riskScore > 0 ? '+' : '') + riskScore;
+    volEl.className = 'score-val ' + (riskScore > 0 ? 'pos' : riskScore < 0 ? 'neg' : '');
+  }
+  
+  // Update Breadth display (+1, 0, -1)
+  var breadthEl = document.getElementById('breadthDisplay');
+  if (breadthEl && breadth.total > 0) {
+    var breadthScore = breadth.positive >= 5 ? 1 : (breadth.positive <= 2 ? -1 : 0);
+    breadthEl.textContent = (breadthScore > 0 ? '+' : '') + breadthScore;
+    breadthEl.className = 'score-val ' + (breadthScore > 0 ? 'pos' : (breadthScore < 0 ? 'neg' : ''));
+  }
+}
+
+function renderSignals() {
+  var html = '';
+  
+  // Only show BREADTH and VOLATILITY signals
+  var categories = {
+    'BREADTH': {cat: 'BREADTH', color: '#8b5cf6'},
+    'VOLATILITY': {cat: 'RISK', color: '#f43f5e'}
+  };
+  
+  // Name overrides
+  var nameOverrides = {
+    'BREADTH': 'SECTOR BREADTH',
+    'VOLATILITY': 'XU100 VOLATILITY'
+  };
+  
+  // Order: BREADTH first, then VOLATILITY
+  var order = ['BREADTH', 'VOLATILITY'];
+  
+  for (var i = 0; i < order.length; i++) {
+    var k = order[i];
+    var s = REGIME.signals[k];
+    if (!s) continue;
+    
+    var catInfo = categories[k] || {cat: '', color: '#64748b'};
+    var displayName = nameOverrides[k] || k.replace('_', '/');
+    
+    // Color based on score only: positive=green, negative=red, 0=neutral
+    var colorClass = s.score > 0 ? 'bull' : (s.score < 0 ? 'bear' : 'neutral');
+    
+    // Show status in box
+    var displayVal = s.value;
+    
+    // Category tag - bottom right corner
+    var catTag = '<span class="signal-cat" style="background:' + catInfo.color + '22;color:' + catInfo.color + ';border:1px solid ' + catInfo.color + '44">' + catInfo.cat + '</span>';
+    
+    html += '<div class="signal"><div class="signal-header"><div class="signal-name">' + displayName + '</div><button class="info-btn" data-key="' + k + '" data-level="' + (s.level || '') + '" data-change="' + (s.change || '') + '"><i class="fas fa-info"></i></button></div><div class="signal-val">' + displayVal + '</div><div class="signal-footer"><span class="signal-tag ' + colorClass + '">' + (s.score > 0 ? '+' : '') + s.score + '</span>' + catTag + '</div></div>';
+  }
+  document.getElementById('signalsGrid').innerHTML = html;
+}
+
+// ========== TABS ==========
+function showTab(id) {
+  document.querySelectorAll('.tab').forEach(function(t) { t.classList.remove('active'); });
+  document.querySelectorAll('.panel').forEach(function(p) { p.classList.remove('active'); });
+  event.target.closest('.tab').classList.add('active');
+  document.getElementById('panel-' + id).classList.add('active');
+}
+
+// ========== TABLE ==========
+function sortBy(col, e) {
+  if (e && e.target.closest('.info-btn')) return; // Don't sort if info button clicked
+  if (currentSort.col === col) { currentSort.dir = currentSort.dir === 'desc' ? 'asc' : 'desc'; } else { currentSort.col = col; currentSort.dir = 'desc'; }
+  document.querySelectorAll('th.sortable').forEach(function(th) { th.classList.remove('asc', 'desc'); var ic = th.querySelector('.sort-icon'); if (ic) ic.className = 'fas fa-sort sort-icon'; });
+  var th = document.querySelector('th[data-sort="' + col + '"]');
+  if (th) { th.classList.add(currentSort.dir); var ic = th.querySelector('.sort-icon'); if (ic) ic.className = 'fas fa-sort-' + (currentSort.dir === 'desc' ? 'down' : 'up') + ' sort-icon'; }
+  renderTable();
+}
+
+function renderTable() {
+  var p = document.getElementById('periodFilter').value, cat = document.getElementById('catFilter').value, s = document.getElementById('searchInput').value.toLowerCase(), d = [];
+  for (var i = 0; i < ETFS.length; i++) { var e = ETFS[i]; if ((cat === 'all' || e.Category === cat) && (e.Symbol.toLowerCase().indexOf(s) >= 0 || e.Name.toLowerCase().indexOf(s) >= 0)) d.push(e); }
+  d.sort(function(a, b) { if (currentSort.col === 'Symbol') return currentSort.dir === 'desc' ? b.Symbol.localeCompare(a.Symbol) : a.Symbol.localeCompare(b.Symbol); var ap = a[p] || a['2W'] || a['1M'] || {}, bp = b[p] || b['2W'] || b['1M'] || {}; var av = ap[currentSort.col] != null ? ap[currentSort.col] : -999, bv = bp[currentSort.col] != null ? bp[currentSort.col] : -999; return currentSort.dir === 'desc' ? bv - av : av - bv; });
+  var html = '';
+  for (var i = 0; i < d.length; i++) { var e = d[i], x = e[p] || e['2W'] || e['1M'] || {}, c = e.Category.toLowerCase().replace('.', '');
+    var ret = x.RETURN || 0, trnd = x.TREND || 0, acc = x.ACCELERATION || 0, qual = x.QUALITY || 0, shrp = x.SHARPE || 0, sort = x.SORTINO || 0, stab = x.STABILITY || 0;
+    html += '<tr><td class="sym clickable" onclick="showChart(\'' + e.Symbol + '\', \'' + e.Name + '\')">' + e.Symbol + '</td><td class="name">' + e.Name + '</td><td><span class="cat ' + c + '">' + e.Category + '</span></td><td class="' + (ret > 0 ? 'pos' : ret < 0 ? 'neg' : '') + '">' + fmt(ret) + '%</td><td class="' + (trnd > 0 ? 'pos' : trnd < 0 ? 'neg' : '') + '">' + fmt(trnd) + '%</td><td class="' + (acc > 0 ? 'pos' : acc < 0 ? 'neg' : '') + '">' + fmt(acc) + '</td><td>' + qual.toFixed(3) + '</td><td class="' + (shrp > 0 ? 'pos' : shrp < 0 ? 'neg' : '') + '">' + fmt(shrp) + '</td><td class="' + (sort > 0 ? 'pos' : sort < 0 ? 'neg' : '') + '">' + fmt(sort) + '</td><td class="' + (stab > 0 ? 'pos' : stab < 0 ? 'neg' : '') + '">' + fmt(stab) + '</td></tr>';
+  }
+  document.getElementById('tableBody').innerHTML = html;
+}
+function fmt(v) { if (v == null || isNaN(v)) return '-'; return (v > 0 ? '+' : '') + v.toFixed(2); }
+
+// ========== STOCK TABLE ==========
+function sortByStock(col, e) {
+  if (e && e.target.closest('.info-btn')) return;
+  if (currentStockSort.col === col) { currentStockSort.dir = currentStockSort.dir === 'desc' ? 'asc' : 'desc'; } else { currentStockSort.col = col; currentStockSort.dir = 'desc'; }
+  renderStockTable();
+}
+
+function renderStockTable() {
+  if (!STOCKS || STOCKS.length === 0) {
+    document.getElementById('stockTableBody').innerHTML = '<tr><td colspan="10">No stock data available</td></tr>';
+    return;
+  }
+  var p = document.getElementById('stockPeriodFilter').value, cat = document.getElementById('stockCatFilter').value, s = document.getElementById('stockSearchInput').value.toLowerCase(), d = [];
+  for (var i = 0; i < STOCKS.length; i++) { var e = STOCKS[i]; if ((cat === 'all' || e.Category === cat) && (e.Symbol.toLowerCase().indexOf(s) >= 0 || e.Name.toLowerCase().indexOf(s) >= 0)) d.push(e); }
+  d.sort(function(a, b) { if (currentStockSort.col === 'Symbol') return currentStockSort.dir === 'desc' ? b.Symbol.localeCompare(a.Symbol) : a.Symbol.localeCompare(b.Symbol); var ap = a[p] || a['2W'] || a['1M'] || {}, bp = b[p] || b['2W'] || b['1M'] || {}; var av = ap[currentStockSort.col] != null ? ap[currentStockSort.col] : -999, bv = bp[currentStockSort.col] != null ? bp[currentStockSort.col] : -999; return currentStockSort.dir === 'desc' ? bv - av : av - bv; });
+  var html = '';
+  for (var i = 0; i < d.length; i++) { var e = d[i], x = e[p] || e['2W'] || e['1M'] || {}, c = e.Category.toLowerCase().replace(/[^a-z]/g, '');
+    var ret = x.RETURN || 0, trnd = x.TREND || 0, acc = x.ACCELERATION || 0, qual = x.QUALITY || 0, shrp = x.SHARPE || 0, sort = x.SORTINO || 0, stab = x.STABILITY || 0;
+    var displaySym = e.Symbol.replace('.IS', '');
+    html += '<tr><td class="sym clickable" onclick="showChart(\'' + e.Symbol + '\', \'' + e.Name.replace(/'/g, "\\'") + '\')">' + displaySym + '</td><td class="name">' + e.Name + '</td><td><span class="cat ' + c + '">' + e.Category + '</span></td><td class="' + (ret > 0 ? 'pos' : ret < 0 ? 'neg' : '') + '">' + fmt(ret) + '%</td><td class="' + (trnd > 0 ? 'pos' : trnd < 0 ? 'neg' : '') + '">' + fmt(trnd) + '%</td><td class="' + (acc > 0 ? 'pos' : acc < 0 ? 'neg' : '') + '">' + fmt(acc) + '</td><td>' + qual.toFixed(3) + '</td><td class="' + (shrp > 0 ? 'pos' : shrp < 0 ? 'neg' : '') + '">' + fmt(shrp) + '</td><td class="' + (sort > 0 ? 'pos' : sort < 0 ? 'neg' : '') + '">' + fmt(sort) + '</td><td class="' + (stab > 0 ? 'pos' : stab < 0 ? 'neg' : '') + '">' + fmt(stab) + '</td></tr>';
+  }
+  document.getElementById('stockTableBody').innerHTML = html;
+}
+
+// ========== QUANT RANKINGS ==========
+function renderQuantRankings() {
+  var rankings = DATA.quant_rankings;
+  if (!rankings) {
+    document.getElementById('quantStockList').innerHTML = '<div class="brief-loading">No ranking data available</div>';
+    document.getElementById('quantSectorList').innerHTML = '<div class="brief-loading">No ranking data available</div>';
+    return;
+  }
+  
+  // All Sectors
+  var sectorHtml = '';
+  var allSectors = rankings.all_sectors || [];
+  for (var i = 0; i < allSectors.length; i++) {
+    var sec = allSectors[i];
+    var rc = '';
+    var scoreText = '';
+    var nameClass = 'top-sym';
+    
+    if (sec.Disqualified) {
+      scoreText = '<span class="top-val neg" style="font-size:0.7rem;">DQ: ' + sec.Reason + '</span>';
+      nameClass = 'top-sym" style="opacity:0.5;text-decoration:line-through';
+    } else {
+      rc = i === 0 ? 'g' : i === 1 ? 's' : i === 2 ? 'b' : '';
+      var score = sec.QuantScore != null ? sec.QuantScore.toFixed(1) : '-';
+      scoreText = '<span class="top-val pos">' + score + '</span>';
+    }
+    
+    sectorHtml += '<li><span class="rank ' + rc + '">' + (i + 1) + '</span><span class="' + nameClass + '">' + sec.Sector + '</span><span class="top-name">(' + sec.StockCount + ' stocks)</span>' + scoreText + '</li>';
+  }
+  document.getElementById('quantSectorList').innerHTML = sectorHtml;
+  
+  // Top 10 Stocks
+  var stockHtml = '';
+  var top10Stocks = rankings.top10_stocks || [];
+  for (var i = 0; i < top10Stocks.length; i++) {
+    var s = top10Stocks[i];
+    var rc = i === 0 ? 'g' : i === 1 ? 's' : i === 2 ? 'b' : '';
+    var score = s.QuantScore != null ? s.QuantScore.toFixed(1) : '-';
+    var displaySym = s.Symbol.replace('.IS', '');
+    var catClass = s.Category ? s.Category.toLowerCase().replace(/[^a-z]/g, '') : '';
+    stockHtml += '<li><span class="rank ' + rc + '">' + (i + 1) + '</span><span class="top-sym clickable" onclick="showChart(\'' + s.Symbol + '\', \'' + s.Name.replace(/'/g, "\\'") + '\')">' + displaySym + '</span><span class="top-name">' + s.Name + '</span><span class="cat ' + catClass + '" style="font-size:0.65rem;padding:2px 6px;margin-right:8px;">' + s.Category + '</span><span class="top-val pos">' + score + '</span></li>';
+  }
+  document.getElementById('quantStockList').innerHTML = stockHtml;
+}
+
+// ========== TOP 10 ETFs ==========
+function renderTop10() {
+  if (!ETFS || ETFS.length === 0) {
+    document.getElementById('top10Grid').innerHTML = '<div class="brief-loading">No ETF data available</div>';
+    return;
+  }
+  var metrics = [{k:'TREND',t:'Trend',icon:'fa-arrow-trend-up',cls:'trend',s:'%'},{k:'RETURN',t:'Return',icon:'fa-chart-line',cls:'return',s:'%'},{k:'SHARPE',t:'Sharpe',icon:'fa-bolt',cls:'sharpe',s:''},{k:'SORTINO',t:'Sortino',icon:'fa-shield-halved',cls:'sortino',s:''},{k:'QUALITY',t:'Quality',icon:'fa-bullseye',cls:'quality',s:''},{k:'STABILITY',t:'Stability',icon:'fa-mountain',cls:'stability',s:''}];
+  var html = '';
+  for (var m = 0; m < metrics.length; m++) { var x = metrics[m], sorted = ETFS.slice().sort(function(a, b) { var ap = a[top10P] || a['2W'] || a['1M'] || {}, bp = b[top10P] || b['2W'] || b['1M'] || {}; var av = ap[x.k] != null ? ap[x.k] : -999, bv = bp[x.k] != null ? bp[x.k] : -999; return bv - av; }).slice(0, 10), listHtml = '';
+    for (var i = 0; i < sorted.length; i++) { var e = sorted[i], ep = e[top10P] || e['2W'] || e['1M'] || {}, v = ep[x.k] != null ? ep[x.k] : 0, rc = i === 0 ? 'g' : i === 1 ? 's' : i === 2 ? 'b' : '';
+      listHtml += '<li><span class="rank ' + rc + '">' + (i + 1) + '</span><span class="top-sym clickable" onclick="showChart(\'' + e.Symbol + '\', \'' + e.Name + '\')">' + e.Symbol + '</span><span class="top-name">' + e.Name + '</span><span class="top-val ' + (v > 0 ? 'pos' : v < 0 ? 'neg' : '') + '">' + fmt(v) + x.s + '</span></li>';
+    }
+    html += '<div class="top-card"><h3><span class="tw"><span class="metric-icon ' + x.cls + '"><i class="fas ' + x.icon + '"></i></span>' + x.t + '<button class="info-btn" data-key="' + x.k + '"><i class="fas fa-info"></i></button></span><span class="p">' + top10P + '</span></h3><ul class="top-list">' + listHtml + '</ul></div>';
+  }
+  document.getElementById('top10Grid').innerHTML = html;
+}
+function setTop10P(p) { top10P = p; document.querySelectorAll('#top10Periods button').forEach(function(b) { b.classList.toggle('active', b.textContent === p); }); renderTop10(); }
+
+// ========== TOP 10 STOCKS ==========
+function renderTop10Stocks() {
+  if (!STOCKS || STOCKS.length === 0) {
+    document.getElementById('top10StockGrid').innerHTML = '<div class="brief-loading">No stock data available</div>';
+    return;
+  }
+  // Filter out indices
+  var filteredStocks = STOCKS.filter(function(s) { return s.Category !== 'Index'; });
+  var metrics = [{k:'TREND',t:'Trend',icon:'fa-arrow-trend-up',cls:'trend',s:'%'},{k:'RETURN',t:'Return',icon:'fa-chart-line',cls:'return',s:'%'},{k:'SHARPE',t:'Sharpe',icon:'fa-bolt',cls:'sharpe',s:''},{k:'SORTINO',t:'Sortino',icon:'fa-shield-halved',cls:'sortino',s:''},{k:'QUALITY',t:'Quality',icon:'fa-bullseye',cls:'quality',s:''},{k:'STABILITY',t:'Stability',icon:'fa-mountain',cls:'stability',s:''}];
+  var html = '';
+  for (var m = 0; m < metrics.length; m++) { var x = metrics[m], sorted = filteredStocks.slice().sort(function(a, b) { var ap = a[top10StockP] || a['2W'] || a['1M'] || {}, bp = b[top10StockP] || b['2W'] || b['1M'] || {}; var av = ap[x.k] != null ? ap[x.k] : -999, bv = bp[x.k] != null ? bp[x.k] : -999; return bv - av; }).slice(0, 10), listHtml = '';
+    for (var i = 0; i < sorted.length; i++) { var e = sorted[i], ep = e[top10StockP] || e['2W'] || e['1M'] || {}, v = ep[x.k] != null ? ep[x.k] : 0, rc = i === 0 ? 'g' : i === 1 ? 's' : i === 2 ? 'b' : '';
+      var displaySym = e.Symbol.replace('.IS', '');
+      listHtml += '<li><span class="rank ' + rc + '">' + (i + 1) + '</span><span class="top-sym clickable" onclick="showChart(\'' + e.Symbol + '\', \'' + e.Name.replace(/'/g, "\\'") + '\')">' + displaySym + '</span><span class="top-name">' + e.Name + '</span><span class="top-val ' + (v > 0 ? 'pos' : v < 0 ? 'neg' : '') + '">' + fmt(v) + x.s + '</span></li>';
+    }
+    html += '<div class="top-card"><h3><span class="tw"><span class="metric-icon ' + x.cls + '"><i class="fas ' + x.icon + '"></i></span>' + x.t + '<button class="info-btn" data-key="' + x.k + '"><i class="fas fa-info"></i></button></span><span class="p">' + top10StockP + '</span></h3><ul class="top-list">' + listHtml + '</ul></div>';
+  }
+  document.getElementById('top10StockGrid').innerHTML = html;
+}
+function setTop10StockP(p) { top10StockP = p; document.querySelectorAll('#top10StockPeriods button').forEach(function(b) { b.classList.toggle('active', b.textContent === p); }); renderTop10Stocks(); }
+
+// ========== TOP 10 SECTORS ==========
+function renderTop10Sectors() {
+  if (!STOCKS || STOCKS.length === 0) {
+    document.getElementById('top10SectorGrid').innerHTML = '<div class="brief-loading">No stock data available</div>';
+    return;
+  }
+  
+  // Group by sector and calculate average (Index excluded)
+  var sectorData = {};
+  for (var i = 0; i < STOCKS.length; i++) {
+    var stock = STOCKS[i];
+    var sector = stock.Category;
+    if (sector === 'Index') continue; // Skip indices
+    var period = stock[top10SectorP] || stock['2W'] || stock['1M'] || {};
+    
+    if (!sectorData[sector]) {
+      sectorData[sector] = { name: sector, stocks: [], RETURN: [], TREND: [], SHARPE: [], SORTINO: [], QUALITY: [], STABILITY: [] };
+    }
+    
+    sectorData[sector].stocks.push(stock.Symbol);
+    if (period.RETURN != null) sectorData[sector].RETURN.push(period.RETURN);
+    if (period.TREND != null) sectorData[sector].TREND.push(period.TREND);
+    if (period.SHARPE != null) sectorData[sector].SHARPE.push(period.SHARPE);
+    if (period.SORTINO != null) sectorData[sector].SORTINO.push(period.SORTINO);
+    if (period.QUALITY != null) sectorData[sector].QUALITY.push(period.QUALITY);
+    if (period.STABILITY != null) sectorData[sector].STABILITY.push(period.STABILITY);
+  }
+  
+  // Ortalama hesapla
+  var sectors = [];
+  for (var sec in sectorData) {
+    var d = sectorData[sec];
+    var avg = function(arr) { return arr.length > 0 ? arr.reduce(function(a,b){return a+b;}, 0) / arr.length : 0; };
+    sectors.push({
+      name: d.name,
+      count: d.stocks.length,
+      RETURN: avg(d.RETURN),
+      TREND: avg(d.TREND),
+      SHARPE: avg(d.SHARPE),
+      SORTINO: avg(d.SORTINO),
+      QUALITY: avg(d.QUALITY),
+      STABILITY: avg(d.STABILITY)
+    });
+  }
+  
+  var metrics = [{k:'TREND',t:'Avg Trend',icon:'fa-arrow-trend-up',cls:'trend',s:'%'},{k:'RETURN',t:'Avg Return',icon:'fa-chart-line',cls:'return',s:'%'},{k:'SHARPE',t:'Avg Sharpe',icon:'fa-bolt',cls:'sharpe',s:''},{k:'SORTINO',t:'Avg Sortino',icon:'fa-shield-halved',cls:'sortino',s:''},{k:'QUALITY',t:'Avg Quality',icon:'fa-bullseye',cls:'quality',s:''},{k:'STABILITY',t:'Avg Stability',icon:'fa-mountain',cls:'stability',s:''}];
+  var html = '';
+  
+  for (var m = 0; m < metrics.length; m++) {
+    var x = metrics[m];
+    var sorted = sectors.slice().sort(function(a, b) { return b[x.k] - a[x.k]; });
+    var listHtml = '';
+    
+    for (var i = 0; i < sorted.length; i++) {
+      var sec = sorted[i];
+      var v = sec[x.k];
+      var rc = i === 0 ? 'g' : i === 1 ? 's' : i === 2 ? 'b' : '';
+      listHtml += '<li><span class="rank ' + rc + '">' + (i + 1) + '</span><span class="top-sym">' + sec.name + '</span><span class="top-name">(' + sec.count + ' stocks)</span><span class="top-val ' + (v > 0 ? 'pos' : v < 0 ? 'neg' : '') + '">' + fmt(v) + x.s + '</span></li>';
+    }
+    html += '<div class="top-card"><h3><span class="tw"><span class="metric-icon ' + x.cls + '"><i class="fas ' + x.icon + '"></i></span>' + x.t + '<button class="info-btn" data-key="' + x.k + '"><i class="fas fa-info"></i></button></span><span class="p">' + top10SectorP + '</span></h3><ul class="top-list">' + listHtml + '</ul></div>';
+  }
+  
+  document.getElementById('top10SectorGrid').innerHTML = html;
+}
+function setTop10SectorP(p) { top10SectorP = p; document.querySelectorAll('#top10SectorPeriods button').forEach(function(b) { b.classList.toggle('active', b.textContent === p); }); renderTop10Sectors(); }
+
+// ========== RATIOS ==========
+var RATIO_REFS = {
+  "VXX_LEVEL": ">25 Panic | 20-25 Elevated | <20 Calm",
+  "SPY_TLT": "↑ Risk-On | ↓ Risk-Off",
+  "HYG_LQD": "<0.85 Credit Stress | >0.90 Healthy",
+  "GLD_SPY": "↑ Fear/Hedging | ↓ Risk Appetite",
+  "IWM_SPY": "↑ Risk-On | ↓ Flight to Quality",
+  "ARKK_SPY": "↑ Speculation High | ↓ Risk Aversion",
+  "XLY_XLP": "↑ Expansion | ↓ Contraction",
+  "CPER_GLD": "↑ Growth Optimism | ↓ Defensive",
+  "XLI_SPY": "↑ Industrial Strength | ↓ Slowdown",
+  "XRT_SPY": "↑ Consumer Strong | ↓ Consumer Weak",
+  "SOXX_SPY": "↑ Tech Leading | ↓ Tech Lagging",
+  "XLE_SPY": "↑ Energy Strong | ↓ Energy Weak",
+  "TIP_IEF": "↑ Inflation Rising | ↓ Disinflation",
+  "DBA_SPY": "↑ Agri Inflation | ↓ Agri Weak",
+  "TLT_SHY": "↑ Curve Steepening | ↓ Curve Flattening",
+  "TLT_IEF": "↑ Duration Demand | ↓ Rate Fears",
+  "UUP_LEVEL": "↑ Tightening | ↓ Easing",
+  "EEM_SPY": "↑ EM Outperform | ↓ EM Underperform",
+  "FXI_SPY": "↑ China Strong | ↓ China Weak",
+  "KWEB_QQQ": "↑ China Tech Up | ↓ China Tech Down",
+  "INDA_EEM": "↑ India Leading | ↓ India Lagging",
+  "VGK_SPY": "↑ Europe Strong | ↓ Europe Weak",
+  "EWJ_SPY": "↑ Japan Strong | ↓ Japan Weak",
+  "XLK_XLF": "↑ Growth Leading | ↓ Value Leading",
+  "XLY_XLV": "↑ Cyclicals Up | ↓ Defensives Up",
+  "XLB_XLP": "↑ Materials Strong | ↓ Staples Strong"
+};
+
+function renderRatios() {
+  var cat = document.getElementById('ratioCat').value, d = [];
+  for (var i = 0; i < RATIOS.length; i++) if (cat === 'all' || RATIOS[i].category === cat) d.push(RATIOS[i]);
+  var html = '';
+  for (var i = 0; i < d.length; i++) { 
+    var r = d[i];
+    var v = (r.values && r.values[ratioP]) || 0;
+    var c = (r.changes && r.changes[ratioP]) || 0;
+    var ref = RATIO_REFS[r.id] || '';
+    html += '<div class="ratio-card"><div class="ratio-head"><div class="ratio-title"><div class="ratio-name">' + r.name + '</div><button class="info-btn" data-key="' + r.id + '"><i class="fas fa-info"></i></button></div><span class="ratio-cat">' + r.category + '</span></div><div class="ratio-vals"><div class="ratio-v"><div class="v">' + (v || 0).toFixed(4) + '</div><div class="l">Current</div></div><div class="ratio-v"><div class="v ' + (c > 0 ? 'pos' : c < 0 ? 'neg' : '') + '">' + (c > 0 ? '+' : '') + (c || 0).toFixed(2) + '%</div><div class="l">' + ratioP + ' Chg</div></div></div><div class="ratio-interp">' + ref + '</div></div>';
+  }
+  document.getElementById('ratiosGrid').innerHTML = html;
+}
+function setRatioP(p) { ratioP = p; document.querySelectorAll('#ratioPeriods button').forEach(function(b) { b.classList.toggle('active', b.textContent === p); }); renderRatios(); }
+
+// ========== DAILY BRIEF ==========
+function renderBrief() {
+  var container = document.getElementById('briefContainer');
+  
+  if (!BRIEF || !BRIEF.content) {
+    container.innerHTML = '<div class="brief-loading"><i class="fas fa-exclamation-circle"></i><br>Brief not available<br><small>Run: python generate_brief.py</small></div>';
+    return;
+  }
+  
+  var date = BRIEF.date || DATA.update_time;
+  var content = BRIEF.content;
+  
+  // Parse sections from markdown
+  var sections = parseBriefContent(content);
+  
+  // ETF Brief questions
+  var questions = {
+    1: "What is the prevailing Global Risk Regime?",
+    2: "What are the primary drivers of Market Risk?",
+    3: "What is the signal from Financial Conditions?",
+    4: "Which sectors are displaying relative strength?",
+    5: "How does US performance compare to Global Markets?",
+    6: "What is the level of Speculative appetite?",
+    7: "What is the dominant Commodities theme?",
+    8: "What is the trend in Energy markets?",
+    9: "Is there confirmation between Short-term and Medium-term trends?",
+    10: "What is the Portfolio Compass direction?",
+    11: "Sectors to Watch Next Week?",
+    12: "Commodities to Watch Next Week?",
+    13: "Key Levels & Triggers?"
+  };
+  
+  var html = '<div class="brief-hero"><h1><i class="fas fa-globe"></i> Daily Global Market Brief</h1><div class="brief-meta"><span><i class="fas fa-calendar"></i> ' + date + '</span><span><i class="fas fa-database"></i> ETF Barometer </span><span><i class="fas fa-robot"></i> AI Generated</span></div></div>';
+  
+  // Render sections
+  var sectionConfigs = [
+    {key: 'atmosphere', icon: 'fa-thermometer-half', title: 'PART 1: MARKET ATMOSPHERE', questions: [1,2,3]},
+    {key: 'equities', icon: 'fa-chart-line', title: 'PART 2: EQUITIES & FLOWS', questions: [4,5,6]},
+    {key: 'economy', icon: 'fa-industry', title: 'PART 3: REAL ECONOMY', questions: [7,8]},
+    {key: 'strategy', icon: 'fa-compass', title: 'PART 4: STRATEGY', questions: [9,10]},
+    {key: 'outlook', icon: 'fa-crystal-ball', title: 'PART 5: NEXT WEEK OUTLOOK', questions: [11,12,13]}
+  ];
+  
+  sectionConfigs.forEach(function(cfg) {
+    html += '<div class="brief-section"><div class="brief-section-header ' + cfg.key + '"><i class="fas ' + cfg.icon + '"></i><h3>' + cfg.title + '</h3></div>';
+    cfg.questions.forEach(function(qNum) {
+      var answer = sections[qNum];
+      var question = questions[qNum] || 'Question ' + qNum;
+      if (answer) {
+        html += '<div class="brief-qa"><div class="brief-q"><div class="brief-q-num">' + qNum + '</div><div class="brief-q-text">' + question + '</div></div><div class="brief-a">' + formatAnswer(answer) + '</div></div>';
+      } else {
+        html += '<div class="brief-qa"><div class="brief-q"><div class="brief-q-num">' + qNum + '</div><div class="brief-q-text">' + question + '</div></div><div class="brief-a">Analysis pending...</div></div>';
+      }
+    });
+    html += '</div>';
+  });
+  
+  // Executive Summary
+  if (sections.summary) {
+    html += '<div class="brief-summary"><div class="brief-summary-header"><i class="fas fa-file-alt"></i><h3>EXECUTIVE SUMMARY</h3></div><p>' + formatAnswer(sections.summary) + '</p></div>';
+  }
+  
+  container.innerHTML = html;
+}
+
+function parseBriefContent(content) {
+  var sections = {};
+  
+  // BIST Stock Brief questions
+  var questions = {
+    1: "What is the Current Market Regime?",
+    2: "Which sectors are leading?",
+    3: "Which sectors are lagging?",
+    4: "Top Performing Stocks?",
+    5: "Worst Performing Stocks?",
+    6: "Momentum Stocks?",
+    7: "Banking Sector Outlook?",
+    8: "Industrial Sector Outlook?",
+    9: "Energy & Chemicals Outlook?",
+    10: "Portfolio Recommendation?",
+    11: "Stocks to Watch Next Week?",
+    12: "Sectors to Watch Next Week?",
+    13: "Key Levels & Triggers?"
+  };
+  
+  // Birden fazla format dene
+  for (var num = 1; num <= 13; num++) {
+    var answer = null;
+    var nextNum = num + 1;
+    
+    // Format 1: **1. Question?** Answer
+    var pattern1 = new RegExp('\\*\\*' + num + '\\.[^*]*\\*\\*\\s*([\\s\\S]*?)(?=\\*\\*' + nextNum + '\\.|\\*\\*\\d+\\.|##|$)', 'i');
+    var match1 = content.match(pattern1);
+    if (match1 && match1[1] && match1[1].trim().length > 10) {
+      answer = match1[1];
+    }
+    
+    // Format 2: 1. Question?\nAnswer (plain text - stock brief format)
+    if (!answer) {
+      var pattern2 = new RegExp(num + '\\.\\s*[^\\n]*\\?\\n([\\s\\S]*?)(?=' + nextNum + '\\.\\s[A-Z]|\\d+\\.\\s[A-Z]|[🌡📈🏭🧭🔮📝]|EXECUTIVE|$)', 'i');
+      var match2 = content.match(pattern2);
+      if (match2 && match2[1] && match2[1].trim().length > 10) {
+        answer = match2[1];
+      }
+    }
+    
+    // Format 3: Sadece numara ile (fallback)
+    if (!answer) {
+      var pattern3 = new RegExp('^' + num + '\\.\\s*[^\\n]+\\n([\\s\\S]*?)(?=^' + nextNum + '\\.\\s|^\\d+\\.\\s|$)', 'im');
+      var match3 = content.match(pattern3);
+      if (match3 && match3[1] && match3[1].trim().length > 10) {
+        answer = match3[1];
+      }
+    }
+    
+    if (answer) {
+      // Emoji ve section header temizle
+      answer = answer.replace(/[🌡📈🏭🧭🔮📝️]+/g, '').trim();
+      answer = answer.replace(/^(MARKET OVERVIEW|STOCK PERFORMANCE|SECTOR OUTLOOK|PORTFOLIO STRATEGY|NEXT WEEK OUTLOOK)\s*/i, '');
+      
+      sections[num] = answer.trim().replace(/\n+/g, ' ').replace(/\s{2,}/g, ' ').trim();
+    }
+  }
+  
+  // Executive Summary - get the part BEFORE NEXT WEEK OUTLOOK
+  var summary = null;
+  
+  // Format 1: starts with ## EXECUTIVE SUMMARY until ## NEXT WEEK
+  var sumMatch1 = content.match(/EXECUTIVE SUMMARY[:\s]*\n?([\s\S]*?)(?=##|NEXT WEEK|11\.|$)/i);
+  if (sumMatch1 && sumMatch1[1]) {
+    summary = sumMatch1[1].trim();
+    // Clean NEXT WEEK content
+    summary = summary.replace(/NEXT WEEK[\s\S]*/i, '').trim();
+    summary = summary.replace(/11\.[\s\S]*/i, '').trim();
+    summary = summary.replace(/Sectors to Watch[\s\S]*/i, '').trim();
+  }
+  
+  // If still empty or too long, get last 2-3 sentences
+  if (!summary || summary.length < 20 || summary.length > 800) {
+    var lines = content.split('\n').filter(function(l) { return l.trim().length > 30; });
+    // Find executive summary from last few lines
+    for (var i = lines.length - 1; i >= 0; i--) {
+      var line = lines[i].trim();
+      if (line.toLowerCase().indexOf('regime') >= 0 || 
+          line.toLowerCase().indexOf('position') >= 0 ||
+          line.toLowerCase().indexOf('overweight') >= 0) {
+        summary = line;
+        break;
+      }
+    }
+  }
+  
+  if (summary && summary.trim().length > 20 && summary.trim().length < 600) {
+    sections.summary = summary.trim().replace(/\n+/g, ' ').replace(/\s{2,}/g, ' ').trim();
+  }
+  
+  console.log('Parsed sections:', Object.keys(sections)); // Debug
+  return sections;
+}
+
+function formatAnswer(text) {
+  if (!text) return '';
+  
+  // Markdown temizleme
+  text = text.replace(/\*\*/g, '');           // **bold** -> bold
+  text = text.replace(/\*/g, '');             // *italic* -> italic
+  text = text.replace(/^-+$/gm, '');          // --- lines
+  text = text.replace(/^[-•]\s*/gm, '');      // - bullet points
+  text = text.replace(/^\d+\.\s*/gm, '');     // 1. numbered lists
+  text = text.replace(/\n{3,}/g, '\n\n');     // Extra empty lines
+  text = text.replace(/\s{2,}/g, ' ');        // Extra spaces
+  
+  // Line break for readability
+  text = text.replace(/;\s*/g, '.<br>');  // ; -> new line
+  text = text.replace(/\.\s+(?=[A-Z])/g, '.<br>');  // End of sentence + Capital letter -> new line
+  
+  // BIST Indices
+  var indices = ['XU030', 'XU100'];
+  
+  // BIST 50 Stocks
+  var stocks = [
+    // Banking & Finance
+    'AKBNK', 'GARAN', 'ISCTR', 'YKBNK', 'HALKB', 'VAKBN', 'TSKB',
+    // Holding & Investment
+    'KCHOL', 'SAHOL', 'DOHOL',
+    // Construction & REIT
+    'ALARK', 'ENKAI', 'TKFEN', 'EKGYO',
+    // Heavy Industry
+    'EREGL', 'KRDMD', 'FROTO', 'TOASO', 'ARCLK', 'VESTL', 'ASELS',
+    // Energy & Chemicals
+    'TUPRS', 'PETKM', 'SASA', 'HEKTS', 'GUBRF', 'SISE', 'OYAKC', 'TRALT', 'TRMET',
+    // Retail & Food
+    'BIMAS', 'MGROS', 'SOKM', 'CCOLA', 'AEFES', 'ULKER',
+    // Transportation
+    'THYAO', 'PGSUS', 'TAVHL',
+    // Technology & Telecom
+    'TCELL', 'TTKOM', 'KONTR'
+  ];
+  
+  // Combine index and stock symbols
+  var allSymbols = indices.concat(stocks);
+  allSymbols.forEach(function(sym) {
+    text = text.replace(new RegExp('\\b' + sym + '\\b', 'g'), '<span class="etf clickable" onclick="showChart(\'' + sym + '.IS\', \'' + sym + '\')">' + sym + '</span>');
+  });
+  
+  // Capitalize sentence/paragraph starts
+  if (text.length > 0) {
+    text = text.charAt(0).toUpperCase() + text.slice(1);  // First character always uppercase
+  }
+  text = text.replace(/<br>\s*([a-z])/g, function(m, c) { return '<br>' + c.toUpperCase(); });  // After <br>
+  text = text.replace(/\.\s+([a-z])/g, function(m, c) { return '. ' + c.toUpperCase(); });  // After period + space
+  text = text.replace(/—\s*([a-z])/g, function(m, c) { return '— ' + c.toUpperCase(); });  // After —
+  
+  // Add tags - preserve original case
+  text = text.replace(/\b([Aa])bove ([Tt])rend\b/g, function(m, a, t) { 
+    return '<span class="tag tag-green">' + a.toLowerCase() + 'bove ' + t.toLowerCase() + 'rend</span>'; 
+  });
+  text = text.replace(/\b([Bb])elow ([Tt])rend\b/g, function(m, b, t) { 
+    return '<span class="tag tag-rose">' + b.toLowerCase() + 'elow ' + t.toLowerCase() + 'rend</span>'; 
+  });
+  text = text.replace(/\b([Rr])isk-([Oo])ff\b/g, function(m, r, o) { 
+    return '<span class="tag tag-rose">' + r + 'isk-' + o.toLowerCase() + 'ff</span>'; 
+  });
+  text = text.replace(/\b([Rr])isk-([Oo])n\b/g, function(m, r, o) { 
+    return '<span class="tag tag-green">' + r + 'isk-' + o.toLowerCase() + 'n</span>'; 
+  });
+  text = text.replace(/\b([Pp])anic\b/g, function(m, p) { 
+    return '<span class="tag tag-rose">' + p + 'anic</span>'; 
+  });
+  text = text.replace(/\b([Cc])redit ([Ss])tress\b/g, function(m, c, s) { 
+    return '<span class="tag tag-rose">' + c + 'redit ' + s.toLowerCase() + 'tress</span>'; 
+  });
+  
+  return text.trim();
+}
+
+// ========== STOCK BRIEF ==========
+function renderBriefStocks() {
+  var container = document.getElementById('briefStockContainer');
+  
+  if (!BRIEF_STOCKS || !BRIEF_STOCKS.content) {
+    container.innerHTML = '<div class="brief-loading"><i class="fas fa-exclamation-circle"></i><br>Stock Brief not available<br><small>Run: python generate_brief_stocks_bist.py</small></div>';
+    return;
+  }
+  
+  var date = BRIEF_STOCKS.date || DATA.update_time;
+  var content = BRIEF_STOCKS.content;
+  
+  // Parse sections - use same function
+  var sections = parseBriefContent(content);
+  
+  // BIST Stock brief questions
+  var questions = {
+    1: "What is the Current Market Regime?",
+    2: "Which sectors are leading?",
+    3: "Which sectors are lagging?",
+    4: "Top Performing Stocks?",
+    5: "Worst Performing Stocks?",
+    6: "Momentum Stocks?",
+    7: "Banking Sector Outlook?",
+    8: "Industrial Sector Outlook?",
+    9: "Energy & Chemicals Outlook?",
+    10: "Portfolio Recommendation?",
+    11: "Stocks to Watch Next Week?",
+    12: "Sectors to Watch Next Week?",
+    13: "Key Levels & Triggers?"
+  };
+  
+  // Hero - BIST 50
+  var html = '<div class="brief-hero"><h1><i class="fas fa-chart-bar"></i> Stock Daily Brief</h1><div class="brief-meta"><span><i class="fas fa-calendar"></i> ' + date + '</span><span><i class="fas fa-database"></i> BIST 50 Stocks</span><span><i class="fas fa-robot"></i> AI Generated</span></div></div>';
+  
+  // Sections - same structure as ETF brief
+  var sectionConfigs = [
+    {key: 'atmosphere', icon: 'fa-thermometer-half', title: 'PART 1: MARKET OVERVIEW', questions: [1,2,3]},
+    {key: 'equities', icon: 'fa-chart-line', title: 'PART 2: STOCK PERFORMANCE', questions: [4,5,6]},
+    {key: 'economy', icon: 'fa-industry', title: 'PART 3: SECTOR OUTLOOK', questions: [7,8,9]},
+    {key: 'strategy', icon: 'fa-compass', title: 'PART 4: PORTFOLIO STRATEGY', questions: [10]},
+    {key: 'outlook', icon: 'fa-crystal-ball', title: 'PART 5: NEXT WEEK OUTLOOK', questions: [11,12,13]}
+  ];
+  
+  sectionConfigs.forEach(function(cfg) {
+    html += '<div class="brief-section"><div class="brief-section-header ' + cfg.key + '"><i class="fas ' + cfg.icon + '"></i><h3>' + cfg.title + '</h3></div>';
+    cfg.questions.forEach(function(qNum) {
+      var answer = sections[qNum];
+      var question = questions[qNum] || 'Question ' + qNum;
+      if (answer) {
+        html += '<div class="brief-qa"><div class="brief-q"><div class="brief-q-num">' + qNum + '</div><div class="brief-q-text">' + question + '</div></div><div class="brief-a">' + formatAnswer(answer) + '</div></div>';
+      } else {
+        html += '<div class="brief-qa"><div class="brief-q"><div class="brief-q-num">' + qNum + '</div><div class="brief-q-text">' + question + '</div></div><div class="brief-a">Analysis pending...</div></div>';
+      }
+    });
+    html += '</div>';
+  });
+  
+  // Executive Summary - AT THE END (same as ETF)
+  if (sections.summary) {
+    html += '<div class="brief-summary"><div class="brief-summary-header"><i class="fas fa-file-alt"></i><h3>EXECUTIVE SUMMARY</h3></div><p>' + formatAnswer(sections.summary) + '</p></div>';
+  }
+  
+  container.innerHTML = html;
+}
+
+// ========== INIT ==========
+document.addEventListener('DOMContentLoaded', loadData);
+</script>
+</body>
+</html>
