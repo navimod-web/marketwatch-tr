@@ -360,7 +360,7 @@ td{padding:8px 12px;font-family:'JetBrains Mono',monospace;font-size:0.72rem}
 <h5>Metric Weights</h5>
 <div class="weight-item"><span>Return</span><span>40%</span></div>
 <div class="weight-item"><span>Sortino</span><span>20%</span></div>
-<div class="weight-item"><span>Calmar</span><span>20%</span></div>
+<div class="weight-item"><span>Stability</span><span>20%</span></div>
 <div class="weight-item"><span>Trend</span><span>10%</span></div>
 <div class="weight-item"><span>Acceleration</span><span>10%</span></div>
 </div>
@@ -368,10 +368,10 @@ td{padding:8px 12px;font-family:'JetBrains Mono',monospace;font-size:0.72rem}
 <p style="font-size:0.7rem;color:#f59e0b;margin-top:10px;"><i class="fas fa-minus-circle"></i> Penalty: -10 pts for each period with negative return</p>
 <p style="font-size:0.7rem;color:#ef4444;margin-top:4px;"><i class="fas fa-exclamation-circle"></i> Overbought: -5 pts (&gt;2σ) or -10 pts (&gt;3σ) based on 14-day</p>
 <p style="font-size:0.7rem;color:#ef4444;margin-top:4px;"><i class="fas fa-snail"></i> Low Return: -10 pts if 1M &lt; 2%, -10 pts if 3M &lt; 5%</p>
-<p style="font-size:0.7rem;color:#6b7280;margin-top:4px;"><i class="fas fa-ban"></i> Filter: Excluded if 6M return &lt; XU100 6M return</p>
+<p style="font-size:0.7rem;color:#6b7280;margin-top:4px;"><i class="fas fa-ban"></i> Stock Filter: Excluded if 2W ret &lt; 0% OR 1M ret &lt; 1% OR 3M ret &lt; XU100 3M</p>
+<p style="font-size:0.7rem;color:#6b7280;margin-top:4px;"><i class="fas fa-industry"></i> Sector Filter: Excluded if 2W avg return &lt; 0%</p>
 <p style="font-size:0.7rem;color:#ef4444;margin-top:4px;"><i class="fas fa-arrow-trend-down"></i> Max Drawdown: -10 pts if 1M DD &gt;5%, 3M DD &gt;10%, 6M DD &gt;15%</p>
 <p style="font-size:0.7rem;color:#ef4444;margin-top:4px;"><i class="fas fa-wave-square"></i> Choppy: -20 pts each if 1M R²&lt;0.2, 3M R²&lt;0.3, 6M R²&lt;0.4</p>
-<p style="font-size:0.7rem;color:#6b7280;margin-top:4px;"><i class="fas fa-ban"></i> Filter: Excluded if 1M return &lt; 1%</p>
 <p style="font-size:0.7rem;color:#22c55e;margin-top:4px;"><i class="fas fa-plus-circle"></i> Sector Bonus: +5 pts if sector 1M & 2W returns are positive</p>
 <div class="quant-disclaimer">
 <i class="fas fa-exclamation-triangle"></i>
@@ -566,39 +566,10 @@ document.addEventListener('click', function(e) { var btn = e.target.closest('.in
 
 // ========== CHART MODAL ==========
 function showChart(symbol, name) {
-  // BIST symbol format
+  // BIST symbol format - open TradingView in new tab
   var tvSymbol = 'BIST:' + symbol.replace('.IS', '');
-  document.getElementById('chartModalTitle').innerHTML = '<i class="fas fa-chart-line"></i> ' + symbol.replace('.IS', '') + ' vs XU100 - ' + name;
-  document.getElementById('chartModalOverlay').classList.add('active');
-  
-  // TradingView Widget
-  var container = document.getElementById('tradingview-widget');
-  container.innerHTML = '';
-  
-  new TradingView.widget({
-    "autosize": true,
-    "symbol": tvSymbol,
-    "interval": "D",
-    "range": "3M",
-    "timezone": "Europe/Istanbul",
-    "theme": "dark",
-    "style": "2",
-    "locale": "en",
-    "toolbar_bg": "#0a0a0f",
-    "enable_publishing": false,
-    "hide_top_toolbar": false,
-    "hide_legend": false,
-    "save_image": false,
-    "container_id": "tradingview-widget",
-    "studies": [
-      {
-        "id": "Compare@tv-basicstudies",
-        "inputs": {
-          "symbol": "BIST:XU100"
-        }
-      }
-    ]
-  });
+  var url = 'https://tr.tradingview.com/chart/?symbol=' + encodeURIComponent(tvSymbol);
+  window.open(url, '_blank');
 }
 
 function closeChartModal() { 
