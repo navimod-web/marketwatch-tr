@@ -1,12 +1,12 @@
 {
-  "generated_at": "2025-12-23T23:33:24.711911",
-  "update_time": "2025-12-23 23:33",
+  "generated_at": "2025-12-24T13:02:22.447682",
+  "update_time": "2025-12-24 13:02",
   "stock_count": 44,
   "ratio_count": 4,
   "regime": {
     "overall": "CAUTION",
     "riskScore": 1,
-    "volatility": 13.116858757889066,
+    "volatility": 13.116721953744959,
     "signals": {
       "BREADTH": {
         "value": "2/8 POSITIVE",
@@ -17,7 +17,7 @@
       "VOLATILITY": {
         "value": "LOW 13.1%",
         "score": 1,
-        "level": 13.116858757889066,
+        "level": 13.116721953744959,
         "change": 0
       }
     },
@@ -33,12 +33,12 @@
       "name": "BIST 100 Level",
       "category": "Market",
       "values": {
-        "1W": 11290.3604,
-        "2W": 11290.3604,
-        "1M": 11290.3604,
-        "3M": 11290.3604,
-        "6M": 11290.3604,
-        "12M": 11290.3604
+        "1W": 11290.4004,
+        "2W": 11290.4004,
+        "1M": 11290.4004,
+        "3M": 11290.4004,
+        "6M": 11290.4004,
+        "12M": 11290.4004
       },
       "changes": {
         "1W": 0.03,
@@ -182,17 +182,17 @@
       "SubCategory": "Main",
       "1W": {
         "RETURN": -0.51,
-        "TREND": -12.64,
-        "ACCELERATION": -42.17,
+        "TREND": -12.62,
+        "ACCELERATION": -42.12,
         "QUALITY": 0.179,
-        "SHARPE": -4.44,
-        "SORTINO": -8.61,
+        "SHARPE": -4.43,
+        "SORTINO": -8.6,
         "STABILITY": -10
       },
       "2W": {
         "RETURN": 0.46,
-        "TREND": 20.88,
-        "ACCELERATION": -136.58,
+        "TREND": 20.89,
+        "ACCELERATION": -136.57,
         "QUALITY": 0.161,
         "SHARPE": 1.17,
         "SORTINO": 2.57,
@@ -200,8 +200,8 @@
       },
       "1M": {
         "RETURN": 3.7,
-        "TREND": 77.54,
-        "ACCELERATION": -33.64,
+        "TREND": 77.55,
+        "ACCELERATION": -33.63,
         "QUALITY": 0.794,
         "SHARPE": 3.44,
         "SORTINO": 8.85,
@@ -210,7 +210,7 @@
       "3M": {
         "RETURN": -0.67,
         "TREND": 17.3,
-        "ACCELERATION": 75.96,
+        "ACCELERATION": 75.97,
         "QUALITY": 0.194,
         "SHARPE": -0.06,
         "SORTINO": -0.11,
