@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-07T06:00:20.663907",
-  "update_time": "2026-03-07 06:00",
+  "generated_at": "2026-03-08T06:00:19.573388",
+  "update_time": "2026-03-08 06:00",
   "stock_count": 44,
   "ratio_count": 4,
   "regime": {
@@ -122,7 +122,7 @@
       "1W": {
         "RETURN": -6.15,
         "TREND": -92.56,
-        "ACCELERATION": 531.94,
+        "ACCELERATION": 531.96,
         "QUALITY": 0.67,
         "SHARPE": -10.19,
         "SORTINO": -10,
@@ -131,7 +131,7 @@
       "2W": {
         "RETURN": -6.19,
         "TREND": -85.77,
-        "ACCELERATION": -247.62,
+        "ACCELERATION": -247.61,
         "QUALITY": 0.788,
         "SHARPE": -6.03,
         "SORTINO": -8.93,
@@ -140,7 +140,7 @@
       "1M": {
         "RETURN": -1.62,
         "TREND": -16.96,
-        "ACCELERATION": -345.89,
+        "ACCELERATION": -345.88,
         "QUALITY": 0.031,
         "SHARPE": -0.58,
         "SORTINO": -0.97,
