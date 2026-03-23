@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-22T06:00:21.926171",
-  "update_time": "2026-03-22 06:00",
+  "generated_at": "2026-03-23T06:00:25.778796",
+  "update_time": "2026-03-23 06:00",
   "stock_count": 44,
   "ratio_count": 4,
   "regime": {
@@ -1281,7 +1281,7 @@
       "1W": {
         "RETURN": 1.47,
         "TREND": 87.82,
-        "ACCELERATION": -160.17,
+        "ACCELERATION": -160.16,
         "QUALITY": 0.147,
         "SHARPE": 2.12,
         "SORTINO": 10,
