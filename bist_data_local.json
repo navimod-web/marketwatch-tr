@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-05-05T20:11:53.481666",
-  "update_time": "2026-05-05 20:11",
+  "generated_at": "2026-05-06T06:00:23.140472",
+  "update_time": "2026-05-06 06:00",
   "stock_count": 44,
   "ratio_count": 4,
   "regime": {
     "overall": "CAUTION",
     "riskScore": 1,
-    "volatility": 24.696255490561388,
+    "volatility": 24.696288995460506,
     "signals": {
       "BREADTH": {
         "value": "2/8 POSITIVE",
@@ -17,7 +17,7 @@
       "VOLATILITY": {
         "value": "LOW 24.7%",
         "score": 1,
-        "level": 24.696255490561388,
+        "level": 24.696288995460506,
         "change": 0
       }
     },
@@ -33,12 +33,12 @@
       "name": "BIST 100 Level",
       "category": "Market",
       "values": {
-        "1W": 14495.7695,
-        "2W": 14495.7695,
-        "1M": 14495.7695,
-        "3M": 14495.7695,
-        "6M": 14495.7695,
-        "12M": 14495.7695
+        "1W": 14495.7998,
+        "2W": 14495.7998,
+        "1M": 14495.7998,
+        "3M": 14495.7998,
+        "6M": 14495.7998,
+        "12M": 14495.7998
       },
       "changes": {
         "1W": 1.16,
@@ -182,8 +182,8 @@
       "SubCategory": "Main",
       "1W": {
         "RETURN": -0.67,
-        "TREND": -11.01,
-        "ACCELERATION": 292.86,
+        "TREND": -11.0,
+        "ACCELERATION": 292.88,
         "QUALITY": 0.013,
         "SHARPE": -1.83,
         "SORTINO": -2.33,
@@ -194,14 +194,14 @@
         "TREND": -12.56,
         "ACCELERATION": 76.62,
         "QUALITY": 0.065,
-        "SHARPE": -0.99,
+        "SHARPE": -0.98,
         "SORTINO": -1.57,
         "STABILITY": -7.7
       },
       "1M": {
         "RETURN": 11.06,
         "TREND": 275.76,
-        "ACCELERATION": -301.31,
+        "ACCELERATION": -301.3,
         "QUALITY": 0.703,
         "SHARPE": 5.25,
         "SORTINO": 10,
