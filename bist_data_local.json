@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-27T06:00:15.449425",
-  "update_time": "2026-07-27 06:00",
+  "generated_at": "2026-07-28T06:00:14.280201",
+  "update_time": "2026-07-28 06:00",
   "stock_count": 44,
   "ratio_count": 4,
   "regime": {
     "overall": "CAUTION",
     "riskScore": 1,
-    "volatility": 16.81250675973147,
+    "volatility": 18.358997124921274,
     "signals": {
       "BREADTH": {
         "value": "1/8 POSITIVE",
@@ -15,9 +15,9 @@
         "total": 8
       },
       "VOLATILITY": {
-        "value": "LOW 16.8%",
+        "value": "LOW 18.4%",
         "score": 1,
-        "level": 16.81250675973147,
+        "level": 18.358997124921274,
         "change": 0
       }
     },
@@ -33,20 +33,20 @@
       "name": "BIST 100 Level",
       "category": "Market",
       "values": {
-        "1W": null,
-        "2W": null,
-        "1M": null,
-        "3M": null,
-        "6M": null,
-        "12M": null
+        "1W": 13774.7998,
+        "2W": 13774.7998,
+        "1M": 13774.7998,
+        "3M": 13774.7998,
+        "6M": 13774.7998,
+        "12M": 13774.7998
       },
       "changes": {
-        "1W": null,
-        "2W": null,
-        "1M": null,
-        "3M": null,
-        "6M": null,
-        "12M": null
+        "1W": -1.43,
+        "2W": -2.25,
+        "1M": -3.5,
+        "3M": -3.87,
+        "6M": 2.74,
+        "12M": 28.17
       }
     },
     {
@@ -120,58 +120,58 @@
       "Category": "Index",
       "SubCategory": "Main",
       "1W": {
-        "RETURN": -1.77,
-        "TREND": -40.82,
-        "ACCELERATION": 276.17,
-        "QUALITY": 0.197,
-        "SHARPE": -4.09,
-        "SORTINO": -6.37,
+        "RETURN": -2.19,
+        "TREND": -54.13,
+        "ACCELERATION": -353.79,
+        "QUALITY": 0.259,
+        "SHARPE": -4.58,
+        "SORTINO": -6.23,
         "STABILITY": -10
       },
       "2W": {
-        "RETURN": -2.79,
-        "TREND": -56.95,
-        "ACCELERATION": 59.92,
-        "QUALITY": 0.666,
-        "SHARPE": -3.26,
-        "SORTINO": -5.51,
+        "RETURN": -4.55,
+        "TREND": -64.49,
+        "ACCELERATION": 1.89,
+        "QUALITY": 0.692,
+        "SHARPE": -4.74,
+        "SORTINO": -7.68,
         "STABILITY": -10
       },
       "1M": {
-        "RETURN": -4.7,
-        "TREND": -40.98,
-        "ACCELERATION": -115.8,
-        "QUALITY": 0.565,
-        "SHARPE": -2.91,
-        "SORTINO": -4.55,
-        "STABILITY": -9.73
+        "RETURN": -5.89,
+        "TREND": -45.22,
+        "ACCELERATION": -138.09,
+        "QUALITY": 0.585,
+        "SHARPE": -3.44,
+        "SORTINO": -4.99,
+        "STABILITY": -9.37
       },
       "3M": {
-        "RETURN": -1.53,
-        "TREND": -4.5,
-        "ACCELERATION": 54.26,
-        "QUALITY": 0.013,
-        "SHARPE": -0.08,
-        "SORTINO": -0.13,
-        "STABILITY": -0.18
+        "RETURN": -6.65,
+        "TREND": -6.31,
+        "ACCELERATION": 46.1,
+        "QUALITY": 0.025,
+        "SHARPE": -0.85,
+        "SORTINO": -1.32,
+        "STABILITY": -1.84
       },
       "6M": {
-        "RETURN": 15.16,
-        "TREND": 32.11,
-        "ACCELERATION": -25.13,
-        "QUALITY": 0.532,
-        "SHARPE": 1.17,
-        "SORTINO": 2.04,
-        "STABILITY": 2.48
+        "RETURN": 11.38,
+        "TREND": 30.59,
+        "ACCELERATION": -27.22,
+        "QUALITY": 0.507,
+        "SHARPE": 0.92,
+        "SORTINO": 1.61,
+        "STABILITY": 1.97
       },
       "12M": {
-        "RETURN": 35.5,
-        "TREND": 54.51,
-        "ACCELERATION": 19.74,
-        "QUALITY": 0.823,
-        "SHARPE": 1.35,
-        "SORTINO": 2.35,
-        "STABILITY": 2.53
+        "RETURN": 32.21,
+        "TREND": 54.42,
+        "ACCELERATION": 17.44,
+        "QUALITY": 0.821,
+        "SHARPE": 1.25,
+        "SORTINO": 2.16,
+        "STABILITY": 2.34
       },
       "QuantScore": null
     },
@@ -181,58 +181,58 @@
       "Category": "Index",
       "SubCategory": "Main",
       "1W": {
-        "RETURN": -1.22,
-        "TREND": -22.01,
-        "ACCELERATION": 253.49,
-        "QUALITY": 0.063,
-        "SHARPE": -3.16,
-        "SORTINO": -4.86,
+        "RETURN": -1.48,
+        "TREND": -35.63,
+        "ACCELERATION": -322.41,
+        "QUALITY": 0.127,
+        "SHARPE": -3.57,
+        "SORTINO": -4.97,
         "STABILITY": -10
       },
       "2W": {
-        "RETURN": -0.79,
-        "TREND": -22.96,
-        "ACCELERATION": 16.76,
-        "QUALITY": 0.214,
-        "SHARPE": -0.97,
-        "SORTINO": -1.64,
-        "STABILITY": -7.59
-      },
-      "1M": {
-        "RETURN": -3.18,
-        "TREND": -25.31,
-        "ACCELERATION": -44.74,
-        "QUALITY": 0.413,
-        "SHARPE": -2.18,
-        "SORTINO": -3.44,
+        "RETURN": -2.34,
+        "TREND": -37.48,
+        "ACCELERATION": -53.11,
+        "QUALITY": 0.366,
+        "SHARPE": -2.68,
+        "SORTINO": -4.26,
         "STABILITY": -10
       },
+      "1M": {
+        "RETURN": -3.88,
+        "TREND": -27.37,
+        "ACCELERATION": -70.85,
+        "QUALITY": 0.425,
+        "SHARPE": -2.56,
+        "SORTINO": -3.8,
+        "STABILITY": -9.22
+      },
       "3M": {
-        "RETURN": -0.87,
-        "TREND": -7.9,
-        "ACCELERATION": 42.65,
-        "QUALITY": 0.053,
-        "SHARPE": 0.0,
-        "SORTINO": 0.0,
-        "STABILITY": 0.0
+        "RETURN": -5.57,
+        "TREND": -9.22,
+        "ACCELERATION": 38.78,
+        "QUALITY": 0.072,
+        "SHARPE": -0.74,
+        "SORTINO": -1.1,
+        "STABILITY": -1.5
       },
       "6M": {
-        "RETURN": 11.12,
-        "TREND": 18.89,
-        "ACCELERATION": -3.9,
-        "QUALITY": 0.305,
-        "SHARPE": 0.94,
-        "SORTINO": 1.51,
-        "STABILITY": 1.88
+        "RETURN": 8.06,
+        "TREND": 17.88,
+        "ACCELERATION": -5.41,
+        "QUALITY": 0.284,
+        "SHARPE": 0.72,
+        "SORTINO": 1.16,
+        "STABILITY": 1.45
       },
       "12M": {
-        "RETURN": 32.61,
-        "TREND": 45.76,
-        "ACCELERATION": 4.03,
-        "QUALITY": 0.816,
-        "SHARPE": 1.34,
-        "SORTINO": 2.16,
-        "STABILITY": 2.37
+        "RETURN": 29.75,
+        "TREND": 45.61,
+        "ACCELERATION": 2.21,
+        "QUALITY": 0.814,
+        "SHARPE": 1.24,
+        "SORTINO": 2.0,
+        "STABILITY": 2.21
       },
       "QuantScore": null
     },
@@ -722,7 +722,7 @@
         "SORTINO": 1.26,
         "STABILITY": 1.17
       },
-      "QuantScore": null
+      "QuantScore": 0
     },
     {
       "Symbol": "SAHOL.IS",
@@ -1515,7 +1515,7 @@
         "SORTINO": 3.24,
         "STABILITY": 4.15
       },
-      "QuantScore": null
+      "QuantScore": 2.8
     },
     {
       "Symbol": "TUPRS.IS",
@@ -1637,7 +1637,7 @@
         "SORTINO": 1.14,
         "STABILITY": 1.11
       },
-      "QuantScore": null
+      "QuantScore": 8.0
     },
     {
       "Symbol": "SASA.IS",
@@ -2064,7 +2064,7 @@
         "SORTINO": 2.1,
         "STABILITY": 1.71
       },
-      "QuantScore": 14.3
+      "QuantScore": 19.3
     },
     {
       "Symbol": "BIMAS.IS",
@@ -2826,16 +2826,16 @@
         "QuantScore": 25.4
       },
       {
+        "Symbol": "TRMET.IS",
+        "Name": "Turk Metal",
+        "Category": "Energy & Chemicals",
+        "QuantScore": 19.3
+      },
+      {
         "Symbol": "SOKM.IS",
         "Name": "Sok Marketler",
         "Category": "Retail & Food",
         "QuantScore": 14.4
-      },
-      {
-        "Symbol": "TRMET.IS",
-        "Name": "Turk Metal",
-        "Category": "Energy & Chemicals",
-        "QuantScore": 14.3
       },
       {
         "Symbol": "KRDMD.IS",
@@ -2844,22 +2844,22 @@
         "QuantScore": 10.5
       },
       {
+        "Symbol": "PETKM.IS",
+        "Name": "Petkim",
+        "Category": "Energy & Chemicals",
+        "QuantScore": 8.0
+      },
+      {
         "Symbol": "BIMAS.IS",
         "Name": "BIM",
         "Category": "Retail & Food",
         "QuantScore": 6.0
       },
       {
-        "Symbol": "DOHOL.IS",
-        "Name": "Dogan Holding",
-        "Category": "Holding & Investment",
-        "QuantScore": 0
-      },
-      {
-        "Symbol": "ALARK.IS",
-        "Name": "Alarko Holding",
-        "Category": "Construction & REIT",
-        "QuantScore": 0
+        "Symbol": "ASELS.IS",
+        "Name": "Aselsan",
+        "Category": "Heavy Industry",
+        "QuantScore": 2.8
       }
     ],
     "all_sectors": [
