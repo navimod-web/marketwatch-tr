@@ -1,31 +1,31 @@
 {
-  "generated_at": "2026-09-09T06:00:17.308040",
-  "update_time": "2026-09-09 06:00",
+  "generated_at": "2026-09-10T06:00:18.213847",
+  "update_time": "2026-09-10 06:00",
   "stock_count": 44,
   "ratio_count": 4,
   "regime": {
-    "overall": "CAUTION",
+    "overall": "RISK-ON",
     "riskScore": 1,
-    "volatility": 18.90666202701481,
+    "volatility": 16.115228829549853,
     "signals": {
       "BREADTH": {
-        "value": "2/8 POSITIVE",
-        "score": -1,
-        "positive": 2,
+        "value": "8/8 POSITIVE",
+        "score": 1,
+        "positive": 8,
         "total": 8
       },
       "VOLATILITY": {
-        "value": "LOW 18.9%",
+        "value": "LOW 16.1%",
         "score": 1,
-        "level": 18.90666202701481,
+        "level": 16.115228829549853,
         "change": 0
       }
     },
     "breadth": {
-      "positive": 2,
+      "positive": 8,
       "total": 8
     },
-    "note": "Low volatility but narrow participation"
+    "note": "Low volatility + broad participation - strong bull"
   },
   "ratios": [
     {
@@ -33,20 +33,20 @@
       "name": "BIST 100 Level",
       "category": "Market",
       "values": {
-        "1W": 14405.2998,
-        "2W": 14405.2998,
-        "1M": 14405.2998,
-        "3M": 14405.2998,
-        "6M": 14405.2998,
-        "12M": 14405.2998
+        "1W": 14505.5,
+        "2W": 14505.5,
+        "1M": 14505.5,
+        "3M": 14505.5,
+        "6M": 14505.5,
+        "12M": 14505.5
       },
       "changes": {
-        "1W": 2.52,
-        "2W": -1.41,
-        "1M": 5.11,
-        "3M": 4.82,
-        "6M": 8.42,
-        "12M": 30.95
+        "1W": 4.11,
+        "2W": -0.48,
+        "1M": 2.8,
+        "3M": 4.07,
+        "6M": 10.79,
+        "12M": 29.71
       }
     },
     {
@@ -120,58 +120,58 @@
       "Category": "Index",
       "SubCategory": "Main",
       "1W": {
-        "RETURN": 3.73,
-        "TREND": 571.99,
-        "ACCELERATION": 640.95,
-        "QUALITY": 0.601,
-        "SHARPE": 8.89,
-        "SORTINO": 10,
+        "RETURN": 5.57,
+        "TREND": 2154.17,
+        "ACCELERATION": 288.45,
+        "QUALITY": 0.919,
+        "SHARPE": 18.6,
+        "SORTINO": 0,
         "STABILITY": 10
       },
       "2W": {
-        "RETURN": 2.37,
-        "TREND": -8.11,
-        "ACCELERATION": 273.05,
-        "QUALITY": 0.006,
-        "SHARPE": 3.08,
-        "SORTINO": 5.17,
+        "RETURN": 2.28,
+        "TREND": 47.28,
+        "ACCELERATION": 466.4,
+        "QUALITY": 0.077,
+        "SHARPE": 2.98,
+        "SORTINO": 4.98,
         "STABILITY": 10
       },
       "1M": {
-        "RETURN": 9.6,
-        "TREND": 106.71,
-        "ACCELERATION": -202.0,
-        "QUALITY": 0.527,
-        "SHARPE": 5.42,
+        "RETURN": 11.51,
+        "TREND": 104.37,
+        "ACCELERATION": -144.97,
+        "QUALITY": 0.524,
+        "SHARPE": 6.61,
         "SORTINO": 10,
         "STABILITY": 10
       },
       "3M": {
-        "RETURN": 9.31,
-        "TREND": -3.64,
-        "ACCELERATION": 105.22,
-        "QUALITY": 0.007,
-        "SHARPE": 1.76,
-        "SORTINO": 3.68,
-        "STABILITY": 3.1
+        "RETURN": 9.81,
+        "TREND": -2.94,
+        "ACCELERATION": 125.23,
+        "QUALITY": 0.004,
+        "SHARPE": 1.84,
+        "SORTINO": 3.86,
+        "STABILITY": 3.25
       },
       "6M": {
-        "RETURN": 16.23,
-        "TREND": 17.42,
-        "ACCELERATION": -50.7,
+        "RETURN": 15.71,
+        "TREND": 17.36,
+        "ACCELERATION": -47.48,
         "QUALITY": 0.237,
-        "SHARPE": 1.29,
-        "SORTINO": 2.26,
-        "STABILITY": 2.58
+        "SHARPE": 1.25,
+        "SORTINO": 2.2,
+        "STABILITY": 2.51
       },
       "12M": {
-        "RETURN": 45.15,
-        "TREND": 53.52,
-        "ACCELERATION": -44.08,
+        "RETURN": 47.56,
+        "TREND": 53.5,
+        "ACCELERATION": -44.71,
         "QUALITY": 0.809,
-        "SHARPE": 1.62,
-        "SORTINO": 2.99,
-        "STABILITY": 3.11
+        "SHARPE": 1.69,
+        "SORTINO": 3.1,
+        "STABILITY": 3.24
       },
       "QuantScore": null
     },
@@ -181,58 +181,58 @@
       "Category": "Index",
       "SubCategory": "Main",
       "1W": {
-        "RETURN": 1.24,
-        "TREND": 89.49,
-        "ACCELERATION": 613.76,
-        "QUALITY": 0.156,
-        "SHARPE": 3.15,
-        "SORTINO": 10,
+        "RETURN": 3.24,
+        "TREND": 595.23,
+        "ACCELERATION": 345.52,
+        "QUALITY": 0.796,
+        "SHARPE": 10.68,
+        "SORTINO": 0,
         "STABILITY": 10
       },
       "2W": {
-        "RETURN": -0.47,
-        "TREND": -58.96,
-        "ACCELERATION": 107.37,
-        "QUALITY": 0.441,
-        "SHARPE": -0.54,
-        "SORTINO": -0.93,
-        "STABILITY": -2.12
+        "RETURN": -0.72,
+        "TREND": -43.83,
+        "ACCELERATION": 369.48,
+        "QUALITY": 0.182,
+        "SHARPE": -0.89,
+        "SORTINO": -1.51,
+        "STABILITY": -3.44
       },
       "1M": {
-        "RETURN": 4.3,
-        "TREND": 22.45,
-        "ACCELERATION": -221.11,
-        "QUALITY": 0.08,
-        "SHARPE": 2.78,
-        "SORTINO": 5.35,
+        "RETURN": 5.84,
+        "TREND": 16.74,
+        "ACCELERATION": -176.07,
+        "QUALITY": 0.053,
+        "SHARPE": 3.78,
+        "SORTINO": 6.81,
         "STABILITY": 10
       },
       "3M": {
-        "RETURN": 4.81,
-        "TREND": -3.59,
-        "ACCELERATION": 67.9,
-        "QUALITY": 0.012,
-        "SHARPE": 1.07,
-        "SORTINO": 2.14,
-        "STABILITY": 1.99
+        "RETURN": 5.54,
+        "TREND": -3.76,
+        "ACCELERATION": 79.99,
+        "QUALITY": 0.014,
+        "SHARPE": 1.21,
+        "SORTINO": 2.45,
+        "STABILITY": 2.26
       },
       "6M": {
-        "RETURN": 11.3,
-        "TREND": 15.15,
-        "ACCELERATION": -50.61,
-        "QUALITY": 0.23,
-        "SHARPE": 1.0,
-        "SORTINO": 1.68,
-        "STABILITY": 1.87
+        "RETURN": 10.91,
+        "TREND": 14.77,
+        "ACCELERATION": -48.53,
+        "QUALITY": 0.223,
+        "SHARPE": 0.97,
+        "SORTINO": 1.63,
+        "STABILITY": 1.82
       },
       "12M": {
-        "RETURN": 33.03,
-        "TREND": 42.9,
-        "ACCELERATION": -44.93,
-        "QUALITY": 0.776,
-        "SHARPE": 1.34,
-        "SORTINO": 2.28,
-        "STABILITY": 2.4
+        "RETURN": 35.19,
+        "TREND": 42.78,
+        "ACCELERATION": -45.53,
+        "QUALITY": 0.774,
+        "SHARPE": 1.42,
+        "SORTINO": 2.39,
+        "STABILITY": 2.52
       },
       "QuantScore": null
     },
@@ -242,60 +242,60 @@
       "Category": "Banking & Finance",
       "SubCategory": "Bank",
       "1W": {
-        "RETURN": -1.84,
-        "TREND": -55.32,
-        "ACCELERATION": 278.55,
-        "QUALITY": 0.484,
-        "SHARPE": -6.42,
-        "SORTINO": -6.78,
-        "STABILITY": -10
+        "RETURN": 4.31,
+        "TREND": 346.22,
+        "ACCELERATION": 646.48,
+        "QUALITY": 0.379,
+        "SHARPE": 6.97,
+        "SORTINO": 0,
+        "STABILITY": 10
       },
       "2W": {
-        "RETURN": 3.08,
-        "TREND": 13.03,
-        "ACCELERATION": -339.78,
-        "QUALITY": 0.014,
-        "SHARPE": 3.53,
-        "SORTINO": 6.6,
+        "RETURN": 3.95,
+        "TREND": 15.93,
+        "ACCELERATION": 43.68,
+        "QUALITY": 0.019,
+        "SHARPE": 3.89,
+        "SORTINO": 8.43,
         "STABILITY": 10
       },
       "1M": {
-        "RETURN": 7.08,
-        "TREND": 195.5,
-        "ACCELERATION": -82.98,
-        "QUALITY": 0.75,
-        "SHARPE": 3.26,
-        "SORTINO": 9.8,
+        "RETURN": 11.2,
+        "TREND": 215.32,
+        "ACCELERATION": -86.59,
+        "QUALITY": 0.763,
+        "SHARPE": 4.45,
+        "SORTINO": 10,
         "STABILITY": 10
       },
       "3M": {
-        "RETURN": 7.4,
-        "TREND": -28.31,
-        "ACCELERATION": 169.37,
-        "QUALITY": 0.128,
-        "SHARPE": 0.95,
-        "SORTINO": 1.59,
-        "STABILITY": 1.42
+        "RETURN": 11.62,
+        "TREND": -28.36,
+        "ACCELERATION": 204.25,
+        "QUALITY": 0.129,
+        "SHARPE": 1.34,
+        "SORTINO": 2.3,
+        "STABILITY": 2.05
       },
       "6M": {
-        "RETURN": -6.84,
-        "TREND": -10.39,
-        "ACCELERATION": 1.85,
-        "QUALITY": 0.052,
-        "SHARPE": -0.11,
-        "SORTINO": -0.17,
-        "STABILITY": -0.18
+        "RETURN": 4.46,
+        "TREND": -9.25,
+        "ACCELERATION": 1.22,
+        "QUALITY": 0.041,
+        "SHARPE": 0.41,
+        "SORTINO": 0.68,
+        "STABILITY": 0.68
       },
       "12M": {
-        "RETURN": 20.48,
-        "TREND": 20.18,
-        "ACCELERATION": -100.43,
-        "QUALITY": 0.197,
-        "SHARPE": 0.66,
-        "SORTINO": 1.01,
-        "STABILITY": 0.86
+        "RETURN": 23.17,
+        "TREND": 20.0,
+        "ACCELERATION": -99.36,
+        "QUALITY": 0.195,
+        "SHARPE": 0.71,
+        "SORTINO": 1.1,
+        "STABILITY": 0.93
       },
-      "QuantScore": 0
+      "QuantScore": 17.2
     },
     {
       "Symbol": "GARAN.IS",
@@ -303,58 +303,58 @@
       "Category": "Banking & Finance",
       "SubCategory": "Bank",
       "1W": {
-        "RETURN": -1.79,
-        "TREND": -46.11,
-        "ACCELERATION": 27.64,
-        "QUALITY": 0.31,
-        "SHARPE": -4.23,
-        "SORTINO": -6.04,
-        "STABILITY": -10
+        "RETURN": 3.9,
+        "TREND": 199.81,
+        "ACCELERATION": 328.11,
+        "QUALITY": 0.336,
+        "SHARPE": 7.08,
+        "SORTINO": 10,
+        "STABILITY": 10
       },
       "2W": {
-        "RETURN": 1.15,
-        "TREND": 3.68,
-        "ACCELERATION": -213.03,
-        "QUALITY": 0.003,
-        "SHARPE": 1.76,
-        "SORTINO": 2.17,
+        "RETURN": 3.34,
+        "TREND": 15.57,
+        "ACCELERATION": 18.65,
+        "QUALITY": 0.031,
+        "SHARPE": 3.61,
+        "SORTINO": 6.14,
         "STABILITY": 10
       },
       "1M": {
-        "RETURN": 2.82,
-        "TREND": 64.76,
-        "ACCELERATION": -68.6,
-        "QUALITY": 0.587,
-        "SHARPE": 1.65,
-        "SORTINO": 2.97,
+        "RETURN": 7.09,
+        "TREND": 73.87,
+        "ACCELERATION": -52.93,
+        "QUALITY": 0.61,
+        "SHARPE": 3.51,
+        "SORTINO": 6.75,
         "STABILITY": 10
       },
       "3M": {
-        "RETURN": 1.62,
-        "TREND": -20.69,
-        "ACCELERATION": 114.98,
-        "QUALITY": 0.182,
-        "SHARPE": 0.37,
-        "SORTINO": 0.67,
-        "STABILITY": 0.68
+        "RETURN": 4.29,
+        "TREND": -20.29,
+        "ACCELERATION": 132.39,
+        "QUALITY": 0.173,
+        "SHARPE": 0.75,
+        "SORTINO": 1.38,
+        "STABILITY": 1.41
       },
       "6M": {
-        "RETURN": -2.49,
-        "TREND": -2.19,
-        "ACCELERATION": -13.99,
-        "QUALITY": 0.005,
-        "SHARPE": 0.03,
-        "SORTINO": 0.05,
-        "STABILITY": 0.06
+        "RETURN": 4.43,
+        "TREND": -1.62,
+        "ACCELERATION": -14.19,
+        "QUALITY": 0.003,
+        "SHARPE": 0.42,
+        "SORTINO": 0.73,
+        "STABILITY": 0.82
       },
       "12M": {
-        "RETURN": -0.07,
-        "TREND": -1.64,
-        "ACCELERATION": -36.77,
+        "RETURN": 2.46,
+        "TREND": -1.65,
+        "ACCELERATION": -35.73,
         "QUALITY": 0.006,
-        "SHARPE": 0.18,
-        "SORTINO": 0.28,
-        "STABILITY": 0.26
+        "SHARPE": 0.25,
+        "SORTINO": 0.39,
+        "STABILITY": 0.36
       },
       "QuantScore": null
     },
@@ -364,58 +364,58 @@
       "Category": "Banking & Finance",
       "SubCategory": "Bank",
       "1W": {
-        "RETURN": 1.72,
-        "TREND": 217.16,
-        "ACCELERATION": 264.21,
-        "QUALITY": 0.652,
-        "SHARPE": 5.8,
-        "SORTINO": 0,
+        "RETURN": 13.53,
+        "TREND": 16285.03,
+        "ACCELERATION": 1154.65,
+        "QUALITY": 0.647,
+        "SHARPE": 9.74,
+        "SORTINO": 9.74,
         "STABILITY": 10
       },
       "2W": {
-        "RETURN": 5.0,
-        "TREND": 146.93,
-        "ACCELERATION": -92.18,
-        "QUALITY": 0.614,
-        "SHARPE": 5.51,
+        "RETURN": 13.98,
+        "TREND": 571.78,
+        "ACCELERATION": 376.52,
+        "QUALITY": 0.45,
+        "SHARPE": 6.33,
         "SORTINO": 10,
         "STABILITY": 10
       },
       "1M": {
-        "RETURN": 5.52,
-        "TREND": 93.34,
-        "ACCELERATION": 44.37,
-        "QUALITY": 0.694,
-        "SHARPE": 2.72,
-        "SORTINO": 7.88,
+        "RETURN": 16.1,
+        "TREND": 172.38,
+        "ACCELERATION": 147.57,
+        "QUALITY": 0.552,
+        "SHARPE": 4.41,
+        "SORTINO": 10,
         "STABILITY": 10
       },
       "3M": {
-        "RETURN": -5.93,
-        "TREND": -56.62,
-        "ACCELERATION": 79.44,
-        "QUALITY": 0.666,
-        "SHARPE": -0.69,
-        "SORTINO": -1.13,
-        "STABILITY": -0.91
+        "RETURN": 3.76,
+        "TREND": -55.03,
+        "ACCELERATION": 122.66,
+        "QUALITY": 0.604,
+        "SHARPE": 0.58,
+        "SORTINO": 1.18,
+        "STABILITY": 0.94
       },
       "6M": {
-        "RETURN": -9.44,
-        "TREND": -16.12,
-        "ACCELERATION": -87.94,
-        "QUALITY": 0.156,
-        "SHARPE": -0.4,
-        "SORTINO": -0.67,
-        "STABILITY": -0.62
+        "RETURN": 5.22,
+        "TREND": -15.23,
+        "ACCELERATION": -86.24,
+        "QUALITY": 0.138,
+        "SHARPE": 0.46,
+        "SORTINO": 0.86,
+        "STABILITY": 0.76
       },
       "12M": {
-        "RETURN": 1.24,
+        "RETURN": 9.78,
         "TREND": 4.43,
-        "ACCELERATION": -69.74,
+        "ACCELERATION": -68.72,
         "QUALITY": 0.019,
-        "SHARPE": 0.22,
-        "SORTINO": 0.35,
-        "STABILITY": 0.26
+        "SHARPE": 0.43,
+        "SORTINO": 0.72,
+        "STABILITY": 0.54
       },
       "QuantScore": null
     },
@@ -425,60 +425,60 @@
       "Category": "Banking & Finance",
       "SubCategory": "Bank",
       "1W": {
-        "RETURN": -3.55,
-        "TREND": -83.73,
-        "ACCELERATION": 73.13,
-        "QUALITY": 0.827,
-        "SHARPE": -9.28,
-        "SORTINO": -10,
-        "STABILITY": -10
+        "RETURN": 3.01,
+        "TREND": 62.54,
+        "ACCELERATION": 742.39,
+        "QUALITY": 0.039,
+        "SHARPE": 3.87,
+        "SORTINO": 9.22,
+        "STABILITY": 10
       },
       "2W": {
-        "RETURN": 2.28,
-        "TREND": -6.0,
-        "ACCELERATION": -466.53,
-        "QUALITY": 0.002,
-        "SHARPE": 2.19,
-        "SORTINO": 4.68,
+        "RETURN": 3.01,
+        "TREND": -17.89,
+        "ACCELERATION": -60.83,
+        "QUALITY": 0.03,
+        "SHARPE": 2.59,
+        "SORTINO": 6.14,
         "STABILITY": 10
       },
       "1M": {
-        "RETURN": 5.46,
-        "TREND": 142.82,
-        "ACCELERATION": -100.38,
-        "QUALITY": 0.604,
-        "SHARPE": 2.41,
-        "SORTINO": 5.04,
+        "RETURN": 10.58,
+        "TREND": 147.06,
+        "ACCELERATION": -92.65,
+        "QUALITY": 0.609,
+        "SHARPE": 3.92,
+        "SORTINO": 9.41,
         "STABILITY": 10
       },
       "3M": {
-        "RETURN": 2.75,
-        "TREND": -39.63,
-        "ACCELERATION": 235.7,
+        "RETURN": 5.85,
+        "TREND": -39.62,
+        "ACCELERATION": 269.7,
         "QUALITY": 0.198,
-        "SHARPE": 0.47,
-        "SORTINO": 0.83,
-        "STABILITY": 0.63
+        "SHARPE": 0.76,
+        "SORTINO": 1.38,
+        "STABILITY": 1.05
       },
       "6M": {
-        "RETURN": -3.96,
-        "TREND": -3.09,
-        "ACCELERATION": -46.51,
-        "QUALITY": 0.004,
-        "SHARPE": 0.03,
-        "SORTINO": 0.04,
-        "STABILITY": 0.04
+        "RETURN": 6.39,
+        "TREND": -2.35,
+        "ACCELERATION": -47.33,
+        "QUALITY": 0.002,
+        "SHARPE": 0.5,
+        "SORTINO": 0.82,
+        "STABILITY": 0.74
       },
       "12M": {
-        "RETURN": 19.59,
-        "TREND": 9.64,
-        "ACCELERATION": -63.24,
-        "QUALITY": 0.091,
-        "SHARPE": 0.63,
-        "SORTINO": 1.0,
-        "STABILITY": 0.91
+        "RETURN": 21.98,
+        "TREND": 9.32,
+        "ACCELERATION": -61.36,
+        "QUALITY": 0.087,
+        "SHARPE": 0.68,
+        "SORTINO": 1.08,
+        "STABILITY": 0.98
       },
-      "QuantScore": null
+      "QuantScore": 13.6
     },
     {
       "Symbol": "HALKB.IS",
@@ -486,60 +486,60 @@
       "Category": "Banking & Finance",
       "SubCategory": "Bank",
       "1W": {
-        "RETURN": 17.9,
-        "TREND": 2297131.01,
-        "ACCELERATION": 3904.02,
-        "QUALITY": 0.506,
-        "SHARPE": 6.57,
+        "RETURN": 20.44,
+        "TREND": 75150780.56,
+        "ACCELERATION": -462.3,
+        "QUALITY": 0.803,
+        "SHARPE": 7.87,
         "SORTINO": 10,
         "STABILITY": 10
       },
       "2W": {
-        "RETURN": 58.92,
-        "TREND": 4502678.45,
-        "ACCELERATION": -270.15,
-        "QUALITY": 0.856,
-        "SHARPE": 11.34,
+        "RETURN": 47.08,
+        "TREND": 3200729.74,
+        "ACCELERATION": -581.28,
+        "QUALITY": 0.841,
+        "SHARPE": 8.58,
         "SORTINO": 10,
         "STABILITY": 10
       },
       "1M": {
-        "RETURN": 46.1,
-        "TREND": 7482.13,
-        "ACCELERATION": 1224.69,
-        "QUALITY": 0.598,
-        "SHARPE": 5.22,
-        "SORTINO": 9.36,
+        "RETURN": 37.22,
+        "TREND": 17223.28,
+        "ACCELERATION": 1095.79,
+        "QUALITY": 0.714,
+        "SHARPE": 4.28,
+        "SORTINO": 7.99,
         "STABILITY": 10
       },
       "3M": {
-        "RETURN": 18.93,
-        "TREND": -58.88,
-        "ACCELERATION": 370.54,
-        "QUALITY": 0.272,
-        "SHARPE": 1.38,
-        "SORTINO": 2.83,
-        "STABILITY": 2.65
+        "RETURN": 8.92,
+        "TREND": -53.11,
+        "ACCELERATION": 427.0,
+        "QUALITY": 0.19,
+        "SHARPE": 0.83,
+        "SORTINO": 1.66,
+        "STABILITY": 1.63
       },
       "6M": {
-        "RETURN": 26.99,
-        "TREND": -7.72,
-        "ACCELERATION": -102.92,
-        "QUALITY": 0.013,
-        "SHARPE": 1.06,
-        "SORTINO": 2.08,
-        "STABILITY": 1.97
+        "RETURN": 17.05,
+        "TREND": -5.13,
+        "ACCELERATION": -97.25,
+        "QUALITY": 0.005,
+        "SHARPE": 0.8,
+        "SORTINO": 1.55,
+        "STABILITY": 1.5
       },
       "12M": {
-        "RETURN": 124.03,
-        "TREND": 51.54,
-        "ACCELERATION": -163.34,
-        "QUALITY": 0.369,
-        "SHARPE": 1.67,
-        "SORTINO": 2.92,
-        "STABILITY": 2.75
+        "RETURN": 107.52,
+        "TREND": 51.11,
+        "ACCELERATION": -159.3,
+        "QUALITY": 0.368,
+        "SHARPE": 1.53,
+        "SORTINO": 2.67,
+        "STABILITY": 2.54
       },
-      "QuantScore": 23.2
+      "QuantScore": 16.8
     },
     {
       "Symbol": "VAKBN.IS",
@@ -547,60 +547,60 @@
       "Category": "Banking & Finance",
       "SubCategory": "Bank",
       "1W": {
-        "RETURN": 0.12,
-        "TREND": 442.63,
-        "ACCELERATION": 217.43,
-        "QUALITY": 0.217,
-        "SHARPE": 0.34,
-        "SORTINO": 0.48,
+        "RETURN": 15.44,
+        "TREND": 32537.31,
+        "ACCELERATION": 142.67,
+        "QUALITY": 0.776,
+        "SHARPE": 11.63,
+        "SORTINO": 10,
         "STABILITY": 10
       },
       "2W": {
-        "RETURN": 9.87,
-        "TREND": 913.37,
-        "ACCELERATION": -144.91,
-        "QUALITY": 0.744,
-        "SHARPE": 5.29,
-        "SORTINO": 5.6,
+        "RETURN": 16.76,
+        "TREND": 1724.23,
+        "ACCELERATION": 181.91,
+        "QUALITY": 0.699,
+        "SHARPE": 6.65,
+        "SORTINO": 9.26,
         "STABILITY": 10
       },
       "1M": {
-        "RETURN": 8.59,
-        "TREND": 304.04,
-        "ACCELERATION": 209.87,
-        "QUALITY": 0.695,
-        "SHARPE": 2.4,
-        "SORTINO": 3.78,
+        "RETURN": 19.19,
+        "TREND": 506.77,
+        "ACCELERATION": 241.82,
+        "QUALITY": 0.743,
+        "SHARPE": 4.18,
+        "SORTINO": 7.6,
         "STABILITY": 10
       },
       "3M": {
-        "RETURN": 4.09,
-        "TREND": -21.33,
-        "ACCELERATION": 164.22,
-        "QUALITY": 0.136,
-        "SHARPE": 0.61,
-        "SORTINO": 0.94,
-        "STABILITY": 1.28
+        "RETURN": 12.46,
+        "TREND": -16.52,
+        "ACCELERATION": 195.05,
+        "QUALITY": 0.068,
+        "SHARPE": 1.34,
+        "SORTINO": 2.27,
+        "STABILITY": 3.1
       },
       "6M": {
-        "RETURN": -5.51,
-        "TREND": -11.8,
-        "ACCELERATION": 5.12,
-        "QUALITY": 0.141,
-        "SHARPE": -0.08,
-        "SORTINO": -0.15,
-        "STABILITY": -0.17
+        "RETURN": 6.64,
+        "TREND": -9.8,
+        "ACCELERATION": 7.43,
+        "QUALITY": 0.093,
+        "SHARPE": 0.51,
+        "SORTINO": 0.97,
+        "STABILITY": 1.11
       },
       "12M": {
-        "RETURN": 28.32,
-        "TREND": 24.68,
-        "ACCELERATION": -118.24,
+        "RETURN": 37.54,
+        "TREND": 24.69,
+        "ACCELERATION": -116.41,
         "QUALITY": 0.236,
-        "SHARPE": 0.82,
-        "SORTINO": 1.41,
-        "STABILITY": 1.04
+        "SHARPE": 0.98,
+        "SORTINO": 1.73,
+        "STABILITY": 1.27
       },
-      "QuantScore": null
+      "QuantScore": 18.2
     },
     {
       "Symbol": "TSKB.IS",
@@ -608,58 +608,58 @@
       "Category": "Banking & Finance",
       "SubCategory": "Development",
       "1W": {
-        "RETURN": -2.83,
-        "TREND": -56.48,
-        "ACCELERATION": 339.34,
-        "QUALITY": 0.273,
-        "SHARPE": -5.74,
-        "SORTINO": -5.52,
-        "STABILITY": -10
+        "RETURN": 6.31,
+        "TREND": 811.78,
+        "ACCELERATION": 599.12,
+        "QUALITY": 0.493,
+        "SHARPE": 7.51,
+        "SORTINO": 10,
+        "STABILITY": 10
       },
       "2W": {
-        "RETURN": -0.36,
-        "TREND": -21.99,
-        "ACCELERATION": -142.32,
-        "QUALITY": 0.1,
-        "SHARPE": -0.25,
-        "SORTINO": -0.33,
-        "STABILITY": -1.96
+        "RETURN": 4.22,
+        "TREND": 30.29,
+        "ACCELERATION": 121.61,
+        "QUALITY": 0.037,
+        "SHARPE": 2.84,
+        "SORTINO": 5.77,
+        "STABILITY": 10
       },
       "1M": {
-        "RETURN": -2.4,
-        "TREND": -0.08,
-        "ACCELERATION": 19.45,
-        "QUALITY": 0.0,
-        "SHARPE": -1.3,
-        "SORTINO": -2.19,
-        "STABILITY": -8.49
+        "RETURN": 4.5,
+        "TREND": 24.29,
+        "ACCELERATION": 40.35,
+        "QUALITY": 0.146,
+        "SHARPE": 1.95,
+        "SORTINO": 4.36,
+        "STABILITY": 10
       },
       "3M": {
-        "RETURN": -6.96,
-        "TREND": -36.94,
-        "ACCELERATION": 22.05,
-        "QUALITY": 0.685,
-        "SHARPE": -0.9,
-        "SORTINO": -1.78,
-        "STABILITY": -1.87
+        "RETURN": 0.87,
+        "TREND": -35.91,
+        "ACCELERATION": 39.63,
+        "QUALITY": 0.641,
+        "SHARPE": 0.26,
+        "SORTINO": 0.56,
+        "STABILITY": 0.58
       },
       "6M": {
-        "RETURN": -5.52,
-        "TREND": -12.01,
-        "ACCELERATION": -48.5,
-        "QUALITY": 0.205,
-        "SHARPE": -0.23,
-        "SORTINO": -0.46,
-        "STABILITY": -0.49
+        "RETURN": 4.19,
+        "TREND": -11.97,
+        "ACCELERATION": -46.66,
+        "QUALITY": 0.204,
+        "SHARPE": 0.42,
+        "SORTINO": 0.88,
+        "STABILITY": 0.89
       },
       "12M": {
-        "RETURN": -12.23,
-        "TREND": -10.85,
-        "ACCELERATION": -16.53,
-        "QUALITY": 0.356,
-        "SHARPE": -0.24,
-        "SORTINO": -0.4,
-        "STABILITY": -0.37
+        "RETURN": -8.49,
+        "TREND": -10.83,
+        "ACCELERATION": -15.91,
+        "QUALITY": 0.354,
+        "SHARPE": -0.11,
+        "SORTINO": -0.18,
+        "STABILITY": -0.17
       },
       "QuantScore": null
     },
@@ -669,60 +669,60 @@
       "Category": "Holding & Investment",
       "SubCategory": "Holding",
       "1W": {
-        "RETURN": 0.51,
-        "TREND": 31.99,
-        "ACCELERATION": 82.47,
-        "QUALITY": 0.151,
-        "SHARPE": 1.76,
-        "SORTINO": 4.67,
+        "RETURN": 4.61,
+        "TREND": 490.39,
+        "ACCELERATION": 591.74,
+        "QUALITY": 0.47,
+        "SHARPE": 6.62,
+        "SORTINO": 10,
         "STABILITY": 10
       },
       "2W": {
-        "RETURN": -3.28,
-        "TREND": -45.6,
-        "ACCELERATION": 270.64,
-        "QUALITY": 0.409,
-        "SHARPE": -5.57,
-        "SORTINO": -8.53,
-        "STABILITY": -10
+        "RETURN": 2.74,
+        "TREND": 29.72,
+        "ACCELERATION": 327.89,
+        "QUALITY": 0.051,
+        "SHARPE": 2.65,
+        "SORTINO": 8.54,
+        "STABILITY": 10
       },
       "1M": {
-        "RETURN": 9.8,
-        "TREND": 190.01,
-        "ACCELERATION": -282.58,
-        "QUALITY": 0.618,
-        "SHARPE": 4.45,
+        "RETURN": 13.25,
+        "TREND": 178.5,
+        "ACCELERATION": -222.49,
+        "QUALITY": 0.615,
+        "SHARPE": 5.23,
         "SORTINO": 10,
         "STABILITY": 10
       },
       "3M": {
-        "RETURN": 12.68,
-        "TREND": 71.96,
-        "ACCELERATION": 81.75,
-        "QUALITY": 0.671,
-        "SHARPE": 1.73,
-        "SORTINO": 3.08,
-        "STABILITY": 6.5
+        "RETURN": 20.41,
+        "TREND": 76.56,
+        "ACCELERATION": 86.23,
+        "QUALITY": 0.685,
+        "SHARPE": 2.54,
+        "SORTINO": 4.65,
+        "STABILITY": 9.84
       },
       "6M": {
-        "RETURN": 15.92,
-        "TREND": 16.86,
-        "ACCELERATION": 34.87,
-        "QUALITY": 0.221,
-        "SHARPE": 1.09,
-        "SORTINO": 1.78,
-        "STABILITY": 2.48
+        "RETURN": 24.58,
+        "TREND": 17.57,
+        "ACCELERATION": 40.41,
+        "QUALITY": 0.229,
+        "SHARPE": 1.53,
+        "SORTINO": 2.53,
+        "STABILITY": 3.52
       },
       "12M": {
-        "RETURN": 35.65,
-        "TREND": 31.58,
-        "ACCELERATION": -33.31,
+        "RETURN": 40.49,
+        "TREND": 31.69,
+        "ACCELERATION": -32.47,
         "QUALITY": 0.658,
-        "SHARPE": 1.13,
-        "SORTINO": 2.01,
-        "STABILITY": 2.01
+        "SHARPE": 1.23,
+        "SORTINO": 2.21,
+        "STABILITY": 2.22
       },
-      "QuantScore": null
+      "QuantScore": 69.5
     },
     {
       "Symbol": "SAHOL.IS",
@@ -730,60 +730,60 @@
       "Category": "Holding & Investment",
       "SubCategory": "Holding",
       "1W": {
-        "RETURN": -1.12,
-        "TREND": -39.75,
-        "ACCELERATION": 74.31,
-        "QUALITY": 0.674,
-        "SHARPE": -7.05,
-        "SORTINO": -10,
-        "STABILITY": -10
+        "RETURN": 3.54,
+        "TREND": 216.43,
+        "ACCELERATION": 560.48,
+        "QUALITY": 0.291,
+        "SHARPE": 5.63,
+        "SORTINO": 10,
+        "STABILITY": 10
       },
       "2W": {
-        "RETURN": 0.22,
-        "TREND": -19.88,
-        "ACCELERATION": -115.73,
-        "QUALITY": 0.198,
-        "SHARPE": 0.47,
-        "SORTINO": 1.41,
-        "STABILITY": 3.35
+        "RETURN": 2.39,
+        "TREND": 4.0,
+        "ACCELERATION": 140.65,
+        "QUALITY": 0.002,
+        "SHARPE": 2.66,
+        "SORTINO": 10,
+        "STABILITY": 10
       },
       "1M": {
-        "RETURN": 5.11,
-        "TREND": 144.25,
-        "ACCELERATION": -85.35,
-        "QUALITY": 0.765,
-        "SHARPE": 4.19,
+        "RETURN": 9.6,
+        "TREND": 161.48,
+        "ACCELERATION": -93.36,
+        "QUALITY": 0.78,
+        "SHARPE": 5.62,
         "SORTINO": 10,
         "STABILITY": 10
       },
       "3M": {
-        "RETURN": 1.2,
-        "TREND": -26.5,
-        "ACCELERATION": 157.54,
-        "QUALITY": 0.206,
-        "SHARPE": 0.31,
-        "SORTINO": 0.53,
-        "STABILITY": 0.42
+        "RETURN": 5.81,
+        "TREND": -25.36,
+        "ACCELERATION": 180.44,
+        "QUALITY": 0.183,
+        "SHARPE": 0.95,
+        "SORTINO": 1.71,
+        "STABILITY": 1.34
       },
       "6M": {
-        "RETURN": 0.74,
-        "TREND": -8.71,
-        "ACCELERATION": -37.6,
-        "QUALITY": 0.073,
-        "SHARPE": 0.21,
-        "SORTINO": 0.37,
-        "STABILITY": 0.33
+        "RETURN": 8.94,
+        "TREND": -8.48,
+        "ACCELERATION": -34.29,
+        "QUALITY": 0.069,
+        "SHARPE": 0.67,
+        "SORTINO": 1.21,
+        "STABILITY": 1.06
       },
       "12M": {
-        "RETURN": 10.11,
-        "TREND": 15.24,
-        "ACCELERATION": -59.49,
+        "RETURN": 13.75,
+        "TREND": 15.23,
+        "ACCELERATION": -59.34,
         "QUALITY": 0.213,
-        "SHARPE": 0.45,
-        "SORTINO": 0.75,
-        "STABILITY": 0.6
+        "SHARPE": 0.55,
+        "SORTINO": 0.91,
+        "STABILITY": 0.73
       },
-      "QuantScore": null
+      "QuantScore": 17.6
     },
     {
       "Symbol": "DOHOL.IS",
@@ -791,58 +791,58 @@
       "Category": "Holding & Investment",
       "SubCategory": "Holding",
       "1W": {
-        "RETURN": -3.8,
-        "TREND": -87.85,
-        "ACCELERATION": 708.13,
-        "QUALITY": 0.577,
-        "SHARPE": -7.18,
-        "SORTINO": -10,
+        "RETURN": -1.63,
+        "TREND": -38.44,
+        "ACCELERATION": 509.84,
+        "QUALITY": 0.108,
+        "SHARPE": -3.59,
+        "SORTINO": -5.53,
         "STABILITY": -10
       },
       "2W": {
-        "RETURN": 0.93,
-        "TREND": 12.2,
-        "ACCELERATION": -403.68,
-        "QUALITY": 0.005,
-        "SHARPE": 0.81,
-        "SORTINO": 1.6,
-        "STABILITY": 5.29
+        "RETURN": 0.46,
+        "TREND": -1.71,
+        "ACCELERATION": -429.47,
+        "QUALITY": 0.0,
+        "SHARPE": 0.48,
+        "SORTINO": 0.91,
+        "STABILITY": 3.17
       },
       "1M": {
-        "RETURN": 4.31,
-        "TREND": 101.86,
-        "ACCELERATION": -17.06,
-        "QUALITY": 0.489,
-        "SHARPE": 1.71,
-        "SORTINO": 4.16,
+        "RETURN": 6.15,
+        "TREND": 97.67,
+        "ACCELERATION": -58.84,
+        "QUALITY": 0.469,
+        "SHARPE": 2.41,
+        "SORTINO": 5.11,
         "STABILITY": 10
       },
       "3M": {
-        "RETURN": -0.73,
-        "TREND": -1.68,
-        "ACCELERATION": 84.6,
-        "QUALITY": 0.002,
-        "SHARPE": 0.06,
-        "SORTINO": 0.1,
-        "STABILITY": 0.16
+        "RETURN": 1.02,
+        "TREND": 0.3,
+        "ACCELERATION": 83.11,
+        "QUALITY": 0.0,
+        "SHARPE": 0.28,
+        "SORTINO": 0.47,
+        "STABILITY": 0.71
       },
       "6M": {
-        "RETURN": 8.03,
-        "TREND": -0.38,
-        "ACCELERATION": -68.63,
-        "QUALITY": 0.0,
-        "SHARPE": 0.58,
-        "SORTINO": 0.93,
-        "STABILITY": 1.33
+        "RETURN": 9.46,
+        "TREND": -0.93,
+        "ACCELERATION": -63.63,
+        "QUALITY": 0.001,
+        "SHARPE": 0.65,
+        "SORTINO": 1.03,
+        "STABILITY": 1.47
       },
       "12M": {
-        "RETURN": 24.15,
-        "TREND": 34.51,
-        "ACCELERATION": -47.65,
-        "QUALITY": 0.657,
-        "SHARPE": 0.79,
-        "SORTINO": 1.2,
-        "STABILITY": 1.59
+        "RETURN": 26.22,
+        "TREND": 34.39,
+        "ACCELERATION": -48.64,
+        "QUALITY": 0.655,
+        "SHARPE": 0.84,
+        "SORTINO": 1.27,
+        "STABILITY": 1.68
       },
       "QuantScore": null
     },
@@ -852,60 +852,60 @@
       "Category": "Construction & REIT",
       "SubCategory": "Contractor",
       "1W": {
-        "RETURN": 1.63,
-        "TREND": 312.01,
-        "ACCELERATION": 447.06,
-        "QUALITY": 0.465,
-        "SHARPE": 3.46,
-        "SORTINO": 5.53,
+        "RETURN": 6.19,
+        "TREND": 2013.23,
+        "ACCELERATION": 124.87,
+        "QUALITY": 0.916,
+        "SHARPE": 14.83,
+        "SORTINO": 0,
         "STABILITY": 10
       },
       "2W": {
-        "RETURN": 5.36,
-        "TREND": 341.98,
-        "ACCELERATION": -119.24,
-        "QUALITY": 0.718,
-        "SHARPE": 5.38,
-        "SORTINO": 9.08,
+        "RETURN": 10.58,
+        "TREND": 535.74,
+        "ACCELERATION": -73.31,
+        "QUALITY": 0.78,
+        "SHARPE": 11.63,
+        "SORTINO": 10,
         "STABILITY": 10
       },
       "1M": {
-        "RETURN": 11.67,
-        "TREND": 179.41,
-        "ACCELERATION": -29.68,
-        "QUALITY": 0.602,
-        "SHARPE": 3.48,
-        "SORTINO": 6.32,
+        "RETURN": 12.97,
+        "TREND": 186.3,
+        "ACCELERATION": 49.34,
+        "QUALITY": 0.604,
+        "SHARPE": 3.78,
+        "SORTINO": 6.96,
         "STABILITY": 10
       },
       "3M": {
-        "RETURN": 10.67,
-        "TREND": 18.78,
-        "ACCELERATION": 64.31,
-        "QUALITY": 0.143,
-        "SHARPE": 1.29,
-        "SORTINO": 2.48,
-        "STABILITY": 4.67
+        "RETURN": 10.05,
+        "TREND": 21.34,
+        "ACCELERATION": 78.62,
+        "QUALITY": 0.164,
+        "SHARPE": 1.23,
+        "SORTINO": 2.35,
+        "STABILITY": 4.44
       },
       "6M": {
-        "RETURN": 14.87,
-        "TREND": 47.85,
-        "ACCELERATION": -20.63,
-        "QUALITY": 0.747,
-        "SHARPE": 0.94,
-        "SORTINO": 1.66,
-        "STABILITY": 3.38
+        "RETURN": 23.59,
+        "TREND": 49.64,
+        "ACCELERATION": -22.73,
+        "QUALITY": 0.765,
+        "SHARPE": 1.35,
+        "SORTINO": 2.43,
+        "STABILITY": 4.8
       },
       "12M": {
-        "RETURN": 42.68,
-        "TREND": 25.73,
-        "ACCELERATION": -39.33,
+        "RETURN": 44.84,
+        "TREND": 25.63,
+        "ACCELERATION": -36.77,
         "QUALITY": 0.415,
-        "SHARPE": 1.23,
-        "SORTINO": 2.23,
-        "STABILITY": 1.65
+        "SHARPE": 1.27,
+        "SORTINO": 2.31,
+        "STABILITY": 1.71
       },
-      "QuantScore": 43.3
+      "QuantScore": 45.9
     },
     {
       "Symbol": "ENKAI.IS",
@@ -913,58 +913,58 @@
       "Category": "Construction & REIT",
       "SubCategory": "Contractor",
       "1W": {
-        "RETURN": -1.97,
-        "TREND": -63.61,
-        "ACCELERATION": 79.32,
-        "QUALITY": 0.447,
-        "SHARPE": -3.66,
-        "SORTINO": -10,
-        "STABILITY": -10
+        "RETURN": 2.57,
+        "TREND": 67.98,
+        "ACCELERATION": 479.35,
+        "QUALITY": 0.084,
+        "SHARPE": 4.32,
+        "SORTINO": 0,
+        "STABILITY": 10
       },
       "2W": {
-        "RETURN": 4.8,
-        "TREND": 249.61,
-        "ACCELERATION": -490.92,
-        "QUALITY": 0.436,
-        "SHARPE": 3.93,
-        "SORTINO": 7.56,
+        "RETURN": 8.08,
+        "TREND": 212.49,
+        "ACCELERATION": -405.87,
+        "QUALITY": 0.405,
+        "SHARPE": 6.15,
+        "SORTINO": 10,
         "STABILITY": 10
       },
       "1M": {
-        "RETURN": 1.63,
-        "TREND": 40.57,
-        "ACCELERATION": 272.94,
-        "QUALITY": 0.092,
-        "SHARPE": 0.68,
-        "SORTINO": 0.64,
-        "STABILITY": 3.17
+        "RETURN": 3.82,
+        "TREND": 63.38,
+        "ACCELERATION": 261.55,
+        "QUALITY": 0.171,
+        "SHARPE": 1.31,
+        "SORTINO": 1.25,
+        "STABILITY": 6.21
       },
       "3M": {
-        "RETURN": -8.11,
-        "TREND": -36.11,
-        "ACCELERATION": 24.14,
-        "QUALITY": 0.662,
-        "SHARPE": -0.92,
-        "SORTINO": -1.23,
-        "STABILITY": -1.74
+        "RETURN": -6.76,
+        "TREND": -34.37,
+        "ACCELERATION": 34.26,
+        "QUALITY": 0.609,
+        "SHARPE": -0.72,
+        "SORTINO": -0.98,
+        "STABILITY": -1.38
       },
       "6M": {
-        "RETURN": -4.23,
-        "TREND": -24.63,
-        "ACCELERATION": -97.02,
-        "QUALITY": 0.32,
-        "SHARPE": -0.06,
-        "SORTINO": -0.1,
-        "STABILITY": -0.08
+        "RETURN": 2.36,
+        "TREND": -25.09,
+        "ACCELERATION": -90.26,
+        "QUALITY": 0.334,
+        "SHARPE": 0.31,
+        "SORTINO": 0.47,
+        "STABILITY": 0.39
       },
       "12M": {
-        "RETURN": 34.54,
-        "TREND": 39.6,
-        "ACCELERATION": -105.49,
-        "QUALITY": 0.504,
-        "SHARPE": 1.02,
-        "SORTINO": 1.67,
-        "STABILITY": 1.27
+        "RETURN": 40.41,
+        "TREND": 38.86,
+        "ACCELERATION": -105.86,
+        "QUALITY": 0.496,
+        "SHARPE": 1.14,
+        "SORTINO": 1.86,
+        "STABILITY": 1.43
       },
       "QuantScore": null
     },
@@ -974,60 +974,60 @@
       "Category": "Construction & REIT",
       "SubCategory": "Contractor",
       "1W": {
-        "RETURN": -4.62,
-        "TREND": -85.83,
-        "ACCELERATION": 477.88,
-        "QUALITY": 0.424,
-        "SHARPE": -4.75,
-        "SORTINO": -5.8,
-        "STABILITY": -10
-      },
-      "2W": {
-        "RETURN": 2.38,
-        "TREND": -44.93,
-        "ACCELERATION": -528.19,
-        "QUALITY": 0.101,
-        "SHARPE": 1.53,
-        "SORTINO": 1.84,
+        "RETURN": 3.25,
+        "TREND": 115.49,
+        "ACCELERATION": 451.11,
+        "QUALITY": 0.152,
+        "SHARPE": 5.12,
+        "SORTINO": 7.57,
         "STABILITY": 10
       },
+      "2W": {
+        "RETURN": -0.51,
+        "TREND": -62.96,
+        "ACCELERATION": -19.87,
+        "QUALITY": 0.372,
+        "SHARPE": -0.18,
+        "SORTINO": -0.18,
+        "STABILITY": -1.16
+      },
       "1M": {
-        "RETURN": 8.72,
-        "TREND": -42.42,
-        "ACCELERATION": -384.28,
-        "QUALITY": 0.071,
-        "SHARPE": 1.76,
-        "SORTINO": 2.5,
-        "STABILITY": 8.12
+        "RETURN": 3.4,
+        "TREND": -63.23,
+        "ACCELERATION": -117.39,
+        "QUALITY": 0.313,
+        "SHARPE": 0.93,
+        "SORTINO": 1.22,
+        "STABILITY": 3.97
       },
       "3M": {
-        "RETURN": 46.39,
-        "TREND": 1210.46,
-        "ACCELERATION": 312.81,
-        "QUALITY": 0.764,
-        "SHARPE": 2.97,
-        "SORTINO": 4.64,
+        "RETURN": 49.65,
+        "TREND": 1272.9,
+        "ACCELERATION": 265.37,
+        "QUALITY": 0.778,
+        "SHARPE": 3.12,
+        "SORTINO": 4.89,
         "STABILITY": 10
       },
       "6M": {
-        "RETURN": 178.47,
-        "TREND": 479.49,
-        "ACCELERATION": -36.08,
-        "QUALITY": 0.797,
-        "SHARPE": 3.67,
-        "SORTINO": 6.0,
-        "STABILITY": 9.11
+        "RETURN": 193.02,
+        "TREND": 470.73,
+        "ACCELERATION": -23.5,
+        "QUALITY": 0.796,
+        "SHARPE": 3.85,
+        "SORTINO": 6.21,
+        "STABILITY": 9.52
       },
       "12M": {
-        "RETURN": 130.59,
-        "TREND": 186.94,
-        "ACCELERATION": 205.47,
-        "QUALITY": 0.718,
-        "SHARPE": 1.74,
-        "SORTINO": 2.8,
-        "STABILITY": 3.39
+        "RETURN": 138.59,
+        "TREND": 191.11,
+        "ACCELERATION": 202.52,
+        "QUALITY": 0.726,
+        "SHARPE": 1.8,
+        "SORTINO": 2.89,
+        "STABILITY": 3.5
       },
-      "QuantScore": 14.3
+      "QuantScore": null
     },
     {
       "Symbol": "EKGYO.IS",
@@ -1035,58 +1035,58 @@
       "Category": "Construction & REIT",
       "SubCategory": "REIT",
       "1W": {
-        "RETURN": -5.72,
-        "TREND": -92.15,
-        "ACCELERATION": 147.58,
-        "QUALITY": 0.76,
-        "SHARPE": -9.82,
-        "SORTINO": -10,
-        "STABILITY": -10
+        "RETURN": 2.2,
+        "TREND": 27.32,
+        "ACCELERATION": 548.99,
+        "QUALITY": 0.009,
+        "SHARPE": 2.47,
+        "SORTINO": 6.23,
+        "STABILITY": 10
       },
       "2W": {
-        "RETURN": -0.05,
-        "TREND": -55.17,
-        "ACCELERATION": -509.78,
-        "QUALITY": 0.186,
-        "SHARPE": 0.19,
-        "SORTINO": 0.42,
-        "STABILITY": 1.44
+        "RETURN": -1.35,
+        "TREND": -63.6,
+        "ACCELERATION": -11.11,
+        "QUALITY": 0.342,
+        "SHARPE": -0.6,
+        "SORTINO": -1.23,
+        "STABILITY": -4.55
       },
       "1M": {
-        "RETURN": 6.87,
-        "TREND": 377.47,
-        "ACCELERATION": -267.3,
-        "QUALITY": 0.657,
-        "SHARPE": 2.31,
-        "SORTINO": 4.85,
+        "RETURN": 13.94,
+        "TREND": 375.67,
+        "ACCELERATION": -327.77,
+        "QUALITY": 0.656,
+        "SHARPE": 4.08,
+        "SORTINO": 8.76,
         "STABILITY": 10
       },
       "3M": {
-        "RETURN": 2.92,
-        "TREND": -24.76,
-        "ACCELERATION": 60.31,
-        "QUALITY": 0.124,
-        "SHARPE": 0.5,
-        "SORTINO": 0.94,
-        "STABILITY": 0.9
+        "RETURN": 9.51,
+        "TREND": -24.91,
+        "ACCELERATION": 94.2,
+        "QUALITY": 0.126,
+        "SHARPE": 1.18,
+        "SORTINO": 2.26,
+        "STABILITY": 2.21
       },
       "6M": {
-        "RETURN": -7.51,
-        "TREND": -6.52,
-        "ACCELERATION": -11.59,
-        "QUALITY": 0.036,
-        "SHARPE": -0.18,
-        "SORTINO": -0.3,
-        "STABILITY": -0.38
+        "RETURN": 0.31,
+        "TREND": -5.65,
+        "ACCELERATION": -12.49,
+        "QUALITY": 0.027,
+        "SHARPE": 0.22,
+        "SORTINO": 0.37,
+        "STABILITY": 0.46
       },
       "12M": {
-        "RETURN": 5.58,
-        "TREND": -0.23,
-        "ACCELERATION": -59.68,
+        "RETURN": 6.51,
+        "TREND": -0.4,
+        "ACCELERATION": -57.94,
         "QUALITY": 0.0,
-        "SHARPE": 0.34,
-        "SORTINO": 0.54,
-        "STABILITY": 0.45
+        "SHARPE": 0.36,
+        "SORTINO": 0.57,
+        "STABILITY": 0.48
       },
       "QuantScore": null
     },
@@ -1096,58 +1096,58 @@
       "Category": "Heavy Industry",
       "SubCategory": "Steel",
       "1W": {
-        "RETURN": -5.01,
-        "TREND": -95.69,
-        "ACCELERATION": 317.28,
-        "QUALITY": 0.836,
-        "SHARPE": -8.89,
-        "SORTINO": -10,
-        "STABILITY": -10
+        "RETURN": 2.94,
+        "TREND": 66.67,
+        "ACCELERATION": 1490.28,
+        "QUALITY": 0.015,
+        "SHARPE": 2.49,
+        "SORTINO": 8.2,
+        "STABILITY": 10
       },
       "2W": {
-        "RETURN": -2.46,
-        "TREND": -59.09,
-        "ACCELERATION": -408.95,
-        "QUALITY": 0.348,
-        "SHARPE": -2.47,
-        "SORTINO": -3.24,
-        "STABILITY": -9.13
+        "RETURN": 4.56,
+        "TREND": -28.24,
+        "ACCELERATION": -100.26,
+        "QUALITY": 0.032,
+        "SHARPE": 2.69,
+        "SORTINO": 6.55,
+        "STABILITY": 10
       },
       "1M": {
-        "RETURN": -10.49,
-        "TREND": -17.44,
-        "ACCELERATION": 2.68,
-        "QUALITY": 0.034,
-        "SHARPE": -3.5,
-        "SORTINO": -3.59,
-        "STABILITY": -10
+        "RETURN": 3.21,
+        "TREND": 27.33,
+        "ACCELERATION": -68.04,
+        "QUALITY": 0.086,
+        "SHARPE": 1.18,
+        "SORTINO": 1.84,
+        "STABILITY": 6.77
       },
       "3M": {
-        "RETURN": -4.66,
-        "TREND": -21.58,
-        "ACCELERATION": -200.37,
-        "QUALITY": 0.128,
-        "SHARPE": -0.36,
-        "SORTINO": -0.5,
-        "STABILITY": -0.74
+        "RETURN": 3.31,
+        "TREND": -22.39,
+        "ACCELERATION": -187.36,
+        "QUALITY": 0.139,
+        "SHARPE": 0.53,
+        "SORTINO": 0.79,
+        "STABILITY": 1.18
       },
       "6M": {
-        "RETURN": 30.56,
-        "TREND": 121.65,
-        "ACCELERATION": -211.29,
-        "QUALITY": 0.62,
-        "SHARPE": 1.5,
-        "SORTINO": 2.35,
-        "STABILITY": 3.58
+        "RETURN": 43.49,
+        "TREND": 118.65,
+        "ACCELERATION": -213.56,
+        "QUALITY": 0.609,
+        "SHARPE": 1.92,
+        "SORTINO": 3.06,
+        "STABILITY": 4.7
       },
       "12M": {
-        "RETURN": 42.29,
-        "TREND": 78.74,
-        "ACCELERATION": 73.64,
-        "QUALITY": 0.71,
-        "SHARPE": 1.09,
-        "SORTINO": 1.63,
-        "STABILITY": 1.59
+        "RETURN": 54.09,
+        "TREND": 79.1,
+        "ACCELERATION": 71.65,
+        "QUALITY": 0.712,
+        "SHARPE": 1.28,
+        "SORTINO": 1.93,
+        "STABILITY": 1.89
       },
       "QuantScore": null
     },
@@ -1157,60 +1157,60 @@
       "Category": "Heavy Industry",
       "SubCategory": "Steel",
       "1W": {
-        "RETURN": -6.65,
-        "TREND": -98.94,
-        "ACCELERATION": 305.89,
-        "QUALITY": 0.775,
-        "SHARPE": -6.0,
-        "SORTINO": -10,
+        "RETURN": -2.95,
+        "TREND": -83.11,
+        "ACCELERATION": 1612.02,
+        "QUALITY": 0.135,
+        "SHARPE": -1.76,
+        "SORTINO": -4.33,
         "STABILITY": -10
       },
       "2W": {
-        "RETURN": -3.25,
-        "TREND": -62.01,
-        "ACCELERATION": -651.2,
-        "QUALITY": 0.188,
-        "SHARPE": -1.77,
-        "SORTINO": -1.67,
-        "STABILITY": -8.05
+        "RETURN": 1.73,
+        "TREND": -55.32,
+        "ACCELERATION": -425.24,
+        "QUALITY": 0.126,
+        "SHARPE": 1.07,
+        "SORTINO": 1.24,
+        "STABILITY": 5.96
       },
       "1M": {
-        "RETURN": 5.63,
-        "TREND": 322.02,
-        "ACCELERATION": -452.63,
-        "QUALITY": 0.476,
-        "SHARPE": 1.5,
-        "SORTINO": 2.31,
-        "STABILITY": 8.48
+        "RETURN": 16.17,
+        "TREND": 305.23,
+        "ACCELERATION": -470.42,
+        "QUALITY": 0.461,
+        "SHARPE": 3.64,
+        "SORTINO": 5.46,
+        "STABILITY": 10
       },
       "3M": {
-        "RETURN": 11.59,
-        "TREND": 84.36,
-        "ACCELERATION": 56.86,
-        "QUALITY": 0.532,
-        "SHARPE": 1.2,
-        "SORTINO": 2.23,
-        "STABILITY": 4.42
+        "RETURN": 17.66,
+        "TREND": 87.1,
+        "ACCELERATION": 58.41,
+        "QUALITY": 0.543,
+        "SHARPE": 1.63,
+        "SORTINO": 3.13,
+        "STABILITY": 6.22
       },
       "6M": {
-        "RETURN": 42.04,
-        "TREND": 107.43,
-        "ACCELERATION": -100.35,
-        "QUALITY": 0.707,
-        "SHARPE": 1.7,
-        "SORTINO": 3.28,
-        "STABILITY": 4.25
+        "RETURN": 55.97,
+        "TREND": 106.45,
+        "ACCELERATION": -96.51,
+        "QUALITY": 0.705,
+        "SHARPE": 2.08,
+        "SORTINO": 4.03,
+        "STABILITY": 5.24
       },
       "12M": {
-        "RETURN": 68.94,
-        "TREND": 86.53,
-        "ACCELERATION": 44.43,
-        "QUALITY": 0.846,
-        "SHARPE": 1.42,
-        "SORTINO": 2.28,
-        "STABILITY": 2.93
+        "RETURN": 77.67,
+        "TREND": 87.0,
+        "ACCELERATION": 43.62,
+        "QUALITY": 0.848,
+        "SHARPE": 1.52,
+        "SORTINO": 2.48,
+        "STABILITY": 3.18
       },
-      "QuantScore": null
+      "QuantScore": 34.7
     },
     {
       "Symbol": "FROTO.IS",
@@ -1218,58 +1218,58 @@
       "Category": "Heavy Industry",
       "SubCategory": "Automotive",
       "1W": {
-        "RETURN": -1.53,
-        "TREND": -63.84,
-        "ACCELERATION": 342.2,
-        "QUALITY": 0.381,
-        "SHARPE": -3.05,
-        "SORTINO": -8.91,
-        "STABILITY": -10
+        "RETURN": 7.6,
+        "TREND": 1202.58,
+        "ACCELERATION": 1253.06,
+        "QUALITY": 0.344,
+        "SHARPE": 7.0,
+        "SORTINO": 10,
+        "STABILITY": 10
       },
       "2W": {
-        "RETURN": -3.74,
-        "TREND": -74.02,
-        "ACCELERATION": 26.84,
-        "QUALITY": 0.825,
-        "SHARPE": -4.5,
-        "SORTINO": -7.88,
-        "STABILITY": -10
+        "RETURN": 3.37,
+        "TREND": -25.52,
+        "ACCELERATION": 369.62,
+        "QUALITY": 0.023,
+        "SHARPE": 2.11,
+        "SORTINO": 8.4,
+        "STABILITY": 10
       },
       "1M": {
-        "RETURN": -1.78,
-        "TREND": -26.87,
-        "ACCELERATION": -175.99,
-        "QUALITY": 0.255,
-        "SHARPE": -1.14,
-        "SORTINO": -1.9,
-        "STABILITY": -3.54
+        "RETURN": 6.02,
+        "TREND": -13.8,
+        "ACCELERATION": -82.95,
+        "QUALITY": 0.038,
+        "SHARPE": 2.43,
+        "SORTINO": 6.77,
+        "STABILITY": 10
       },
       "3M": {
-        "RETURN": -11.37,
-        "TREND": -45.43,
-        "ACCELERATION": 73.04,
-        "QUALITY": 0.767,
-        "SHARPE": -1.83,
-        "SORTINO": -3.82,
-        "STABILITY": -2.57
+        "RETURN": -4.06,
+        "TREND": -43.92,
+        "ACCELERATION": 89.3,
+        "QUALITY": 0.715,
+        "SHARPE": -0.44,
+        "SORTINO": -1.05,
+        "STABILITY": -0.71
       },
       "6M": {
-        "RETURN": -28.32,
-        "TREND": -52.72,
-        "ACCELERATION": 39.05,
-        "QUALITY": 0.895,
-        "SHARPE": -1.98,
-        "SORTINO": -3.33,
-        "STABILITY": -1.98
+        "RETURN": -21.07,
+        "TREND": -52.25,
+        "ACCELERATION": 42.92,
+        "QUALITY": 0.886,
+        "SHARPE": -1.28,
+        "SORTINO": -2.26,
+        "STABILITY": -1.35
       },
       "12M": {
-        "RETURN": -19.42,
-        "TREND": -11.09,
-        "ACCELERATION": -128.67,
-        "QUALITY": 0.088,
-        "SHARPE": -0.55,
-        "SORTINO": -0.96,
-        "STABILITY": -0.4
+        "RETURN": -11.31,
+        "TREND": -11.24,
+        "ACCELERATION": -128.91,
+        "QUALITY": 0.09,
+        "SHARPE": -0.22,
+        "SORTINO": -0.4,
+        "STABILITY": -0.17
       },
       "QuantScore": null
     },
@@ -1279,58 +1279,58 @@
       "Category": "Heavy Industry",
       "SubCategory": "Automotive",
       "1W": {
-        "RETURN": 0.83,
-        "TREND": -54.22,
-        "ACCELERATION": 834.78,
-        "QUALITY": 0.067,
-        "SHARPE": 1.05,
-        "SORTINO": 2.5,
+        "RETURN": 7.56,
+        "TREND": 2166.39,
+        "ACCELERATION": 1937.03,
+        "QUALITY": 0.304,
+        "SHARPE": 5.98,
+        "SORTINO": 10,
         "STABILITY": 10
       },
       "2W": {
-        "RETURN": -2.49,
-        "TREND": -74.67,
-        "ACCELERATION": 80.95,
-        "QUALITY": 0.565,
-        "SHARPE": -1.75,
-        "SORTINO": -4.36,
-        "STABILITY": -9.68
+        "RETURN": 5.23,
+        "TREND": -7.38,
+        "ACCELERATION": 422.21,
+        "QUALITY": 0.001,
+        "SHARPE": 2.99,
+        "SORTINO": 9.54,
+        "STABILITY": 10
       },
       "1M": {
-        "RETURN": 6.71,
-        "TREND": 31.23,
-        "ACCELERATION": -225.18,
-        "QUALITY": 0.102,
-        "SHARPE": 2.89,
-        "SORTINO": 6.93,
+        "RETURN": 10.93,
+        "TREND": 43.99,
+        "ACCELERATION": -108.03,
+        "QUALITY": 0.134,
+        "SHARPE": 3.76,
+        "SORTINO": 10,
         "STABILITY": 10
       },
       "3M": {
-        "RETURN": -5.76,
-        "TREND": -56.91,
-        "ACCELERATION": 22.9,
-        "QUALITY": 0.616,
-        "SHARPE": -0.46,
-        "SORTINO": -0.95,
-        "STABILITY": -0.67
+        "RETURN": -1.1,
+        "TREND": -56.62,
+        "ACCELERATION": 63.2,
+        "QUALITY": 0.606,
+        "SHARPE": 0.08,
+        "SORTINO": 0.16,
+        "STABILITY": 0.12
       },
       "6M": {
-        "RETURN": -0.63,
-        "TREND": -6.33,
-        "ACCELERATION": -124.86,
-        "QUALITY": 0.021,
-        "SHARPE": 0.16,
-        "SORTINO": 0.35,
-        "STABILITY": 0.25
+        "RETURN": 7.54,
+        "TREND": -6.66,
+        "ACCELERATION": -122.54,
+        "QUALITY": 0.024,
+        "SHARPE": 0.56,
+        "SORTINO": 1.22,
+        "STABILITY": 0.88
       },
       "12M": {
-        "RETURN": 31.63,
-        "TREND": 31.71,
-        "ACCELERATION": -60.11,
-        "QUALITY": 0.437,
+        "RETURN": 31.58,
+        "TREND": 31.17,
+        "ACCELERATION": -59.66,
+        "QUALITY": 0.431,
         "SHARPE": 0.9,
         "SORTINO": 1.64,
-        "STABILITY": 1.37
+        "STABILITY": 1.36
       },
       "QuantScore": null
     },
@@ -1340,58 +1340,58 @@
       "Category": "Heavy Industry",
       "SubCategory": "Appliances",
       "1W": {
-        "RETURN": -2.15,
-        "TREND": -70.34,
-        "ACCELERATION": 496.17,
-        "QUALITY": 0.356,
-        "SHARPE": -3.49,
-        "SORTINO": -6.22,
-        "STABILITY": -10
+        "RETURN": 4.8,
+        "TREND": 484.4,
+        "ACCELERATION": 899.01,
+        "QUALITY": 0.334,
+        "SHARPE": 6.4,
+        "SORTINO": 10,
+        "STABILITY": 10
       },
       "2W": {
-        "RETURN": -1.57,
-        "TREND": -62.3,
-        "ACCELERATION": -213.47,
-        "QUALITY": 0.535,
-        "SHARPE": -1.66,
-        "SORTINO": -2.71,
-        "STABILITY": -6.9
+        "RETURN": 2.32,
+        "TREND": -36.64,
+        "ACCELERATION": 121.05,
+        "QUALITY": 0.086,
+        "SHARPE": 1.95,
+        "SORTINO": 4.51,
+        "STABILITY": 10
       },
       "1M": {
-        "RETURN": -7.09,
-        "TREND": -63.47,
-        "ACCELERATION": 72.16,
-        "QUALITY": 0.838,
-        "SHARPE": -4.68,
-        "SORTINO": -6.7,
-        "STABILITY": -9.36
+        "RETURN": -2.96,
+        "TREND": -55.42,
+        "ACCELERATION": 122.1,
+        "QUALITY": 0.611,
+        "SHARPE": -1.35,
+        "SORTINO": -2.64,
+        "STABILITY": -3.76
       },
       "3M": {
-        "RETURN": -11.77,
-        "TREND": -40.66,
-        "ACCELERATION": -24.67,
-        "QUALITY": 0.864,
-        "SHARPE": -2.38,
-        "SORTINO": -4.08,
-        "STABILITY": -2.96
+        "RETURN": -7.32,
+        "TREND": -40.06,
+        "ACCELERATION": -19.36,
+        "QUALITY": 0.848,
+        "SHARPE": -1.27,
+        "SORTINO": -2.35,
+        "STABILITY": -1.72
       },
       "6M": {
-        "RETURN": -18.85,
-        "TREND": -38.56,
-        "ACCELERATION": -25.67,
-        "QUALITY": 0.846,
-        "SHARPE": -1.44,
-        "SORTINO": -2.55,
-        "STABILITY": -1.5
+        "RETURN": -12.84,
+        "TREND": -38.67,
+        "ACCELERATION": -22.11,
+        "QUALITY": 0.849,
+        "SHARPE": -0.88,
+        "SORTINO": -1.61,
+        "STABILITY": -0.94
       },
       "12M": {
-        "RETURN": -25.73,
-        "TREND": -18.28,
-        "ACCELERATION": -42.38,
-        "QUALITY": 0.431,
-        "SHARPE": -0.84,
-        "SORTINO": -1.49,
-        "STABILITY": -0.72
+        "RETURN": -22.0,
+        "TREND": -18.31,
+        "ACCELERATION": -43.11,
+        "QUALITY": 0.432,
+        "SHARPE": -0.67,
+        "SORTINO": -1.2,
+        "STABILITY": -0.58
       },
       "QuantScore": null
     },
@@ -1401,58 +1401,58 @@
       "Category": "Heavy Industry",
       "SubCategory": "Electronics",
       "1W": {
-        "RETURN": 18.76,
-        "TREND": 266151.82,
-        "ACCELERATION": 606.23,
-        "QUALITY": 0.795,
-        "SHARPE": 9.3,
+        "RETURN": 13.24,
+        "TREND": 209290.88,
+        "ACCELERATION": -24.7,
+        "QUALITY": 0.778,
+        "SHARPE": 6.38,
         "SORTINO": 10,
         "STABILITY": 10
       },
       "2W": {
-        "RETURN": 20.27,
-        "TREND": 5084.01,
-        "ACCELERATION": 724.96,
-        "QUALITY": 0.715,
-        "SHARPE": 6.82,
+        "RETURN": 17.75,
+        "TREND": 11231.05,
+        "ACCELERATION": 675.88,
+        "QUALITY": 0.805,
+        "SHARPE": 5.92,
         "SORTINO": 10,
         "STABILITY": 10
       },
       "1M": {
-        "RETURN": 16.56,
-        "TREND": 164.48,
-        "ACCELERATION": 469.87,
-        "QUALITY": 0.286,
-        "SHARPE": 3.61,
+        "RETURN": 14.24,
+        "TREND": 304.62,
+        "ACCELERATION": 533.95,
+        "QUALITY": 0.422,
+        "SHARPE": 3.13,
         "SORTINO": 10,
         "STABILITY": 10
       },
       "3M": {
-        "RETURN": 3.76,
-        "TREND": -41.5,
-        "ACCELERATION": -21.61,
-        "QUALITY": 0.42,
-        "SHARPE": 0.53,
-        "SORTINO": 1.12,
-        "STABILITY": 1.24
+        "RETURN": 3.59,
+        "TREND": -38.28,
+        "ACCELERATION": 7.42,
+        "QUALITY": 0.336,
+        "SHARPE": 0.52,
+        "SORTINO": 1.09,
+        "STABILITY": 1.21
       },
       "6M": {
-        "RETURN": -7.48,
-        "TREND": -43.95,
-        "ACCELERATION": -21.31,
-        "QUALITY": 0.798,
-        "SHARPE": -0.11,
-        "SORTINO": -0.21,
-        "STABILITY": -0.18
+        "RETURN": -7.08,
+        "TREND": -43.4,
+        "ACCELERATION": -13.13,
+        "QUALITY": 0.778,
+        "SHARPE": -0.09,
+        "SORTINO": -0.18,
+        "STABILITY": -0.15
       },
       "12M": {
-        "RETURN": -27.07,
-        "TREND": -36.81,
-        "ACCELERATION": -13.63,
-        "QUALITY": 0.868,
-        "SHARPE": -0.56,
-        "SORTINO": -0.97,
-        "STABILITY": -0.5
+        "RETURN": -29.65,
+        "TREND": -36.63,
+        "ACCELERATION": -12.61,
+        "QUALITY": 0.863,
+        "SHARPE": -0.64,
+        "SORTINO": -1.13,
+        "STABILITY": -0.58
       },
       "QuantScore": null
     },
@@ -1462,58 +1462,58 @@
       "Category": "Heavy Industry",
       "SubCategory": "Defense",
       "1W": {
-        "RETURN": -3.9,
-        "TREND": -84.12,
-        "ACCELERATION": 869.12,
-        "QUALITY": 0.377,
-        "SHARPE": -5.22,
-        "SORTINO": -6.21,
-        "STABILITY": -10
+        "RETURN": 0.97,
+        "TREND": 72.98,
+        "ACCELERATION": 499.71,
+        "QUALITY": 0.157,
+        "SHARPE": 2.67,
+        "SORTINO": 7.42,
+        "STABILITY": 10
       },
       "2W": {
-        "RETURN": -3.72,
-        "TREND": -78.95,
-        "ACCELERATION": -180.8,
-        "QUALITY": 0.665,
-        "SHARPE": -3.21,
-        "SORTINO": -3.74,
-        "STABILITY": -10
+        "RETURN": -2.44,
+        "TREND": -73.85,
+        "ACCELERATION": 1.5,
+        "QUALITY": 0.542,
+        "SHARPE": -2.04,
+        "SORTINO": -2.16,
+        "STABILITY": -9.93
       },
       "1M": {
-        "RETURN": 6.96,
-        "TREND": 143.84,
-        "ACCELERATION": -483.64,
-        "QUALITY": 0.28,
-        "SHARPE": 2.13,
-        "SORTINO": 4.28,
+        "RETURN": 10.25,
+        "TREND": 105.33,
+        "ACCELERATION": -476.55,
+        "QUALITY": 0.203,
+        "SHARPE": 3.09,
+        "SORTINO": 5.91,
         "STABILITY": 10
       },
       "3M": {
-        "RETURN": 5.5,
-        "TREND": 11.69,
-        "ACCELERATION": 160.96,
-        "QUALITY": 0.023,
-        "SHARPE": 0.68,
-        "SORTINO": 1.19,
-        "STABILITY": 1.81
+        "RETURN": 9.17,
+        "TREND": 12.61,
+        "ACCELERATION": 167.5,
+        "QUALITY": 0.027,
+        "SHARPE": 0.97,
+        "SORTINO": 1.66,
+        "STABILITY": 2.56
       },
       "6M": {
-        "RETURN": 12.54,
-        "TREND": 12.32,
-        "ACCELERATION": -83.16,
-        "QUALITY": 0.045,
-        "SHARPE": 0.72,
-        "SORTINO": 1.35,
-        "STABILITY": 1.58
+        "RETURN": 16.94,
+        "TREND": 11.83,
+        "ACCELERATION": -78.18,
+        "QUALITY": 0.042,
+        "SHARPE": 0.88,
+        "SORTINO": 1.63,
+        "STABILITY": 1.92
       },
       "12M": {
-        "RETURN": 124.06,
-        "TREND": 143.75,
-        "ACCELERATION": -105.02,
-        "QUALITY": 0.791,
+        "RETURN": 124.81,
+        "TREND": 142.32,
+        "ACCELERATION": -106.58,
+        "QUALITY": 0.788,
         "SHARPE": 1.93,
-        "SORTINO": 3.39,
-        "STABILITY": 4.09
+        "SORTINO": 3.4,
+        "STABILITY": 4.1
       },
       "QuantScore": null
     },
@@ -1523,56 +1523,56 @@
       "Category": "Energy & Chemicals",
       "SubCategory": "Refinery",
       "1W": {
-        "RETURN": -1.89,
-        "TREND": -74.93,
-        "ACCELERATION": -334.0,
-        "QUALITY": 0.535,
-        "SHARPE": -4.15,
-        "SORTINO": -4.78,
+        "RETURN": -1.44,
+        "TREND": -73.34,
+        "ACCELERATION": 366.68,
+        "QUALITY": 0.491,
+        "SHARPE": -2.85,
+        "SORTINO": -3.58,
         "STABILITY": -10
       },
       "2W": {
-        "RETURN": -4.49,
-        "TREND": -3.24,
-        "ACCELERATION": 326.97,
-        "QUALITY": 0.0,
-        "SHARPE": -2.35,
-        "SORTINO": -2.59,
-        "STABILITY": -10
+        "RETURN": -1.5,
+        "TREND": 73.84,
+        "ACCELERATION": -122.01,
+        "QUALITY": 0.091,
+        "SHARPE": -0.62,
+        "SORTINO": -0.61,
+        "STABILITY": -8.03
       },
       "1M": {
-        "RETURN": 20.84,
-        "TREND": 964.05,
-        "ACCELERATION": -538.18,
-        "QUALITY": 0.691,
-        "SHARPE": 5.11,
-        "SORTINO": 7.05,
+        "RETURN": 21.95,
+        "TREND": 673.7,
+        "ACCELERATION": -499.36,
+        "QUALITY": 0.634,
+        "SHARPE": 5.35,
+        "SORTINO": 7.38,
         "STABILITY": 10
       },
       "3M": {
-        "RETURN": 62.69,
-        "TREND": 1423.71,
-        "ACCELERATION": 65.33,
-        "QUALITY": 0.922,
-        "SHARPE": 4.79,
-        "SORTINO": 7.89,
+        "RETURN": 71.9,
+        "TREND": 1475.55,
+        "ACCELERATION": 37.56,
+        "QUALITY": 0.93,
+        "SHARPE": 5.43,
+        "SORTINO": 8.88,
         "STABILITY": 10
       },
       "6M": {
-        "RETURN": 63.87,
-        "TREND": 116.27,
-        "ACCELERATION": 278.94,
-        "QUALITY": 0.45,
-        "SHARPE": 2.61,
-        "SORTINO": 4.31,
-        "STABILITY": 5.04
+        "RETURN": 59.18,
+        "TREND": 121.0,
+        "ACCELERATION": 286.91,
+        "QUALITY": 0.461,
+        "SHARPE": 2.48,
+        "SORTINO": 4.07,
+        "STABILITY": 4.76
       },
       "12M": {
-        "RETURN": 153.51,
-        "TREND": 99.95,
-        "ACCELERATION": 23.43,
+        "RETURN": 153.76,
+        "TREND": 100.64,
+        "ACCELERATION": 25.65,
         "QUALITY": 0.811,
-        "SHARPE": 2.64,
+        "SHARPE": 2.65,
         "SORTINO": 4.3,
         "STABILITY": 4.71
       },
@@ -1584,60 +1584,60 @@
       "Category": "Energy & Chemicals",
       "SubCategory": "Petrochemical",
       "1W": {
-        "RETURN": 0.1,
-        "TREND": 4.07,
-        "ACCELERATION": -167.4,
-        "QUALITY": 0.001,
-        "SHARPE": 0.3,
-        "SORTINO": 0.46,
-        "STABILITY": 3.39
+        "RETURN": 20.94,
+        "TREND": 70259.37,
+        "ACCELERATION": 2364.45,
+        "QUALITY": 0.406,
+        "SHARPE": 7.01,
+        "SORTINO": 10,
+        "STABILITY": 10
       },
       "2W": {
-        "RETURN": -2.53,
-        "TREND": -33.66,
-        "ACCELERATION": 249.66,
-        "QUALITY": 0.12,
-        "SHARPE": -1.6,
-        "SORTINO": -1.95,
-        "STABILITY": -10
+        "RETURN": 16.63,
+        "TREND": 619.73,
+        "ACCELERATION": 824.14,
+        "QUALITY": 0.201,
+        "SHARPE": 3.92,
+        "SORTINO": 10,
+        "STABILITY": 10
       },
       "1M": {
-        "RETURN": 5.25,
-        "TREND": 201.69,
-        "ACCELERATION": -268.22,
-        "QUALITY": 0.572,
-        "SHARPE": 2.03,
-        "SORTINO": 2.54,
+        "RETURN": 30.99,
+        "TREND": 409.15,
+        "ACCELERATION": -102.09,
+        "QUALITY": 0.527,
+        "SHARPE": 4.54,
+        "SORTINO": 10,
         "STABILITY": 10
       },
       "3M": {
-        "RETURN": -4.39,
-        "TREND": 2.12,
-        "ACCELERATION": -28.46,
-        "QUALITY": 0.001,
-        "SHARPE": -0.2,
-        "SORTINO": -0.27,
-        "STABILITY": -0.46
+        "RETURN": 19.98,
+        "TREND": 12.16,
+        "ACCELERATION": -6.27,
+        "QUALITY": 0.027,
+        "SHARPE": 1.5,
+        "SORTINO": 2.74,
+        "STABILITY": 4.79
       },
       "6M": {
-        "RETURN": 3.51,
-        "TREND": -14.39,
-        "ACCELERATION": -104.55,
-        "QUALITY": 0.059,
-        "SHARPE": 0.38,
-        "SORTINO": 0.57,
-        "STABILITY": 0.56
+        "RETURN": 31.85,
+        "TREND": -13.76,
+        "ACCELERATION": -88.95,
+        "QUALITY": 0.052,
+        "SHARPE": 1.27,
+        "SORTINO": 2.21,
+        "STABILITY": 2.19
       },
       "12M": {
-        "RETURN": 15.15,
-        "TREND": 25.69,
-        "ACCELERATION": -14.18,
-        "QUALITY": 0.348,
-        "SHARPE": 0.55,
-        "SORTINO": 0.74,
-        "STABILITY": 0.72
+        "RETURN": 40.23,
+        "TREND": 26.11,
+        "ACCELERATION": -14.24,
+        "QUALITY": 0.353,
+        "SHARPE": 0.95,
+        "SORTINO": 1.43,
+        "STABILITY": 1.4
       },
-      "QuantScore": null
+      "QuantScore": 22.3
     },
     {
       "Symbol": "SASA.IS",
@@ -1645,60 +1645,60 @@
       "Category": "Energy & Chemicals",
       "SubCategory": "Chemical",
       "1W": {
-        "RETURN": -4.18,
-        "TREND": -94.77,
-        "ACCELERATION": 269.68,
-        "QUALITY": 0.683,
-        "SHARPE": -5.31,
-        "SORTINO": -10,
-        "STABILITY": -10
+        "RETURN": 17.45,
+        "TREND": 14902.26,
+        "ACCELERATION": 3122.97,
+        "QUALITY": 0.23,
+        "SHARPE": 5.88,
+        "SORTINO": 10,
+        "STABILITY": 10
       },
       "2W": {
-        "RETURN": -1.29,
-        "TREND": -48.37,
-        "ACCELERATION": -434.54,
-        "QUALITY": 0.177,
-        "SHARPE": -0.93,
-        "SORTINO": -1.43,
-        "STABILITY": -4.26
+        "RETURN": 18.45,
+        "TREND": 260.95,
+        "ACCELERATION": 297.71,
+        "QUALITY": 0.092,
+        "SHARPE": 4.41,
+        "SORTINO": 10,
+        "STABILITY": 10
       },
       "1M": {
-        "RETURN": -11.24,
-        "TREND": -60.61,
-        "ACCELERATION": 235.11,
-        "QUALITY": 0.371,
-        "SHARPE": -2.7,
-        "SORTINO": -3.09,
-        "STABILITY": -9.67
+        "RETURN": 6.98,
+        "TREND": -15.02,
+        "ACCELERATION": 357.61,
+        "QUALITY": 0.007,
+        "SHARPE": 1.31,
+        "SORTINO": 2.72,
+        "STABILITY": 10
       },
       "3M": {
-        "RETURN": -11.58,
-        "TREND": -38.79,
-        "ACCELERATION": -42.12,
-        "QUALITY": 0.396,
-        "SHARPE": -0.87,
-        "SORTINO": -1.31,
-        "STABILITY": -1.98
+        "RETURN": 10.4,
+        "TREND": -35.09,
+        "ACCELERATION": -19.72,
+        "QUALITY": 0.293,
+        "SHARPE": 0.94,
+        "SORTINO": 1.88,
+        "STABILITY": 2.87
       },
       "6M": {
-        "RETURN": 0.44,
-        "TREND": -17.51,
-        "ACCELERATION": -145.92,
-        "QUALITY": 0.071,
-        "SHARPE": 0.3,
-        "SORTINO": 0.46,
-        "STABILITY": 0.45
+        "RETURN": 24.32,
+        "TREND": -17.91,
+        "ACCELERATION": -132.44,
+        "QUALITY": 0.075,
+        "SHARPE": 1.0,
+        "SORTINO": 1.73,
+        "STABILITY": 1.7
       },
       "12M": {
-        "RETURN": -42.61,
-        "TREND": -28.19,
-        "ACCELERATION": 77.22,
-        "QUALITY": 0.432,
-        "SHARPE": -0.85,
-        "SORTINO": -1.33,
-        "STABILITY": -0.89
+        "RETURN": -29.41,
+        "TREND": -27.54,
+        "ACCELERATION": 76.05,
+        "QUALITY": 0.419,
+        "SHARPE": -0.37,
+        "SORTINO": -0.63,
+        "STABILITY": -0.42
       },
-      "QuantScore": null
+      "QuantScore": 0
     },
     {
       "Symbol": "HEKTS.IS",
@@ -1706,58 +1706,58 @@
       "Category": "Energy & Chemicals",
       "SubCategory": "Agro Chemical",
       "1W": {
-        "RETURN": -7.69,
-        "TREND": -98.34,
-        "ACCELERATION": 631.14,
-        "QUALITY": 0.808,
-        "SHARPE": -11.21,
-        "SORTINO": -10,
-        "STABILITY": -10
+        "RETURN": 9.89,
+        "TREND": 1377.12,
+        "ACCELERATION": 2177.74,
+        "QUALITY": 0.151,
+        "SHARPE": 4.95,
+        "SORTINO": 10,
+        "STABILITY": 10
       },
       "2W": {
-        "RETURN": -7.37,
-        "TREND": -93.16,
-        "ACCELERATION": -339.25,
-        "QUALITY": 0.833,
-        "SHARPE": -6.17,
-        "SORTINO": -8.02,
-        "STABILITY": -10
+        "RETURN": 3.45,
+        "TREND": -74.35,
+        "ACCELERATION": 348.12,
+        "QUALITY": 0.158,
+        "SHARPE": 1.42,
+        "SORTINO": 4.76,
+        "STABILITY": 10
       },
       "1M": {
-        "RETURN": -9.59,
-        "TREND": -59.12,
-        "ACCELERATION": -174.6,
-        "QUALITY": 0.528,
-        "SHARPE": -4.71,
-        "SORTINO": -6.18,
-        "STABILITY": -10
+        "RETURN": 2.39,
+        "TREND": -42.89,
+        "ACCELERATION": -84.08,
+        "QUALITY": 0.182,
+        "SHARPE": 0.76,
+        "SORTINO": 2.2,
+        "STABILITY": 4.05
       },
       "3M": {
-        "RETURN": -37.74,
-        "TREND": -79.68,
-        "ACCELERATION": 210.31,
-        "QUALITY": 0.817,
-        "SHARPE": -4.04,
-        "SORTINO": -4.93,
-        "STABILITY": -4.77
+        "RETURN": -21.47,
+        "TREND": -77.58,
+        "ACCELERATION": 214.85,
+        "QUALITY": 0.787,
+        "SHARPE": -1.72,
+        "SORTINO": -2.8,
+        "STABILITY": -2.26
       },
       "6M": {
-        "RETURN": -10.2,
-        "TREND": -19.61,
-        "ACCELERATION": -357.9,
-        "QUALITY": 0.043,
-        "SHARPE": -0.07,
-        "SORTINO": -0.11,
-        "STABILITY": -0.09
+        "RETURN": 4.9,
+        "TREND": -21.03,
+        "ACCELERATION": -350.45,
+        "QUALITY": 0.05,
+        "SHARPE": 0.46,
+        "SORTINO": 0.74,
+        "STABILITY": 0.62
       },
       "12M": {
-        "RETURN": -29.97,
-        "TREND": -9.84,
-        "ACCELERATION": 18.93,
-        "QUALITY": 0.058,
-        "SHARPE": -0.47,
-        "SORTINO": -0.75,
-        "STABILITY": -0.51
+        "RETURN": -21.87,
+        "TREND": -9.75,
+        "ACCELERATION": 17.09,
+        "QUALITY": 0.057,
+        "SHARPE": -0.23,
+        "SORTINO": -0.38,
+        "STABILITY": -0.25
       },
       "QuantScore": null
     },
@@ -1767,58 +1767,58 @@
       "Category": "Energy & Chemicals",
       "SubCategory": "Fertilizer",
       "1W": {
-        "RETURN": -3.82,
-        "TREND": -72.92,
-        "ACCELERATION": 775.23,
-        "QUALITY": 0.267,
-        "SHARPE": -6.06,
-        "SORTINO": -9.62,
-        "STABILITY": -10
+        "RETURN": 4.62,
+        "TREND": 696.98,
+        "ACCELERATION": 713.74,
+        "QUALITY": 0.433,
+        "SHARPE": 5.28,
+        "SORTINO": 10,
+        "STABILITY": 10
       },
       "2W": {
-        "RETURN": 0.63,
-        "TREND": -29.06,
-        "ACCELERATION": -218.79,
-        "QUALITY": 0.079,
-        "SHARPE": 0.62,
-        "SORTINO": 1.28,
-        "STABILITY": 3.93
+        "RETURN": 2.39,
+        "TREND": -3.75,
+        "ACCELERATION": 112.54,
+        "QUALITY": 0.001,
+        "SHARPE": 1.67,
+        "SORTINO": 4.05,
+        "STABILITY": 10
       },
       "1M": {
-        "RETURN": 10.63,
-        "TREND": 503.53,
-        "ACCELERATION": -161.47,
-        "QUALITY": 0.637,
-        "SHARPE": 2.5,
-        "SORTINO": 7.25,
+        "RETURN": 12.94,
+        "TREND": 553.7,
+        "ACCELERATION": -211.42,
+        "QUALITY": 0.658,
+        "SHARPE": 2.88,
+        "SORTINO": 8.64,
         "STABILITY": 10
       },
       "3M": {
-        "RETURN": -4.35,
-        "TREND": -19.34,
-        "ACCELERATION": 334.47,
-        "QUALITY": 0.046,
-        "SHARPE": -0.09,
-        "SORTINO": -0.17,
-        "STABILITY": -0.2
+        "RETURN": 5.16,
+        "TREND": -12.87,
+        "ACCELERATION": 344.35,
+        "QUALITY": 0.019,
+        "SHARPE": 0.64,
+        "SORTINO": 1.15,
+        "STABILITY": 1.37
       },
       "6M": {
-        "RETURN": -4.54,
-        "TREND": -32.21,
-        "ACCELERATION": -84.68,
-        "QUALITY": 0.295,
-        "SHARPE": 0.05,
-        "SORTINO": 0.09,
-        "STABILITY": 0.07
+        "RETURN": -3.63,
+        "TREND": -31.79,
+        "ACCELERATION": -73.51,
+        "QUALITY": 0.286,
+        "SHARPE": 0.09,
+        "SORTINO": 0.17,
+        "STABILITY": 0.13
       },
       "12M": {
-        "RETURN": 78.31,
-        "TREND": 83.37,
-        "ACCELERATION": -182.41,
-        "QUALITY": 0.548,
-        "SHARPE": 1.48,
-        "SORTINO": 2.6,
-        "STABILITY": 1.93
+        "RETURN": 87.71,
+        "TREND": 82.32,
+        "ACCELERATION": -182.48,
+        "QUALITY": 0.543,
+        "SHARPE": 1.58,
+        "SORTINO": 2.8,
+        "STABILITY": 2.08
       },
       "QuantScore": null
     },
@@ -1828,58 +1828,58 @@
       "Category": "Energy & Chemicals",
       "SubCategory": "Glass",
       "1W": {
-        "RETURN": -2.64,
-        "TREND": -79.12,
-        "ACCELERATION": 176.94,
-        "QUALITY": 0.793,
-        "SHARPE": -8.55,
-        "SORTINO": -10,
-        "STABILITY": -10
+        "RETURN": 15.65,
+        "TREND": 13228.16,
+        "ACCELERATION": 2300.88,
+        "QUALITY": 0.32,
+        "SHARPE": 6.38,
+        "SORTINO": 10,
+        "STABILITY": 10
       },
       "2W": {
-        "RETURN": -2.06,
-        "TREND": -49.97,
-        "ACCELERATION": -205.79,
-        "QUALITY": 0.544,
-        "SHARPE": -3.62,
-        "SORTINO": -6.49,
-        "STABILITY": -10
+        "RETURN": 15.3,
+        "TREND": 192.27,
+        "ACCELERATION": 417.28,
+        "QUALITY": 0.095,
+        "SHARPE": 4.44,
+        "SORTINO": 10,
+        "STABILITY": 10
       },
       "1M": {
-        "RETURN": -6.69,
-        "TREND": -49.36,
-        "ACCELERATION": 121.5,
-        "QUALITY": 0.424,
-        "SHARPE": -2.61,
-        "SORTINO": -2.91,
-        "STABILITY": -9.29
+        "RETURN": 10.84,
+        "TREND": -12.08,
+        "ACCELERATION": 265.72,
+        "QUALITY": 0.007,
+        "SHARPE": 2.13,
+        "SORTINO": 5.1,
+        "STABILITY": 10
       },
       "3M": {
-        "RETURN": -13.19,
-        "TREND": -48.64,
-        "ACCELERATION": -44.81,
-        "QUALITY": 0.825,
-        "SHARPE": -1.73,
-        "SORTINO": -2.75,
-        "STABILITY": -2.66
+        "RETURN": 3.34,
+        "TREND": -46.13,
+        "ACCELERATION": -16.97,
+        "QUALITY": 0.702,
+        "SHARPE": 0.5,
+        "SORTINO": 1.2,
+        "STABILITY": 1.17
       },
       "6M": {
-        "RETURN": -3.96,
-        "TREND": -20.06,
-        "ACCELERATION": -110.45,
-        "QUALITY": 0.259,
-        "SHARPE": -0.02,
-        "SORTINO": -0.03,
-        "STABILITY": -0.02
+        "RETURN": 14.89,
+        "TREND": -20.33,
+        "ACCELERATION": -101.11,
+        "QUALITY": 0.269,
+        "SHARPE": 0.82,
+        "SORTINO": 1.76,
+        "STABILITY": 1.44
       },
       "12M": {
-        "RETURN": 8.22,
-        "TREND": 25.84,
-        "ACCELERATION": -74.62,
-        "QUALITY": 0.397,
-        "SHARPE": 0.4,
-        "SORTINO": 0.69,
-        "STABILITY": 0.57
+        "RETURN": 27.73,
+        "TREND": 25.76,
+        "ACCELERATION": -74.82,
+        "QUALITY": 0.396,
+        "SHARPE": 0.79,
+        "SORTINO": 1.52,
+        "STABILITY": 1.25
       },
       "QuantScore": null
     },
@@ -1889,60 +1889,60 @@
       "Category": "Energy & Chemicals",
       "SubCategory": "Cement",
       "1W": {
-        "RETURN": -6.26,
-        "TREND": -97.45,
-        "ACCELERATION": 535.94,
-        "QUALITY": 0.754,
-        "SHARPE": -7.21,
-        "SORTINO": -10,
-        "STABILITY": -10
+        "RETURN": -0.18,
+        "TREND": -38.46,
+        "ACCELERATION": 1129.07,
+        "QUALITY": 0.021,
+        "SHARPE": 0.06,
+        "SORTINO": 0.88,
+        "STABILITY": 0.95
       },
       "2W": {
-        "RETURN": -2.36,
-        "TREND": -76.23,
-        "ACCELERATION": -668.21,
-        "QUALITY": 0.376,
-        "SHARPE": -1.5,
-        "SORTINO": -1.99,
-        "STABILITY": -6.07
+        "RETURN": 0.63,
+        "TREND": -76.96,
+        "ACCELERATION": -221.9,
+        "QUALITY": 0.394,
+        "SHARPE": 0.57,
+        "SORTINO": 0.87,
+        "STABILITY": 2.66
       },
       "1M": {
-        "RETURN": 4.66,
-        "TREND": 114.24,
-        "ACCELERATION": -335.23,
-        "QUALITY": 0.31,
-        "SHARPE": 2.01,
-        "SORTINO": 2.39,
-        "STABILITY": 6.6
+        "RETURN": 8.62,
+        "TREND": 92.93,
+        "ACCELERATION": -324.15,
+        "QUALITY": 0.259,
+        "SHARPE": 3.24,
+        "SORTINO": 4.25,
+        "STABILITY": 10
       },
       "3M": {
-        "RETURN": 3.95,
-        "TREND": 24.14,
-        "ACCELERATION": 122.69,
-        "QUALITY": 0.178,
-        "SHARPE": 0.66,
-        "SORTINO": 0.98,
-        "STABILITY": 2.01
+        "RETURN": 7.68,
+        "TREND": 25.98,
+        "ACCELERATION": 125.21,
+        "QUALITY": 0.197,
+        "SHARPE": 1.1,
+        "SORTINO": 1.68,
+        "STABILITY": 3.45
       },
       "6M": {
-        "RETURN": -9.87,
-        "TREND": -27.09,
-        "ACCELERATION": 72.9,
-        "QUALITY": 0.416,
-        "SHARPE": -0.51,
-        "SORTINO": -0.78,
-        "STABILITY": -0.7
+        "RETURN": -4.51,
+        "TREND": -26.47,
+        "ACCELERATION": 77.48,
+        "QUALITY": 0.397,
+        "SHARPE": -0.13,
+        "SORTINO": -0.21,
+        "STABILITY": -0.19
       },
       "12M": {
-        "RETURN": 7.09,
-        "TREND": -1.63,
-        "ACCELERATION": -96.31,
-        "QUALITY": 0.003,
-        "SHARPE": 0.38,
-        "SORTINO": 0.59,
-        "STABILITY": 0.41
+        "RETURN": 12.32,
+        "TREND": -1.91,
+        "ACCELERATION": -94.56,
+        "QUALITY": 0.004,
+        "SHARPE": 0.53,
+        "SORTINO": 0.83,
+        "STABILITY": 0.58
       },
-      "QuantScore": null
+      "QuantScore": 0
     },
     {
       "Symbol": "TRALT.IS",
@@ -1950,58 +1950,58 @@
       "Category": "Energy & Chemicals",
       "SubCategory": "Gold",
       "1W": {
-        "RETURN": -5.84,
-        "TREND": -92.0,
-        "ACCELERATION": 1244.99,
-        "QUALITY": 0.323,
-        "SHARPE": -4.81,
-        "SORTINO": -6.45,
-        "STABILITY": -10
+        "RETURN": 0.19,
+        "TREND": 142.73,
+        "ACCELERATION": 947.93,
+        "QUALITY": 0.054,
+        "SHARPE": 0.42,
+        "SORTINO": 0.53,
+        "STABILITY": 10
       },
       "2W": {
-        "RETURN": -6.87,
-        "TREND": -92.16,
-        "ACCELERATION": -140.74,
-        "QUALITY": 0.677,
-        "SHARPE": -3.13,
-        "SORTINO": -4.04,
+        "RETURN": -6.03,
+        "TREND": -87.72,
+        "ACCELERATION": 275.11,
+        "QUALITY": 0.49,
+        "SHARPE": -2.58,
+        "SORTINO": -3.46,
         "STABILITY": -10
       },
       "1M": {
-        "RETURN": 2.75,
-        "TREND": 103.39,
-        "ACCELERATION": -186.78,
-        "QUALITY": 0.123,
-        "SHARPE": 0.81,
-        "SORTINO": 1.19,
-        "STABILITY": 4.26
+        "RETURN": 1.63,
+        "TREND": 100.87,
+        "ACCELERATION": -247.15,
+        "QUALITY": 0.12,
+        "SHARPE": 0.61,
+        "SORTINO": 0.88,
+        "STABILITY": 3.15
       },
       "3M": {
-        "RETURN": 10.34,
-        "TREND": 50.32,
-        "ACCELERATION": -7.18,
-        "QUALITY": 0.216,
-        "SHARPE": 0.98,
-        "SORTINO": 1.73,
-        "STABILITY": 2.95
+        "RETURN": 20.95,
+        "TREND": 50.49,
+        "ACCELERATION": 7.35,
+        "QUALITY": 0.217,
+        "SHARPE": 1.64,
+        "SORTINO": 2.9,
+        "STABILITY": 4.92
       },
       "6M": {
-        "RETURN": -0.1,
-        "TREND": 25.98,
-        "ACCELERATION": 84.32,
-        "QUALITY": 0.173,
-        "SHARPE": 0.28,
-        "SORTINO": 0.5,
-        "STABILITY": 0.58
+        "RETURN": 2.32,
+        "TREND": 28.14,
+        "ACCELERATION": 79.81,
+        "QUALITY": 0.198,
+        "SHARPE": 0.37,
+        "SORTINO": 0.65,
+        "STABILITY": 0.75
       },
       "12M": {
-        "RETURN": 118.21,
-        "TREND": 96.7,
-        "ACCELERATION": -184.95,
-        "QUALITY": 0.562,
-        "SHARPE": 1.6,
-        "SORTINO": 2.57,
-        "STABILITY": 2.71
+        "RETURN": 123.63,
+        "TREND": 95.11,
+        "ACCELERATION": -182.06,
+        "QUALITY": 0.557,
+        "SHARPE": 1.64,
+        "SORTINO": 2.64,
+        "STABILITY": 2.79
       },
       "QuantScore": null
     },
@@ -2011,58 +2011,58 @@
       "Category": "Energy & Chemicals",
       "SubCategory": "Gold",
       "1W": {
-        "RETURN": -6.41,
-        "TREND": -95.6,
-        "ACCELERATION": 1038.62,
-        "QUALITY": 0.49,
-        "SHARPE": -5.78,
-        "SORTINO": -6.11,
+        "RETURN": -2.35,
+        "TREND": -32.01,
+        "ACCELERATION": 849.7,
+        "QUALITY": 0.013,
+        "SHARPE": -1.65,
+        "SORTINO": -1.58,
         "STABILITY": -10
       },
       "2W": {
-        "RETURN": -4.19,
-        "TREND": -73.39,
-        "ACCELERATION": -277.8,
-        "QUALITY": 0.348,
-        "SHARPE": -1.76,
-        "SORTINO": -2.02,
+        "RETURN": -3.88,
+        "TREND": -68.28,
+        "ACCELERATION": -131.37,
+        "QUALITY": 0.268,
+        "SHARPE": -1.59,
+        "SORTINO": -1.84,
         "STABILITY": -10
       },
       "1M": {
-        "RETURN": 1.03,
-        "TREND": 139.82,
-        "ACCELERATION": 29.14,
-        "QUALITY": 0.211,
-        "SHARPE": 0.49,
-        "SORTINO": 0.65,
-        "STABILITY": 3.03
+        "RETURN": 1.29,
+        "TREND": 163.33,
+        "ACCELERATION": -95.55,
+        "QUALITY": 0.253,
+        "SHARPE": 0.55,
+        "SORTINO": 0.72,
+        "STABILITY": 3.35
       },
       "3M": {
-        "RETURN": 13.47,
-        "TREND": 193.12,
-        "ACCELERATION": 7.01,
-        "QUALITY": 0.773,
-        "SHARPE": 1.16,
-        "SORTINO": 2.0,
-        "STABILITY": 5.69
+        "RETURN": 24.06,
+        "TREND": 203.69,
+        "ACCELERATION": -14.88,
+        "QUALITY": 0.802,
+        "SHARPE": 1.81,
+        "SORTINO": 3.08,
+        "STABILITY": 8.67
       },
       "6M": {
-        "RETURN": -6.28,
-        "TREND": -4.85,
-        "ACCELERATION": 215.67,
-        "QUALITY": 0.006,
-        "SHARPE": 0.05,
-        "SORTINO": 0.08,
-        "STABILITY": 0.08
+        "RETURN": -3.55,
+        "TREND": -2.39,
+        "ACCELERATION": 215.39,
+        "QUALITY": 0.001,
+        "SHARPE": 0.15,
+        "SORTINO": 0.26,
+        "STABILITY": 0.25
       },
       "12M": {
-        "RETURN": 83.07,
-        "TREND": 52.88,
-        "ACCELERATION": -144.86,
-        "QUALITY": 0.439,
-        "SHARPE": 1.43,
-        "SORTINO": 2.16,
-        "STABILITY": 1.84
+        "RETURN": 90.82,
+        "TREND": 52.06,
+        "ACCELERATION": -142.11,
+        "QUALITY": 0.435,
+        "SHARPE": 1.51,
+        "SORTINO": 2.28,
+        "STABILITY": 1.95
       },
       "QuantScore": null
     },
@@ -2072,60 +2072,60 @@
       "Category": "Retail & Food",
       "SubCategory": "Retail",
       "1W": {
-        "RETURN": 0.06,
-        "TREND": 44.64,
-        "ACCELERATION": 513.05,
-        "QUALITY": 0.06,
-        "SHARPE": 0.22,
-        "SORTINO": 0.25,
+        "RETURN": 3.7,
+        "TREND": 514.2,
+        "ACCELERATION": 211.11,
+        "QUALITY": 0.885,
+        "SHARPE": 14.94,
+        "SORTINO": 0,
         "STABILITY": 10
       },
       "2W": {
-        "RETURN": -0.18,
-        "TREND": -29.83,
-        "ACCELERATION": 33.88,
-        "QUALITY": 0.185,
-        "SHARPE": -0.14,
-        "SORTINO": -0.22,
-        "STABILITY": -0.92
+        "RETURN": 2.0,
+        "TREND": -2.63,
+        "ACCELERATION": 164.67,
+        "QUALITY": 0.001,
+        "SHARPE": 2.66,
+        "SORTINO": 3.31,
+        "STABILITY": 10
       },
       "1M": {
-        "RETURN": 8.76,
-        "TREND": 241.59,
-        "ACCELERATION": -225.07,
-        "QUALITY": 0.604,
-        "SHARPE": 3.47,
-        "SORTINO": 9.19,
+        "RETURN": 9.01,
+        "TREND": 238.34,
+        "ACCELERATION": -247.93,
+        "QUALITY": 0.599,
+        "SHARPE": 3.55,
+        "SORTINO": 9.42,
         "STABILITY": 10
       },
       "3M": {
-        "RETURN": 10.78,
-        "TREND": 45.25,
-        "ACCELERATION": 69.93,
-        "QUALITY": 0.461,
-        "SHARPE": 1.5,
-        "SORTINO": 3.26,
-        "STABILITY": 5.1
+        "RETURN": 10.15,
+        "TREND": 47.98,
+        "ACCELERATION": 73.49,
+        "QUALITY": 0.482,
+        "SHARPE": 1.43,
+        "SORTINO": 3.09,
+        "STABILITY": 4.84
       },
       "6M": {
-        "RETURN": 30.7,
-        "TREND": 34.61,
-        "ACCELERATION": -23.88,
-        "QUALITY": 0.573,
-        "SHARPE": 1.78,
-        "SORTINO": 3.48,
-        "STABILITY": 4.43
+        "RETURN": 29.56,
+        "TREND": 33.89,
+        "ACCELERATION": -17.74,
+        "QUALITY": 0.574,
+        "SHARPE": 1.73,
+        "SORTINO": 3.37,
+        "STABILITY": 4.29
       },
       "12M": {
-        "RETURN": 72.01,
-        "TREND": 68.1,
-        "ACCELERATION": -31.53,
-        "QUALITY": 0.887,
-        "SHARPE": 1.79,
-        "SORTINO": 3.41,
-        "STABILITY": 4.49
+        "RETURN": 75.76,
+        "TREND": 67.86,
+        "ACCELERATION": -31.42,
+        "QUALITY": 0.886,
+        "SHARPE": 1.86,
+        "SORTINO": 3.52,
+        "STABILITY": 4.65
       },
-      "QuantScore": null
+      "QuantScore": 79.7
     },
     {
       "Symbol": "MGROS.IS",
@@ -2133,58 +2133,58 @@
       "Category": "Retail & Food",
       "SubCategory": "Retail",
       "1W": {
-        "RETURN": -5.56,
-        "TREND": -94.11,
-        "ACCELERATION": 720.38,
-        "QUALITY": 0.631,
-        "SHARPE": -7.57,
-        "SORTINO": -10,
-        "STABILITY": -10
+        "RETURN": 1.03,
+        "TREND": 17.69,
+        "ACCELERATION": 751.84,
+        "QUALITY": 0.007,
+        "SHARPE": 1.88,
+        "SORTINO": 6.56,
+        "STABILITY": 10
       },
       "2W": {
-        "RETURN": -8.03,
-        "TREND": -92.19,
-        "ACCELERATION": -165.38,
-        "QUALITY": 0.851,
-        "SHARPE": -7.39,
-        "SORTINO": -10,
+        "RETURN": -4.6,
+        "TREND": -86.58,
+        "ACCELERATION": 45.33,
+        "QUALITY": 0.659,
+        "SHARPE": -3.6,
+        "SORTINO": -5.2,
         "STABILITY": -10
       },
       "1M": {
-        "RETURN": -15.81,
-        "TREND": -88.87,
-        "ACCELERATION": 149.72,
-        "QUALITY": 0.708,
-        "SHARPE": -4.24,
-        "SORTINO": -4.9,
-        "STABILITY": -9.05
+        "RETURN": -17.65,
+        "TREND": -86.87,
+        "ACCELERATION": 159.44,
+        "QUALITY": 0.661,
+        "SHARPE": -5.13,
+        "SORTINO": -5.58,
+        "STABILITY": -10
       },
       "3M": {
-        "RETURN": -20.81,
-        "TREND": -64.19,
-        "ACCELERATION": -86.94,
-        "QUALITY": 0.814,
-        "SHARPE": -2.48,
-        "SORTINO": -3.11,
-        "STABILITY": -3.32
+        "RETURN": -20.03,
+        "TREND": -65.11,
+        "ACCELERATION": -82.18,
+        "QUALITY": 0.829,
+        "SHARPE": -2.35,
+        "SORTINO": -2.96,
+        "STABILITY": -3.17
       },
       "6M": {
-        "RETURN": -11.79,
-        "TREND": -10.54,
-        "ACCELERATION": -171.58,
-        "QUALITY": 0.05,
-        "SHARPE": -0.52,
-        "SORTINO": -0.73,
-        "STABILITY": -0.65
+        "RETURN": -4.97,
+        "TREND": -12.22,
+        "ACCELERATION": -173.59,
+        "QUALITY": 0.066,
+        "SHARPE": -0.11,
+        "SORTINO": -0.16,
+        "STABILITY": -0.14
       },
       "12M": {
-        "RETURN": 22.3,
-        "TREND": 45.96,
-        "ACCELERATION": -113.23,
-        "QUALITY": 0.539,
-        "SHARPE": 0.77,
-        "SORTINO": 1.18,
-        "STABILITY": 0.89
+        "RETURN": 26.9,
+        "TREND": 44.75,
+        "ACCELERATION": -114.43,
+        "QUALITY": 0.523,
+        "SHARPE": 0.88,
+        "SORTINO": 1.35,
+        "STABILITY": 1.02
       },
       "QuantScore": null
     },
@@ -2194,60 +2194,60 @@
       "Category": "Retail & Food",
       "SubCategory": "Retail",
       "1W": {
-        "RETURN": 0.35,
-        "TREND": 226.97,
-        "ACCELERATION": 472.53,
-        "QUALITY": 0.235,
-        "SHARPE": 0.6,
-        "SORTINO": 0,
+        "RETURN": 6.5,
+        "TREND": 1765.18,
+        "ACCELERATION": -165.44,
+        "QUALITY": 0.955,
+        "SHARPE": 24.76,
+        "SORTINO": 10,
         "STABILITY": 10
       },
       "2W": {
-        "RETURN": -1.69,
-        "TREND": -41.36,
-        "ACCELERATION": 428.42,
-        "QUALITY": 0.134,
-        "SHARPE": -1.16,
-        "SORTINO": -1.67,
-        "STABILITY": -6.51
+        "RETURN": 0.25,
+        "TREND": 13.81,
+        "ACCELERATION": 462.64,
+        "QUALITY": 0.008,
+        "SHARPE": 0.34,
+        "SORTINO": 0.54,
+        "STABILITY": 2.52
       },
       "1M": {
-        "RETURN": 13.61,
-        "TREND": 401.96,
-        "ACCELERATION": -333.57,
-        "QUALITY": 0.658,
-        "SHARPE": 4.53,
-        "SORTINO": 7.94,
+        "RETURN": 14.12,
+        "TREND": 369.51,
+        "ACCELERATION": -329.52,
+        "QUALITY": 0.64,
+        "SHARPE": 4.67,
+        "SORTINO": 8.21,
         "STABILITY": 10
       },
       "3M": {
-        "RETURN": 19.83,
-        "TREND": 135.65,
-        "ACCELERATION": 81.34,
-        "QUALITY": 0.637,
-        "SHARPE": 2.15,
-        "SORTINO": 4.9,
-        "STABILITY": 5.65
+        "RETURN": 21.65,
+        "TREND": 142.91,
+        "ACCELERATION": 75.98,
+        "QUALITY": 0.656,
+        "SHARPE": 2.31,
+        "SORTINO": 5.27,
+        "STABILITY": 6.08
       },
       "6M": {
-        "RETURN": -4.68,
-        "TREND": 1.96,
-        "ACCELERATION": 139.73,
-        "QUALITY": 0.002,
-        "SHARPE": -0.05,
-        "SORTINO": -0.08,
-        "STABILITY": -0.07
+        "RETURN": -1.26,
+        "TREND": 4.93,
+        "ACCELERATION": 138.82,
+        "QUALITY": 0.01,
+        "SHARPE": 0.13,
+        "SORTINO": 0.22,
+        "STABILITY": 0.2
       },
       "12M": {
-        "RETURN": 61.38,
-        "TREND": 28.2,
-        "ACCELERATION": -138.23,
-        "QUALITY": 0.213,
-        "SHARPE": 1.52,
-        "SORTINO": 2.67,
-        "STABILITY": 1.45
+        "RETURN": 64.8,
+        "TREND": 27.68,
+        "ACCELERATION": -134.44,
+        "QUALITY": 0.209,
+        "SHARPE": 1.58,
+        "SORTINO": 2.77,
+        "STABILITY": 1.51
       },
-      "QuantScore": null
+      "QuantScore": 14.0
     },
     {
       "Symbol": "CCOLA.IS",
@@ -2255,58 +2255,58 @@
       "Category": "Retail & Food",
       "SubCategory": "Beverage",
       "1W": {
-        "RETURN": 1.74,
-        "TREND": 492.46,
-        "ACCELERATION": 250.99,
-        "QUALITY": 0.497,
-        "SHARPE": 2.7,
-        "SORTINO": 0,
+        "RETURN": 8.64,
+        "TREND": 3746.89,
+        "ACCELERATION": -61.66,
+        "QUALITY": 0.928,
+        "SHARPE": 20.76,
+        "SORTINO": 10,
         "STABILITY": 10
       },
       "2W": {
-        "RETURN": -5.05,
-        "TREND": -55.58,
-        "ACCELERATION": 564.16,
-        "QUALITY": 0.171,
-        "SHARPE": -3.23,
-        "SORTINO": -8.52,
-        "STABILITY": -10
+        "RETURN": 2.32,
+        "TREND": 62.22,
+        "ACCELERATION": 496.02,
+        "QUALITY": 0.085,
+        "SHARPE": 1.72,
+        "SORTINO": 4.97,
+        "STABILITY": 10
       },
       "1M": {
-        "RETURN": -9.92,
-        "TREND": -81.94,
-        "ACCELERATION": 180.47,
-        "QUALITY": 0.775,
-        "SHARPE": -3.1,
-        "SORTINO": -5.69,
-        "STABILITY": -7.16
+        "RETURN": -8.2,
+        "TREND": -76.63,
+        "ACCELERATION": 275.44,
+        "QUALITY": 0.628,
+        "SHARPE": -2.38,
+        "SORTINO": -4.57,
+        "STABILITY": -5.75
       },
       "3M": {
-        "RETURN": -1.13,
-        "TREND": 2.46,
-        "ACCELERATION": -266.41,
-        "QUALITY": 0.001,
-        "SHARPE": 0.08,
-        "SORTINO": 0.13,
-        "STABILITY": 0.16
+        "RETURN": 4.28,
+        "TREND": 0.18,
+        "ACCELERATION": -266.53,
+        "QUALITY": 0.0,
+        "SHARPE": 0.62,
+        "SORTINO": 1.1,
+        "STABILITY": 1.31
       },
       "6M": {
-        "RETURN": 12.32,
-        "TREND": 55.15,
-        "ACCELERATION": -92.98,
-        "QUALITY": 0.524,
-        "SHARPE": 0.79,
-        "SORTINO": 1.46,
-        "STABILITY": 1.65
+        "RETURN": 17.97,
+        "TREND": 53.95,
+        "ACCELERATION": -95.32,
+        "QUALITY": 0.512,
+        "SHARPE": 1.04,
+        "SORTINO": 1.92,
+        "STABILITY": 2.19
       },
       "12M": {
-        "RETURN": 68.5,
-        "TREND": 98.73,
-        "ACCELERATION": -69.04,
-        "QUALITY": 0.87,
-        "SHARPE": 1.59,
-        "SORTINO": 2.9,
-        "STABILITY": 3.18
+        "RETURN": 78.0,
+        "TREND": 97.97,
+        "ACCELERATION": -69.99,
+        "QUALITY": 0.867,
+        "SHARPE": 1.74,
+        "SORTINO": 3.15,
+        "STABILITY": 3.47
       },
       "QuantScore": null
     },
@@ -2316,58 +2316,58 @@
       "Category": "Retail & Food",
       "SubCategory": "Beverage",
       "1W": {
-        "RETURN": 0.22,
-        "TREND": 62.52,
-        "ACCELERATION": 546.03,
-        "QUALITY": 0.075,
-        "SHARPE": 0.48,
-        "SORTINO": 0.5,
+        "RETURN": 7.96,
+        "TREND": 2563.47,
+        "ACCELERATION": 600.85,
+        "QUALITY": 0.783,
+        "SHARPE": 13.99,
+        "SORTINO": 0,
         "STABILITY": 10
       },
       "2W": {
-        "RETURN": -4.11,
-        "TREND": -76.58,
-        "ACCELERATION": 243.39,
-        "QUALITY": 0.628,
-        "SHARPE": -4.33,
-        "SORTINO": -6.21,
-        "STABILITY": -10
+        "RETURN": 1.69,
+        "TREND": -35.41,
+        "ACCELERATION": 514.41,
+        "QUALITY": 0.056,
+        "SHARPE": 1.44,
+        "SORTINO": 2.55,
+        "STABILITY": 8.39
       },
       "1M": {
-        "RETURN": -14.03,
-        "TREND": -86.48,
-        "ACCELERATION": 219.42,
-        "QUALITY": 0.782,
-        "SHARPE": -5.37,
-        "SORTINO": -5.8,
-        "STABILITY": -9.82
+        "RETURN": -10.75,
+        "TREND": -80.61,
+        "ACCELERATION": 270.76,
+        "QUALITY": 0.636,
+        "SHARPE": -3.51,
+        "SORTINO": -4.28,
+        "STABILITY": -7.25
       },
       "3M": {
-        "RETURN": -9.11,
-        "TREND": -35.76,
-        "ACCELERATION": -190.86,
-        "QUALITY": 0.315,
-        "SHARPE": -0.98,
-        "SORTINO": -1.59,
-        "STABILITY": -1.65
+        "RETURN": -5.12,
+        "TREND": -37.06,
+        "ACCELERATION": -186.1,
+        "QUALITY": 0.34,
+        "SHARPE": -0.44,
+        "SORTINO": -0.73,
+        "STABILITY": -0.77
       },
       "6M": {
-        "RETURN": -0.78,
-        "TREND": 38.19,
-        "ACCELERATION": -124.27,
-        "QUALITY": 0.35,
-        "SHARPE": 0.16,
-        "SORTINO": 0.23,
-        "STABILITY": 0.32
+        "RETURN": 14.98,
+        "TREND": 37.55,
+        "ACCELERATION": -130.02,
+        "QUALITY": 0.341,
+        "SHARPE": 0.93,
+        "SORTINO": 1.62,
+        "STABILITY": 1.77
       },
       "12M": {
-        "RETURN": 28.3,
-        "TREND": 52.66,
-        "ACCELERATION": -46.56,
-        "QUALITY": 0.73,
-        "SHARPE": 0.86,
-        "SORTINO": 1.31,
-        "STABILITY": 1.22
+        "RETURN": 32.38,
+        "TREND": 52.24,
+        "ACCELERATION": -47.38,
+        "QUALITY": 0.725,
+        "SHARPE": 0.94,
+        "SORTINO": 1.44,
+        "STABILITY": 1.34
       },
       "QuantScore": null
     },
@@ -2377,58 +2377,58 @@
       "Category": "Retail & Food",
       "SubCategory": "Food",
       "1W": {
-        "RETURN": -1.58,
-        "TREND": -59.95,
-        "ACCELERATION": 291.15,
-        "QUALITY": 0.343,
-        "SHARPE": -3.0,
-        "SORTINO": -5.58,
-        "STABILITY": -10
+        "RETURN": 5.45,
+        "TREND": 530.01,
+        "ACCELERATION": 851.77,
+        "QUALITY": 0.347,
+        "SHARPE": 7.03,
+        "SORTINO": 10,
+        "STABILITY": 10
       },
       "2W": {
-        "RETURN": -3.21,
-        "TREND": -59.86,
-        "ACCELERATION": -60.49,
-        "QUALITY": 0.598,
-        "SHARPE": -3.56,
-        "SORTINO": -7.8,
-        "STABILITY": -10
+        "RETURN": 3.38,
+        "TREND": -9.09,
+        "ACCELERATION": 123.61,
+        "QUALITY": 0.005,
+        "SHARPE": 2.71,
+        "SORTINO": 8.49,
+        "STABILITY": 10
       },
       "1M": {
-        "RETURN": 3.91,
-        "TREND": 35.7,
-        "ACCELERATION": -291.18,
-        "QUALITY": 0.09,
-        "SHARPE": 1.41,
-        "SORTINO": 2.33,
-        "STABILITY": 5.64
+        "RETURN": 6.33,
+        "TREND": 36.24,
+        "ACCELERATION": -201.56,
+        "QUALITY": 0.092,
+        "SHARPE": 2.04,
+        "SORTINO": 3.61,
+        "STABILITY": 8.73
       },
       "3M": {
-        "RETURN": -18.01,
-        "TREND": -59.33,
-        "ACCELERATION": 151.94,
-        "QUALITY": 0.743,
-        "SHARPE": -2.61,
-        "SORTINO": -4.94,
-        "STABILITY": -3.35
+        "RETURN": -13.65,
+        "TREND": -57.4,
+        "ACCELERATION": 166.84,
+        "QUALITY": 0.704,
+        "SHARPE": -1.77,
+        "SORTINO": -3.55,
+        "STABILITY": -2.41
       },
       "6M": {
-        "RETURN": -20.68,
+        "RETURN": -13.87,
         "TREND": -42.55,
-        "ACCELERATION": -116.93,
+        "ACCELERATION": -111.94,
         "QUALITY": 0.629,
-        "SHARPE": -1.35,
-        "SORTINO": -2.08,
-        "STABILITY": -1.37
+        "SHARPE": -0.8,
+        "SORTINO": -1.27,
+        "STABILITY": -0.82
       },
       "12M": {
-        "RETURN": -6.66,
-        "TREND": -7.77,
-        "ACCELERATION": -108.67,
-        "QUALITY": 0.055,
-        "SHARPE": -0.06,
-        "SORTINO": -0.11,
-        "STABILITY": -0.06
+        "RETURN": -2.41,
+        "TREND": -8.23,
+        "ACCELERATION": -107.87,
+        "QUALITY": 0.062,
+        "SHARPE": 0.08,
+        "SORTINO": 0.14,
+        "STABILITY": 0.08
       },
       "QuantScore": null
     },
@@ -2438,58 +2438,58 @@
       "Category": "Transportation",
       "SubCategory": "Aviation",
       "1W": {
-        "RETURN": -3.74,
-        "TREND": -90.9,
-        "ACCELERATION": 441.31,
-        "QUALITY": 0.679,
-        "SHARPE": -6.42,
-        "SORTINO": -7.71,
-        "STABILITY": -10
+        "RETURN": 0.91,
+        "TREND": -6.91,
+        "ACCELERATION": 1026.73,
+        "QUALITY": 0.001,
+        "SHARPE": 1.37,
+        "SORTINO": 1.49,
+        "STABILITY": 10
       },
       "2W": {
-        "RETURN": -1.66,
-        "TREND": -58.01,
-        "ACCELERATION": -409.52,
-        "QUALITY": 0.337,
-        "SHARPE": -1.64,
-        "SORTINO": -1.84,
-        "STABILITY": -7.18
+        "RETURN": 1.5,
+        "TREND": -50.57,
+        "ACCELERATION": -162.48,
+        "QUALITY": 0.213,
+        "SHARPE": 1.43,
+        "SORTINO": 1.83,
+        "STABILITY": 7.49
       },
       "1M": {
-        "RETURN": -4.9,
-        "TREND": -31.55,
-        "ACCELERATION": -25.99,
-        "QUALITY": 0.328,
-        "SHARPE": -2.83,
-        "SORTINO": -3.98,
-        "STABILITY": -10
+        "RETURN": -0.41,
+        "TREND": -23.1,
+        "ACCELERATION": -28.24,
+        "QUALITY": 0.18,
+        "SHARPE": -0.11,
+        "SORTINO": -0.16,
+        "STABILITY": -0.44
       },
       "3M": {
-        "RETURN": -0.42,
-        "TREND": -27.26,
-        "ACCELERATION": -124.38,
-        "QUALITY": 0.267,
-        "SHARPE": 0.09,
-        "SORTINO": 0.14,
-        "STABILITY": 0.16
+        "RETURN": 2.78,
+        "TREND": -29.72,
+        "ACCELERATION": -103.12,
+        "QUALITY": 0.334,
+        "SHARPE": 0.51,
+        "SORTINO": 0.83,
+        "STABILITY": 0.95
       },
       "6M": {
-        "RETURN": 4.13,
-        "TREND": 11.11,
-        "ACCELERATION": -43.31,
-        "QUALITY": 0.097,
-        "SHARPE": 0.41,
-        "SORTINO": 0.7,
-        "STABILITY": 0.79
+        "RETURN": 10.21,
+        "TREND": 10.13,
+        "ACCELERATION": -43.89,
+        "QUALITY": 0.083,
+        "SHARPE": 0.76,
+        "SORTINO": 1.31,
+        "STABILITY": 1.47
       },
       "12M": {
-        "RETURN": -4.21,
-        "TREND": 7.75,
-        "ACCELERATION": 12.71,
-        "QUALITY": 0.113,
-        "SHARPE": 0.01,
-        "SORTINO": 0.01,
-        "STABILITY": 0.01
+        "RETURN": -3.71,
+        "TREND": 7.84,
+        "ACCELERATION": 11.77,
+        "QUALITY": 0.115,
+        "SHARPE": 0.03,
+        "SORTINO": 0.04,
+        "STABILITY": 0.04
       },
       "QuantScore": null
     },
@@ -2499,58 +2499,58 @@
       "Category": "Transportation",
       "SubCategory": "Aviation",
       "1W": {
-        "RETURN": -1.39,
-        "TREND": -37.38,
-        "ACCELERATION": -116.97,
-        "QUALITY": 0.085,
-        "SHARPE": -1.79,
-        "SORTINO": -4.05,
-        "STABILITY": -10
+        "RETURN": 5.78,
+        "TREND": 359.52,
+        "ACCELERATION": 435.57,
+        "QUALITY": 0.301,
+        "SHARPE": 6.8,
+        "SORTINO": 10,
+        "STABILITY": 10
       },
       "2W": {
-        "RETURN": -0.54,
-        "TREND": -26.6,
-        "ACCELERATION": -175.35,
-        "QUALITY": 0.114,
-        "SHARPE": -0.36,
-        "SORTINO": -0.71,
-        "STABILITY": -2.44
+        "RETURN": 3.94,
+        "TREND": 6.72,
+        "ACCELERATION": 88.84,
+        "QUALITY": 0.003,
+        "SHARPE": 2.85,
+        "SORTINO": 7.34,
+        "STABILITY": 10
       },
       "1M": {
-        "RETURN": -3.88,
-        "TREND": -24.41,
-        "ACCELERATION": 32.87,
-        "QUALITY": 0.344,
-        "SHARPE": -2.15,
-        "SORTINO": -3.99,
-        "STABILITY": -10
+        "RETURN": 1.3,
+        "TREND": -9.42,
+        "ACCELERATION": 54.69,
+        "QUALITY": 0.039,
+        "SHARPE": 0.71,
+        "SORTINO": 1.59,
+        "STABILITY": 4.59
       },
       "3M": {
-        "RETURN": -12.53,
-        "TREND": -58.5,
-        "ACCELERATION": -0.24,
-        "QUALITY": 0.822,
-        "SHARPE": -1.74,
-        "SORTINO": -3.02,
-        "STABILITY": -2.43
+        "RETURN": -7.93,
+        "TREND": -58.47,
+        "ACCELERATION": 23.72,
+        "QUALITY": 0.821,
+        "SHARPE": -0.96,
+        "SORTINO": -1.73,
+        "STABILITY": -1.4
       },
       "6M": {
-        "RETURN": -17.71,
-        "TREND": -34.27,
-        "ACCELERATION": -69.76,
-        "QUALITY": 0.672,
-        "SHARPE": -1.13,
-        "SORTINO": -2.05,
-        "STABILITY": -1.36
+        "RETURN": -12.25,
+        "TREND": -34.47,
+        "ACCELERATION": -68.18,
+        "QUALITY": 0.677,
+        "SHARPE": -0.69,
+        "SORTINO": -1.27,
+        "STABILITY": -0.84
       },
       "12M": {
-        "RETURN": -32.47,
-        "TREND": -31.43,
-        "ACCELERATION": -20.41,
-        "QUALITY": 0.864,
-        "SHARPE": -1.2,
-        "SORTINO": -1.96,
-        "STABILITY": -0.94
+        "RETURN": -29.57,
+        "TREND": -31.48,
+        "ACCELERATION": -19.93,
+        "QUALITY": 0.865,
+        "SHARPE": -1.04,
+        "SORTINO": -1.72,
+        "STABILITY": -0.83
       },
       "QuantScore": null
     },
@@ -2560,58 +2560,58 @@
       "Category": "Transportation",
       "SubCategory": "Airport",
       "1W": {
-        "RETURN": -5.21,
-        "TREND": -83.55,
-        "ACCELERATION": 1401.16,
-        "QUALITY": 0.193,
-        "SHARPE": -4.93,
-        "SORTINO": -5.01,
-        "STABILITY": -10
+        "RETURN": 3.87,
+        "TREND": 770.21,
+        "ACCELERATION": 610.51,
+        "QUALITY": 0.617,
+        "SHARPE": 7.17,
+        "SORTINO": 0,
+        "STABILITY": 10
       },
       "2W": {
-        "RETURN": -4.11,
-        "TREND": -86.13,
-        "ACCELERATION": -312.9,
-        "QUALITY": 0.523,
-        "SHARPE": -2.38,
-        "SORTINO": -2.48,
-        "STABILITY": -10
+        "RETURN": -0.27,
+        "TREND": -79.94,
+        "ACCELERATION": 110.08,
+        "QUALITY": 0.359,
+        "SHARPE": 0.04,
+        "SORTINO": 0.04,
+        "STABILITY": 0.2
       },
       "1M": {
-        "RETURN": -1.92,
-        "TREND": -31.71,
-        "ACCELERATION": -243.33,
-        "QUALITY": 0.14,
-        "SHARPE": -0.6,
-        "SORTINO": -0.65,
-        "STABILITY": -2.12
+        "RETURN": -0.09,
+        "TREND": -33.03,
+        "ACCELERATION": -202.63,
+        "QUALITY": 0.155,
+        "SHARPE": 0.12,
+        "SORTINO": 0.14,
+        "STABILITY": 0.45
       },
       "3M": {
-        "RETURN": 6.31,
-        "TREND": -3.55,
-        "ACCELERATION": 43.77,
-        "QUALITY": 0.004,
-        "SHARPE": 0.85,
-        "SORTINO": 1.25,
-        "STABILITY": 2.05
+        "RETURN": 7.82,
+        "TREND": -6.35,
+        "ACCELERATION": 57.15,
+        "QUALITY": 0.015,
+        "SHARPE": 1.0,
+        "SORTINO": 1.48,
+        "STABILITY": 2.43
       },
       "6M": {
-        "RETURN": -10.73,
-        "TREND": -21.62,
-        "ACCELERATION": 78.79,
-        "QUALITY": 0.237,
-        "SHARPE": -0.34,
-        "SORTINO": -0.58,
-        "STABILITY": -0.48
+        "RETURN": -4.86,
+        "TREND": -21.25,
+        "ACCELERATION": 78.92,
+        "QUALITY": 0.229,
+        "SHARPE": -0.03,
+        "SORTINO": -0.06,
+        "STABILITY": -0.05
       },
       "12M": {
-        "RETURN": 17.56,
-        "TREND": 7.83,
-        "ACCELERATION": -115.97,
-        "QUALITY": 0.038,
-        "SHARPE": 0.61,
-        "SORTINO": 0.99,
-        "STABILITY": 0.71
+        "RETURN": 18.92,
+        "TREND": 7.24,
+        "ACCELERATION": -114.07,
+        "QUALITY": 0.033,
+        "SHARPE": 0.64,
+        "SORTINO": 1.04,
+        "STABILITY": 0.74
       },
       "QuantScore": null
     },
@@ -2621,58 +2621,58 @@
       "Category": "Technology & Telecom",
       "SubCategory": "GSM",
       "1W": {
-        "RETURN": -5.17,
-        "TREND": -77.97,
-        "ACCELERATION": 998.38,
-        "QUALITY": 0.144,
-        "SHARPE": -3.8,
-        "SORTINO": -2.93,
-        "STABILITY": -10
+        "RETURN": 6.89,
+        "TREND": 1402.15,
+        "ACCELERATION": 354.02,
+        "QUALITY": 0.784,
+        "SHARPE": 14.19,
+        "SORTINO": 0,
+        "STABILITY": 10
       },
       "2W": {
-        "RETURN": -5.9,
-        "TREND": -88.57,
-        "ACCELERATION": -88.05,
-        "QUALITY": 0.645,
-        "SHARPE": -3.18,
-        "SORTINO": -2.7,
-        "STABILITY": -10
+        "RETURN": -1.45,
+        "TREND": -77.08,
+        "ACCELERATION": 248.98,
+        "QUALITY": 0.336,
+        "SHARPE": -0.52,
+        "SORTINO": -0.42,
+        "STABILITY": -3.13
       },
       "1M": {
-        "RETURN": -6.79,
-        "TREND": -61.38,
-        "ACCELERATION": -167.02,
-        "QUALITY": 0.613,
-        "SHARPE": -2.39,
-        "SORTINO": -2.12,
-        "STABILITY": -8.1
+        "RETURN": -3.33,
+        "TREND": -57.84,
+        "ACCELERATION": -119.43,
+        "QUALITY": 0.531,
+        "SHARPE": -0.97,
+        "SORTINO": -0.89,
+        "STABILITY": -3.53
       },
       "3M": {
-        "RETURN": -8.61,
-        "TREND": -37.16,
-        "ACCELERATION": -32.58,
-        "QUALITY": 0.606,
-        "SHARPE": -0.93,
-        "SORTINO": -1.2,
-        "STABILITY": -1.7
+        "RETURN": -3.7,
+        "TREND": -37.81,
+        "ACCELERATION": -20.58,
+        "QUALITY": 0.626,
+        "SHARPE": -0.28,
+        "SORTINO": -0.36,
+        "STABILITY": -0.53
       },
       "6M": {
-        "RETURN": -10.53,
-        "TREND": -16.55,
-        "ACCELERATION": -42.03,
-        "QUALITY": 0.286,
-        "SHARPE": -0.47,
-        "SORTINO": -0.69,
-        "STABILITY": -0.74
+        "RETURN": -5.49,
+        "TREND": -16.91,
+        "ACCELERATION": -41.93,
+        "QUALITY": 0.296,
+        "SHARPE": -0.15,
+        "SORTINO": -0.22,
+        "STABILITY": -0.24
       },
       "12M": {
-        "RETURN": 12.48,
-        "TREND": 15.7,
-        "ACCELERATION": -72.94,
-        "QUALITY": 0.253,
-        "SHARPE": 0.52,
-        "SORTINO": 0.77,
-        "STABILITY": 0.68
+        "RETURN": 16.17,
+        "TREND": 15.13,
+        "ACCELERATION": -72.75,
+        "QUALITY": 0.24,
+        "SHARPE": 0.62,
+        "SORTINO": 0.91,
+        "STABILITY": 0.81
       },
       "QuantScore": null
     },
@@ -2682,58 +2682,58 @@
       "Category": "Technology & Telecom",
       "SubCategory": "Telecom",
       "1W": {
-        "RETURN": -2.99,
-        "TREND": -73.44,
-        "ACCELERATION": 737.75,
-        "QUALITY": 0.252,
-        "SHARPE": -3.6,
-        "SORTINO": -4.29,
-        "STABILITY": -10
+        "RETURN": 6.65,
+        "TREND": 1076.51,
+        "ACCELERATION": 960.02,
+        "QUALITY": 0.472,
+        "SHARPE": 8.56,
+        "SORTINO": 0,
+        "STABILITY": 10
       },
       "2W": {
-        "RETURN": -5.38,
-        "TREND": -82.16,
-        "ACCELERATION": -23.41,
-        "QUALITY": 0.725,
-        "SHARPE": -4.4,
-        "SORTINO": -4.96,
-        "STABILITY": -10
+        "RETURN": 2.06,
+        "TREND": -51.77,
+        "ACCELERATION": 230.0,
+        "QUALITY": 0.14,
+        "SHARPE": 1.5,
+        "SORTINO": 1.91,
+        "STABILITY": 10
       },
       "1M": {
-        "RETURN": -2.99,
-        "TREND": -59.8,
-        "ACCELERATION": -115.49,
-        "QUALITY": 0.637,
-        "SHARPE": -1.07,
-        "SORTINO": -1.48,
-        "STABILITY": -3.26
+        "RETURN": 0.0,
+        "TREND": -57.71,
+        "ACCELERATION": 3.13,
+        "QUALITY": 0.559,
+        "SHARPE": 0.16,
+        "SORTINO": 0.26,
+        "STABILITY": 0.57
       },
       "3M": {
-        "RETURN": -19.28,
-        "TREND": -60.06,
-        "ACCELERATION": 74.1,
-        "QUALITY": 0.809,
-        "SHARPE": -2.59,
-        "SORTINO": -4.09,
-        "STABILITY": -3.66
+        "RETURN": -13.35,
+        "TREND": -58.86,
+        "ACCELERATION": 88.38,
+        "QUALITY": 0.787,
+        "SHARPE": -1.59,
+        "SORTINO": -2.6,
+        "STABILITY": -2.36
       },
       "6M": {
-        "RETURN": -15.2,
-        "TREND": -27.4,
-        "ACCELERATION": -115.44,
-        "QUALITY": 0.424,
-        "SHARPE": -0.77,
-        "SORTINO": -1.18,
-        "STABILITY": -1.11
+        "RETURN": -7.78,
+        "TREND": -27.73,
+        "ACCELERATION": -113.89,
+        "QUALITY": 0.432,
+        "SHARPE": -0.28,
+        "SORTINO": -0.44,
+        "STABILITY": -0.41
       },
       "12M": {
-        "RETURN": 1.57,
-        "TREND": 8.99,
-        "ACCELERATION": -101.05,
-        "QUALITY": 0.072,
-        "SHARPE": 0.21,
-        "SORTINO": 0.34,
-        "STABILITY": 0.24
+        "RETURN": 7.07,
+        "TREND": 8.47,
+        "ACCELERATION": -100.93,
+        "QUALITY": 0.065,
+        "SHARPE": 0.37,
+        "SORTINO": 0.6,
+        "STABILITY": 0.41
       },
       "QuantScore": null
     },
@@ -2743,58 +2743,58 @@
       "Category": "Technology & Telecom",
       "SubCategory": "Technology",
       "1W": {
-        "RETURN": -9.51,
-        "TREND": -99.78,
-        "ACCELERATION": 1000.44,
-        "QUALITY": 0.8,
-        "SHARPE": -10.08,
+        "RETURN": -7.56,
+        "TREND": -97.39,
+        "ACCELERATION": 1300.08,
+        "QUALITY": 0.552,
+        "SHARPE": -8.01,
         "SORTINO": -10,
         "STABILITY": -10
       },
       "2W": {
-        "RETURN": -14.62,
-        "TREND": -99.27,
-        "ACCELERATION": -299.74,
-        "QUALITY": 0.921,
-        "SHARPE": -11.47,
+        "RETURN": -14.73,
+        "TREND": -99.12,
+        "ACCELERATION": -77.41,
+        "QUALITY": 0.902,
+        "SHARPE": -11.59,
         "SORTINO": -10,
         "STABILITY": -10
       },
       "1M": {
-        "RETURN": -20.71,
-        "TREND": -92.19,
-        "ACCELERATION": -401.13,
-        "QUALITY": 0.772,
-        "SHARPE": -5.38,
+        "RETURN": -18.72,
+        "TREND": -92.69,
+        "ACCELERATION": -427.36,
+        "QUALITY": 0.779,
+        "SHARPE": -4.86,
         "SORTINO": -10,
         "STABILITY": -10
       },
       "3M": {
-        "RETURN": -52.09,
-        "TREND": -83.73,
-        "ACCELERATION": -70.3,
-        "QUALITY": 0.36,
-        "SHARPE": -2.24,
-        "SORTINO": -4.22,
-        "STABILITY": -4.29
+        "RETURN": -50.0,
+        "TREND": -82.69,
+        "ACCELERATION": -120.62,
+        "QUALITY": 0.35,
+        "SHARPE": -2.09,
+        "SORTINO": -3.86,
+        "STABILITY": -3.99
       },
       "6M": {
-        "RETURN": -61.9,
-        "TREND": -91.0,
-        "ACCELERATION": -158.92,
-        "QUALITY": 0.743,
-        "SHARPE": -1.58,
-        "SORTINO": -2.72,
-        "STABILITY": -1.88
+        "RETURN": -61.18,
+        "TREND": -91.27,
+        "ACCELERATION": -140.94,
+        "QUALITY": 0.751,
+        "SHARPE": -1.54,
+        "SORTINO": -2.64,
+        "STABILITY": -1.84
       },
       "12M": {
-        "RETURN": -86.57,
-        "TREND": -89.47,
-        "ACCELERATION": 87.31,
-        "QUALITY": 0.878,
-        "SHARPE": -1.63,
-        "SORTINO": -1.99,
-        "STABILITY": -1.65
+        "RETURN": -86.73,
+        "TREND": -89.54,
+        "ACCELERATION": 87.79,
+        "QUALITY": 0.879,
+        "SHARPE": -1.64,
+        "SORTINO": -2.01,
+        "STABILITY": -1.66
       },
       "QuantScore": null
     }
@@ -2802,86 +2802,122 @@
   "quant_rankings": {
     "top10_stocks": [
       {
+        "Symbol": "BIMAS.IS",
+        "Name": "BIM",
+        "Category": "Retail & Food",
+        "QuantScore": 79.7
+      },
+      {
+        "Symbol": "KCHOL.IS",
+        "Name": "Koc Holding",
+        "Category": "Holding & Investment",
+        "QuantScore": 69.5
+      },
+      {
         "Symbol": "ALARK.IS",
         "Name": "Alarko Holding",
         "Category": "Construction & REIT",
-        "QuantScore": 43.3
+        "QuantScore": 45.9
       },
       {
-        "Symbol": "HALKB.IS",
-        "Name": "Halkbank",
+        "Symbol": "KRDMD.IS",
+        "Name": "Kardemir",
+        "Category": "Heavy Industry",
+        "QuantScore": 34.7
+      },
+      {
+        "Symbol": "PETKM.IS",
+        "Name": "Petkim",
+        "Category": "Energy & Chemicals",
+        "QuantScore": 22.3
+      },
+      {
+        "Symbol": "VAKBN.IS",
+        "Name": "Vakifbank",
         "Category": "Banking & Finance",
-        "QuantScore": 23.2
+        "QuantScore": 18.2
       },
       {
-        "Symbol": "TKFEN.IS",
-        "Name": "Tekfen Holding",
-        "Category": "Construction & REIT",
-        "QuantScore": 14.3
+        "Symbol": "SAHOL.IS",
+        "Name": "Sabanci Holding",
+        "Category": "Holding & Investment",
+        "QuantScore": 17.6
       },
       {
         "Symbol": "AKBNK.IS",
         "Name": "Akbank",
         "Category": "Banking & Finance",
-        "QuantScore": 0
+        "QuantScore": 17.2
+      },
+      {
+        "Symbol": "HALKB.IS",
+        "Name": "Halkbank",
+        "Category": "Banking & Finance",
+        "QuantScore": 16.8
+      },
+      {
+        "Symbol": "SOKM.IS",
+        "Name": "Sok Marketler",
+        "Category": "Retail & Food",
+        "QuantScore": 14.0
       }
     ],
     "all_sectors": [
       {
         "Sector": "Construction & REIT",
-        "QuantScore": 82.0,
+        "QuantScore": 84.7,
         "StockCount": 4,
         "Disqualified": false,
         "Reason": null
       },
       {
+        "Sector": "Energy & Chemicals",
+        "QuantScore": 57.5,
+        "StockCount": 9,
+        "Disqualified": false,
+        "Reason": null
+      },
+      {
         "Sector": "Heavy Industry",
-        "QuantScore": 41.1,
+        "QuantScore": 55.5,
         "StockCount": 7,
+        "Disqualified": false,
+        "Reason": null
+      },
+      {
+        "Sector": "Holding & Investment",
+        "QuantScore": 35.6,
+        "StockCount": 3,
         "Disqualified": false,
         "Reason": null
       },
       {
         "Sector": "Banking & Finance",
-        "QuantScore": 29.6,
+        "QuantScore": 30.8,
         "StockCount": 7,
         "Disqualified": false,
         "Reason": null
       },
       {
-        "Sector": "Energy & Chemicals",
-        "QuantScore": null,
-        "StockCount": 9,
-        "Disqualified": true,
-        "Reason": "2W Ret -3.4%"
-      },
-      {
-        "Sector": "Holding & Investment",
-        "QuantScore": null,
-        "StockCount": 3,
-        "Disqualified": true,
-        "Reason": "2W Ret -0.7%"
-      },
-      {
         "Sector": "Retail & Food",
-        "QuantScore": null,
+        "QuantScore": 9.8,
         "StockCount": 6,
-        "Disqualified": true,
-        "Reason": "2W Ret -3.7%"
+        "Disqualified": false,
+        "Reason": null
+      },
+      {
+        "Sector": "Transportation",
+        "QuantScore": 0,
+        "StockCount": 3,
+        "Disqualified": false,
+        "Reason": null
       },
       {
         "Sector": "Technology & Telecom",
         "QuantScore": null,
         "StockCount": 3,
         "Disqualified": true,
-        "Reason": "2W Ret -8.6%"
-      },
-      {
-        "Sector": "Transportation",
-        "QuantScore": null,
-        "StockCount": 3,
-        "Disqualified": true,
-        "Reason": "2W Ret -2.1%"
+        "Reason": "2W Ret -4.7%"
       }
     ]
   }
