@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-18T06:00:19.688593",
-  "update_time": "2026-09-18 06:00",
+  "generated_at": "2026-09-19T06:00:25.693691",
+  "update_time": "2026-09-19 06:00",
   "stock_count": 44,
   "ratio_count": 4,
   "regime": {
     "overall": "NEUTRAL",
     "riskScore": 0,
-    "volatility": 28.43073359254048,
+    "volatility": 28.499449919562238,
     "signals": {
       "BREADTH": {
         "value": "0/8 POSITIVE",
@@ -15,9 +15,9 @@
         "total": 8
       },
       "VOLATILITY": {
-        "value": "NORMAL 28.4%",
+        "value": "NORMAL 28.5%",
         "score": 0,
-        "level": 28.43073359254048,
+        "level": 28.499449919562238,
         "change": 0
       }
     },
@@ -33,20 +33,20 @@
       "name": "BIST 100 Level",
       "category": "Market",
       "values": {
-        "1W": 13509.7998,
-        "2W": 13509.7998,
-        "1M": 13509.7998,
-        "3M": 13509.7998,
-        "6M": 13509.7998,
-        "12M": 13509.7998
+        "1W": 13284.4004,
+        "2W": 13284.4004,
+        "1M": 13284.4004,
+        "3M": 13284.4004,
+        "6M": 13284.4004,
+        "12M": 13284.4004
       },
       "changes": {
-        "1W": -6.62,
-        "2W": -3.59,
-        "1M": -6.16,
-        "3M": -8.28,
-        "6M": 4.48,
-        "12M": 18.85
+        "1W": -6.68,
+        "2W": -6.13,
+        "1M": -8.48,
+        "3M": -8.63,
+        "6M": 2.47,
+        "12M": 16.76
       }
     },
     {
@@ -120,58 +120,58 @@
       "Category": "Index",
       "SubCategory": "Main",
       "1W": {
-        "RETURN": -4.24,
-        "TREND": -97.59,
-        "ACCELERATION": -149.11,
-        "QUALITY": 0.636,
-        "SHARPE": -3.55,
-        "SORTINO": -5.74,
+        "RETURN": -6.18,
+        "TREND": -97.1,
+        "ACCELERATION": 816.13,
+        "QUALITY": 0.598,
+        "SHARPE": -5.53,
+        "SORTINO": -9.39,
         "STABILITY": -10
       },
       "2W": {
-        "RETURN": 0.44,
-        "TREND": -34.61,
-        "ACCELERATION": -754.05,
-        "QUALITY": 0.037,
-        "SHARPE": 0.45,
-        "SORTINO": 0.57,
-        "STABILITY": 2.18
+        "RETURN": -1.6,
+        "TREND": -67.95,
+        "ACCELERATION": -624.48,
+        "QUALITY": 0.254,
+        "SHARPE": -0.75,
+        "SORTINO": -1.04,
+        "STABILITY": -3.63
       },
       "1M": {
-        "RETURN": -1.28,
-        "TREND": -0.69,
-        "ACCELERATION": -14.51,
-        "QUALITY": 0.0,
-        "SHARPE": -0.36,
-        "SORTINO": -0.43,
-        "STABILITY": -1.24
+        "RETURN": -1.98,
+        "TREND": -10.78,
+        "ACCELERATION": -58.24,
+        "QUALITY": 0.017,
+        "SHARPE": -0.63,
+        "SORTINO": -0.78,
+        "STABILITY": -2.19
       },
       "3M": {
-        "RETURN": -3.82,
-        "TREND": 3.66,
-        "ACCELERATION": 143.25,
-        "QUALITY": 0.006,
-        "SHARPE": -0.53,
-        "SORTINO": -0.76,
-        "STABILITY": -1.09
+        "RETURN": -4.92,
+        "TREND": 5.09,
+        "ACCELERATION": 131.65,
+        "QUALITY": 0.012,
+        "SHARPE": -0.72,
+        "SORTINO": -1.06,
+        "STABILITY": -1.58
       },
       "6M": {
-        "RETURN": 10.09,
-        "TREND": 14.8,
-        "ACCELERATION": -36.6,
-        "QUALITY": 0.191,
+        "RETURN": 10.01,
+        "TREND": 14.03,
+        "ACCELERATION": -35.47,
+        "QUALITY": 0.177,
         "SHARPE": 0.84,
-        "SORTINO": 1.34,
-        "STABILITY": 1.77
+        "SORTINO": 1.33,
+        "STABILITY": 1.76
       },
       "12M": {
-        "RETURN": 34.24,
-        "TREND": 51.95,
-        "ACCELERATION": -48.76,
-        "QUALITY": 0.796,
-        "SHARPE": 1.3,
-        "SORTINO": 2.19,
-        "STABILITY": 2.51
+        "RETURN": 30.9,
+        "TREND": 51.75,
+        "ACCELERATION": -50.18,
+        "QUALITY": 0.794,
+        "SHARPE": 1.2,
+        "SORTINO": 2.03,
+        "STABILITY": 2.32
       },
       "QuantScore": null
     },
@@ -181,58 +181,58 @@
       "Category": "Index",
       "SubCategory": "Main",
       "1W": {
-        "RETURN": -6.14,
-        "TREND": -98.96,
-        "ACCELERATION": -212.62,
-        "QUALITY": 0.767,
-        "SHARPE": -6.07,
-        "SORTINO": -9.3,
+        "RETURN": -8.18,
+        "TREND": -99.01,
+        "ACCELERATION": 665.42,
+        "QUALITY": 0.774,
+        "SHARPE": -8.65,
+        "SORTINO": -10,
         "STABILITY": -10
       },
       "2W": {
-        "RETURN": -3.03,
-        "TREND": -68.07,
-        "ACCELERATION": -729.32,
-        "QUALITY": 0.232,
-        "SHARPE": -1.84,
-        "SORTINO": -2.14,
-        "STABILITY": -7.42
+        "RETURN": -5.2,
+        "TREND": -85.05,
+        "ACCELERATION": -658.81,
+        "QUALITY": 0.497,
+        "SHARPE": -3.29,
+        "SORTINO": -4.33,
+        "STABILITY": -10
       },
       "1M": {
-        "RETURN": -6.56,
-        "TREND": -48.43,
-        "ACCELERATION": -68.01,
-        "QUALITY": 0.403,
-        "SHARPE": -2.8,
-        "SORTINO": -3.23,
-        "STABILITY": -7.48
+        "RETURN": -7.72,
+        "TREND": -55.98,
+        "ACCELERATION": -105.76,
+        "QUALITY": 0.482,
+        "SHARPE": -3.29,
+        "SORTINO": -3.91,
+        "STABILITY": -8.91
       },
       "3M": {
-        "RETURN": -8.31,
-        "TREND": -5.15,
-        "ACCELERATION": 64.27,
-        "QUALITY": 0.023,
-        "SHARPE": -1.49,
-        "SORTINO": -2.0,
-        "STABILITY": -2.97
+        "RETURN": -9.81,
+        "TREND": -5.75,
+        "ACCELERATION": 47.76,
+        "QUALITY": 0.028,
+        "SHARPE": -1.77,
+        "SORTINO": -2.42,
+        "STABILITY": -3.75
       },
       "6M": {
-        "RETURN": 3.18,
-        "TREND": 10.09,
-        "ACCELERATION": -45.14,
-        "QUALITY": 0.121,
-        "SHARPE": 0.37,
-        "SORTINO": 0.56,
-        "STABILITY": 0.71
+        "RETURN": 2.53,
+        "TREND": 8.87,
+        "ACCELERATION": -45.82,
+        "QUALITY": 0.095,
+        "SHARPE": 0.32,
+        "SORTINO": 0.48,
+        "STABILITY": 0.62
       },
       "12M": {
-        "RETURN": 22.81,
-        "TREND": 40.44,
-        "ACCELERATION": -49.31,
-        "QUALITY": 0.745,
-        "SHARPE": 1.0,
-        "SORTINO": 1.54,
-        "STABILITY": 1.75
+        "RETURN": 18.79,
+        "TREND": 40.03,
+        "ACCELERATION": -50.73,
+        "QUALITY": 0.737,
+        "SHARPE": 0.86,
+        "SORTINO": 1.33,
+        "STABILITY": 1.5
       },
       "QuantScore": null
     },
@@ -251,49 +251,49 @@
         "STABILITY": -10
       },
       "2W": {
-        "RETURN": -9.38,
-        "TREND": -73.32,
-        "ACCELERATION": -701.79,
-        "QUALITY": 0.242,
-        "SHARPE": -5.15,
-        "SORTINO": -6.39,
+        "RETURN": -8.81,
+        "TREND": -74.35,
+        "ACCELERATION": -773.38,
+        "QUALITY": 0.248,
+        "SHARPE": -5.13,
+        "SORTINO": -5.84,
         "STABILITY": -10
       },
       "1M": {
-        "RETURN": -4.12,
-        "TREND": 24.94,
-        "ACCELERATION": -324.83,
-        "QUALITY": 0.033,
-        "SHARPE": -1.1,
-        "SORTINO": -1.42,
-        "STABILITY": -3.31
+        "RETURN": -3.62,
+        "TREND": 10.91,
+        "ACCELERATION": -288.81,
+        "QUALITY": 0.008,
+        "SHARPE": -1.0,
+        "SORTINO": -1.2,
+        "STABILITY": -2.88
       },
       "3M": {
-        "RETURN": -16.41,
-        "TREND": -29.44,
-        "ACCELERATION": 285.45,
-        "QUALITY": 0.149,
-        "SHARPE": -1.84,
-        "SORTINO": -2.52,
-        "STABILITY": -2.63
+        "RETURN": -19.61,
+        "TREND": -26.23,
+        "ACCELERATION": 280.45,
+        "QUALITY": 0.117,
+        "SHARPE": -2.4,
+        "SORTINO": -3.15,
+        "STABILITY": -3.27
       },
       "6M": {
-        "RETURN": -7.44,
-        "TREND": -8.25,
-        "ACCELERATION": -5.48,
-        "QUALITY": 0.032,
-        "SHARPE": -0.14,
-        "SORTINO": -0.23,
-        "STABILITY": -0.24
+        "RETURN": -11.23,
+        "TREND": -8.1,
+        "ACCELERATION": -4.18,
+        "QUALITY": 0.031,
+        "SHARPE": -0.35,
+        "SORTINO": -0.54,
+        "STABILITY": -0.56
       },
       "12M": {
-        "RETURN": -0.09,
-        "TREND": 18.39,
-        "ACCELERATION": -97.36,
-        "QUALITY": 0.171,
-        "SHARPE": 0.2,
-        "SORTINO": 0.31,
-        "STABILITY": 0.27
+        "RETURN": 3.44,
+        "TREND": 18.36,
+        "ACCELERATION": -97.21,
+        "QUALITY": 0.17,
+        "SHARPE": 0.29,
+        "SORTINO": 0.44,
+        "STABILITY": 0.38
       },
       "QuantScore": null
     },
@@ -312,49 +312,49 @@
         "STABILITY": -10
       },
       "2W": {
-        "RETURN": -9.03,
-        "TREND": -69.83,
-        "ACCELERATION": -577.38,
-        "QUALITY": 0.236,
-        "SHARPE": -5.76,
-        "SORTINO": -6.75,
+        "RETURN": -8.41,
+        "TREND": -68.38,
+        "ACCELERATION": -663.06,
+        "QUALITY": 0.216,
+        "SHARPE": -5.63,
+        "SORTINO": -5.92,
         "STABILITY": -10
       },
       "1M": {
-        "RETURN": -6.28,
-        "TREND": -2.42,
-        "ACCELERATION": -191.79,
-        "QUALITY": 0.001,
-        "SHARPE": -2.26,
-        "SORTINO": -2.49,
-        "STABILITY": -6.55
+        "RETURN": -6.5,
+        "TREND": -6.93,
+        "ACCELERATION": -176.19,
+        "QUALITY": 0.006,
+        "SHARPE": -2.45,
+        "SORTINO": -2.6,
+        "STABILITY": -6.83
       },
       "3M": {
-        "RETURN": -14.26,
-        "TREND": -18.94,
-        "ACCELERATION": 150.89,
-        "QUALITY": 0.151,
-        "SHARPE": -2.09,
-        "SORTINO": -2.83,
-        "STABILITY": -3.6
+        "RETURN": -16.04,
+        "TREND": -16.41,
+        "ACCELERATION": 144.7,
+        "QUALITY": 0.115,
+        "SHARPE": -2.48,
+        "SORTINO": -3.25,
+        "STABILITY": -4.18
       },
       "6M": {
-        "RETURN": -6.2,
-        "TREND": -1.68,
-        "ACCELERATION": -20.03,
+        "RETURN": -9.18,
+        "TREND": -1.7,
+        "ACCELERATION": -19.11,
         "QUALITY": 0.003,
-        "SHARPE": -0.18,
-        "SORTINO": -0.3,
-        "STABILITY": -0.36
+        "SHARPE": -0.37,
+        "SORTINO": -0.6,
+        "STABILITY": -0.73
       },
       "12M": {
-        "RETURN": -15.3,
-        "TREND": -1.7,
-        "ACCELERATION": -33.92,
-        "QUALITY": 0.006,
-        "SHARPE": -0.28,
-        "SORTINO": -0.43,
-        "STABILITY": -0.42
+        "RETURN": -12.41,
+        "TREND": -1.55,
+        "ACCELERATION": -33.89,
+        "QUALITY": 0.005,
+        "SHARPE": -0.19,
+        "SORTINO": -0.29,
+        "STABILITY": -0.28
       },
       "QuantScore": null
     },
@@ -373,49 +373,49 @@
         "STABILITY": -10
       },
       "2W": {
-        "RETURN": -4.16,
-        "TREND": 80.53,
-        "ACCELERATION": -1174.92,
-        "QUALITY": 0.025,
-        "SHARPE": -1.07,
-        "SORTINO": -1.65,
-        "STABILITY": -5.48
+        "RETURN": -4.38,
+        "TREND": 48.72,
+        "ACCELERATION": -1137.51,
+        "QUALITY": 0.012,
+        "SHARPE": -1.18,
+        "SORTINO": -1.79,
+        "STABILITY": -5.93
       },
       "1M": {
-        "RETURN": -1.45,
-        "TREND": 232.52,
-        "ACCELERATION": -25.57,
-        "QUALITY": 0.439,
-        "SHARPE": -0.07,
-        "SORTINO": -0.1,
-        "STABILITY": -0.27
+        "RETURN": -1.29,
+        "TREND": 221.64,
+        "ACCELERATION": -43.32,
+        "QUALITY": 0.433,
+        "SHARPE": -0.05,
+        "SORTINO": -0.06,
+        "STABILITY": -0.16
       },
       "3M": {
-        "RETURN": -18.21,
-        "TREND": -47.95,
-        "ACCELERATION": 267.69,
-        "QUALITY": 0.424,
-        "SHARPE": -1.86,
-        "SORTINO": -2.8,
-        "STABILITY": -3.26
+        "RETURN": -21.01,
+        "TREND": -45.97,
+        "ACCELERATION": 275.69,
+        "QUALITY": 0.391,
+        "SHARPE": -2.3,
+        "SORTINO": -3.35,
+        "STABILITY": -3.95
       },
       "6M": {
-        "RETURN": -9.7,
-        "TREND": -14.93,
-        "ACCELERATION": -79.71,
-        "QUALITY": 0.129,
-        "SHARPE": -0.34,
-        "SORTINO": -0.54,
-        "STABILITY": -0.58
+        "RETURN": -11.64,
+        "TREND": -15.22,
+        "ACCELERATION": -78.27,
+        "QUALITY": 0.135,
+        "SHARPE": -0.45,
+        "SORTINO": -0.72,
+        "STABILITY": -0.78
       },
       "12M": {
-        "RETURN": -15.17,
-        "TREND": 4.34,
-        "ACCELERATION": -69.11,
-        "QUALITY": 0.018,
-        "SHARPE": -0.23,
-        "SORTINO": -0.36,
-        "STABILITY": -0.29
+        "RETURN": -11.82,
+        "TREND": 4.4,
+        "ACCELERATION": -69.97,
+        "QUALITY": 0.019,
+        "SHARPE": -0.13,
+        "SORTINO": -0.21,
+        "STABILITY": -0.17
       },
       "QuantScore": null
     },
@@ -434,49 +434,49 @@
         "STABILITY": -10
       },
       "2W": {
-        "RETURN": -12.76,
-        "TREND": -83.03,
-        "ACCELERATION": -659.61,
-        "QUALITY": 0.307,
-        "SHARPE": -6.09,
-        "SORTINO": -7.71,
+        "RETURN": -10.98,
+        "TREND": -78.59,
+        "ACCELERATION": -799.68,
+        "QUALITY": 0.239,
+        "SHARPE": -5.36,
+        "SORTINO": -6.01,
         "STABILITY": -10
       },
       "1M": {
-        "RETURN": -8.02,
-        "TREND": -5.02,
-        "ACCELERATION": -351.29,
-        "QUALITY": 0.001,
-        "SHARPE": -2.07,
-        "SORTINO": -2.51,
-        "STABILITY": -6.21
+        "RETURN": -7.86,
+        "TREND": -13.9,
+        "ACCELERATION": -311.75,
+        "QUALITY": 0.013,
+        "SHARPE": -2.09,
+        "SORTINO": -2.44,
+        "STABILITY": -6.1
       },
       "3M": {
-        "RETURN": -21.47,
-        "TREND": -38.9,
-        "ACCELERATION": 324.0,
-        "QUALITY": 0.195,
-        "SHARPE": -2.28,
-        "SORTINO": -3.17,
-        "STABILITY": -3.04
+        "RETURN": -24.78,
+        "TREND": -35.94,
+        "ACCELERATION": 313.67,
+        "QUALITY": 0.166,
+        "SHARPE": -2.85,
+        "SORTINO": -3.8,
+        "STABILITY": -3.64
       },
       "6M": {
-        "RETURN": -8.18,
-        "TREND": -3.61,
-        "ACCELERATION": -56.0,
+        "RETURN": -10.73,
+        "TREND": -3.82,
+        "ACCELERATION": -55.2,
         "QUALITY": 0.006,
-        "SHARPE": -0.17,
-        "SORTINO": -0.25,
-        "STABILITY": -0.25
+        "SHARPE": -0.3,
+        "SORTINO": -0.45,
+        "STABILITY": -0.45
       },
       "12M": {
-        "RETURN": -6.46,
-        "TREND": 7.37,
-        "ACCELERATION": -56.46,
-        "QUALITY": 0.057,
-        "SHARPE": 0.06,
-        "SORTINO": 0.09,
-        "STABILITY": 0.09
+        "RETURN": -4.18,
+        "TREND": 7.28,
+        "ACCELERATION": -56.09,
+        "QUALITY": 0.056,
+        "SHARPE": 0.11,
+        "SORTINO": 0.17,
+        "STABILITY": 0.16
       },
       "QuantScore": null
     },
@@ -495,49 +495,49 @@
         "STABILITY": -10
       },
       "2W": {
-        "RETURN": 14.43,
-        "TREND": 176.56,
-        "ACCELERATION": -2048.78,
-        "QUALITY": 0.031,
-        "SHARPE": 3.85,
-        "SORTINO": 8.63,
-        "STABILITY": 10
+        "RETURN": 4.05,
+        "TREND": -70.0,
+        "ACCELERATION": -1115.7,
+        "QUALITY": 0.087,
+        "SHARPE": 1.49,
+        "SORTINO": 2.64,
+        "STABILITY": 9.08
       },
       "1M": {
-        "RETURN": 38.48,
-        "TREND": 27840.6,
-        "ACCELERATION": -630.14,
-        "QUALITY": 0.768,
-        "SHARPE": 4.61,
-        "SORTINO": 8.99,
+        "RETURN": 38.57,
+        "TREND": 21405.54,
+        "ACCELERATION": -852.32,
+        "QUALITY": 0.732,
+        "SHARPE": 4.56,
+        "SORTINO": 8.31,
         "STABILITY": 10
       },
       "3M": {
-        "RETURN": -3.55,
-        "TREND": -5.42,
-        "ACCELERATION": 596.97,
-        "QUALITY": 0.001,
-        "SHARPE": 0.1,
-        "SORTINO": 0.19,
-        "STABILITY": 0.19
+        "RETURN": -4.73,
+        "TREND": 8.94,
+        "ACCELERATION": 605.48,
+        "QUALITY": 0.002,
+        "SHARPE": 0.03,
+        "SORTINO": 0.06,
+        "STABILITY": 0.07
       },
       "6M": {
-        "RETURN": 17.83,
-        "TREND": 12.26,
-        "ACCELERATION": -89.12,
-        "QUALITY": 0.023,
-        "SHARPE": 0.84,
-        "SORTINO": 1.59,
-        "STABILITY": 1.5
+        "RETURN": 15.51,
+        "TREND": 14.29,
+        "ACCELERATION": -81.48,
+        "QUALITY": 0.03,
+        "SHARPE": 0.77,
+        "SORTINO": 1.43,
+        "STABILITY": 1.39
       },
       "12M": {
-        "RETURN": 81.18,
-        "TREND": 47.62,
-        "ACCELERATION": -137.43,
-        "QUALITY": 0.351,
-        "SHARPE": 1.3,
-        "SORTINO": 2.26,
-        "STABILITY": 2.15
+        "RETURN": 82.73,
+        "TREND": 47.23,
+        "ACCELERATION": -133.62,
+        "QUALITY": 0.349,
+        "SHARPE": 1.31,
+        "SORTINO": 2.25,
+        "STABILITY": 2.18
       },
       "QuantScore": 0
     },
@@ -556,49 +556,49 @@
         "STABILITY": -10
       },
       "2W": {
-        "RETURN": -5.22,
-        "TREND": 18.35,
-        "ACCELERATION": -1159.37,
-        "QUALITY": 0.001,
-        "SHARPE": -0.89,
-        "SORTINO": -1.86,
-        "STABILITY": -4.73
+        "RETURN": -9.45,
+        "TREND": -17.86,
+        "ACCELERATION": -932.09,
+        "QUALITY": 0.002,
+        "SHARPE": -2.06,
+        "SORTINO": -4.3,
+        "STABILITY": -10
       },
       "1M": {
-        "RETURN": 0.19,
-        "TREND": 535.34,
-        "ACCELERATION": -170.08,
-        "QUALITY": 0.53,
-        "SHARPE": 0.39,
-        "SORTINO": 0.67,
-        "STABILITY": 1.53
+        "RETURN": 1.31,
+        "TREND": 488.76,
+        "ACCELERATION": -222.77,
+        "QUALITY": 0.512,
+        "SHARPE": 0.57,
+        "SORTINO": 1.0,
+        "STABILITY": 2.28
       },
       "3M": {
-        "RETURN": -9.55,
-        "TREND": 6.7,
-        "ACCELERATION": 269.32,
-        "QUALITY": 0.006,
-        "SHARPE": -0.53,
-        "SORTINO": -0.82,
-        "STABILITY": -1.44
+        "RETURN": -12.23,
+        "TREND": 11.48,
+        "ACCELERATION": 264.45,
+        "QUALITY": 0.018,
+        "SHARPE": -0.76,
+        "SORTINO": -1.19,
+        "STABILITY": -2.06
       },
       "6M": {
-        "RETURN": -3.14,
-        "TREND": -1.58,
-        "ACCELERATION": 11.51,
-        "QUALITY": 0.002,
-        "SHARPE": 0.09,
-        "SORTINO": 0.16,
-        "STABILITY": 0.23
+        "RETURN": -5.74,
+        "TREND": -1.23,
+        "ACCELERATION": 14.0,
+        "QUALITY": 0.001,
+        "SHARPE": -0.02,
+        "SORTINO": -0.03,
+        "STABILITY": -0.05
       },
       "12M": {
-        "RETURN": 12.63,
-        "TREND": 24.38,
-        "ACCELERATION": -110.05,
-        "QUALITY": 0.231,
-        "SHARPE": 0.49,
-        "SORTINO": 0.81,
-        "STABILITY": 0.66
+        "RETURN": 13.79,
+        "TREND": 24.21,
+        "ACCELERATION": -109.24,
+        "QUALITY": 0.229,
+        "SHARPE": 0.51,
+        "SORTINO": 0.85,
+        "STABILITY": 0.7
       },
       "QuantScore": null
     },
@@ -617,49 +617,49 @@
         "STABILITY": -10
       },
       "2W": {
-        "RETURN": -4.91,
-        "TREND": 0.62,
-        "ACCELERATION": -594.33,
+        "RETURN": -4.74,
+        "TREND": -4.46,
+        "ACCELERATION": -619.44,
         "QUALITY": 0.0,
-        "SHARPE": -2.24,
-        "SORTINO": -2.91,
+        "SHARPE": -2.34,
+        "SORTINO": -2.75,
         "STABILITY": -10
       },
       "1M": {
-        "RETURN": -4.04,
-        "TREND": 28.4,
-        "ACCELERATION": -49.03,
-        "QUALITY": 0.081,
-        "SHARPE": -1.08,
-        "SORTINO": -1.34,
-        "STABILITY": -4.19
+        "RETURN": -4.22,
+        "TREND": 24.22,
+        "ACCELERATION": -30.57,
+        "QUALITY": 0.063,
+        "SHARPE": -1.22,
+        "SORTINO": -1.44,
+        "STABILITY": -4.47
       },
       "3M": {
-        "RETURN": -13.35,
-        "TREND": -34.34,
-        "ACCELERATION": 100.6,
-        "QUALITY": 0.588,
-        "SHARPE": -1.65,
-        "SORTINO": -2.54,
-        "STABILITY": -3.16
+        "RETURN": -16.53,
+        "TREND": -33.47,
+        "ACCELERATION": 104.43,
+        "QUALITY": 0.567,
+        "SHARPE": -2.27,
+        "SORTINO": -3.29,
+        "STABILITY": -4.31
       },
       "6M": {
-        "RETURN": -11.17,
-        "TREND": -14.03,
-        "ACCELERATION": -40.55,
-        "QUALITY": 0.274,
-        "SHARPE": -0.6,
-        "SORTINO": -1.05,
-        "STABILITY": -1.08
+        "RETURN": -13.14,
+        "TREND": -14.22,
+        "ACCELERATION": -40.15,
+        "QUALITY": 0.28,
+        "SHARPE": -0.76,
+        "SORTINO": -1.31,
+        "STABILITY": -1.34
       },
       "12M": {
-        "RETURN": -21.03,
-        "TREND": -10.78,
-        "ACCELERATION": -16.27,
-        "QUALITY": 0.352,
-        "SHARPE": -0.55,
-        "SORTINO": -0.88,
-        "STABILITY": -0.76
+        "RETURN": -19.46,
+        "TREND": -10.71,
+        "ACCELERATION": -16.69,
+        "QUALITY": 0.35,
+        "SHARPE": -0.5,
+        "SORTINO": -0.79,
+        "STABILITY": -0.68
       },
       "QuantScore": null
     },
@@ -678,49 +678,49 @@
         "STABILITY": -10
       },
       "2W": {
-        "RETURN": -3.82,
-        "TREND": 34.24,
-        "ACCELERATION": -598.05,
-        "QUALITY": 0.018,
-        "SHARPE": -2.13,
-        "SORTINO": -2.55,
-        "STABILITY": -10
+        "RETURN": -3.05,
+        "TREND": 20.31,
+        "ACCELERATION": -651.53,
+        "QUALITY": 0.007,
+        "SHARPE": -1.85,
+        "SORTINO": -1.85,
+        "STABILITY": -8.44
       },
       "1M": {
-        "RETURN": 0.44,
-        "TREND": 56.09,
-        "ACCELERATION": -33.28,
-        "QUALITY": 0.179,
-        "SHARPE": 0.32,
-        "SORTINO": 0.39,
-        "STABILITY": 1.26
+        "RETURN": -0.67,
+        "TREND": 38.55,
+        "ACCELERATION": 15.15,
+        "QUALITY": 0.117,
+        "SHARPE": -0.11,
+        "SORTINO": -0.13,
+        "STABILITY": -0.41
       },
       "3M": {
-        "RETURN": 5.52,
-        "TREND": 88.03,
-        "ACCELERATION": 83.89,
-        "QUALITY": 0.722,
-        "SHARPE": 0.83,
-        "SORTINO": 1.24,
-        "STABILITY": 3.14
+        "RETURN": 3.41,
+        "TREND": 91.0,
+        "ACCELERATION": 75.58,
+        "QUALITY": 0.74,
+        "SHARPE": 0.59,
+        "SORTINO": 0.85,
+        "STABILITY": 2.15
       },
       "6M": {
-        "RETURN": 10.88,
-        "TREND": 19.64,
-        "ACCELERATION": 66.78,
-        "QUALITY": 0.25,
-        "SHARPE": 0.79,
-        "SORTINO": 1.23,
-        "STABILITY": 1.87
+        "RETURN": 9.86,
+        "TREND": 19.94,
+        "ACCELERATION": 70.41,
+        "QUALITY": 0.253,
+        "SHARPE": 0.74,
+        "SORTINO": 1.14,
+        "STABILITY": 1.73
       },
       "12M": {
-        "RETURN": 19.14,
-        "TREND": 32.61,
-        "ACCELERATION": -30.96,
-        "QUALITY": 0.669,
-        "SHARPE": 0.72,
-        "SORTINO": 1.2,
-        "STABILITY": 1.27
+        "RETURN": 20.69,
+        "TREND": 32.88,
+        "ACCELERATION": -31.24,
+        "QUALITY": 0.673,
+        "SHARPE": 0.76,
+        "SORTINO": 1.26,
+        "STABILITY": 1.34
       },
       "QuantScore": null
     },
@@ -739,49 +739,49 @@
         "STABILITY": -10
       },
       "2W": {
-        "RETURN": -9.55,
-        "TREND": -67.91,
-        "ACCELERATION": -755.54,
+        "RETURN": -8.86,
+        "TREND": -68.06,
+        "ACCELERATION": -819.1,
         "QUALITY": 0.156,
-        "SHARPE": -5.1,
-        "SORTINO": -5.93,
+        "SHARPE": -4.97,
+        "SORTINO": -5.16,
         "STABILITY": -10
       },
       "1M": {
-        "RETURN": -5.17,
-        "TREND": 23.71,
-        "ACCELERATION": -261.97,
-        "QUALITY": 0.031,
-        "SHARPE": -1.6,
-        "SORTINO": -1.72,
-        "STABILITY": -4.54
+        "RETURN": -5.23,
+        "TREND": 11.61,
+        "ACCELERATION": -228.14,
+        "QUALITY": 0.009,
+        "SHARPE": -1.71,
+        "SORTINO": -1.75,
+        "STABILITY": -4.63
       },
       "3M": {
-        "RETURN": -15.53,
-        "TREND": -19.02,
-        "ACCELERATION": 213.98,
-        "QUALITY": 0.099,
-        "SHARPE": -2.21,
-        "SORTINO": -2.72,
-        "STABILITY": -3.21
+        "RETURN": -17.76,
+        "TREND": -15.8,
+        "ACCELERATION": 207.59,
+        "QUALITY": 0.069,
+        "SHARPE": -2.72,
+        "SORTINO": -3.19,
+        "STABILITY": -3.93
       },
       "6M": {
-        "RETURN": -8.93,
-        "TREND": -9.14,
-        "ACCELERATION": -25.33,
-        "QUALITY": 0.078,
-        "SHARPE": -0.35,
-        "SORTINO": -0.56,
-        "STABILITY": -0.58
+        "RETURN": -10.68,
+        "TREND": -9.09,
+        "ACCELERATION": -22.95,
+        "QUALITY": 0.077,
+        "SHARPE": -0.47,
+        "SORTINO": -0.74,
+        "STABILITY": -0.76
       },
       "12M": {
-        "RETURN": -7.55,
-        "TREND": 15.01,
-        "ACCELERATION": -62.64,
-        "QUALITY": 0.207,
-        "SHARPE": -0.06,
-        "SORTINO": -0.09,
-        "STABILITY": -0.07
+        "RETURN": -6.18,
+        "TREND": 15.15,
+        "ACCELERATION": -63.46,
+        "QUALITY": 0.21,
+        "SHARPE": -0.01,
+        "SORTINO": -0.02,
+        "STABILITY": -0.02
       },
       "QuantScore": null
     },
@@ -800,49 +800,49 @@
         "STABILITY": -10
       },
       "2W": {
-        "RETURN": -5.18,
-        "TREND": -45.4,
-        "ACCELERATION": -256.16,
-        "QUALITY": 0.205,
-        "SHARPE": -5.18,
-        "SORTINO": -6.44,
+        "RETURN": -4.91,
+        "TREND": -46.75,
+        "ACCELERATION": -291.21,
+        "QUALITY": 0.212,
+        "SHARPE": -4.87,
+        "SORTINO": -5.98,
         "STABILITY": -10
       },
       "1M": {
-        "RETURN": -0.87,
-        "TREND": 16.05,
-        "ACCELERATION": -258.36,
-        "QUALITY": 0.026,
-        "SHARPE": -0.2,
-        "SORTINO": -0.31,
-        "STABILITY": -0.64
+        "RETURN": -1.44,
+        "TREND": 2.63,
+        "ACCELERATION": -209.95,
+        "QUALITY": 0.001,
+        "SHARPE": -0.43,
+        "SORTINO": -0.68,
+        "STABILITY": -1.38
       },
       "3M": {
-        "RETURN": -7.9,
-        "TREND": 12.42,
-        "ACCELERATION": 40.11,
-        "QUALITY": 0.12,
-        "SHARPE": -0.96,
-        "SORTINO": -1.46,
-        "STABILITY": -3.02
+        "RETURN": -8.39,
+        "TREND": 15.57,
+        "ACCELERATION": 31.57,
+        "QUALITY": 0.192,
+        "SHARPE": -1.04,
+        "SORTINO": -1.57,
+        "STABILITY": -3.25
       },
       "6M": {
-        "RETURN": -2.29,
-        "TREND": -3.25,
-        "ACCELERATION": -43.1,
-        "QUALITY": 0.009,
-        "SHARPE": 0.07,
-        "SORTINO": 0.11,
-        "STABILITY": 0.16
+        "RETURN": -2.56,
+        "TREND": -3.45,
+        "ACCELERATION": -38.87,
+        "QUALITY": 0.01,
+        "SHARPE": 0.06,
+        "SORTINO": 0.09,
+        "STABILITY": 0.13
       },
       "12M": {
-        "RETURN": 17.06,
-        "TREND": 32.55,
-        "ACCELERATION": -52.95,
-        "QUALITY": 0.626,
-        "SHARPE": 0.62,
-        "SORTINO": 0.94,
-        "STABILITY": 1.25
+        "RETURN": 20.49,
+        "TREND": 32.39,
+        "ACCELERATION": -53.73,
+        "QUALITY": 0.623,
+        "SHARPE": 0.71,
+        "SORTINO": 1.06,
+        "STABILITY": 1.41
       },
       "QuantScore": null
     },
@@ -861,49 +861,49 @@
         "STABILITY": -10
       },
       "2W": {
-        "RETURN": -3.06,
-        "TREND": -12.51,
-        "ACCELERATION": -910.97,
-        "QUALITY": 0.002,
-        "SHARPE": -1.76,
+        "RETURN": -5.25,
+        "TREND": -45.05,
+        "ACCELERATION": -808.42,
+        "QUALITY": 0.054,
+        "SHARPE": -3.56,
         "SORTINO": -10,
-        "STABILITY": -6.49
+        "STABILITY": -10
       },
       "1M": {
-        "RETURN": 0.77,
-        "TREND": 113.02,
-        "ACCELERATION": -69.9,
-        "QUALITY": 0.279,
-        "SHARPE": 0.42,
-        "SORTINO": 0.73,
-        "STABILITY": 1.64
+        "RETURN": -2.24,
+        "TREND": 94.22,
+        "ACCELERATION": -69.22,
+        "QUALITY": 0.234,
+        "SHARPE": -0.48,
+        "SORTINO": -0.79,
+        "STABILITY": -1.77
       },
       "3M": {
-        "RETURN": 3.87,
-        "TREND": 43.33,
-        "ACCELERATION": 83.15,
-        "QUALITY": 0.385,
-        "SHARPE": 0.59,
-        "SORTINO": 1.18,
-        "STABILITY": 2.0
+        "RETURN": 1.65,
+        "TREND": 44.72,
+        "ACCELERATION": 88.78,
+        "QUALITY": 0.395,
+        "SHARPE": 0.36,
+        "SORTINO": 0.7,
+        "STABILITY": 1.19
       },
       "6M": {
-        "RETURN": 17.4,
-        "TREND": 53.94,
-        "ACCELERATION": -28.5,
+        "RETURN": 13.7,
+        "TREND": 54.03,
+        "ACCELERATION": -27.08,
         "QUALITY": 0.784,
-        "SHARPE": 1.06,
-        "SORTINO": 1.85,
-        "STABILITY": 3.55
+        "SHARPE": 0.89,
+        "SORTINO": 1.54,
+        "STABILITY": 2.95
       },
       "12M": {
-        "RETURN": 24.75,
-        "TREND": 24.98,
-        "ACCELERATION": -24.04,
+        "RETURN": 26.63,
+        "TREND": 24.99,
+        "ACCELERATION": -22.23,
         "QUALITY": 0.406,
-        "SHARPE": 0.83,
-        "SORTINO": 1.45,
-        "STABILITY": 1.11
+        "SHARPE": 0.87,
+        "SORTINO": 1.52,
+        "STABILITY": 1.17
       },
       "QuantScore": null
     },
@@ -922,49 +922,49 @@
         "STABILITY": -10
       },
       "2W": {
-        "RETURN": -7.82,
-        "TREND": -47.45,
-        "ACCELERATION": -519.44,
-        "QUALITY": 0.078,
-        "SHARPE": -5.23,
-        "SORTINO": -8.19,
+        "RETURN": -5.59,
+        "TREND": -39.27,
+        "ACCELERATION": -687.06,
+        "QUALITY": 0.047,
+        "SHARPE": -3.88,
+        "SORTINO": -5.01,
         "STABILITY": -10
       },
       "1M": {
-        "RETURN": 2.25,
-        "TREND": 156.18,
-        "ACCELERATION": -313.16,
-        "QUALITY": 0.4,
-        "SHARPE": 0.93,
-        "SORTINO": 1.3,
-        "STABILITY": 3.19
+        "RETURN": 1.17,
+        "TREND": 119.06,
+        "ACCELERATION": -287.36,
+        "QUALITY": 0.327,
+        "SHARPE": 0.57,
+        "SORTINO": 0.78,
+        "STABILITY": 1.92
       },
       "3M": {
-        "RETURN": -11.55,
-        "TREND": -26.11,
-        "ACCELERATION": 69.3,
-        "QUALITY": 0.373,
-        "SHARPE": -1.33,
-        "SORTINO": -1.7,
-        "STABILITY": -2.89
+        "RETURN": -13.1,
+        "TREND": -24.63,
+        "ACCELERATION": 76.64,
+        "QUALITY": 0.335,
+        "SHARPE": -1.56,
+        "SORTINO": -1.98,
+        "STABILITY": -3.37
       },
       "6M": {
-        "RETURN": -11.05,
-        "TREND": -29.17,
-        "ACCELERATION": -47.58,
-        "QUALITY": 0.463,
-        "SHARPE": -0.47,
-        "SORTINO": -0.71,
-        "STABILITY": -0.6
+        "RETURN": -12.67,
+        "TREND": -29.57,
+        "ACCELERATION": -40.62,
+        "QUALITY": 0.477,
+        "SHARPE": -0.58,
+        "SORTINO": -0.86,
+        "STABILITY": -0.74
       },
       "12M": {
-        "RETURN": 14.01,
-        "TREND": 34.45,
-        "ACCELERATION": -109.46,
-        "QUALITY": 0.441,
-        "SHARPE": 0.55,
-        "SORTINO": 0.86,
-        "STABILITY": 0.68
+        "RETURN": 14.4,
+        "TREND": 33.99,
+        "ACCELERATION": -110.55,
+        "QUALITY": 0.434,
+        "SHARPE": 0.56,
+        "SORTINO": 0.88,
+        "STABILITY": 0.69
       },
       "QuantScore": null
     },
@@ -983,51 +983,51 @@
         "STABILITY": 10
       },
       "2W": {
-        "RETURN": 9.52,
-        "TREND": 845.92,
-        "ACCELERATION": 519.0,
-        "QUALITY": 0.582,
-        "SHARPE": 5.59,
+        "RETURN": 12.14,
+        "TREND": 1194.17,
+        "ACCELERATION": 436.2,
+        "QUALITY": 0.68,
+        "SHARPE": 6.73,
         "SORTINO": 10,
         "STABILITY": 10
       },
       "1M": {
-        "RETURN": 1.08,
-        "TREND": -30.47,
-        "ACCELERATION": 429.19,
-        "QUALITY": 0.054,
-        "SHARPE": 0.5,
-        "SORTINO": 0.55,
-        "STABILITY": 2.49
+        "RETURN": 1.38,
+        "TREND": -19.18,
+        "ACCELERATION": 428.16,
+        "QUALITY": 0.019,
+        "SHARPE": 0.57,
+        "SORTINO": 0.66,
+        "STABILITY": 2.96
       },
       "3M": {
-        "RETURN": 72.19,
-        "TREND": 1450.89,
-        "ACCELERATION": -25.8,
-        "QUALITY": 0.812,
-        "SHARPE": 4.11,
-        "SORTINO": 6.61,
+        "RETURN": 68.97,
+        "TREND": 1417.37,
+        "ACCELERATION": -85.6,
+        "QUALITY": 0.806,
+        "SHARPE": 3.94,
+        "SORTINO": 6.52,
         "STABILITY": 10
       },
       "6M": {
-        "RETURN": 180.24,
-        "TREND": 428.96,
-        "ACCELERATION": 45.32,
-        "QUALITY": 0.791,
-        "SHARPE": 3.7,
-        "SORTINO": 5.99,
-        "STABILITY": 9.16
+        "RETURN": 178.25,
+        "TREND": 418.76,
+        "ACCELERATION": 53.87,
+        "QUALITY": 0.789,
+        "SHARPE": 3.67,
+        "SORTINO": 6.01,
+        "STABILITY": 9.11
       },
       "12M": {
-        "RETURN": 150.99,
-        "TREND": 214.94,
-        "ACCELERATION": 184.89,
-        "QUALITY": 0.766,
-        "SHARPE": 1.92,
-        "SORTINO": 3.16,
-        "STABILITY": 3.65
+        "RETURN": 156.31,
+        "TREND": 219.0,
+        "ACCELERATION": 180.24,
+        "QUALITY": 0.774,
+        "SHARPE": 1.96,
+        "SORTINO": 3.22,
+        "STABILITY": 3.72
       },
-      "QuantScore": 24.1
+      "QuantScore": 24.6
     },
     {
       "Symbol": "EKGYO.IS",
@@ -1044,49 +1044,49 @@
         "STABILITY": -10
       },
       "2W": {
-        "RETURN": -7.85,
-        "TREND": -26.85,
-        "ACCELERATION": -972.51,
-        "QUALITY": 0.006,
-        "SHARPE": -1.97,
-        "SORTINO": -3.44,
-        "STABILITY": -9.0
+        "RETURN": -9.27,
+        "TREND": -28.29,
+        "ACCELERATION": -1030.6,
+        "QUALITY": 0.007,
+        "SHARPE": -2.53,
+        "SORTINO": -4.27,
+        "STABILITY": -10
       },
       "1M": {
-        "RETURN": -2.2,
-        "TREND": 77.08,
-        "ACCELERATION": -278.27,
-        "QUALITY": 0.1,
-        "SHARPE": -0.08,
-        "SORTINO": -0.12,
-        "STABILITY": -0.27
+        "RETURN": -2.67,
+        "TREND": 46.63,
+        "ACCELERATION": -191.94,
+        "QUALITY": 0.051,
+        "SHARPE": -0.18,
+        "SORTINO": -0.28,
+        "STABILITY": -0.61
       },
       "3M": {
-        "RETURN": -13.33,
-        "TREND": -23.71,
-        "ACCELERATION": 245.97,
-        "QUALITY": 0.105,
-        "SHARPE": -1.02,
-        "SORTINO": -1.59,
-        "STABILITY": -2.41
+        "RETURN": -16.12,
+        "TREND": -21.68,
+        "ACCELERATION": 251.17,
+        "QUALITY": 0.087,
+        "SHARPE": -1.36,
+        "SORTINO": -2.06,
+        "STABILITY": -3.11
       },
       "6M": {
-        "RETURN": -7.14,
-        "TREND": -2.39,
-        "ACCELERATION": -14.56,
+        "RETURN": -9.65,
+        "TREND": -2.32,
+        "ACCELERATION": -14.34,
         "QUALITY": 0.004,
-        "SHARPE": -0.09,
-        "SORTINO": -0.15,
-        "STABILITY": -0.22
+        "SHARPE": -0.22,
+        "SORTINO": -0.34,
+        "STABILITY": -0.52
       },
       "12M": {
-        "RETURN": -7.23,
-        "TREND": -0.72,
-        "ACCELERATION": -50.43,
+        "RETURN": -4.53,
+        "TREND": -0.8,
+        "ACCELERATION": -49.43,
         "QUALITY": 0.001,
-        "SHARPE": 0.03,
-        "SORTINO": 0.05,
-        "STABILITY": 0.05
+        "SHARPE": 0.1,
+        "SORTINO": 0.15,
+        "STABILITY": 0.14
       },
       "QuantScore": null
     },
@@ -1105,49 +1105,49 @@
         "STABILITY": -10
       },
       "2W": {
-        "RETURN": -7.94,
-        "TREND": -15.13,
-        "ACCELERATION": -720.59,
-        "QUALITY": 0.003,
-        "SHARPE": -2.9,
-        "SORTINO": -3.92,
+        "RETURN": -7.5,
+        "TREND": -10.3,
+        "ACCELERATION": -888.72,
+        "QUALITY": 0.001,
+        "SHARPE": -3.04,
+        "SORTINO": -3.57,
         "STABILITY": -10
       },
       "1M": {
-        "RETURN": -8.33,
-        "TREND": -4.47,
-        "ACCELERATION": -99.19,
+        "RETURN": -7.75,
+        "TREND": -4.44,
+        "ACCELERATION": -65.18,
         "QUALITY": 0.002,
-        "SHARPE": -2.05,
-        "SORTINO": -2.36,
-        "STABILITY": -7.3
+        "SHARPE": -2.1,
+        "SORTINO": -2.13,
+        "STABILITY": -6.83
       },
       "3M": {
-        "RETURN": -11.73,
-        "TREND": -33.07,
-        "ACCELERATION": -111.86,
-        "QUALITY": 0.312,
-        "SHARPE": -0.97,
-        "SORTINO": -1.27,
-        "STABILITY": -1.92
+        "RETURN": -13.05,
+        "TREND": -34.38,
+        "ACCELERATION": -92.84,
+        "QUALITY": 0.34,
+        "SHARPE": -1.16,
+        "SORTINO": -1.47,
+        "STABILITY": -2.23
       },
       "6M": {
-        "RETURN": 25.19,
-        "TREND": 93.69,
-        "ACCELERATION": -227.12,
-        "QUALITY": 0.506,
-        "SHARPE": 1.24,
-        "SORTINO": 1.8,
-        "STABILITY": 2.56
+        "RETURN": 22.83,
+        "TREND": 89.29,
+        "ACCELERATION": -226.95,
+        "QUALITY": 0.488,
+        "SHARPE": 1.16,
+        "SORTINO": 1.67,
+        "STABILITY": 2.37
       },
       "12M": {
-        "RETURN": 28.1,
-        "TREND": 79.8,
-        "ACCELERATION": 56.58,
-        "QUALITY": 0.717,
-        "SHARPE": 0.81,
-        "SORTINO": 1.17,
-        "STABILITY": 1.22
+        "RETURN": 29.42,
+        "TREND": 80.06,
+        "ACCELERATION": 53.62,
+        "QUALITY": 0.719,
+        "SHARPE": 0.84,
+        "SORTINO": 1.19,
+        "STABILITY": 1.25
       },
       "QuantScore": null
     },
@@ -1166,49 +1166,49 @@
         "STABILITY": -10
       },
       "2W": {
-        "RETURN": -6.4,
-        "TREND": -18.94,
-        "ACCELERATION": -721.11,
-        "QUALITY": 0.005,
-        "SHARPE": -2.87,
-        "SORTINO": -5.59,
+        "RETURN": -6.82,
+        "TREND": -16.62,
+        "ACCELERATION": -887.14,
+        "QUALITY": 0.004,
+        "SHARPE": -3.36,
+        "SORTINO": -6.06,
         "STABILITY": -10
       },
       "1M": {
-        "RETURN": -8.9,
-        "TREND": -18.87,
-        "ACCELERATION": -134.63,
-        "QUALITY": 0.029,
-        "SHARPE": -2.09,
-        "SORTINO": -3.14,
-        "STABILITY": -8.06
+        "RETURN": -5.55,
+        "TREND": -15.8,
+        "ACCELERATION": -102.17,
+        "QUALITY": 0.019,
+        "SHARPE": -1.31,
+        "SORTINO": -1.76,
+        "STABILITY": -4.71
       },
       "3M": {
-        "RETURN": 5.43,
-        "TREND": 93.36,
-        "ACCELERATION": 37.5,
-        "QUALITY": 0.554,
-        "SHARPE": 0.68,
-        "SORTINO": 1.28,
-        "STABILITY": 2.57
+        "RETURN": 2.82,
+        "TREND": 93.64,
+        "ACCELERATION": 33.47,
+        "QUALITY": 0.556,
+        "SHARPE": 0.47,
+        "SORTINO": 0.86,
+        "STABILITY": 1.73
       },
       "6M": {
-        "RETURN": 38.44,
-        "TREND": 94.44,
-        "ACCELERATION": -72.16,
-        "QUALITY": 0.676,
-        "SHARPE": 1.58,
-        "SORTINO": 2.98,
-        "STABILITY": 4.0
+        "RETURN": 33.12,
+        "TREND": 92.05,
+        "ACCELERATION": -67.03,
+        "QUALITY": 0.672,
+        "SHARPE": 1.43,
+        "SORTINO": 2.66,
+        "STABILITY": 3.57
       },
       "12M": {
-        "RETURN": 49.71,
-        "TREND": 89.5,
-        "ACCELERATION": 35.68,
-        "QUALITY": 0.857,
-        "SHARPE": 1.13,
-        "SORTINO": 1.84,
-        "STABILITY": 2.37
+        "RETURN": 47.8,
+        "TREND": 90.11,
+        "ACCELERATION": 33.73,
+        "QUALITY": 0.86,
+        "SHARPE": 1.1,
+        "SORTINO": 1.79,
+        "STABILITY": 2.31
       },
       "QuantScore": null
     },
@@ -1227,49 +1227,49 @@
         "STABILITY": -10
       },
       "2W": {
-        "RETURN": -3.37,
-        "TREND": 100.21,
-        "ACCELERATION": -907.52,
-        "QUALITY": 0.047,
-        "SHARPE": -1.31,
-        "SORTINO": -2.78,
-        "STABILITY": -6.55
+        "RETURN": -2.1,
+        "TREND": 88.38,
+        "ACCELERATION": -1071.83,
+        "QUALITY": 0.04,
+        "SHARPE": -0.91,
+        "SORTINO": -1.57,
+        "STABILITY": -3.89
       },
       "1M": {
-        "RETURN": -5.51,
-        "TREND": 8.65,
-        "ACCELERATION": 118.11,
-        "QUALITY": 0.005,
-        "SHARPE": -1.56,
-        "SORTINO": -2.55,
+        "RETURN": -5.39,
+        "TREND": 13.46,
+        "ACCELERATION": 137.81,
+        "QUALITY": 0.011,
+        "SHARPE": -1.77,
+        "SORTINO": -2.57,
         "STABILITY": -5.48
       },
       "3M": {
-        "RETURN": -16.64,
-        "TREND": -35.45,
-        "ACCELERATION": 121.55,
-        "QUALITY": 0.499,
-        "SHARPE": -2.25,
-        "SORTINO": -4.1,
-        "STABILITY": -3.64
+        "RETURN": -18.73,
+        "TREND": -33.38,
+        "ACCELERATION": 119.14,
+        "QUALITY": 0.464,
+        "SHARPE": -2.84,
+        "SORTINO": -4.74,
+        "STABILITY": -4.37
       },
       "6M": {
-        "RETURN": -29.31,
-        "TREND": -49.98,
-        "ACCELERATION": 58.13,
-        "QUALITY": 0.847,
-        "SHARPE": -1.89,
-        "SORTINO": -3.21,
-        "STABILITY": -1.99
+        "RETURN": -30.82,
+        "TREND": -49.61,
+        "ACCELERATION": 60.49,
+        "QUALITY": 0.841,
+        "SHARPE": -2.08,
+        "SORTINO": -3.44,
+        "STABILITY": -2.13
       },
       "12M": {
-        "RETURN": -21.64,
-        "TREND": -12.72,
-        "ACCELERATION": -129.53,
-        "QUALITY": 0.114,
-        "SHARPE": -0.61,
-        "SORTINO": -1.06,
-        "STABILITY": -0.46
+        "RETURN": -20.96,
+        "TREND": -12.94,
+        "ACCELERATION": -129.63,
+        "QUALITY": 0.117,
+        "SHARPE": -0.6,
+        "SORTINO": -1.02,
+        "STABILITY": -0.44
       },
       "QuantScore": null
     },
@@ -1288,49 +1288,49 @@
         "STABILITY": -10
       },
       "2W": {
-        "RETURN": 1.59,
-        "TREND": 623.49,
-        "ACCELERATION": -905.99,
-        "QUALITY": 0.286,
-        "SHARPE": 0.93,
-        "SORTINO": 1.81,
-        "STABILITY": 6.11
+        "RETURN": 4.51,
+        "TREND": 462.03,
+        "ACCELERATION": -1172.32,
+        "QUALITY": 0.231,
+        "SHARPE": 2.28,
+        "SORTINO": 3.33,
+        "STABILITY": 10
       },
       "1M": {
-        "RETURN": 2.06,
-        "TREND": 111.48,
-        "ACCELERATION": 145.73,
-        "QUALITY": 0.26,
-        "SHARPE": 0.77,
-        "SORTINO": 1.27,
-        "STABILITY": 3.66
+        "RETURN": 2.54,
+        "TREND": 114.24,
+        "ACCELERATION": 169.6,
+        "QUALITY": 0.266,
+        "SHARPE": 0.92,
+        "SORTINO": 1.42,
+        "STABILITY": 4.19
       },
       "3M": {
-        "RETURN": -17.31,
-        "TREND": -53.2,
-        "ACCELERATION": 239.01,
-        "QUALITY": 0.524,
-        "SHARPE": -1.86,
-        "SORTINO": -3.26,
-        "STABILITY": -2.71
+        "RETURN": -18.0,
+        "TREND": -50.74,
+        "ACCELERATION": 248.66,
+        "QUALITY": 0.48,
+        "SHARPE": -2.0,
+        "SORTINO": -3.43,
+        "STABILITY": -2.85
       },
       "6M": {
-        "RETURN": -4.51,
-        "TREND": -8.6,
-        "ACCELERATION": -114.99,
-        "QUALITY": 0.041,
-        "SHARPE": -0.03,
-        "SORTINO": -0.05,
-        "STABILITY": -0.04
+        "RETURN": -7.69,
+        "TREND": -8.77,
+        "ACCELERATION": -113.57,
+        "QUALITY": 0.042,
+        "SHARPE": -0.2,
+        "SORTINO": -0.4,
+        "STABILITY": -0.32
       },
       "12M": {
-        "RETURN": 11.07,
-        "TREND": 29.46,
-        "ACCELERATION": -63.29,
-        "QUALITY": 0.405,
-        "SHARPE": 0.46,
-        "SORTINO": 0.81,
-        "STABILITY": 0.69
+        "RETURN": 11.6,
+        "TREND": 29.35,
+        "ACCELERATION": -64.33,
+        "QUALITY": 0.403,
+        "SHARPE": 0.48,
+        "SORTINO": 0.83,
+        "STABILITY": 0.71
       },
       "QuantScore": null
     },
@@ -1350,48 +1350,48 @@
       },
       "2W": {
         "RETURN": -3.77,
-        "TREND": 34.91,
-        "ACCELERATION": -715.66,
-        "QUALITY": 0.014,
-        "SHARPE": -2.1,
-        "SORTINO": -3.29,
-        "STABILITY": -9.48
+        "TREND": 17.1,
+        "ACCELERATION": -819.28,
+        "QUALITY": 0.004,
+        "SHARPE": -2.3,
+        "SORTINO": -3.33,
+        "STABILITY": -9.6
       },
       "1M": {
-        "RETURN": -7.7,
-        "TREND": -11.21,
-        "ACCELERATION": 57.36,
-        "QUALITY": 0.016,
-        "SHARPE": -3.0,
-        "SORTINO": -4.19,
-        "STABILITY": -9.8
+        "RETURN": -6.66,
+        "TREND": -3.22,
+        "ACCELERATION": 55.5,
+        "QUALITY": 0.001,
+        "SHARPE": -2.77,
+        "SORTINO": -3.44,
+        "STABILITY": -8.43
       },
       "3M": {
-        "RETURN": -16.17,
-        "TREND": -37.75,
-        "ACCELERATION": -8.09,
-        "QUALITY": 0.777,
-        "SHARPE": -2.86,
-        "SORTINO": -4.11,
-        "STABILITY": -4.08
+        "RETURN": -16.33,
+        "TREND": -36.9,
+        "ACCELERATION": -6.16,
+        "QUALITY": 0.763,
+        "SHARPE": -3.0,
+        "SORTINO": -4.17,
+        "STABILITY": -4.14
       },
       "6M": {
-        "RETURN": -23.14,
-        "TREND": -40.03,
-        "ACCELERATION": -3.28,
-        "QUALITY": 0.875,
-        "SHARPE": -1.83,
-        "SORTINO": -2.94,
-        "STABILITY": -1.81
+        "RETURN": -24.35,
+        "TREND": -40.08,
+        "ACCELERATION": -0.43,
+        "QUALITY": 0.876,
+        "SHARPE": -1.99,
+        "SORTINO": -3.14,
+        "STABILITY": -1.93
       },
       "12M": {
-        "RETURN": -35.86,
-        "TREND": -18.3,
-        "ACCELERATION": -50.46,
-        "QUALITY": 0.433,
-        "SHARPE": -1.36,
-        "SORTINO": -2.3,
-        "STABILITY": -1.1
+        "RETURN": -34.9,
+        "TREND": -18.14,
+        "ACCELERATION": -52.25,
+        "QUALITY": 0.431,
+        "SHARPE": -1.32,
+        "SORTINO": -2.21,
+        "STABILITY": -1.06
       },
       "QuantScore": null
     },
@@ -1410,51 +1410,51 @@
         "STABILITY": -10
       },
       "2W": {
-        "RETURN": 5.49,
-        "TREND": 300.54,
-        "ACCELERATION": -1322.02,
-        "QUALITY": 0.117,
-        "SHARPE": 1.89,
-        "SORTINO": 4.77,
-        "STABILITY": 10
+        "RETURN": -4.1,
+        "TREND": -8.19,
+        "ACCELERATION": -939.28,
+        "QUALITY": 0.001,
+        "SHARPE": -1.08,
+        "SORTINO": -2.31,
+        "STABILITY": -6.98
       },
       "1M": {
-        "RETURN": 7.97,
-        "TREND": 1167.48,
-        "ACCELERATION": 71.31,
-        "QUALITY": 0.706,
-        "SHARPE": 1.75,
-        "SORTINO": 3.59,
-        "STABILITY": 9.58
+        "RETURN": 7.68,
+        "TREND": 1246.82,
+        "ACCELERATION": -95.24,
+        "QUALITY": 0.699,
+        "SHARPE": 1.69,
+        "SORTINO": 3.52,
+        "STABILITY": 9.31
       },
       "3M": {
-        "RETURN": -4.1,
-        "TREND": -23.41,
-        "ACCELERATION": 178.03,
-        "QUALITY": 0.091,
-        "SHARPE": 0.0,
-        "SORTINO": 0.01,
-        "STABILITY": 0.01
+        "RETURN": -6.51,
+        "TREND": -19.72,
+        "ACCELERATION": 203.47,
+        "QUALITY": 0.059,
+        "SHARPE": -0.17,
+        "SORTINO": -0.33,
+        "STABILITY": -0.41
       },
       "6M": {
-        "RETURN": -16.06,
-        "TREND": -40.64,
-        "ACCELERATION": 32.29,
-        "QUALITY": 0.678,
-        "SHARPE": -0.51,
-        "SORTINO": -0.91,
-        "STABILITY": -0.86
-      },
-      "12M": {
-        "RETURN": -40.1,
-        "TREND": -35.17,
-        "ACCELERATION": -9.97,
-        "QUALITY": 0.84,
-        "SHARPE": -1.01,
-        "SORTINO": -1.73,
+        "RETURN": -16.93,
+        "TREND": -39.93,
+        "ACCELERATION": 39.92,
+        "QUALITY": 0.652,
+        "SHARPE": -0.55,
+        "SORTINO": -0.98,
         "STABILITY": -0.93
       },
-      "QuantScore": 0
+      "12M": {
+        "RETURN": -39.18,
+        "TREND": -34.77,
+        "ACCELERATION": -9.85,
+        "QUALITY": 0.835,
+        "SHARPE": -0.98,
+        "SORTINO": -1.66,
+        "STABILITY": -0.89
+      },
+      "QuantScore": null
     },
     {
       "Symbol": "ASELS.IS",
@@ -1471,49 +1471,49 @@
         "STABILITY": -10
       },
       "2W": {
-        "RETURN": -6.37,
-        "TREND": -58.21,
-        "ACCELERATION": -679.97,
-        "QUALITY": 0.13,
-        "SHARPE": -3.69,
-        "SORTINO": -4.52,
+        "RETURN": -5.45,
+        "TREND": -60.98,
+        "ACCELERATION": -760.12,
+        "QUALITY": 0.146,
+        "SHARPE": -3.07,
+        "SORTINO": -3.74,
         "STABILITY": -10
       },
       "1M": {
-        "RETURN": -7.46,
-        "TREND": -47.7,
-        "ACCELERATION": -129.22,
-        "QUALITY": 0.279,
-        "SHARPE": -2.12,
-        "SORTINO": -2.92,
-        "STABILITY": -7.81
+        "RETURN": -5.57,
+        "TREND": -49.91,
+        "ACCELERATION": -67.63,
+        "QUALITY": 0.318,
+        "SHARPE": -1.53,
+        "SORTINO": -2.06,
+        "STABILITY": -5.61
       },
       "3M": {
-        "RETURN": -8.86,
-        "TREND": 17.57,
-        "ACCELERATION": 157.88,
-        "QUALITY": 0.048,
-        "SHARPE": -0.53,
-        "SORTINO": -0.88,
-        "STABILITY": -1.42
+        "RETURN": -12.36,
+        "TREND": 21.54,
+        "ACCELERATION": 144.75,
+        "QUALITY": 0.07,
+        "SHARPE": -0.88,
+        "SORTINO": -1.44,
+        "STABILITY": -2.53
       },
       "6M": {
-        "RETURN": 12.32,
-        "TREND": 4.57,
-        "ACCELERATION": -39.83,
-        "QUALITY": 0.008,
-        "SHARPE": 0.71,
-        "SORTINO": 1.29,
-        "STABILITY": 1.56
+        "RETURN": 5.49,
+        "TREND": 3.28,
+        "ACCELERATION": -31.12,
+        "QUALITY": 0.004,
+        "SHARPE": 0.46,
+        "SORTINO": 0.82,
+        "STABILITY": 0.99
       },
       "12M": {
-        "RETURN": 85.71,
-        "TREND": 133.73,
-        "ACCELERATION": -117.2,
-        "QUALITY": 0.767,
-        "SHARPE": 1.54,
-        "SORTINO": 2.66,
-        "STABILITY": 3.25
+        "RETURN": 87.54,
+        "TREND": 132.78,
+        "ACCELERATION": -119.3,
+        "QUALITY": 0.764,
+        "SHARPE": 1.56,
+        "SORTINO": 2.69,
+        "STABILITY": 3.3
       },
       "QuantScore": null
     },
@@ -1532,51 +1532,51 @@
         "STABILITY": -10
       },
       "2W": {
-        "RETURN": -0.25,
-        "TREND": 254.68,
-        "ACCELERATION": -0.02,
-        "QUALITY": 0.372,
-        "SHARPE": -0.02,
-        "SORTINO": -0.05,
-        "STABILITY": -0.24
+        "RETURN": 2.42,
+        "TREND": 382.91,
+        "ACCELERATION": -178.22,
+        "QUALITY": 0.537,
+        "SHARPE": 2.05,
+        "SORTINO": 4.52,
+        "STABILITY": 10
       },
       "1M": {
-        "RETURN": 8.95,
-        "TREND": 156.73,
-        "ACCELERATION": 43.87,
-        "QUALITY": 0.45,
-        "SHARPE": 2.58,
-        "SORTINO": 3.43,
+        "RETURN": 7.42,
+        "TREND": 117.06,
+        "ACCELERATION": 102.69,
+        "QUALITY": 0.375,
+        "SHARPE": 2.19,
+        "SORTINO": 2.91,
         "STABILITY": 10
       },
       "3M": {
-        "RETURN": 77.22,
-        "TREND": 1635.22,
-        "ACCELERATION": -77.62,
-        "QUALITY": 0.945,
-        "SHARPE": 5.65,
-        "SORTINO": 9.38,
+        "RETURN": 79.27,
+        "TREND": 1585.94,
+        "ACCELERATION": -100.51,
+        "QUALITY": 0.942,
+        "SHARPE": 5.78,
+        "SORTINO": 9.36,
         "STABILITY": 10
       },
       "6M": {
-        "RETURN": 57.55,
-        "TREND": 158.72,
-        "ACCELERATION": 322.29,
-        "QUALITY": 0.535,
-        "SHARPE": 2.46,
-        "SORTINO": 4.0,
-        "STABILITY": 4.65
+        "RETURN": 59.74,
+        "TREND": 164.87,
+        "ACCELERATION": 322.76,
+        "QUALITY": 0.549,
+        "SHARPE": 2.53,
+        "SORTINO": 4.07,
+        "STABILITY": 4.78
       },
       "12M": {
-        "RETURN": 128.67,
-        "TREND": 107.21,
-        "ACCELERATION": 37.62,
-        "QUALITY": 0.807,
-        "SHARPE": 2.38,
-        "SORTINO": 3.88,
-        "STABILITY": 4.22
+        "RETURN": 127.23,
+        "TREND": 108.36,
+        "ACCELERATION": 38.47,
+        "QUALITY": 0.809,
+        "SHARPE": 2.36,
+        "SORTINO": 3.85,
+        "STABILITY": 4.19
       },
-      "QuantScore": null
+      "QuantScore": 43.1
     },
     {
       "Symbol": "PETKM.IS",
@@ -1593,49 +1593,49 @@
         "STABILITY": -10
       },
       "2W": {
-        "RETURN": 2.74,
-        "TREND": 3493.14,
-        "ACCELERATION": -1879.76,
-        "QUALITY": 0.22,
-        "SHARPE": 1.06,
-        "SORTINO": 3.81,
-        "STABILITY": 7.21
+        "RETURN": 5.16,
+        "TREND": 2734.09,
+        "ACCELERATION": -2202.74,
+        "QUALITY": 0.211,
+        "SHARPE": 1.72,
+        "SORTINO": 4.41,
+        "STABILITY": 8.94
       },
       "1M": {
-        "RETURN": 9.56,
-        "TREND": 984.7,
-        "ACCELERATION": 321.75,
-        "QUALITY": 0.459,
-        "SHARPE": 1.61,
-        "SORTINO": 4.07,
-        "STABILITY": 7.68
+        "RETURN": 5.85,
+        "TREND": 914.04,
+        "ACCELERATION": 344.95,
+        "QUALITY": 0.46,
+        "SHARPE": 1.29,
+        "SORTINO": 2.57,
+        "STABILITY": 4.85
       },
       "3M": {
-        "RETURN": 4.48,
-        "TREND": 55.85,
-        "ACCELERATION": 138.44,
-        "QUALITY": 0.186,
-        "SHARPE": 0.58,
-        "SORTINO": 1.03,
-        "STABILITY": 1.95
+        "RETURN": 2.74,
+        "TREND": 61.3,
+        "ACCELERATION": 148.71,
+        "QUALITY": 0.212,
+        "SHARPE": 0.47,
+        "SORTINO": 0.73,
+        "STABILITY": 1.39
       },
       "6M": {
-        "RETURN": 5.96,
-        "TREND": -14.23,
-        "ACCELERATION": 9.44,
-        "QUALITY": 0.056,
-        "SHARPE": 0.48,
-        "SORTINO": 0.82,
-        "STABILITY": 0.84
+        "RETURN": 3.15,
+        "TREND": -14.33,
+        "ACCELERATION": 20.52,
+        "QUALITY": 0.057,
+        "SHARPE": 0.38,
+        "SORTINO": 0.59,
+        "STABILITY": 0.61
       },
       "12M": {
-        "RETURN": 17.21,
-        "TREND": 28.1,
-        "ACCELERATION": -16.58,
-        "QUALITY": 0.375,
-        "SHARPE": 0.57,
-        "SORTINO": 0.85,
-        "STABILITY": 0.86
+        "RETURN": 18.13,
+        "TREND": 28.28,
+        "ACCELERATION": -17.89,
+        "QUALITY": 0.378,
+        "SHARPE": 0.59,
+        "SORTINO": 0.84,
+        "STABILITY": 0.85
       },
       "QuantScore": 0
     },
@@ -1654,49 +1654,49 @@
         "STABILITY": -10
       },
       "2W": {
-        "RETURN": 6.78,
-        "TREND": 25263.34,
-        "ACCELERATION": -1046.05,
-        "QUALITY": 0.507,
-        "SHARPE": 1.83,
-        "SORTINO": 4.2,
+        "RETURN": 11.01,
+        "TREND": 25403.69,
+        "ACCELERATION": -1517.96,
+        "QUALITY": 0.546,
+        "SHARPE": 3.17,
+        "SORTINO": 4.76,
         "STABILITY": 10
       },
       "1M": {
-        "RETURN": 7.69,
-        "TREND": 1267.95,
-        "ACCELERATION": 447.95,
-        "QUALITY": 0.566,
-        "SHARPE": 1.4,
-        "SORTINO": 2.59,
-        "STABILITY": 8.66
+        "RETURN": 12.0,
+        "TREND": 1441.82,
+        "ACCELERATION": 419.65,
+        "QUALITY": 0.625,
+        "SHARPE": 2.32,
+        "SORTINO": 3.08,
+        "STABILITY": 10
       },
       "3M": {
-        "RETURN": -8.03,
-        "TREND": -8.35,
-        "ACCELERATION": 97.49,
-        "QUALITY": 0.009,
-        "SHARPE": -0.22,
-        "SORTINO": -0.38,
-        "STABILITY": -0.7
+        "RETURN": -9.35,
+        "TREND": -3.82,
+        "ACCELERATION": 96.98,
+        "QUALITY": 0.002,
+        "SHARPE": -0.42,
+        "SORTINO": -0.64,
+        "STABILITY": -1.27
       },
       "6M": {
-        "RETURN": 1.61,
-        "TREND": -20.63,
-        "ACCELERATION": -50.9,
-        "QUALITY": 0.107,
-        "SHARPE": 0.36,
-        "SORTINO": 0.58,
-        "STABILITY": 0.62
+        "RETURN": 2.44,
+        "TREND": -21.16,
+        "ACCELERATION": -42.75,
+        "QUALITY": 0.114,
+        "SHARPE": 0.38,
+        "SORTINO": 0.57,
+        "STABILITY": 0.61
       },
       "12M": {
-        "RETURN": -40.14,
-        "TREND": -23.72,
-        "ACCELERATION": 68.57,
-        "QUALITY": 0.344,
-        "SHARPE": -0.68,
-        "SORTINO": -1.08,
-        "STABILITY": -0.77
+        "RETURN": -37.47,
+        "TREND": -23.05,
+        "ACCELERATION": 65.35,
+        "QUALITY": 0.336,
+        "SHARPE": -0.65,
+        "SORTINO": -0.98,
+        "STABILITY": -0.7
       },
       "QuantScore": 0
     },
@@ -1715,49 +1715,49 @@
         "STABILITY": -10
       },
       "2W": {
-        "RETURN": -11.07,
-        "TREND": -34.24,
-        "ACCELERATION": -1290.14,
-        "QUALITY": 0.008,
-        "SHARPE": -2.57,
-        "SORTINO": -5.05,
+        "RETURN": -9.06,
+        "TREND": -31.54,
+        "ACCELERATION": -1608.23,
+        "QUALITY": 0.006,
+        "SHARPE": -2.51,
+        "SORTINO": -3.95,
         "STABILITY": -10
       },
       "1M": {
-        "RETURN": -14.54,
-        "TREND": -48.08,
-        "ACCELERATION": -35.56,
-        "QUALITY": 0.128,
-        "SHARPE": -2.41,
-        "SORTINO": -3.69,
-        "STABILITY": -8.43
+        "RETURN": -13.62,
+        "TREND": -45.0,
+        "ACCELERATION": 21.87,
+        "QUALITY": 0.107,
+        "SHARPE": -2.68,
+        "SORTINO": -3.44,
+        "STABILITY": -8.05
       },
       "3M": {
-        "RETURN": -37.56,
-        "TREND": -70.85,
-        "ACCELERATION": 199.06,
-        "QUALITY": 0.701,
-        "SHARPE": -3.36,
-        "SORTINO": -4.73,
-        "STABILITY": -4.15
+        "RETURN": -40.79,
+        "TREND": -68.85,
+        "ACCELERATION": 192.06,
+        "QUALITY": 0.68,
+        "SHARPE": -4.28,
+        "SORTINO": -5.37,
+        "STABILITY": -4.71
       },
       "6M": {
-        "RETURN": -17.75,
-        "TREND": -32.5,
-        "ACCELERATION": -309.89,
-        "QUALITY": 0.132,
-        "SHARPE": -0.3,
-        "SORTINO": -0.47,
-        "STABILITY": -0.38
+        "RETURN": -21.24,
+        "TREND": -34.09,
+        "ACCELERATION": -299.57,
+        "QUALITY": 0.149,
+        "SHARPE": -0.47,
+        "SORTINO": -0.7,
+        "STABILITY": -0.58
       },
       "12M": {
-        "RETURN": -40.2,
-        "TREND": -9.98,
-        "ACCELERATION": -0.91,
-        "QUALITY": 0.059,
-        "SHARPE": -0.73,
-        "SORTINO": -1.16,
-        "STABILITY": -0.76
+        "RETURN": -38.68,
+        "TREND": -9.85,
+        "ACCELERATION": -4.24,
+        "QUALITY": 0.058,
+        "SHARPE": -0.71,
+        "SORTINO": -1.09,
+        "STABILITY": -0.72
       },
       "QuantScore": null
     },
@@ -1776,49 +1776,49 @@
         "STABILITY": -10
       },
       "2W": {
-        "RETURN": -11.89,
-        "TREND": -79.08,
-        "ACCELERATION": -1342.93,
-        "QUALITY": 0.123,
-        "SHARPE": -4.46,
-        "SORTINO": -5.18,
+        "RETURN": -12.77,
+        "TREND": -84.62,
+        "ACCELERATION": -1323.12,
+        "QUALITY": 0.176,
+        "SHARPE": -5.17,
+        "SORTINO": -5.65,
         "STABILITY": -10
       },
       "1M": {
-        "RETURN": -6.79,
-        "TREND": 46.84,
-        "ACCELERATION": -429.5,
-        "QUALITY": 0.037,
-        "SHARPE": -0.99,
-        "SORTINO": -1.54,
-        "STABILITY": -3.39
+        "RETURN": -3.26,
+        "TREND": 23.83,
+        "ACCELERATION": -371.51,
+        "QUALITY": 0.012,
+        "SHARPE": -0.34,
+        "SORTINO": -0.49,
+        "STABILITY": -1.13
       },
       "3M": {
-        "RETURN": -17.98,
-        "TREND": 16.83,
-        "ACCELERATION": 311.05,
-        "QUALITY": 0.024,
-        "SHARPE": -1.25,
-        "SORTINO": -1.85,
-        "STABILITY": -2.89
+        "RETURN": -19.5,
+        "TREND": 25.56,
+        "ACCELERATION": 292.28,
+        "QUALITY": 0.053,
+        "SHARPE": -1.41,
+        "SORTINO": -2.07,
+        "STABILITY": -3.38
       },
       "6M": {
-        "RETURN": -18.87,
-        "TREND": -30.13,
-        "ACCELERATION": -27.35,
-        "QUALITY": 0.25,
-        "SHARPE": -0.59,
-        "SORTINO": -0.99,
-        "STABILITY": -0.83
+        "RETURN": -20.04,
+        "TREND": -29.7,
+        "ACCELERATION": -18.25,
+        "QUALITY": 0.242,
+        "SHARPE": -0.66,
+        "SORTINO": -1.09,
+        "STABILITY": -0.92
       },
       "12M": {
-        "RETURN": 40.92,
-        "TREND": 74.33,
-        "ACCELERATION": -183.61,
-        "QUALITY": 0.503,
-        "SHARPE": 0.96,
-        "SORTINO": 1.59,
-        "STABILITY": 1.28
+        "RETURN": 42.37,
+        "TREND": 73.47,
+        "ACCELERATION": -184.06,
+        "QUALITY": 0.498,
+        "SHARPE": 0.98,
+        "SORTINO": 1.62,
+        "STABILITY": 1.31
       },
       "QuantScore": null
     },
@@ -1837,49 +1837,49 @@
         "STABILITY": -10
       },
       "2W": {
-        "RETURN": -3.39,
-        "TREND": 454.31,
-        "ACCELERATION": -1422.48,
-        "QUALITY": 0.103,
-        "SHARPE": -0.33,
-        "SORTINO": -0.74,
-        "STABILITY": -2.16
+        "RETURN": -2.25,
+        "TREND": 386.4,
+        "ACCELERATION": -1669.75,
+        "QUALITY": 0.094,
+        "SHARPE": -0.27,
+        "SORTINO": -0.45,
+        "STABILITY": -1.4
       },
       "1M": {
-        "RETURN": -1.09,
-        "TREND": 256.9,
-        "ACCELERATION": 72.75,
-        "QUALITY": 0.328,
-        "SHARPE": 0.16,
-        "SORTINO": 0.31,
-        "STABILITY": 0.74
+        "RETURN": 0.26,
+        "TREND": 253.15,
+        "ACCELERATION": 90.62,
+        "QUALITY": 0.333,
+        "SHARPE": 0.34,
+        "SORTINO": 0.5,
+        "STABILITY": 1.23
       },
       "3M": {
-        "RETURN": -14.88,
-        "TREND": -38.27,
-        "ACCELERATION": 81.16,
-        "QUALITY": 0.43,
-        "SHARPE": -1.05,
-        "SORTINO": -1.81,
-        "STABILITY": -2.68
+        "RETURN": -19.37,
+        "TREND": -37.14,
+        "ACCELERATION": 93.16,
+        "QUALITY": 0.405,
+        "SHARPE": -1.86,
+        "SORTINO": -2.66,
+        "STABILITY": -4.37
       },
       "6M": {
-        "RETURN": -8.86,
-        "TREND": -24.74,
-        "ACCELERATION": -58.19,
-        "QUALITY": 0.431,
-        "SHARPE": -0.15,
-        "SORTINO": -0.28,
-        "STABILITY": -0.28
+        "RETURN": -12.56,
+        "TREND": -25.46,
+        "ACCELERATION": -52.08,
+        "QUALITY": 0.46,
+        "SHARPE": -0.38,
+        "SORTINO": -0.65,
+        "STABILITY": -0.65
       },
       "12M": {
-        "RETURN": 0.98,
-        "TREND": 24.34,
-        "ACCELERATION": -80.53,
-        "QUALITY": 0.366,
-        "SHARPE": 0.23,
-        "SORTINO": 0.4,
-        "STABILITY": 0.37
+        "RETURN": 0.51,
+        "TREND": 24.1,
+        "ACCELERATION": -81.97,
+        "QUALITY": 0.36,
+        "SHARPE": 0.21,
+        "SORTINO": 0.35,
+        "STABILITY": 0.33
       },
       "QuantScore": null
     },
@@ -1898,49 +1898,49 @@
         "STABILITY": -10
       },
       "2W": {
-        "RETURN": -10.6,
-        "TREND": -73.4,
-        "ACCELERATION": -781.88,
-        "QUALITY": 0.171,
-        "SHARPE": -4.97,
-        "SORTINO": -6.58,
+        "RETURN": -11.42,
+        "TREND": -72.74,
+        "ACCELERATION": -871.33,
+        "QUALITY": 0.163,
+        "SHARPE": -5.72,
+        "SORTINO": -7.17,
         "STABILITY": -10
       },
       "1M": {
-        "RETURN": -11.9,
-        "TREND": -46.15,
-        "ACCELERATION": -278.07,
-        "QUALITY": 0.173,
-        "SHARPE": -3.38,
-        "SORTINO": -4.19,
-        "STABILITY": -8.88
+        "RETURN": -10.02,
+        "TREND": -48.02,
+        "ACCELERATION": -215.75,
+        "QUALITY": 0.193,
+        "SHARPE": -2.9,
+        "SORTINO": -3.31,
+        "STABILITY": -7.35
       },
       "3M": {
-        "RETURN": -10.1,
-        "TREND": 30.66,
-        "ACCELERATION": 65.87,
-        "QUALITY": 0.233,
-        "SHARPE": -1.08,
-        "SORTINO": -1.37,
-        "STABILITY": -2.29
+        "RETURN": -11.74,
+        "TREND": 33.02,
+        "ACCELERATION": 53.84,
+        "QUALITY": 0.263,
+        "SHARPE": -1.33,
+        "SORTINO": -1.65,
+        "STABILITY": -2.76
       },
       "6M": {
-        "RETURN": -16.45,
-        "TREND": -25.69,
-        "ACCELERATION": 98.19,
-        "QUALITY": 0.367,
-        "SHARPE": -0.91,
-        "SORTINO": -1.28,
-        "STABILITY": -1.25
+        "RETURN": -16.81,
+        "TREND": -25.39,
+        "ACCELERATION": 101.96,
+        "QUALITY": 0.359,
+        "SHARPE": -0.95,
+        "SORTINO": -1.32,
+        "STABILITY": -1.28
       },
       "12M": {
-        "RETURN": -4.45,
-        "TREND": -4.38,
-        "ACCELERATION": -85.05,
-        "QUALITY": 0.021,
-        "SHARPE": 0.01,
-        "SORTINO": 0.01,
-        "STABILITY": 0.01
+        "RETURN": -3.91,
+        "TREND": -4.7,
+        "ACCELERATION": -83.38,
+        "QUALITY": 0.025,
+        "SHARPE": 0.03,
+        "SORTINO": 0.04,
+        "STABILITY": 0.03
       },
       "QuantScore": null
     },
@@ -1959,49 +1959,49 @@
         "STABILITY": -10
       },
       "2W": {
-        "RETURN": -4.09,
-        "TREND": -14.14,
-        "ACCELERATION": -953.73,
-        "QUALITY": 0.003,
-        "SHARPE": -1.7,
-        "SORTINO": -3.41,
-        "STABILITY": -7.55
+        "RETURN": -5.88,
+        "TREND": -41.97,
+        "ACCELERATION": -814.15,
+        "QUALITY": 0.038,
+        "SHARPE": -2.78,
+        "SORTINO": -5.23,
+        "STABILITY": -10
       },
       "1M": {
-        "RETURN": -3.58,
-        "TREND": -7.54,
-        "ACCELERATION": -287.14,
-        "QUALITY": 0.002,
-        "SHARPE": -0.45,
-        "SORTINO": -0.8,
-        "STABILITY": -1.67
+        "RETURN": -0.5,
+        "TREND": -24.4,
+        "ACCELERATION": -161.48,
+        "QUALITY": 0.026,
+        "SHARPE": 0.17,
+        "SORTINO": 0.28,
+        "STABILITY": 0.62
       },
       "3M": {
-        "RETURN": -1.09,
-        "TREND": 26.89,
-        "ACCELERATION": 97.46,
-        "QUALITY": 0.098,
-        "SHARPE": 0.2,
-        "SORTINO": 0.35,
-        "STABILITY": 0.6
+        "RETURN": -8.61,
+        "TREND": 25.98,
+        "ACCELERATION": 97.71,
+        "QUALITY": 0.093,
+        "SHARPE": -0.41,
+        "SORTINO": -0.7,
+        "STABILITY": -1.18
       },
       "6M": {
-        "RETURN": -7.45,
-        "TREND": 43.15,
-        "ACCELERATION": 28.69,
-        "QUALITY": 0.427,
-        "SHARPE": 0.01,
-        "SORTINO": 0.02,
-        "STABILITY": 0.03
+        "RETURN": -9.83,
+        "TREND": 45.28,
+        "ACCELERATION": 20.27,
+        "QUALITY": 0.463,
+        "SHARPE": -0.08,
+        "SORTINO": -0.13,
+        "STABILITY": -0.23
       },
       "12M": {
-        "RETURN": 93.07,
-        "TREND": 84.66,
-        "ACCELERATION": -163.87,
-        "QUALITY": 0.526,
-        "SHARPE": 1.4,
-        "SORTINO": 2.24,
-        "STABILITY": 2.37
+        "RETURN": 89.36,
+        "TREND": 83.07,
+        "ACCELERATION": -160.9,
+        "QUALITY": 0.521,
+        "SHARPE": 1.36,
+        "SORTINO": 2.19,
+        "STABILITY": 2.31
       },
       "QuantScore": null
     },
@@ -2020,49 +2020,49 @@
         "STABILITY": -10
       },
       "2W": {
-        "RETURN": -7.13,
-        "TREND": -72.58,
-        "ACCELERATION": -815.02,
-        "QUALITY": 0.225,
-        "SHARPE": -4.3,
-        "SORTINO": -7.18,
+        "RETURN": -9.15,
+        "TREND": -79.29,
+        "ACCELERATION": -700.42,
+        "QUALITY": 0.337,
+        "SHARPE": -6.3,
+        "SORTINO": -9.46,
         "STABILITY": -10
       },
       "1M": {
-        "RETURN": -2.34,
-        "TREND": 8.01,
-        "ACCELERATION": -500.68,
-        "QUALITY": 0.002,
-        "SHARPE": -0.24,
-        "SORTINO": -0.4,
-        "STABILITY": -0.9
+        "RETURN": -0.79,
+        "TREND": -15.49,
+        "ACCELERATION": -390.27,
+        "QUALITY": 0.01,
+        "SHARPE": 0.09,
+        "SORTINO": 0.15,
+        "STABILITY": 0.34
       },
       "3M": {
-        "RETURN": 6.92,
-        "TREND": 163.23,
-        "ACCELERATION": -74.14,
-        "QUALITY": 0.706,
-        "SHARPE": 0.75,
-        "SORTINO": 1.33,
-        "STABILITY": 2.84
+        "RETURN": 2.96,
+        "TREND": 162.56,
+        "ACCELERATION": -88.37,
+        "QUALITY": 0.703,
+        "SHARPE": 0.48,
+        "SORTINO": 0.85,
+        "STABILITY": 1.81
       },
       "6M": {
-        "RETURN": -13.72,
-        "TREND": 12.96,
-        "ACCELERATION": 186.62,
-        "QUALITY": 0.04,
-        "SHARPE": -0.24,
-        "SORTINO": -0.4,
-        "STABILITY": -0.45
+        "RETURN": -13.96,
+        "TREND": 15.61,
+        "ACCELERATION": 181.7,
+        "QUALITY": 0.058,
+        "SHARPE": -0.25,
+        "SORTINO": -0.42,
+        "STABILITY": -0.48
       },
       "12M": {
-        "RETURN": 50.18,
-        "TREND": 46.58,
-        "ACCELERATION": -127.1,
-        "QUALITY": 0.404,
-        "SHARPE": 1.05,
-        "SORTINO": 1.6,
-        "STABILITY": 1.35
+        "RETURN": 53.31,
+        "TREND": 45.96,
+        "ACCELERATION": -124.77,
+        "QUALITY": 0.399,
+        "SHARPE": 1.09,
+        "SORTINO": 1.65,
+        "STABILITY": 1.4
       },
       "QuantScore": null
     },
@@ -2081,49 +2081,49 @@
         "STABILITY": -10
       },
       "2W": {
-        "RETURN": -0.07,
-        "TREND": 108.93,
-        "ACCELERATION": -456.87,
-        "QUALITY": 0.163,
-        "SHARPE": 0.05,
-        "SORTINO": 0.07,
-        "STABILITY": 0.21
+        "RETURN": 0.42,
+        "TREND": 77.38,
+        "ACCELERATION": -455.22,
+        "QUALITY": 0.112,
+        "SHARPE": 0.53,
+        "SORTINO": 0.8,
+        "STABILITY": 2.2
       },
       "1M": {
-        "RETURN": 6.79,
-        "TREND": 77.11,
-        "ACCELERATION": -22.17,
-        "QUALITY": 0.304,
-        "SHARPE": 2.63,
-        "SORTINO": 5.9,
-        "STABILITY": 10
+        "RETURN": 0.73,
+        "TREND": 42.71,
+        "ACCELERATION": 64.92,
+        "QUALITY": 0.22,
+        "SHARPE": 0.48,
+        "SORTINO": 0.81,
+        "STABILITY": 1.86
       },
       "3M": {
-        "RETURN": 6.65,
-        "TREND": 70.6,
-        "ACCELERATION": 69.12,
-        "QUALITY": 0.643,
-        "SHARPE": 1.0,
-        "SORTINO": 2.13,
-        "STABILITY": 3.41
+        "RETURN": 4.14,
+        "TREND": 73.37,
+        "ACCELERATION": 64.38,
+        "QUALITY": 0.666,
+        "SHARPE": 0.69,
+        "SORTINO": 1.45,
+        "STABILITY": 3.01
       },
       "6M": {
-        "RETURN": 21.5,
-        "TREND": 34.83,
-        "ACCELERATION": 4.12,
-        "QUALITY": 0.58,
-        "SHARPE": 1.38,
-        "SORTINO": 2.64,
-        "STABILITY": 3.3
+        "RETURN": 18.52,
+        "TREND": 34.43,
+        "ACCELERATION": 8.2,
+        "QUALITY": 0.579,
+        "SHARPE": 1.23,
+        "SORTINO": 2.33,
+        "STABILITY": 2.92
       },
       "12M": {
-        "RETURN": 55.54,
-        "TREND": 67.03,
-        "ACCELERATION": -31.99,
+        "RETURN": 52.67,
+        "TREND": 66.98,
+        "ACCELERATION": -32.61,
         "QUALITY": 0.885,
-        "SHARPE": 1.51,
-        "SORTINO": 2.81,
-        "STABILITY": 3.72
+        "SHARPE": 1.46,
+        "SORTINO": 2.7,
+        "STABILITY": 3.58
       },
       "QuantScore": null
     },
@@ -2142,49 +2142,49 @@
         "STABILITY": -10
       },
       "2W": {
-        "RETURN": -5.86,
-        "TREND": -34.47,
-        "ACCELERATION": -479.2,
-        "QUALITY": 0.04,
-        "SHARPE": -3.94,
-        "SORTINO": -6.25,
+        "RETURN": -5.14,
+        "TREND": -28.18,
+        "ACCELERATION": -565.8,
+        "QUALITY": 0.025,
+        "SHARPE": -3.45,
+        "SORTINO": -5.49,
         "STABILITY": -10
       },
       "1M": {
-        "RETURN": -11.39,
-        "TREND": -70.61,
-        "ACCELERATION": 56.09,
-        "QUALITY": 0.654,
-        "SHARPE": -4.38,
-        "SORTINO": -6.59,
+        "RETURN": -12.32,
+        "TREND": -69.93,
+        "ACCELERATION": 130.07,
+        "QUALITY": 0.636,
+        "SHARPE": -4.88,
+        "SORTINO": -7.19,
         "STABILITY": -10
       },
       "3M": {
-        "RETURN": -26.87,
-        "TREND": -68.41,
-        "ACCELERATION": -73.18,
-        "QUALITY": 0.863,
-        "SHARPE": -3.31,
-        "SORTINO": -4.19,
-        "STABILITY": -4.13
+        "RETURN": -28.65,
+        "TREND": -68.56,
+        "ACCELERATION": -69.07,
+        "QUALITY": 0.865,
+        "SHARPE": -3.65,
+        "SORTINO": -4.54,
+        "STABILITY": -4.49
       },
       "6M": {
-        "RETURN": -15.24,
-        "TREND": -22.84,
-        "ACCELERATION": -178.47,
-        "QUALITY": 0.213,
-        "SHARPE": -0.75,
-        "SORTINO": -1.06,
-        "STABILITY": -0.85
+        "RETURN": -16.02,
+        "TREND": -24.47,
+        "ACCELERATION": -177.42,
+        "QUALITY": 0.243,
+        "SHARPE": -0.8,
+        "SORTINO": -1.13,
+        "STABILITY": -0.91
       },
       "12M": {
-        "RETURN": 13.49,
-        "TREND": 37.04,
-        "ACCELERATION": -121.09,
-        "QUALITY": 0.416,
-        "SHARPE": 0.55,
-        "SORTINO": 0.82,
-        "STABILITY": 0.58
+        "RETURN": 14.07,
+        "TREND": 35.86,
+        "ACCELERATION": -122.2,
+        "QUALITY": 0.398,
+        "SHARPE": 0.56,
+        "SORTINO": 0.85,
+        "STABILITY": 0.6
       },
       "QuantScore": null
     },
@@ -2203,49 +2203,49 @@
         "STABILITY": -10
       },
       "2W": {
-        "RETURN": -0.53,
-        "TREND": 107.64,
-        "ACCELERATION": -604.83,
-        "QUALITY": 0.103,
-        "SHARPE": -0.24,
-        "SORTINO": -0.48,
-        "STABILITY": -0.98
+        "RETURN": -1.49,
+        "TREND": 61.04,
+        "ACCELERATION": -516.63,
+        "QUALITY": 0.051,
+        "SHARPE": -0.98,
+        "SORTINO": -1.91,
+        "STABILITY": -3.9
       },
       "1M": {
-        "RETURN": 7.76,
-        "TREND": 122.01,
-        "ACCELERATION": -25.27,
-        "QUALITY": 0.31,
-        "SHARPE": 2.43,
-        "SORTINO": 4.51,
-        "STABILITY": 10
+        "RETURN": 3.02,
+        "TREND": 70.4,
+        "ACCELERATION": 67.94,
+        "QUALITY": 0.219,
+        "SHARPE": 1.14,
+        "SORTINO": 1.96,
+        "STABILITY": 5.04
       },
       "3M": {
-        "RETURN": 15.46,
-        "TREND": 193.56,
-        "ACCELERATION": 28.15,
-        "QUALITY": 0.774,
-        "SHARPE": 1.73,
-        "SORTINO": 3.69,
-        "STABILITY": 5.69
+        "RETURN": 13.87,
+        "TREND": 197.47,
+        "ACCELERATION": 17.03,
+        "QUALITY": 0.785,
+        "SHARPE": 1.59,
+        "SORTINO": 3.37,
+        "STABILITY": 5.54
       },
       "6M": {
-        "RETURN": 5.44,
-        "TREND": 21.53,
-        "ACCELERATION": 137.47,
-        "QUALITY": 0.156,
-        "SHARPE": 0.46,
-        "SORTINO": 0.78,
-        "STABILITY": 0.82
+        "RETURN": 4.07,
+        "TREND": 23.33,
+        "ACCELERATION": 138.27,
+        "QUALITY": 0.177,
+        "SHARPE": 0.4,
+        "SORTINO": 0.67,
+        "STABILITY": 0.71
       },
       "12M": {
-        "RETURN": 51.45,
-        "TREND": 24.56,
-        "ACCELERATION": -109.91,
-        "QUALITY": 0.184,
-        "SHARPE": 1.34,
-        "SORTINO": 2.33,
-        "STABILITY": 1.28
+        "RETURN": 53.52,
+        "TREND": 24.02,
+        "ACCELERATION": -106.09,
+        "QUALITY": 0.18,
+        "SHARPE": 1.38,
+        "SORTINO": 2.39,
+        "STABILITY": 1.32
       },
       "QuantScore": null
     },
@@ -2264,49 +2264,49 @@
         "STABILITY": -10
       },
       "2W": {
-        "RETURN": -0.33,
-        "TREND": 9.16,
-        "ACCELERATION": -533.99,
-        "QUALITY": 0.003,
-        "SHARPE": -0.11,
-        "SORTINO": -0.21,
-        "STABILITY": -0.56
+        "RETURN": -2.36,
+        "TREND": -21.7,
+        "ACCELERATION": -429.88,
+        "QUALITY": 0.033,
+        "SHARPE": -2.0,
+        "SORTINO": -3.27,
+        "STABILITY": -8.88
       },
       "1M": {
-        "RETURN": -4.79,
-        "TREND": -29.45,
-        "ACCELERATION": 206.75,
-        "QUALITY": 0.118,
-        "SHARPE": -1.51,
-        "SORTINO": -2.61,
-        "STABILITY": -5.51
+        "RETURN": -6.99,
+        "TREND": -25.78,
+        "ACCELERATION": 200.82,
+        "QUALITY": 0.088,
+        "SHARPE": -2.46,
+        "SORTINO": -4.01,
+        "STABILITY": -8.48
       },
       "3M": {
-        "RETURN": -4.61,
-        "TREND": -17.97,
-        "ACCELERATION": -248.3,
-        "QUALITY": 0.065,
+        "RETURN": -4.55,
+        "TREND": -20.44,
+        "ACCELERATION": -236.57,
+        "QUALITY": 0.086,
         "SHARPE": -0.3,
-        "SORTINO": -0.53,
-        "STABILITY": -0.62
+        "SORTINO": -0.54,
+        "STABILITY": -0.61
       },
       "6M": {
-        "RETURN": 10.86,
-        "TREND": 42.18,
-        "ACCELERATION": -108.74,
-        "QUALITY": 0.386,
-        "SHARPE": 0.72,
-        "SORTINO": 1.36,
-        "STABILITY": 1.51
+        "RETURN": 10.46,
+        "TREND": 40.27,
+        "ACCELERATION": -110.05,
+        "QUALITY": 0.366,
+        "SHARPE": 0.71,
+        "SORTINO": 1.33,
+        "STABILITY": 1.47
       },
       "12M": {
-        "RETURN": 65.67,
-        "TREND": 91.71,
-        "ACCELERATION": -75.59,
-        "QUALITY": 0.841,
-        "SHARPE": 1.55,
-        "SORTINO": 2.8,
-        "STABILITY": 3.08
+        "RETURN": 66.6,
+        "TREND": 90.65,
+        "ACCELERATION": -76.36,
+        "QUALITY": 0.837,
+        "SHARPE": 1.57,
+        "SORTINO": 2.83,
+        "STABILITY": 3.11
       },
       "QuantScore": null
     },
@@ -2325,49 +2325,49 @@
         "STABILITY": -10
       },
       "2W": {
-        "RETURN": 0.33,
-        "TREND": 312.37,
-        "ACCELERATION": -703.83,
-        "QUALITY": 0.247,
-        "SHARPE": 0.39,
-        "SORTINO": 0.46,
-        "STABILITY": 1.93
+        "RETURN": 0.83,
+        "TREND": 228.34,
+        "ACCELERATION": -744.36,
+        "QUALITY": 0.201,
+        "SHARPE": 0.74,
+        "SORTINO": 0.76,
+        "STABILITY": 3.34
       },
       "1M": {
-        "RETURN": -4.27,
-        "TREND": 0.69,
-        "ACCELERATION": 288.57,
-        "QUALITY": 0.0,
-        "SHARPE": -1.49,
-        "SORTINO": -2.03,
-        "STABILITY": -5.86
+        "RETURN": -5.18,
+        "TREND": 6.49,
+        "ACCELERATION": 305.64,
+        "QUALITY": 0.003,
+        "SHARPE": -2.01,
+        "SORTINO": -2.54,
+        "STABILITY": -7.34
       },
       "3M": {
-        "RETURN": -13.87,
-        "TREND": -42.08,
-        "ACCELERATION": -141.94,
-        "QUALITY": 0.442,
-        "SHARPE": -1.54,
-        "SORTINO": -2.39,
-        "STABILITY": -2.71
+        "RETURN": -15.71,
+        "TREND": -42.57,
+        "ACCELERATION": -134.28,
+        "QUALITY": 0.449,
+        "SHARPE": -1.84,
+        "SORTINO": -2.78,
+        "STABILITY": -3.16
       },
       "6M": {
-        "RETURN": 6.41,
-        "TREND": 27.28,
-        "ACCELERATION": -140.81,
-        "QUALITY": 0.22,
-        "SHARPE": 0.51,
-        "SORTINO": 0.86,
-        "STABILITY": 0.99
+        "RETURN": 3.17,
+        "TREND": 25.26,
+        "ACCELERATION": -141.95,
+        "QUALITY": 0.197,
+        "SHARPE": 0.35,
+        "SORTINO": 0.58,
+        "STABILITY": 0.67
       },
       "12M": {
-        "RETURN": 20.18,
-        "TREND": 50.03,
-        "ACCELERATION": -53.41,
-        "QUALITY": 0.698,
-        "SHARPE": 0.68,
-        "SORTINO": 1.03,
-        "STABILITY": 0.96
+        "RETURN": 19.24,
+        "TREND": 49.65,
+        "ACCELERATION": -54.83,
+        "QUALITY": 0.693,
+        "SHARPE": 0.66,
+        "SORTINO": 0.99,
+        "STABILITY": 0.93
       },
       "QuantScore": null
     },
@@ -2386,49 +2386,49 @@
         "STABILITY": -10
       },
       "2W": {
-        "RETURN": -5.59,
-        "TREND": -20.09,
-        "ACCELERATION": -821.97,
-        "QUALITY": 0.007,
-        "SHARPE": -3.01,
-        "SORTINO": -5.04,
+        "RETURN": -5.23,
+        "TREND": -25.34,
+        "ACCELERATION": -937.43,
+        "QUALITY": 0.011,
+        "SHARPE": -3.09,
+        "SORTINO": -5.06,
         "STABILITY": -10
       },
       "1M": {
-        "RETURN": -6.42,
-        "TREND": -23.3,
-        "ACCELERATION": 34.64,
-        "QUALITY": 0.053,
-        "SHARPE": -1.56,
-        "SORTINO": -2.74,
-        "STABILITY": -5.48
+        "RETURN": -6.83,
+        "TREND": -24.04,
+        "ACCELERATION": 71.63,
+        "QUALITY": 0.058,
+        "SHARPE": -1.77,
+        "SORTINO": -2.97,
+        "STABILITY": -5.94
       },
       "3M": {
-        "RETURN": -21.85,
-        "TREND": -47.16,
-        "ACCELERATION": 198.54,
-        "QUALITY": 0.531,
-        "SHARPE": -2.96,
-        "SORTINO": -5.18,
-        "STABILITY": -4.0
+        "RETURN": -23.38,
+        "TREND": -44.64,
+        "ACCELERATION": 196.62,
+        "QUALITY": 0.495,
+        "SHARPE": -3.35,
+        "SORTINO": -5.64,
+        "STABILITY": -4.55
       },
       "6M": {
-        "RETURN": -17.91,
-        "TREND": -44.93,
-        "ACCELERATION": -73.32,
-        "QUALITY": 0.688,
-        "SHARPE": -1.14,
-        "SORTINO": -1.82,
-        "STABILITY": -1.11
+        "RETURN": -19.75,
+        "TREND": -45.44,
+        "ACCELERATION": -64.25,
+        "QUALITY": 0.704,
+        "SHARPE": -1.32,
+        "SORTINO": -2.07,
+        "STABILITY": -1.26
       },
       "12M": {
-        "RETURN": -17.46,
-        "TREND": -10.99,
-        "ACCELERATION": -105.6,
-        "QUALITY": 0.109,
-        "SHARPE": -0.44,
-        "SORTINO": -0.73,
-        "STABILITY": -0.4
+        "RETURN": -16.77,
+        "TREND": -11.35,
+        "ACCELERATION": -105.38,
+        "QUALITY": 0.116,
+        "SHARPE": -0.42,
+        "SORTINO": -0.69,
+        "STABILITY": -0.38
       },
       "QuantScore": null
     },
@@ -2447,49 +2447,49 @@
         "STABILITY": -10
       },
       "2W": {
-        "RETURN": -9.45,
-        "TREND": -70.5,
-        "ACCELERATION": -563.25,
-        "QUALITY": 0.261,
-        "SHARPE": -6.59,
-        "SORTINO": -10,
+        "RETURN": -6.35,
+        "TREND": -61.37,
+        "ACCELERATION": -739.62,
+        "QUALITY": 0.167,
+        "SHARPE": -4.69,
+        "SORTINO": -6.42,
         "STABILITY": -10
       },
       "1M": {
-        "RETURN": -9.3,
-        "TREND": -44.33,
-        "ACCELERATION": -173.5,
-        "QUALITY": 0.308,
-        "SHARPE": -4.08,
-        "SORTINO": -4.81,
-        "STABILITY": -9.84
+        "RETURN": -9.15,
+        "TREND": -45.03,
+        "ACCELERATION": -131.51,
+        "QUALITY": 0.322,
+        "SHARPE": -4.05,
+        "SORTINO": -4.68,
+        "STABILITY": -9.67
       },
       "3M": {
-        "RETURN": -15.15,
-        "TREND": -44.03,
-        "ACCELERATION": -23.79,
-        "QUALITY": 0.756,
-        "SHARPE": -2.2,
-        "SORTINO": -3.01,
-        "STABILITY": -2.86
+        "RETURN": -16.89,
+        "TREND": -44.72,
+        "ACCELERATION": -13.1,
+        "QUALITY": 0.775,
+        "SHARPE": -2.55,
+        "SORTINO": -3.42,
+        "STABILITY": -3.25
       },
       "6M": {
-        "RETURN": -5.86,
-        "TREND": 2.79,
-        "ACCELERATION": -59.65,
-        "QUALITY": 0.007,
-        "SHARPE": -0.21,
-        "SORTINO": -0.35,
-        "STABILITY": -0.32
+        "RETURN": -7.38,
+        "TREND": 1.79,
+        "ACCELERATION": -61.26,
+        "QUALITY": 0.003,
+        "SHARPE": -0.31,
+        "SORTINO": -0.51,
+        "STABILITY": -0.47
       },
       "12M": {
-        "RETURN": -15.09,
-        "TREND": 8.3,
-        "ACCELERATION": 1.02,
-        "QUALITY": 0.13,
-        "SHARPE": -0.39,
-        "SORTINO": -0.63,
-        "STABILITY": -0.55
+        "RETURN": -14.08,
+        "TREND": 8.42,
+        "ACCELERATION": -0.69,
+        "QUALITY": 0.134,
+        "SHARPE": -0.35,
+        "SORTINO": -0.56,
+        "STABILITY": -0.49
       },
       "QuantScore": null
     },
@@ -2508,47 +2508,47 @@
         "STABILITY": -10
       },
       "2W": {
-        "RETURN": -4.41,
-        "TREND": 5.89,
-        "ACCELERATION": -377.01,
-        "QUALITY": 0.001,
-        "SHARPE": -2.71,
-        "SORTINO": -4.36,
-        "STABILITY": -10
+        "RETURN": -2.55,
+        "TREND": 32.67,
+        "ACCELERATION": -499.56,
+        "QUALITY": 0.024,
+        "SHARPE": -1.6,
+        "SORTINO": -2.16,
+        "STABILITY": -8.09
       },
       "1M": {
-        "RETURN": -3.97,
-        "TREND": 16.94,
-        "ACCELERATION": 10.34,
-        "QUALITY": 0.047,
-        "SHARPE": -1.36,
-        "SORTINO": -2.13,
-        "STABILITY": -5.99
+        "RETURN": -2.75,
+        "TREND": 19.63,
+        "ACCELERATION": 10.44,
+        "QUALITY": 0.061,
+        "SHARPE": -0.93,
+        "SORTINO": -1.34,
+        "STABILITY": -3.96
       },
       "3M": {
-        "RETURN": -19.33,
-        "TREND": -57.68,
-        "ACCELERATION": 127.43,
-        "QUALITY": 0.824,
-        "SHARPE": -2.92,
-        "SORTINO": -4.41,
-        "STABILITY": -3.83
+        "RETURN": -21.39,
+        "TREND": -56.86,
+        "ACCELERATION": 133.74,
+        "QUALITY": 0.811,
+        "SHARPE": -3.41,
+        "SORTINO": -4.98,
+        "STABILITY": -4.41
       },
       "6M": {
-        "RETURN": -17.92,
-        "TREND": -36.7,
-        "ACCELERATION": -58.51,
-        "QUALITY": 0.732,
-        "SHARPE": -1.1,
-        "SORTINO": -1.94,
-        "STABILITY": -1.32
+        "RETURN": -19.29,
+        "TREND": -37.14,
+        "ACCELERATION": -56.67,
+        "QUALITY": 0.741,
+        "SHARPE": -1.22,
+        "SORTINO": -2.13,
+        "STABILITY": -1.45
       },
       "12M": {
-        "RETURN": -36.92,
-        "TREND": -31.67,
-        "ACCELERATION": -19.83,
-        "QUALITY": 0.867,
-        "SHARPE": -1.42,
+        "RETURN": -36.81,
+        "TREND": -31.68,
+        "ACCELERATION": -20.21,
+        "QUALITY": 0.866,
+        "SHARPE": -1.41,
         "SORTINO": -2.27,
         "STABILITY": -1.1
       },
@@ -2569,49 +2569,49 @@
         "STABILITY": -10
       },
       "2W": {
-        "RETURN": -2.98,
-        "TREND": -33.3,
-        "ACCELERATION": -854.92,
-        "QUALITY": 0.028,
-        "SHARPE": -2.04,
-        "SORTINO": -2.18,
-        "STABILITY": -8.29
+        "RETURN": -3.26,
+        "TREND": -50.22,
+        "ACCELERATION": -804.29,
+        "QUALITY": 0.087,
+        "SHARPE": -2.33,
+        "SORTINO": -2.41,
+        "STABILITY": -9.18
       },
       "1M": {
-        "RETURN": -9.66,
-        "TREND": -57.95,
-        "ACCELERATION": -22.58,
-        "QUALITY": 0.4,
-        "SHARPE": -3.18,
-        "SORTINO": -3.71,
-        "STABILITY": -10
+        "RETURN": -8.6,
+        "TREND": -56.44,
+        "ACCELERATION": 25.74,
+        "QUALITY": 0.376,
+        "SHARPE": -2.83,
+        "SORTINO": -3.13,
+        "STABILITY": -8.83
       },
       "3M": {
-        "RETURN": -15.34,
-        "TREND": -14.5,
-        "ACCELERATION": 38.81,
-        "QUALITY": 0.098,
-        "SHARPE": -1.85,
-        "SORTINO": -2.37,
-        "STABILITY": -3.7
+        "RETURN": -16.52,
+        "TREND": -12.28,
+        "ACCELERATION": 22.68,
+        "QUALITY": 0.074,
+        "SHARPE": -2.05,
+        "SORTINO": -2.59,
+        "STABILITY": -4.64
       },
       "6M": {
-        "RETURN": -12.35,
-        "TREND": -21.21,
-        "ACCELERATION": 73.5,
+        "RETURN": -13.62,
+        "TREND": -21.23,
+        "ACCELERATION": 73.74,
         "QUALITY": 0.227,
-        "SHARPE": -0.43,
-        "SORTINO": -0.72,
-        "STABILITY": -0.61
+        "SHARPE": -0.5,
+        "SORTINO": -0.83,
+        "STABILITY": -0.71
       },
       "12M": {
-        "RETURN": 5.16,
-        "TREND": 3.82,
-        "ACCELERATION": -105.63,
-        "QUALITY": 0.01,
-        "SHARPE": 0.32,
-        "SORTINO": 0.51,
-        "STABILITY": 0.37
+        "RETURN": 5.69,
+        "TREND": 3.31,
+        "ACCELERATION": -104.09,
+        "QUALITY": 0.008,
+        "SHARPE": 0.33,
+        "SORTINO": 0.53,
+        "STABILITY": 0.38
       },
       "QuantScore": null
     },
@@ -2630,49 +2630,49 @@
         "STABILITY": -10
       },
       "2W": {
-        "RETURN": -0.83,
-        "TREND": 114.37,
-        "ACCELERATION": -558.4,
-        "QUALITY": 0.127,
-        "SHARPE": -0.44,
-        "SORTINO": -0.65,
-        "STABILITY": -2.01
+        "RETURN": -1.49,
+        "TREND": 80.62,
+        "ACCELERATION": -563.19,
+        "QUALITY": 0.087,
+        "SHARPE": -1.01,
+        "SORTINO": -1.38,
+        "STABILITY": -4.3
       },
       "1M": {
-        "RETURN": -6.95,
-        "TREND": -42.15,
-        "ACCELERATION": 175.56,
-        "QUALITY": 0.214,
-        "SHARPE": -2.05,
-        "SORTINO": -2.05,
-        "STABILITY": -8.91
+        "RETURN": -7.49,
+        "TREND": -39.84,
+        "ACCELERATION": 222.29,
+        "QUALITY": 0.185,
+        "SHARPE": -2.29,
+        "SORTINO": -2.24,
+        "STABILITY": -9.73
       },
       "3M": {
-        "RETURN": -14.59,
-        "TREND": -39.2,
-        "ACCELERATION": 18.61,
-        "QUALITY": 0.693,
-        "SHARPE": -1.77,
-        "SORTINO": -2.2,
-        "STABILITY": -3.19
+        "RETURN": -17.46,
+        "TREND": -38.94,
+        "ACCELERATION": 18.07,
+        "QUALITY": 0.686,
+        "SHARPE": -2.29,
+        "SORTINO": -2.74,
+        "STABILITY": -4.43
       },
       "6M": {
-        "RETURN": -12.24,
-        "TREND": -19.48,
-        "ACCELERATION": -41.27,
-        "QUALITY": 0.371,
-        "SHARPE": -0.58,
-        "SORTINO": -0.83,
-        "STABILITY": -0.91
+        "RETURN": -13.58,
+        "TREND": -19.97,
+        "ACCELERATION": -41.07,
+        "QUALITY": 0.385,
+        "SHARPE": -0.67,
+        "SORTINO": -0.96,
+        "STABILITY": -1.05
       },
       "12M": {
-        "RETURN": 1.88,
-        "TREND": 11.9,
-        "ACCELERATION": -72.37,
-        "QUALITY": 0.167,
-        "SHARPE": 0.22,
-        "SORTINO": 0.33,
-        "STABILITY": 0.29
+        "RETURN": 2.9,
+        "TREND": 11.46,
+        "ACCELERATION": -72.81,
+        "QUALITY": 0.157,
+        "SHARPE": 0.25,
+        "SORTINO": 0.37,
+        "STABILITY": 0.33
       },
       "QuantScore": null
     },
@@ -2691,49 +2691,49 @@
         "STABILITY": -10
       },
       "2W": {
-        "RETURN": -3.32,
-        "TREND": 582.35,
-        "ACCELERATION": -776.82,
-        "QUALITY": 0.172,
-        "SHARPE": -0.59,
-        "SORTINO": -0.9,
-        "STABILITY": -2.82
+        "RETURN": -1.89,
+        "TREND": 569.57,
+        "ACCELERATION": -872.44,
+        "QUALITY": 0.174,
+        "SHARPE": -0.18,
+        "SORTINO": -0.26,
+        "STABILITY": -0.85
       },
       "1M": {
-        "RETURN": -5.87,
-        "TREND": 33.58,
-        "ACCELERATION": 251.07,
-        "QUALITY": 0.029,
-        "SHARPE": -0.88,
-        "SORTINO": -1.15,
-        "STABILITY": -3.0
+        "RETURN": -7.19,
+        "TREND": 33.06,
+        "ACCELERATION": 303.63,
+        "QUALITY": 0.028,
+        "SHARPE": -1.18,
+        "SORTINO": -1.52,
+        "STABILITY": -3.96
       },
       "3M": {
-        "RETURN": -20.19,
-        "TREND": -49.3,
-        "ACCELERATION": 160.73,
-        "QUALITY": 0.552,
-        "SHARPE": -1.87,
-        "SORTINO": -2.66,
-        "STABILITY": -3.65
+        "RETURN": -22.12,
+        "TREND": -48.31,
+        "ACCELERATION": 161.1,
+        "QUALITY": 0.534,
+        "SHARPE": -2.14,
+        "SORTINO": -2.99,
+        "STABILITY": -4.14
       },
       "6M": {
-        "RETURN": -16.93,
-        "TREND": -29.12,
-        "ACCELERATION": -94.57,
-        "QUALITY": 0.46,
-        "SHARPE": -0.7,
-        "SORTINO": -1.01,
-        "STABILITY": -1.13
+        "RETURN": -17.62,
+        "TREND": -29.73,
+        "ACCELERATION": -91.82,
+        "QUALITY": 0.474,
+        "SHARPE": -0.75,
+        "SORTINO": -1.07,
+        "STABILITY": -1.2
       },
       "12M": {
-        "RETURN": -4.79,
-        "TREND": 5.53,
-        "ACCELERATION": -98.01,
-        "QUALITY": 0.03,
-        "SHARPE": 0.05,
-        "SORTINO": 0.07,
-        "STABILITY": 0.06
+        "RETURN": -4.15,
+        "TREND": 4.99,
+        "ACCELERATION": -98.16,
+        "QUALITY": 0.024,
+        "SHARPE": 0.07,
+        "SORTINO": 0.1,
+        "STABILITY": 0.08
       },
       "QuantScore": null
     },
@@ -2752,49 +2752,49 @@
         "STABILITY": -10
       },
       "2W": {
-        "RETURN": -8.16,
-        "TREND": -7.3,
-        "ACCELERATION": 32.81,
-        "QUALITY": 0.001,
-        "SHARPE": -3.54,
-        "SORTINO": -6.2,
+        "RETURN": -4.55,
+        "TREND": 53.74,
+        "ACCELERATION": -185.63,
+        "QUALITY": 0.035,
+        "SHARPE": -1.91,
+        "SORTINO": -3.11,
         "STABILITY": -10
       },
       "1M": {
-        "RETURN": -20.85,
-        "TREND": -93.34,
-        "ACCELERATION": 256.73,
-        "QUALITY": 0.805,
-        "SHARPE": -6.61,
+        "RETURN": -21.25,
+        "TREND": -92.34,
+        "ACCELERATION": 376.4,
+        "QUALITY": 0.763,
+        "SHARPE": -6.74,
         "SORTINO": -10,
         "STABILITY": -10
       },
       "3M": {
-        "RETURN": -53.88,
-        "TREND": -75.41,
-        "ACCELERATION": -317.15,
-        "QUALITY": 0.281,
-        "SHARPE": -2.44,
-        "SORTINO": -4.49,
-        "STABILITY": -4.9
+        "RETURN": -48.78,
+        "TREND": -72.63,
+        "ACCELERATION": -363.31,
+        "QUALITY": 0.263,
+        "SHARPE": -2.09,
+        "SORTINO": -3.85,
+        "STABILITY": -4.13
       },
       "6M": {
-        "RETURN": -63.92,
-        "TREND": -92.48,
-        "ACCELERATION": -19.33,
-        "QUALITY": 0.79,
-        "SHARPE": -1.69,
-        "SORTINO": -2.91,
-        "STABILITY": -2.02
+        "RETURN": -64.65,
+        "TREND": -92.64,
+        "ACCELERATION": 1.35,
+        "QUALITY": 0.795,
+        "SHARPE": -1.73,
+        "SORTINO": -2.99,
+        "STABILITY": -2.07
       },
       "12M": {
-        "RETURN": -89.3,
+        "RETURN": -90.27,
         "TREND": -89.88,
-        "ACCELERATION": 90.46,
+        "ACCELERATION": 89.12,
         "QUALITY": 0.885,
-        "SHARPE": -1.89,
-        "SORTINO": -2.31,
-        "STABILITY": -1.9
+        "SHARPE": -2.01,
+        "SORTINO": -2.44,
+        "STABILITY": -2.01
       },
       "QuantScore": null
     }
@@ -2802,21 +2802,21 @@
   "quant_rankings": {
     "top10_stocks": [
       {
+        "Symbol": "TUPRS.IS",
+        "Name": "Tupras",
+        "Category": "Energy & Chemicals",
+        "QuantScore": 43.1
+      },
+      {
         "Symbol": "TKFEN.IS",
         "Name": "Tekfen Holding",
         "Category": "Construction & REIT",
-        "QuantScore": 24.1
+        "QuantScore": 24.6
       },
       {
         "Symbol": "HALKB.IS",
         "Name": "Halkbank",
         "Category": "Banking & Finance",
-        "QuantScore": 0
-      },
-      {
-        "Symbol": "VESTL.IS",
-        "Name": "Vestel",
-        "Category": "Heavy Industry",
         "QuantScore": 0
       },
       {
@@ -2838,56 +2838,56 @@
         "QuantScore": null,
         "StockCount": 7,
         "Disqualified": true,
-        "Reason": "2W Ret -4.4%"
+        "Reason": "2W Ret -6.1%"
       },
       {
         "Sector": "Construction & REIT",
         "QuantScore": null,
         "StockCount": 4,
         "Disqualified": true,
-        "Reason": "2W Ret -2.3%"
+        "Reason": "2W Ret -2.0%"
       },
       {
         "Sector": "Energy & Chemicals",
         "QuantScore": null,
         "StockCount": 9,
         "Disqualified": true,
-        "Reason": "2W Ret -4.3%"
+        "Reason": "2W Ret -3.5%"
       },
       {
         "Sector": "Heavy Industry",
         "QuantScore": null,
         "StockCount": 7,
         "Disqualified": true,
-        "Reason": "2W Ret -3.0%"
+        "Reason": "2W Ret -3.6%"
       },
       {
         "Sector": "Holding & Investment",
         "QuantScore": null,
         "StockCount": 3,
         "Disqualified": true,
-        "Reason": "2W Ret -6.2%"
+        "Reason": "2W Ret -5.6%"
       },
       {
         "Sector": "Retail & Food",
         "QuantScore": null,
         "StockCount": 6,
         "Disqualified": true,
-        "Reason": "2W Ret -2.0%"
+        "Reason": "2W Ret -2.2%"
       },
       {
         "Sector": "Technology & Telecom",
         "QuantScore": null,
         "StockCount": 3,
         "Disqualified": true,
-        "Reason": "2W Ret -4.1%"
+        "Reason": "2W Ret -2.6%"
       },
       {
         "Sector": "Transportation",
         "QuantScore": null,
         "StockCount": 3,
         "Disqualified": true,
-        "Reason": "2W Ret -5.6%"
+        "Reason": "2W Ret -4.1%"
       }
     ]
   }
