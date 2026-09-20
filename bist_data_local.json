@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-19T06:00:25.693691",
-  "update_time": "2026-09-19 06:00",
+  "generated_at": "2026-09-20T06:00:29.635648",
+  "update_time": "2026-09-20 06:00",
   "stock_count": 44,
   "ratio_count": 4,
   "regime": {
@@ -2194,60 +2194,60 @@
       "Category": "Retail & Food",
       "SubCategory": "Retail",
       "1W": {
-        "RETURN": -6.87,
-        "TREND": -97.03,
-        "ACCELERATION": -1103.81,
-        "QUALITY": 0.638,
-        "SHARPE": -10.09,
-        "SORTINO": -10,
+        "RETURN": -2.97,
+        "TREND": -96.05,
+        "ACCELERATION": 149.25,
+        "QUALITY": 0.557,
+        "SHARPE": -2.54,
+        "SORTINO": -8.15,
         "STABILITY": -10
       },
       "2W": {
-        "RETURN": -1.49,
-        "TREND": 61.04,
-        "ACCELERATION": -516.63,
-        "QUALITY": 0.051,
-        "SHARPE": -0.98,
-        "SORTINO": -1.91,
-        "STABILITY": -3.9
+        "RETURN": 1.38,
+        "TREND": 5.83,
+        "ACCELERATION": -570.68,
+        "QUALITY": 0.001,
+        "SHARPE": 1.04,
+        "SORTINO": 2.44,
+        "STABILITY": 4.99
       },
       "1M": {
-        "RETURN": 3.02,
-        "TREND": 70.4,
-        "ACCELERATION": 67.94,
-        "QUALITY": 0.219,
-        "SHARPE": 1.14,
-        "SORTINO": 1.96,
-        "STABILITY": 5.04
+        "RETURN": 2.26,
+        "TREND": 45.8,
+        "ACCELERATION": 90.05,
+        "QUALITY": 0.138,
+        "SHARPE": 0.92,
+        "SORTINO": 1.53,
+        "STABILITY": 3.93
       },
       "3M": {
-        "RETURN": 13.87,
-        "TREND": 197.47,
-        "ACCELERATION": 17.03,
-        "QUALITY": 0.785,
-        "SHARPE": 1.59,
-        "SORTINO": 3.37,
-        "STABILITY": 5.54
+        "RETURN": 21.99,
+        "TREND": 203.28,
+        "ACCELERATION": 3.36,
+        "QUALITY": 0.799,
+        "SHARPE": 2.3,
+        "SORTINO": 4.92,
+        "STABILITY": 8.16
       },
       "6M": {
-        "RETURN": 4.07,
-        "TREND": 23.33,
-        "ACCELERATION": 138.27,
-        "QUALITY": 0.177,
-        "SHARPE": 0.4,
-        "SORTINO": 0.67,
-        "STABILITY": 0.71
+        "RETURN": 10.32,
+        "TREND": 25.43,
+        "ACCELERATION": 138.54,
+        "QUALITY": 0.202,
+        "SHARPE": 0.69,
+        "SORTINO": 1.17,
+        "STABILITY": 1.24
       },
       "12M": {
-        "RETURN": 53.52,
-        "TREND": 24.02,
-        "ACCELERATION": -106.09,
-        "QUALITY": 0.18,
-        "SHARPE": 1.38,
-        "SORTINO": 2.39,
-        "STABILITY": 1.32
+        "RETURN": 58.49,
+        "TREND": 23.46,
+        "ACCELERATION": -101.99,
+        "QUALITY": 0.175,
+        "SHARPE": 1.46,
+        "SORTINO": 2.54,
+        "STABILITY": 1.4
       },
-      "QuantScore": null
+      "QuantScore": 0
     },
     {
       "Symbol": "CCOLA.IS",
@@ -2499,58 +2499,58 @@
       "Category": "Transportation",
       "SubCategory": "Aviation",
       "1W": {
-        "RETURN": -6.14,
-        "TREND": -92.87,
-        "ACCELERATION": -911.55,
-        "QUALITY": 0.515,
-        "SHARPE": -8.01,
+        "RETURN": -3.72,
+        "TREND": -94.89,
+        "ACCELERATION": -471.58,
+        "QUALITY": 0.596,
+        "SHARPE": -4.13,
         "SORTINO": -10,
         "STABILITY": -10
       },
       "2W": {
-        "RETURN": -2.55,
-        "TREND": 32.67,
-        "ACCELERATION": -499.56,
-        "QUALITY": 0.024,
-        "SHARPE": -1.6,
-        "SORTINO": -2.16,
-        "STABILITY": -8.09
+        "RETURN": -0.4,
+        "TREND": -19.13,
+        "ACCELERATION": -626.33,
+        "QUALITY": 0.013,
+        "SHARPE": -0.1,
+        "SORTINO": -0.13,
+        "STABILITY": -0.51
       },
       "1M": {
-        "RETURN": -2.75,
-        "TREND": 19.63,
-        "ACCELERATION": 10.44,
-        "QUALITY": 0.061,
-        "SHARPE": -0.93,
-        "SORTINO": -1.34,
-        "STABILITY": -3.96
+        "RETURN": -1.67,
+        "TREND": 8.72,
+        "ACCELERATION": -20.98,
+        "QUALITY": 0.013,
+        "SHARPE": -0.49,
+        "SORTINO": -0.72,
+        "STABILITY": -2.11
       },
       "3M": {
-        "RETURN": -21.39,
-        "TREND": -56.86,
-        "ACCELERATION": 133.74,
-        "QUALITY": 0.811,
-        "SHARPE": -3.41,
-        "SORTINO": -4.98,
-        "STABILITY": -4.41
+        "RETURN": -19.65,
+        "TREND": -55.77,
+        "ACCELERATION": 132.25,
+        "QUALITY": 0.804,
+        "SHARPE": -3.05,
+        "SORTINO": -4.48,
+        "STABILITY": -4.09
       },
       "6M": {
-        "RETURN": -19.29,
-        "TREND": -37.14,
-        "ACCELERATION": -56.67,
-        "QUALITY": 0.741,
-        "SHARPE": -1.22,
-        "SORTINO": -2.13,
-        "STABILITY": -1.45
+        "RETURN": -17.31,
+        "TREND": -37.54,
+        "ACCELERATION": -55.86,
+        "QUALITY": 0.749,
+        "SHARPE": -1.06,
+        "SORTINO": -1.85,
+        "STABILITY": -1.26
       },
       "12M": {
-        "RETURN": -36.81,
-        "TREND": -31.68,
-        "ACCELERATION": -20.21,
+        "RETURN": -36.54,
+        "TREND": -31.71,
+        "ACCELERATION": -20.72,
         "QUALITY": 0.866,
-        "SHARPE": -1.41,
-        "SORTINO": -2.27,
-        "STABILITY": -1.1
+        "SHARPE": -1.4,
+        "SORTINO": -2.24,
+        "STABILITY": -1.09
       },
       "QuantScore": null
     },
@@ -2743,58 +2743,58 @@
       "Category": "Technology & Telecom",
       "SubCategory": "Technology",
       "1W": {
-        "RETURN": -4.55,
-        "TREND": -75.12,
-        "ACCELERATION": -1996.67,
-        "QUALITY": 0.07,
-        "SHARPE": -2.94,
-        "SORTINO": -4.94,
-        "STABILITY": -10
-      },
-      "2W": {
-        "RETURN": -4.55,
-        "TREND": 53.74,
-        "ACCELERATION": -185.63,
-        "QUALITY": 0.035,
-        "SHARPE": -1.91,
-        "SORTINO": -3.11,
-        "STABILITY": -10
-      },
-      "1M": {
-        "RETURN": -21.25,
-        "TREND": -92.34,
-        "ACCELERATION": 376.4,
-        "QUALITY": 0.763,
-        "SHARPE": -6.74,
+        "RETURN": -13.94,
+        "TREND": -99.96,
+        "ACCELERATION": -2750.07,
+        "QUALITY": 0.574,
+        "SHARPE": -7.44,
         "SORTINO": -10,
         "STABILITY": -10
       },
+      "2W": {
+        "RETURN": -11.8,
+        "TREND": -75.93,
+        "ACCELERATION": -896.27,
+        "QUALITY": 0.113,
+        "SHARPE": -4.04,
+        "SORTINO": -4.91,
+        "STABILITY": -10
+      },
+      "1M": {
+        "RETURN": -28.1,
+        "TREND": -94.06,
+        "ACCELERATION": 263.34,
+        "QUALITY": 0.749,
+        "SHARPE": -7.44,
+        "SORTINO": -9.63,
+        "STABILITY": -10
+      },
       "3M": {
-        "RETURN": -48.78,
-        "TREND": -72.63,
-        "ACCELERATION": -363.31,
-        "QUALITY": 0.263,
+        "RETURN": -48.74,
+        "TREND": -72.01,
+        "ACCELERATION": -417.39,
+        "QUALITY": 0.259,
         "SHARPE": -2.09,
         "SORTINO": -3.85,
-        "STABILITY": -4.13
+        "STABILITY": -3.78
       },
       "6M": {
-        "RETURN": -64.65,
-        "TREND": -92.64,
-        "ACCELERATION": 1.35,
-        "QUALITY": 0.795,
-        "SHARPE": -1.73,
-        "SORTINO": -2.99,
-        "STABILITY": -2.07
+        "RETURN": -68.44,
+        "TREND": -92.87,
+        "ACCELERATION": 16.42,
+        "QUALITY": 0.801,
+        "SHARPE": -1.94,
+        "SORTINO": -3.36,
+        "STABILITY": -2.3
       },
       "12M": {
-        "RETURN": -90.27,
-        "TREND": -89.88,
-        "ACCELERATION": 89.12,
+        "RETURN": -91.65,
+        "TREND": -89.9,
+        "ACCELERATION": 85.47,
         "QUALITY": 0.885,
-        "SHARPE": -2.01,
-        "SORTINO": -2.44,
-        "STABILITY": -2.01
+        "SHARPE": -2.17,
+        "SORTINO": -2.64,
+        "STABILITY": -2.15
       },
       "QuantScore": null
     }
@@ -2829,6 +2829,12 @@
         "Symbol": "SASA.IS",
         "Name": "Sasa Polyester",
         "Category": "Energy & Chemicals",
+        "QuantScore": 0
+      },
+      {
+        "Symbol": "SOKM.IS",
+        "Name": "Sok Marketler",
+        "Category": "Retail & Food",
         "QuantScore": 0
       }
     ],
@@ -2873,21 +2879,21 @@
         "QuantScore": null,
         "StockCount": 6,
         "Disqualified": true,
-        "Reason": "2W Ret -2.2%"
+        "Reason": "2W Ret -1.7%"
       },
       {
         "Sector": "Technology & Telecom",
         "QuantScore": null,
         "StockCount": 3,
         "Disqualified": true,
-        "Reason": "2W Ret -2.6%"
+        "Reason": "2W Ret -5.1%"
       },
       {
         "Sector": "Transportation",
         "QuantScore": null,
         "StockCount": 3,
         "Disqualified": true,
-        "Reason": "2W Ret -4.1%"
+        "Reason": "2W Ret -3.3%"
       }
     ]
   }
